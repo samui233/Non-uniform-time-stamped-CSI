@@ -1,0 +1,7 @@
+family,train_routes,val_routes,test_routes,complex_pca_rank,real_features,val_compression_nmse_db
+cruise,14,3,3,128,256,-37.45188488211709
+highspeed,14,3,3,128,256,-37.45188488211709
+sweep_turn,14,3,3,128,256,-37.45188488211709
+uturn,14,3,3,128,256,-37.45188488211709
+climb_descent,14,3,3,128,256,-37.45188488211709
+occlusion,42,9,9,256,512,-36.81758718055012

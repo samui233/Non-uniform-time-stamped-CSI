@@ -1,0 +1,5 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/flow_repair_v1/selected/climb_descent/seed43",
+  "best_sha256": "c742f661b591f9720ba3ac9382e2630a4841372a0cb769227bfa240064c7d7cf",
+  "note": "Existing completed matching run, not retrained or edited."
+}

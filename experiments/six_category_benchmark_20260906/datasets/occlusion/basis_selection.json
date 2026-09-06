@@ -1,0 +1,13 @@
+{
+  "selected_candidate": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/basis_candidates/new_train256",
+  "rank": 256,
+  "feature_dim": 512,
+  "basis_sha256": "ba4b50460b081376359cab4d742cb8f80d4ccf73bbf0aad12f28ca3393077024",
+  "initial128_archive": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion_candidate128",
+  "candidate_reports": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/basis_candidates",
+  "test_used_for_selection": false,
+  "selection_splits": [
+    "train",
+    "val"
+  ]
+}

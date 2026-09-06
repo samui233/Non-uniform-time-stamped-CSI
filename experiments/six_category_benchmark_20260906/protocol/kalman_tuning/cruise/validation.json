@@ -1,0 +1,444 @@
+{
+  "signature": "846bc935f707c5d96ae80c18317d408341ec050dc6f1a1474bd85ada1e009566",
+  "provenance": {
+    "data": {
+      "small_file_sha256": {
+        "dataset_config.json": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+        "manifest.json": "578d754eee67e7929621f8e90c8f549845becf0f135586134a5a6a068943d681",
+        "window_coverage.json": "180d1ef85bbbfda13ee453078f639baad626ea295fbac4c60a82d3b82cf9ea76",
+        "compression/basis.npy": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+        "routes/cruise_000/complete.json": "ad4f47fe40ce82b6bbd4a601dad847d8ecc9e8fd58bd7e3c65aa4084ebd1aabe",
+        "routes/cruise_000/compression.json": "e9298779d3218bbb8669609bf4f1c38386c1a6b3ad14d9b7a93d8dfadac4a4bd",
+        "routes/cruise_000/paths.npz": "3a7f89547cf08e8d236884935181db98f3304fb9d4c64abc851cbbf8692a5381",
+        "routes/cruise_000/energy.npy": "1aa0374fcd555277a10ee54390fbcbce5d81516c55bd0a08ee2684f70e279ec2",
+        "routes/cruise_000/residual_energy.npy": "7abfd8da23969293eeeb1b303b5d1b2a513ed9fff3b0031290590619cc4b3ac3",
+        "routes/cruise_000/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_001/complete.json": "e840a9575deb1f702c8d31df862ca1f8351081b43323439082849c067816762a",
+        "routes/cruise_001/compression.json": "54d862a1804eb5dfab4832fbffda4c95442430d9bbfcf53a51fad14ac11da46b",
+        "routes/cruise_001/paths.npz": "c042da793fa2bf504595b0abcff09d6b8a2ead8a48bb829fb6e834f4a8411f88",
+        "routes/cruise_001/energy.npy": "08b1ec3f3e680ff08bafb45f81d21ff05efea14c3bf5f8004c8a6f47089e365e",
+        "routes/cruise_001/residual_energy.npy": "44f08a4d17d26d1cf48ff68c4ab92669a37b23f9ced8c944f6e29c5dc79970ee",
+        "routes/cruise_001/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_002/complete.json": "ebe8a5fadab5a58bac2e8bc94577cd5a2bcb87100d685907d45b65c955f2b231",
+        "routes/cruise_002/compression.json": "e4c148697875087a17121326a93f0e3a0fabe94fe5bf3296fec9da79b900f7ad",
+        "routes/cruise_002/paths.npz": "6aa18ad472c4004b630d1713d073fc7f6c56a58d089140cfaeb88c5395e209b2",
+        "routes/cruise_002/energy.npy": "25d421bf66f217b32fc40f28be79a8c423c8a828ae7e57842978895ba9d0e137",
+        "routes/cruise_002/residual_energy.npy": "e1022e599c01bfaf43f1bd35001c8a6dff58813760f3e6613eb852282cdc8a44",
+        "routes/cruise_002/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_003/complete.json": "e86f3abbf76f900e0da4c1dec330cc02054a2bce71ae3a685e97a85f8fd23c12",
+        "routes/cruise_003/compression.json": "95bb75bec38cf01250cbbe3608da1937935c79052cd684a1a97cff2c3aeac2ab",
+        "routes/cruise_003/paths.npz": "8c4f3513521a36d92d54bbc2a9dedc578b816ac61ff73185dbbb19d1d87dd99e",
+        "routes/cruise_003/energy.npy": "c0f917ecf86738b10bdb7acda96dd02ba5b14dd270c690071467c0ddaa71007d",
+        "routes/cruise_003/residual_energy.npy": "552a7c477a17318d3f10a8346dc6ff6077a663cf0b060e53a161ef1211d9b9dd",
+        "routes/cruise_003/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_004/complete.json": "6489e5614dc7c8b859b3acd6dac36f02a521f3bd2998b1a1e74be3a7b55fa987",
+        "routes/cruise_004/compression.json": "784349105dfab0494223149f9447684cf553f147d935bba16aba335a9f7220a2",
+        "routes/cruise_004/paths.npz": "456d616f6e642928ca9c577cfc5c10f602513229f9ff0100d9f98dbfac57fbe5",
+        "routes/cruise_004/energy.npy": "0692078fedbd1fd1265a7ca1e79d7b07b8a8d522c169b6e5a4c846f221d769a0",
+        "routes/cruise_004/residual_energy.npy": "869e6a5ac2e6bea6d7248171c18110407d92fbb2a8dc74fd62c0ae46c95cdf39",
+        "routes/cruise_004/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_005/complete.json": "7cf93bce0ada0e9d581bfb606beae54441f8cbe1a7992d9b184b58dc060cd661",
+        "routes/cruise_005/compression.json": "dcdffb054c26bb71014a3cffe163b6ae4c254b4e32de44a63ddbfc4d83840947",
+        "routes/cruise_005/paths.npz": "3f77091433346c3bdbde309a502ece88bde0c35ed9ad22f211f5e95325cdbfdb",
+        "routes/cruise_005/energy.npy": "59a13909c731cb8965e7445c1583d476a456effb41c51d0aed17a61e3793b21e",
+        "routes/cruise_005/residual_energy.npy": "e02fdf4b513a743106a41648bee81455826c92a1b968aa7819296db625bcfdf7",
+        "routes/cruise_005/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_006/complete.json": "fd88d05cbf263f78062a92f792adb49695bf080013655c1a7e1fcec36f24851a",
+        "routes/cruise_006/compression.json": "f8107ad34372c985340dd6ee34b90762d9be155d5e7d42319bee10111c04da6a",
+        "routes/cruise_006/paths.npz": "7cd83ac4844d4399c5a68ca09390dd0b8c4b93247047f1baa8e2951ce15c00eb",
+        "routes/cruise_006/energy.npy": "0fd0984c7dc5be1d9fa3a3016f6967811f40be611be4407dad2b79defc26d1de",
+        "routes/cruise_006/residual_energy.npy": "f266e57b03aef0db3d65d877cbbb4025cb874fa3f2c20fc4f6f31be68e4e2dd7",
+        "routes/cruise_006/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_007/complete.json": "b71b38e8f33f21cca6ff1a42c76c4c6f7128fffa303a5d357256a98c2f67d874",
+        "routes/cruise_007/compression.json": "86d10b980918a296b967a513564b206e30d7392e202e1d77f6587319664b96d6",
+        "routes/cruise_007/paths.npz": "1ee5773f9d56e86897ad91015952c560e65f9a044d3878f2d9033d541fea647d",
+        "routes/cruise_007/energy.npy": "f53f911ebd6542bd012959aa56b85fb72eeeb253ce982fb3adfc50e120dabfef",
+        "routes/cruise_007/residual_energy.npy": "a8fa98eac91dbf8f0a5c2d676da5c68463ee7293893dfdbe4a3288a1868216a1",
+        "routes/cruise_007/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_008/complete.json": "0a1aba1bb19c80e4c00aa8edc285726561862b8b2b190653e2d1dc339f86bc13",
+        "routes/cruise_008/compression.json": "b7436a4fd14754214086e49ee315b6b5f19ee53f850444c0ccd629262db90dda",
+        "routes/cruise_008/paths.npz": "9d47c3990f84cbc0a8b77bfeffed70731249651e121cabfeacda5236ff72cc38",
+        "routes/cruise_008/energy.npy": "e00380058748f76e2657cb65690ee6f57f35c9fb14cb7a0af03915a6b2ed3c11",
+        "routes/cruise_008/residual_energy.npy": "7719643dda372572e169c210a0d7e25e8b1c0e4445812fecdb1c42a44e04d107",
+        "routes/cruise_008/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_008/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/cruise_009/complete.json": "bc4477cbd842593923316045d50a1a880b21af7154f727000cdc960578daf801",
+        "routes/cruise_009/compression.json": "15486225f3b340de98ebad9dd1e1d11c9517601ab3d6f15e738cb45639985dfc",
+        "routes/cruise_009/paths.npz": "5d7593055f34b97e8675dd93e6487f51757c10f707c1082a61c9fdb79520ea17",
+        "routes/cruise_009/energy.npy": "45accadd6067e6c5b2d4d6a30ffe3c070f7bccc5c2c96c332a13ded067f2308f",
+        "routes/cruise_009/residual_energy.npy": "c69c11ace959c266f6367c3deb2295a2d866c5c31e4e50f3d64463ec12f30563",
+        "routes/cruise_009/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_010/complete.json": "5b3a35699871adccf841141f00d7d3ae3115552f259cb13d63fd0879716692dc",
+        "routes/cruise_010/compression.json": "1e9e56febbbfaa02dcc50ad52b7d3ac22a3d48d7d120466424c4ac9ba114cdfe",
+        "routes/cruise_010/paths.npz": "06135844de1682fd1c82302b49199db8d3bc869d6986f5f8a4aaa35461e8c2c2",
+        "routes/cruise_010/energy.npy": "e5c335e625ad1fc13c35ded549406f7812656c7746d1d2e4a554b4210f7ee128",
+        "routes/cruise_010/residual_energy.npy": "0ff26bdb89e61f3924fa06f3422d1a334b1de7300a9eaef5d5a16982f6952d9d",
+        "routes/cruise_010/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_010/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/cruise_011/complete.json": "66c45dc439f8f8e90fcada9d6e362aa1045d2d338685ea0799ff5ef0120c7865",
+        "routes/cruise_011/compression.json": "bc54f996f59708fce678a61ac0e5c49e81501e1a2b405635df2aead2883897f4",
+        "routes/cruise_011/paths.npz": "0fc703b05758213b77f22a2b064100e76b375d65b0ff8d32d334bfbcdeae3ebb",
+        "routes/cruise_011/energy.npy": "cefadafe13cafe30ff7a9670dfbc846658de143a447f4be7b5c0afa07eb07e26",
+        "routes/cruise_011/residual_energy.npy": "a92ac2dfcb1ce5468480ec85283de8daaa729af8a268ad20dbbe365d0777fc40",
+        "routes/cruise_011/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_011/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/cruise_012/complete.json": "0577386a45b22326b9615c0f3e26127c2aee143944ce7ccada320199f1b19de8",
+        "routes/cruise_012/compression.json": "f48f08394d99e975209331b71f97607c5e9dda986494c06259bacba6b6a54e66",
+        "routes/cruise_012/paths.npz": "08e0d64ae54dbd7b9bb34f697f1e5f98b7dd64ce35360df2aaa2536c220249bb",
+        "routes/cruise_012/energy.npy": "a20aef2bbcbb35547deab653aeb949f0415a18d2fc047159c443324a0d97cc26",
+        "routes/cruise_012/residual_energy.npy": "f3d08b6a7ae286340fce3e07342bf10a0c75788a3606ea02343fc86b35666f10",
+        "routes/cruise_012/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_012/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/cruise_013/complete.json": "11c2e66d454b7c4dab9d8693e097c9146bc0029ff98c19ead6156c0ad10c1f4c",
+        "routes/cruise_013/compression.json": "893f53ae3d5418a05f31bfcaa258fdef92731c73bab5027382aa481ba47e5036",
+        "routes/cruise_013/paths.npz": "729b2323224f0e8bd4bf6e53a2796a7c37399a72d6a3c53a08d0c71819f72bf1",
+        "routes/cruise_013/energy.npy": "3e63607550cd58f18a4ced9160e921a77c5288a671567631fbfb868d56144354",
+        "routes/cruise_013/residual_energy.npy": "9dd46f4d0375370dd0e2224740a34ae7e0eaf8425fdd04f3ab7d1b07197ad4f0",
+        "routes/cruise_013/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_014/complete.json": "011400491aa93eebb32a1f7ab69d6d579653224f7889301e29089db8d9921f94",
+        "routes/cruise_014/compression.json": "5fd378cb8d50387dbf422c99bc1830597dac61161b5b4fb53999003cda5fe8b9",
+        "routes/cruise_014/paths.npz": "1b23abdbb90e2e1dcee7867a1266c39bac4845b729f2f8b987f0db60a5b93bb2",
+        "routes/cruise_014/energy.npy": "d9385d887128eed7ea6ccc35b354b0f0997a211d224ef906df676c4e95db32d3",
+        "routes/cruise_014/residual_energy.npy": "2005ea6282101a8a75bb3eaf53cc9f8bf0f8961587c397fef9b3ffa6a8df065e",
+        "routes/cruise_014/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_015/complete.json": "eb8a76b28d5c0d261a889538fb5dd3cd8edd76cf2e67207049583908d526c940",
+        "routes/cruise_015/compression.json": "71e806c5cb7f3b1a6cdc62498966f7968c41856d6ccbe4642d49e3a90903f71b",
+        "routes/cruise_015/paths.npz": "d9722e1ac95a3e29aa43d01f9819f6057c913428f4f088d1ece3699fb5cb78b0",
+        "routes/cruise_015/energy.npy": "fe10eb27b8f1e57fb2e606742e99685f978b6115f0b920c1def21bb45205cae9",
+        "routes/cruise_015/residual_energy.npy": "66e9d1b50f040ba3e301489978cc2b0050d39ab00d816368ba93a546b327a5a8",
+        "routes/cruise_015/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_016/complete.json": "1fa5e96eed935574afeaf5808ec861f6fb935086b20b6332f5fc89d83ef1cac7",
+        "routes/cruise_016/compression.json": "a802cc9a996c9f2c018b14c4258ace33227c4444aa0d731b8e352f63ba6d85f6",
+        "routes/cruise_016/paths.npz": "6e2d1076a957be8af862d10e64b83c83a555210f25f28012f1fec0925640c9a3",
+        "routes/cruise_016/energy.npy": "62218b84375bc71cbe03fa6ba6c32559750bf97a09554e53781f58885ce4c733",
+        "routes/cruise_016/residual_energy.npy": "aee2c8cc694d1cef78cfe7a2319941d9cd8beba59888621b19aedbefbc1278c2",
+        "routes/cruise_016/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_016/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/cruise_017/complete.json": "b8b9706fdfbdf8c1dbc12b8f8fa8bef60d99fbeac8a991ec9588c8a18b112032",
+        "routes/cruise_017/compression.json": "6fe270948220c45ffe0accddf416a6d0c17b1884f3713f3fdeecb86f69a62614",
+        "routes/cruise_017/paths.npz": "a0b55523b4dae8c2a78461c8539fa6aa67799482c6eab522ec227be845d3f792",
+        "routes/cruise_017/energy.npy": "03d43b4b97bdbc1dd1a2c0965fada7dcabd3e45e958fcf2a0da07c832ff15337",
+        "routes/cruise_017/residual_energy.npy": "35067da77aa04f44e63b6b749e0dcf5133cf451381302090b820564876f28212",
+        "routes/cruise_017/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_018/complete.json": "29aa9c971ca5536988046366aa77c57d6271a37ab27aba224961296c7756e93f",
+        "routes/cruise_018/compression.json": "22d24915fbad3b26597368adadfbf514196ce28e001dce5a63c019e4ebfbf51f",
+        "routes/cruise_018/paths.npz": "fad6a95dc5d9429ef414f2dd0b66d15b99ba4ec4c5987402dac82db0281b79d9",
+        "routes/cruise_018/energy.npy": "7ca81a6e931c92ce262a613294be5e05a0ee47b4dc2ed07d06c8a204df991bb4",
+        "routes/cruise_018/residual_energy.npy": "ba52d90f9043ab90b1eae4bf3c390003bb3f4edffdc945d1aee28b2e6bfcce78",
+        "routes/cruise_018/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/cruise_018/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/cruise_019/complete.json": "2f8e22969e155b7863ad2674fe38671120730c67eae12db035daf5a97ecac04f",
+        "routes/cruise_019/compression.json": "7a1987657792d08e3dabe62d076a3049a75df395009f472689022e0cccdf83ec",
+        "routes/cruise_019/paths.npz": "381c42fb140905dfe2a3d8dc72b0eea240ff6e340bc07d11a2514bc286e16953",
+        "routes/cruise_019/energy.npy": "ad27cbeed385677637f0d4780c8d1544ddb491b0be68ff90e46034881a41e822",
+        "routes/cruise_019/residual_energy.npy": "d7357b30c9eabc128c95599cd88c32ca946b4cdc9e446f30d9efe46800692cff",
+        "routes/cruise_019/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5"
+      },
+      "large_array_stat_and_source_guard": {
+        "routes/cruise_000/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631574800064603,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_000/H.npy"
+        },
+        "routes/cruise_000/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634372384911712,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_000/coefficients.npy"
+        },
+        "routes/cruise_001/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631570323991641,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_001/H.npy"
+        },
+        "routes/cruise_001/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634372664925212,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_001/coefficients.npy"
+        },
+        "routes/cruise_002/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631574528060169,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_002/H.npy"
+        },
+        "routes/cruise_002/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634372932938135,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_002/coefficients.npy"
+        },
+        "routes/cruise_003/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631575448075170,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_003/H.npy"
+        },
+        "routes/cruise_003/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634373204951244,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_003/coefficients.npy"
+        },
+        "routes/cruise_004/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631572548027889,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_004/H.npy"
+        },
+        "routes/cruise_004/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634373480964545,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_004/coefficients.npy"
+        },
+        "routes/cruise_005/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631579596142830,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_005/H.npy"
+        },
+        "routes/cruise_005/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634373728976495,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_005/coefficients.npy"
+        },
+        "routes/cruise_006/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631575392074257,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_006/H.npy"
+        },
+        "routes/cruise_006/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634373976988446,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_006/coefficients.npy"
+        },
+        "routes/cruise_007/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631579404139698,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_007/H.npy"
+        },
+        "routes/cruise_007/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634374237000969,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_007/coefficients.npy"
+        },
+        "routes/cruise_008/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631769142265596,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_008/H.npy"
+        },
+        "routes/cruise_008/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634374529015032,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_008/coefficients.npy"
+        },
+        "routes/cruise_008/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788631774674714212,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_008/offgrid_queries.npz"
+        },
+        "routes/cruise_008/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634374545015803,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_008/offgrid_coefficients.npz"
+        },
+        "routes/cruise_009/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631767378121839,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_009/H.npy"
+        },
+        "routes/cruise_009/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634374777026977,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_009/coefficients.npy"
+        },
+        "routes/cruise_010/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631767570137502,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_010/H.npy"
+        },
+        "routes/cruise_010/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634375073041232,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_010/coefficients.npy"
+        },
+        "routes/cruise_010/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788631773214596136,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_010/offgrid_queries.npz"
+        },
+        "routes/cruise_010/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634375089042003,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_010/offgrid_coefficients.npz"
+        },
+        "routes/cruise_011/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631772790561801,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_011/H.npy"
+        },
+        "routes/cruise_011/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634375365055288,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_011/coefficients.npy"
+        },
+        "routes/cruise_011/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788631778975060661,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_011/offgrid_queries.npz"
+        },
+        "routes/cruise_011/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634375381056059,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_011/offgrid_coefficients.npz"
+        },
+        "routes/cruise_012/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631772442533603,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_012/H.npy"
+        },
+        "routes/cruise_012/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634375661069536,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_012/coefficients.npy"
+        },
+        "routes/cruise_012/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788631777878972542,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_012/offgrid_queries.npz"
+        },
+        "routes/cruise_012/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634375673070114,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_012/offgrid_coefficients.npz"
+        },
+        "routes/cruise_013/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631779111071582,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_013/H.npy"
+        },
+        "routes/cruise_013/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634375909081474,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_013/coefficients.npy"
+        },
+        "routes/cruise_014/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631773618628829,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_014/H.npy"
+        },
+        "routes/cruise_014/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634376169093986,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_014/coefficients.npy"
+        },
+        "routes/cruise_015/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631777694957731,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_015/H.npy"
+        },
+        "routes/cruise_015/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634376421106110,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_015/coefficients.npy"
+        },
+        "routes/cruise_016/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631972600847706,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_016/H.npy"
+        },
+        "routes/cruise_016/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634376681118620,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_016/coefficients.npy"
+        },
+        "routes/cruise_016/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788631978177198778,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_016/offgrid_queries.npz"
+        },
+        "routes/cruise_016/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634376693119197,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_016/offgrid_coefficients.npz"
+        },
+        "routes/cruise_017/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631963196250478,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_017/H.npy"
+        },
+        "routes/cruise_017/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634376937130935,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_017/coefficients.npy"
+        },
+        "routes/cruise_018/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631965772414722,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_018/H.npy"
+        },
+        "routes/cruise_018/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634377213144209,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_018/coefficients.npy"
+        },
+        "routes/cruise_018/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788631971028748331,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_018/offgrid_queries.npz"
+        },
+        "routes/cruise_018/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634377229144979,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_018/offgrid_coefficients.npz"
+        },
+        "routes/cruise_019/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631976149071356,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_019/H.npy"
+        },
+        "routes/cruise_019/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634377469156519,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/cruise_019/coefficients.npy"
+        }
+      },
+      "note": "Large CSI arrays guarded by size/mtime and hashed generation/projection metadata; not claimed as full-array content SHA."
+    },
+    "code": {
+      "experiments/six_category_v1/common.py": "d37733e6a5568d9fb77ce0a5a8a0e3a4d8bed31322aef2b990d589d203975e3e",
+      "experiments/six_category_v1/dataset.py": "81f03a0a794a898772df07921771c68bcd6406ff9917df082307a69192c5a45a",
+      "experiments/six_category_v1/evaluate_family.py": "da362619601f1344f4da7878f33082987e92e86d6a7b0f352f11ea82bcc47434",
+      "benchmark/dataset.py": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+      "benchmark/metrics.py": "b07008d7d19097490cbecf38b0bad91f0ffadfc063d5b0b1f121c69fbd0cd94c",
+      "benchmark/evaluation.py": "fe04785a3ed3a461f0361f0fabf5bbf5adfb5558f9c9861e616740e0bb0754a6",
+      "benchmark/baselines.py": "9fc80bd8a54cd16fce090ac601dea666e2d179f094625e88c5c9b20a48cdb1e0",
+      "benchmark/harmonic.py": "56b2053de2ed46208d90a2d91f188ea1b2e5db0bd8bc75de28cbddc54ad6a3a0",
+      "benchmark/engine.py": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+      "models/adapters.py": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+      "experiments/flow_repair/observed_flow.py": "b7becbc146b1420d30a34c2826f8a6a0790c3c89677a4473a006eb518d841063",
+      "experiments/flow_repair/local_dynamics.py": "2f43f020d96c5a9b599998f80ccd29f5779527cdd192140d3c6bde30645c11f4",
+      "third_party/neural-flows-experiments/nfe/models/flow.py": "3ded8c892a506a31aeeaf3faa32f160d07b31e03f5de56e4863264743e87ee39",
+      "third_party/t-PatchGNN/tPatchGNN/model/tPatchGNN.py": "ba9db3896a025103369e27b710794fe7cdce6d03b508c02b5bce5ae12aa6a26c",
+      "third_party/Continuous-Recurrent-Units/lib/CRUCell.py": "345014b856474cc528ffde5ef0b64021839c1083d7398b9c81d95af506dec55d",
+      "experiments/six_category_v1/cru_float32.py": "198f8dea1116c6f2293630c1b308d4b2c5db348afe64a3689291ccd38957b807"
+    },
+    "split": "val",
+    "samples": 600,
+    "seed": 917,
+    "ratios": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "tuning": {
+    "process_ratio": 100,
+    "validation_nmse": {
+      "0.01": 0.11731823573927816,
+      "0.1": 0.1173076709833064,
+      "1": 0.11720282939985838,
+      "10": 0.11622912192142192,
+      "100": 0.1111273108635679,
+      "1000": 0.11734655719435674,
+      "10000": 0.21382927663776677
+    }
+  }
+}

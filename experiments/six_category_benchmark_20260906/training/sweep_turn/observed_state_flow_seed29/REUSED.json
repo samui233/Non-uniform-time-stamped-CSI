@@ -1,0 +1,5 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/flow_repair_v1/selected/sweep_turn/seed29",
+  "best_sha256": "2f4f6d944657b27f5e2a346c5d869320ee98571e5f7cb5295ab4b1a8fcf17974",
+  "note": "Existing completed matching run, not retrained or edited."
+}

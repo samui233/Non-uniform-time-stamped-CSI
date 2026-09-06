@@ -1,0 +1,5 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/category_neural_flow_v1/checkpoints/sweep_turn/neural_flow_seed43",
+  "best_sha256": "e72525b7fbc648a7bf37ff43e659507a9e440db750b1a7fb0e7f54ac1b34410f",
+  "note": "Existing completed matching run, not retrained or edited."
+}

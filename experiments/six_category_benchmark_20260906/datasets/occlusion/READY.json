@@ -1,0 +1,54 @@
+{
+  "ready": true,
+  "data_root": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion",
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3",
+  "rank": 256,
+  "feature_dim": 512,
+  "basis_sha256": "ba4b50460b081376359cab4d742cb8f80d4ccf73bbf0aad12f28ca3393077024",
+  "basis_fit_splits": [
+    "train"
+  ],
+  "representation_selection_splits": [
+    "train",
+    "val"
+  ],
+  "test_used_for_selection": false,
+  "train_val_reconstruction_audits": {
+    "train": {
+      "256": {
+        "mean_relative_mse": 8.457571814375816e-09,
+        "mean_nmse_db": -80.72754305871672,
+        "p95_relative_mse": 2.6702742351957047e-08,
+        "p95_nmse_db": -75.73444134621812,
+        "maximum_relative_mse": 4.813410525980995e-07,
+        "samples": 5376
+      }
+    },
+    "val": {
+      "256": {
+        "mean_relative_mse": 0.00020808524298072725,
+        "mean_nmse_db": -36.81758718055012,
+        "p95_relative_mse": 0.0007506791059588045,
+        "p95_nmse_db": -31.245456719091273,
+        "maximum_relative_mse": 0.0008245147875347441,
+        "samples": 1152
+      }
+    }
+  },
+  "source_unchanged": true,
+  "projection_complete": true,
+  "loader_check": {
+    "dense_windows_per_split": 600,
+    "offgrid_groups_per_split": 216
+  },
+  "hashes": {
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/compression/metadata.json": "ba347e04396e7cdf3614ec64bb30c1516d5221380d9fa047639d9898394b5436",
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/manifest.json": "75f946d69a52c412415637017836c5dc990025a8bea9860f610d4811016462ab",
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/dataset_config.json": "bf5981ef8f912630e051826b6e6c70939d9c09c18671100a320d19ed389670f7",
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/window_coverage.json": "4cffffb570d37bcb95ff2b2b3705274f754e968e08c8075931063d5675807436",
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/prepare_occlusion.py": "4737cd96788ec780583d2c39dfd19c09b9a29ffa096bfc7d89678fba9b657000",
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/assess_occlusion_basis.py": "709beb176f8780e92a848df46855669d76c1d4dbf6f4371b30d55b1f7ddec108",
+    "/root/autodl-tmp/csi-irregular-benchmark/benchmark/compression.py": "a6aa7c16f2406e33ceb957b3d7c623fa5238ff6602117449dc1b2d0f41ca7753",
+    "/root/autodl-tmp/csi-irregular-benchmark/benchmark/dataset.py": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c"
+  }
+}

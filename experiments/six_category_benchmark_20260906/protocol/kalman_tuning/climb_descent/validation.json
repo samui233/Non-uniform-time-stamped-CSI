@@ -1,0 +1,444 @@
+{
+  "signature": "8a3312710baa66df7beeef2064d67e9ab27d21616bf10d147a33075fcbe6cbf9",
+  "provenance": {
+    "data": {
+      "small_file_sha256": {
+        "dataset_config.json": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+        "manifest.json": "eefe0f1f2947cfdc15428f49fff13e57d024aa4930e3efbe22b132224b18d27e",
+        "window_coverage.json": "57e0c8eabd1a662d50cef43b9e48f2fc2dff903b54fa5b7ef4e64e7a27125c44",
+        "compression/basis.npy": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+        "routes/climb_descent_000/complete.json": "73acf17b6393c3d98af79200a1739cd71ea6779ecff20f234b1794a53cfba1e6",
+        "routes/climb_descent_000/compression.json": "e57032cb16330e869c8e25d1c22509ac6e0d30c673585a8a71d86799affd00fd",
+        "routes/climb_descent_000/paths.npz": "e2a74b61a4e3dd1d262d28302f3c3cc1cf75febec1f67c00a1d4600a2939d896",
+        "routes/climb_descent_000/energy.npy": "3dfd10161b64dacced4ef6e447b1d6b09e4ae8d610f2cbbc7b36b6eecc9be4d6",
+        "routes/climb_descent_000/residual_energy.npy": "c369d3d0de3c95507caf28f1de4711e13ef25212909a51c8c51bc529e4c0eec3",
+        "routes/climb_descent_000/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_001/complete.json": "b38b4e54ccaa272d19f9885a75e651087c476c839c3d5babf56f622b9ffa0078",
+        "routes/climb_descent_001/compression.json": "39d338d06c708d2df89669a3bd89f73ad9a4e5ac49f4be53e2a88e8ffad9e404",
+        "routes/climb_descent_001/paths.npz": "ea3e3dee6f3b60e2cb0a0b50910b930bfd9a62eb05de082a6b8bf4decf7cd06b",
+        "routes/climb_descent_001/energy.npy": "911f835193114f823936a9e6d7b18e9c1c2d8e54e70aca9cafb5475333483ce3",
+        "routes/climb_descent_001/residual_energy.npy": "a84d0c64619d894902e747d5965595ff0a9b99a7778c1beaf33cd809f23f972a",
+        "routes/climb_descent_001/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_001/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/climb_descent_002/complete.json": "8970e6f740da1e9e2e073e3a6fe88560aaeba5f53f424b57526c7ce6e843556d",
+        "routes/climb_descent_002/compression.json": "e08d7742b6aacab0f18249d52267810b14e8fb8ffdb0654511ab02afd2bd833f",
+        "routes/climb_descent_002/paths.npz": "5d2f80d45515cb78dbbd7a5b71124269777666ac20dee15f316012a689bb0e31",
+        "routes/climb_descent_002/energy.npy": "baddfad5867de334650797ac39030779b75b07740166ad701837b3a2ae0755e9",
+        "routes/climb_descent_002/residual_energy.npy": "3395527aacc5d7ffc9dc41f3500d28fab4f3e25d4de1006e417b93a579f21185",
+        "routes/climb_descent_002/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_003/complete.json": "f3baa8e6e4c04b635855d4315d844c5273f42ff0eefe0385700b6e3cf03814b9",
+        "routes/climb_descent_003/compression.json": "f0d28b18b107d74ce646a408d6ea2337fec434bcb2ea20c4751c1553d023a235",
+        "routes/climb_descent_003/paths.npz": "029fe85096523df1e8618ecfdaea72b20e15d52a1f07c5e7f26add4d7bad0c90",
+        "routes/climb_descent_003/energy.npy": "0282c63961afdcafa846566b2733d269352ebe4219daa758cc4817304008e94c",
+        "routes/climb_descent_003/residual_energy.npy": "4cc9470907bce8323183cb0c212018797353aad8544721b9935432b25c0865d1",
+        "routes/climb_descent_003/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_004/complete.json": "c25b89c494099e7fc9b21ce78c3f6d203ab01934f996b7dfdc62ef66896e30f0",
+        "routes/climb_descent_004/compression.json": "e1b945f533ffa5157e550c2eab92e144e00c53f2996b04296f48417072106680",
+        "routes/climb_descent_004/paths.npz": "16fb9bd9df2220bd162f5f9b3161b4175f7a6680f22a3bcbc05898d107bd2dda",
+        "routes/climb_descent_004/energy.npy": "c13a5191957af94f510aa9b1110e9386d11f6217cdd45c1aa213d9e3602c84e9",
+        "routes/climb_descent_004/residual_energy.npy": "85cac58aa5180996bbef76ef97d4676b3af88b2f6cc89c9c40b49ee992f03b28",
+        "routes/climb_descent_004/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_005/complete.json": "3396bf4b9b260f39ecba8cea671a4f3235e97baf518c808d0b3d94c0419e4402",
+        "routes/climb_descent_005/compression.json": "8dc6aeb57d554f9bfc99866bf446078af9cbc23fc192ecd108d316db2432cabb",
+        "routes/climb_descent_005/paths.npz": "5c8cd073b09bec16c415f8eabf4965c894dc162fd695310c45b5ff05785239a3",
+        "routes/climb_descent_005/energy.npy": "cff504804cf00a04bd7a3c81a55a19ba669e701bbd539d8471837f12096d0972",
+        "routes/climb_descent_005/residual_energy.npy": "439b649e090701a3377c94df44c16aa176a8abf3aea986a46788dad25c5099e3",
+        "routes/climb_descent_005/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_006/complete.json": "20bb682b4e7d78f0063241d27f0b47e14ea55edb80fe0755636bb12b053d1960",
+        "routes/climb_descent_006/compression.json": "d673db7e35e8ff578f710b3a0e084dd84176b0e620254ef8604afc0e644a25b7",
+        "routes/climb_descent_006/paths.npz": "9ae49953717a61af89969e3d0fe4a77adc11aeb68a5c71b8aff0877fd200334f",
+        "routes/climb_descent_006/energy.npy": "d4efc93e02a4297fe93fd800893183421387cc0f984ea793e14aa6f5f3bbc4e4",
+        "routes/climb_descent_006/residual_energy.npy": "9b4537c48474dbc83f0ee05504ecdbefe6efec438c67f8276786b89d3839de3e",
+        "routes/climb_descent_006/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_007/complete.json": "71e43f91816882b4a24159c29b21b7818057857d53628b7b03f39bd77a643960",
+        "routes/climb_descent_007/compression.json": "ed49c94ad4381d2c792ba28efd985872f2dd292f3fed942a76ad9bb148ef5834",
+        "routes/climb_descent_007/paths.npz": "2bcdeb355627f6c25c7618af2bca0f639f447661deaaae665f133aa12a460b7c",
+        "routes/climb_descent_007/energy.npy": "c7300b3301b813b19fb6cc2be325a59b6efc81bc51902d3ddf2b8164e11cb538",
+        "routes/climb_descent_007/residual_energy.npy": "1f4af357696d708042555fb5dda30c8febf839b1e9780735e3929a356e04790c",
+        "routes/climb_descent_007/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_008/complete.json": "1efa93647ad6752fef7a9c88dd9ae702aa7c333a8bde167d73dd30170d6569e6",
+        "routes/climb_descent_008/compression.json": "b62958dfdb63eabeca1d965e8e8ee2114c32f54cd28f2a6889fbcc101bb9a437",
+        "routes/climb_descent_008/paths.npz": "dc2339556b465edbe885f7f038c985dac26566b68a0708fe21ee259f4c987b5b",
+        "routes/climb_descent_008/energy.npy": "31e5fd94407c0e3f30429d03cc973bb720b41f9c079a81bce883f9f425a63eb9",
+        "routes/climb_descent_008/residual_energy.npy": "e09e82875d9c3e9ca28b5fef11fa2cbe2688b3ca617d5f54d4fb8d839901c18a",
+        "routes/climb_descent_008/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_008/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/climb_descent_009/complete.json": "c8924b4b48f3fe57c427b63ac46d00c715440ab8b1a3fa763e3af0f2143a8de6",
+        "routes/climb_descent_009/compression.json": "dbbedaf9c00ef999a0ce9556ae134d3ad6316bfb16f189548610318b24752b7b",
+        "routes/climb_descent_009/paths.npz": "9ea053a18afbaf0756e26547376d511e55016c014f4a834a5240bacbdf287b1d",
+        "routes/climb_descent_009/energy.npy": "442505b17e2f6a730eed1aae3d18540895f15c2170cb1f7314d52b7bcb88a60a",
+        "routes/climb_descent_009/residual_energy.npy": "c8e79fdd604e16b462b713da1bdf749ac9a0b9967d2dbc664d0cf68dd888b7b1",
+        "routes/climb_descent_009/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_010/complete.json": "655925da7f101349b2edd53f7db2f08f0f51a54f8e35c73ebbee5bff878b1b5b",
+        "routes/climb_descent_010/compression.json": "3a50bab10f15a3d2850d17cb5b661fbc34d9c3b95e752ddd0c8eb36613be7eea",
+        "routes/climb_descent_010/paths.npz": "746e563f754c04ecb254098f342c099c0d24f7fbd463c5eff73b7dbab52e6a02",
+        "routes/climb_descent_010/energy.npy": "4e0fdaa5a234161e822c612a122fb7e1fca3174e68cbf5652bbc94ce12a02c29",
+        "routes/climb_descent_010/residual_energy.npy": "d981b7acc934b2609621a876a41ecdc8bd2188101a0975a7bdf24ce875f2b3a0",
+        "routes/climb_descent_010/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_011/complete.json": "6df1e2c5e408280fc55c1d50753da14e8937c3d86dbb49c061799e868ea51366",
+        "routes/climb_descent_011/compression.json": "2a2c960aa271a02cd95870717bf3e3e4d4e4af076d3445b4de16e3d4ba197a4d",
+        "routes/climb_descent_011/paths.npz": "f74749006c8d779b98b76067917fac9bc4c5edc71ceac3949acf24bdbfeabeea",
+        "routes/climb_descent_011/energy.npy": "65afc98d74dd8f396193701d2bdddff857ec8deeb932d6e72f8976f56fa30396",
+        "routes/climb_descent_011/residual_energy.npy": "46fdf075210692490cc78f7466ee6dcf4124d460957780fda7a22a096b42e22d",
+        "routes/climb_descent_011/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_011/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/climb_descent_012/complete.json": "8757a61ecb13e905c8d6934a91aaad26d8d7aed140347f759a83477e1e2acdf5",
+        "routes/climb_descent_012/compression.json": "b91861d5f02b3134655046099fb8fc6b8f09675f3a090b65287c04c5a20a74ed",
+        "routes/climb_descent_012/paths.npz": "07f1b61f4d5020d2d2b8c2759b835b7b863deffc25d58f68294571dd412c0124",
+        "routes/climb_descent_012/energy.npy": "f935b1605d15696fec0ab3b76e1a44b6b30e689aa7eabc8e2583eebfd18691c4",
+        "routes/climb_descent_012/residual_energy.npy": "a5df3055c88081eda1ff2a98c0cedc6c2bc9495633388e7c9ed9865adb039a00",
+        "routes/climb_descent_012/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_012/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/climb_descent_013/complete.json": "a80adb14cf9b3cef5a366ed9081050c5d48b62a61276276f5cbc4982d64fddd6",
+        "routes/climb_descent_013/compression.json": "6c5dec6c739ab500324199a2a695350163bbcb8911191d50386e644885e11c3e",
+        "routes/climb_descent_013/paths.npz": "2d33ab17e6a44768ac8c087f62a92ad41f061a84bd57a5e482265dbe029d502c",
+        "routes/climb_descent_013/energy.npy": "e8a13dda55aee1dbc48570e9f2745030f16c31224f697d40f77dbdf5f7955afd",
+        "routes/climb_descent_013/residual_energy.npy": "3e70c31c874f2747505b1e9201c0f6c1ab7f142d48acc4fba36758b1172fa1a6",
+        "routes/climb_descent_013/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_013/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/climb_descent_014/complete.json": "5bdf023c64f0333eff5f0331816041fbc3aa30d38efbc16cb9d07e5e0869b313",
+        "routes/climb_descent_014/compression.json": "47a7e1a2bca4c30111fc1d925ea9017c60ec0c920b3b1f38f340d48519edb40b",
+        "routes/climb_descent_014/paths.npz": "6a833d6c00bd6d81264472989f7e2b393556283e9df7db8dfa7143a9a33f9691",
+        "routes/climb_descent_014/energy.npy": "fd78675b6df4980d48528ec0f6624957eef34136869df4cea2c1d66c1a4d8851",
+        "routes/climb_descent_014/residual_energy.npy": "35692a8e5aa373915b090f44f558fe9200bb98c4940f0c9a8ad2201b53d37002",
+        "routes/climb_descent_014/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_014/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/climb_descent_015/complete.json": "a8a574bbe14ab96c02936d621aa30b5cb104310d723939b4a23c37562789b5c4",
+        "routes/climb_descent_015/compression.json": "45c2cebbe347cb74ff80d498cb3584cc120e7a22f0c643db8dbee830df3b5be9",
+        "routes/climb_descent_015/paths.npz": "b1c58c81bd0c36305844308f5e550777e5c1fe6fcc2abced6edeb58df05946d0",
+        "routes/climb_descent_015/energy.npy": "dd301e50153c78893d454229e4366b346d5e0e2861616541aa3100984bfcf077",
+        "routes/climb_descent_015/residual_energy.npy": "cf617dcbbd03e56607dc03e76f4bbd0cc7848a0e07531b3bfaf03aebe009debb",
+        "routes/climb_descent_015/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_016/complete.json": "fd077d8c29f48be3a5face61240d504aee9ca16d9ae5552e083061344a15082a",
+        "routes/climb_descent_016/compression.json": "86d91d7f55f31c4b1c719e4dda612a68f4cab522d97cc501bd913d550f8488b4",
+        "routes/climb_descent_016/paths.npz": "664725d4bc76d9f75097b9be0d6d54ca71b94dae60562f9c4655f8b6f13783cc",
+        "routes/climb_descent_016/energy.npy": "21993328056549f290f4daefd571627d47d153708a74d2b6c8128abce4dafbe3",
+        "routes/climb_descent_016/residual_energy.npy": "e7ad0f0fb2ada0179f06ba91d97fd333cd55837e3708f06608bdf18677b2dba5",
+        "routes/climb_descent_016/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_017/complete.json": "b7c447920c2a32a3fbde76058e9fdc633a4fdc20044ec821ba7207a8973c60e9",
+        "routes/climb_descent_017/compression.json": "7456fa13fcf1043132f3fe5a02a2a55ac58a879b1f5a5a58050dedb22c1d8c55",
+        "routes/climb_descent_017/paths.npz": "e71ef0357e4cf0c9edd7c8c6b0ef9e191d9ece3df2e4e40bda8908f7faeafb34",
+        "routes/climb_descent_017/energy.npy": "bac674b39ce2a52ce10627ed6183b5eac3d85a2ecd35dbf9c3e1f442eb41eb20",
+        "routes/climb_descent_017/residual_energy.npy": "a0533eafa5694f3cbe93dd0a2f9f49aa84be4e2ad13c7fff246d56c06240cc93",
+        "routes/climb_descent_017/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_018/complete.json": "7f82e800adfb29d84cc221962c503a8531bbb5b0acd8dd2db8527c999b8faefa",
+        "routes/climb_descent_018/compression.json": "bcc2b505017f2cf3e67a9a9f9119a1b9773db69e1fa3fbf5438f7f8b1b952fac",
+        "routes/climb_descent_018/paths.npz": "72d9ee24634f9b552d6ef002b1cc3195af27464d953d060c15e6342a04a35703",
+        "routes/climb_descent_018/energy.npy": "08f29d333e709f232d144980df9c3dfd5508f74f4d5d11a60d0fa42e364c267b",
+        "routes/climb_descent_018/residual_energy.npy": "b87ff9765b147941968fc8a027379ec38d6fc8d268bd0705ac576c17fbd6c32b",
+        "routes/climb_descent_018/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/climb_descent_019/complete.json": "99611fa642906ecee19079743d47e3294f4343e358f73413bb59e63471646033",
+        "routes/climb_descent_019/compression.json": "087fdef80a621f4607d41e269e8f6c6c6bffb78cd8409ca81db46f951fa6d086",
+        "routes/climb_descent_019/paths.npz": "fe06bea135c457198cc4bb0d44790091b197aa691e7ff510c967318fd945d307",
+        "routes/climb_descent_019/energy.npy": "aa576dd22f728ab741a9f948bfb8343d9b9d549da24c71471ae6dc9dfdde5dd2",
+        "routes/climb_descent_019/residual_energy.npy": "757a6342f5ad30bce9b8401fdeacdb8d5596e7a6ea522ac1c3db40e73fd660d4",
+        "routes/climb_descent_019/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5"
+      },
+      "large_array_stat_and_source_guard": {
+        "routes/climb_descent_000/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633529675262451,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_000/H.npy"
+        },
+        "routes/climb_descent_000/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634393745935776,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_000/coefficients.npy"
+        },
+        "routes/climb_descent_001/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633533491367819,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_001/H.npy"
+        },
+        "routes/climb_descent_001/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634393989947410,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_001/coefficients.npy"
+        },
+        "routes/climb_descent_001/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633539735540122,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_001/offgrid_queries.npz"
+        },
+        "routes/climb_descent_001/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634394001947982,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_001/offgrid_coefficients.npz"
+        },
+        "routes/climb_descent_002/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633549923820974,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_002/H.npy"
+        },
+        "routes/climb_descent_002/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634394237959227,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_002/coefficients.npy"
+        },
+        "routes/climb_descent_003/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633558720063174,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_003/H.npy"
+        },
+        "routes/climb_descent_003/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634394457969711,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_003/coefficients.npy"
+        },
+        "routes/climb_descent_004/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633556139992160,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_004/H.npy"
+        },
+        "routes/climb_descent_004/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634394685980575,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_004/coefficients.npy"
+        },
+        "routes/climb_descent_005/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633542871626610,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_005/H.npy"
+        },
+        "routes/climb_descent_005/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634394917991631,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_005/coefficients.npy"
+        },
+        "routes/climb_descent_006/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633536879461328,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_006/H.npy"
+        },
+        "routes/climb_descent_006/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634395182004206,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_006/coefficients.npy"
+        },
+        "routes/climb_descent_007/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633543367640286,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_007/H.npy"
+        },
+        "routes/climb_descent_007/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634395538021162,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_007/coefficients.npy"
+        },
+        "routes/climb_descent_008/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633721284629908,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_008/H.npy"
+        },
+        "routes/climb_descent_008/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634395918039260,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_008/coefficients.npy"
+        },
+        "routes/climb_descent_008/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633727433136190,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_008/offgrid_queries.npz"
+        },
+        "routes/climb_descent_008/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634395934040022,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_008/offgrid_coefficients.npz"
+        },
+        "routes/climb_descent_009/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633732109518924,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_009/H.npy"
+        },
+        "routes/climb_descent_009/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634396190052210,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_009/coefficients.npy"
+        },
+        "routes/climb_descent_010/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633742330348477,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_010/H.npy"
+        },
+        "routes/climb_descent_010/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634396446064396,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_010/coefficients.npy"
+        },
+        "routes/climb_descent_011/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633749458921499,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_011/H.npy"
+        },
+        "routes/climb_descent_011/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634396766079629,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_011/coefficients.npy"
+        },
+        "routes/climb_descent_011/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633754995363447,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_011/offgrid_queries.npz"
+        },
+        "routes/climb_descent_011/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634396778080200,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_011/offgrid_coefficients.npz"
+        },
+        "routes/climb_descent_012/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633753631254800,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_012/H.npy"
+        },
+        "routes/climb_descent_012/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634397090095050,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_012/coefficients.npy"
+        },
+        "routes/climb_descent_012/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633760083767252,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_012/offgrid_queries.npz"
+        },
+        "routes/climb_descent_012/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634397106095812,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_012/offgrid_coefficients.npz"
+        },
+        "routes/climb_descent_013/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633734965751703,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_013/H.npy"
+        },
+        "routes/climb_descent_013/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634397414110465,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_013/coefficients.npy"
+        },
+        "routes/climb_descent_013/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633740062165206,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_013/offgrid_queries.npz"
+        },
+        "routes/climb_descent_013/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634397426111036,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_013/offgrid_coefficients.npz"
+        },
+        "routes/climb_descent_014/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633729517307012,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_014/H.npy"
+        },
+        "routes/climb_descent_014/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634397730125499,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_014/coefficients.npy"
+        },
+        "routes/climb_descent_014/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633735629805706,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_014/offgrid_queries.npz"
+        },
+        "routes/climb_descent_014/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634397742126070,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_014/offgrid_coefficients.npz"
+        },
+        "routes/climb_descent_015/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633739138090402,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_015/H.npy"
+        },
+        "routes/climb_descent_015/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634398014139011,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_015/coefficients.npy"
+        },
+        "routes/climb_descent_016/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633921871547770,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_016/H.npy"
+        },
+        "routes/climb_descent_016/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634398270151185,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_016/coefficients.npy"
+        },
+        "routes/climb_descent_017/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633931592197292,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_017/H.npy"
+        },
+        "routes/climb_descent_017/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634398506162407,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_017/coefficients.npy"
+        },
+        "routes/climb_descent_018/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633938616663010,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_018/H.npy"
+        },
+        "routes/climb_descent_018/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634398746173819,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_018/coefficients.npy"
+        },
+        "routes/climb_descent_019/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633951305496664,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_019/H.npy"
+        },
+        "routes/climb_descent_019/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634399050188274,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/climb_descent_019/coefficients.npy"
+        }
+      },
+      "note": "Large CSI arrays guarded by size/mtime and hashed generation/projection metadata; not claimed as full-array content SHA."
+    },
+    "code": {
+      "experiments/six_category_v1/common.py": "d37733e6a5568d9fb77ce0a5a8a0e3a4d8bed31322aef2b990d589d203975e3e",
+      "experiments/six_category_v1/dataset.py": "81f03a0a794a898772df07921771c68bcd6406ff9917df082307a69192c5a45a",
+      "experiments/six_category_v1/evaluate_family.py": "da362619601f1344f4da7878f33082987e92e86d6a7b0f352f11ea82bcc47434",
+      "benchmark/dataset.py": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+      "benchmark/metrics.py": "b07008d7d19097490cbecf38b0bad91f0ffadfc063d5b0b1f121c69fbd0cd94c",
+      "benchmark/evaluation.py": "fe04785a3ed3a461f0361f0fabf5bbf5adfb5558f9c9861e616740e0bb0754a6",
+      "benchmark/baselines.py": "9fc80bd8a54cd16fce090ac601dea666e2d179f094625e88c5c9b20a48cdb1e0",
+      "benchmark/harmonic.py": "56b2053de2ed46208d90a2d91f188ea1b2e5db0bd8bc75de28cbddc54ad6a3a0",
+      "benchmark/engine.py": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+      "models/adapters.py": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+      "experiments/flow_repair/observed_flow.py": "b7becbc146b1420d30a34c2826f8a6a0790c3c89677a4473a006eb518d841063",
+      "experiments/flow_repair/local_dynamics.py": "2f43f020d96c5a9b599998f80ccd29f5779527cdd192140d3c6bde30645c11f4",
+      "third_party/neural-flows-experiments/nfe/models/flow.py": "3ded8c892a506a31aeeaf3faa32f160d07b31e03f5de56e4863264743e87ee39",
+      "third_party/t-PatchGNN/tPatchGNN/model/tPatchGNN.py": "ba9db3896a025103369e27b710794fe7cdce6d03b508c02b5bce5ae12aa6a26c",
+      "third_party/Continuous-Recurrent-Units/lib/CRUCell.py": "345014b856474cc528ffde5ef0b64021839c1083d7398b9c81d95af506dec55d",
+      "experiments/six_category_v1/cru_float32.py": "198f8dea1116c6f2293630c1b308d4b2c5db348afe64a3689291ccd38957b807"
+    },
+    "split": "val",
+    "samples": 600,
+    "seed": 917,
+    "ratios": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "tuning": {
+    "process_ratio": 1000,
+    "validation_nmse": {
+      "0.01": 0.1959292582791952,
+      "0.1": 0.19591146391536718,
+      "1": 0.19573478535892921,
+      "10": 0.1940845681524014,
+      "100": 0.18479884201824057,
+      "1000": 0.18455233573034396,
+      "10000": 0.2929542696069418
+    }
+  }
+}

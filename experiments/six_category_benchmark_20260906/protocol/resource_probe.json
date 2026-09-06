@@ -1,0 +1,160 @@
+{
+  "dataset": "TRAIN cruise",
+  "device": "NVIDIA GeForce RTX 4090 D",
+  "torch": "2.11.0+cu128",
+  "gpu_total_gib": 23.5184326171875,
+  "threads": 1,
+  "input_dim": 256,
+  "method": "One warmup plus three synchronized forward/loss/backward/clip/AdamW steps per config; mixed real TRAIN histories 4\u201332, six future queries; same AMP bfloat16 as original engine; CRU internally float64. Data transfer/loading excluded from timing. Random initialization, no fitted checkpoints retained.",
+  "model_source_sha256": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+  "engine_sha256": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+  "results": [
+    {
+      "model": "cru",
+      "batch_size": 128,
+      "history_length_padded": 32,
+      "parameters": 100488,
+      "status": "ok",
+      "step_times_s": [
+        0.4205014957115054,
+        0.478997559286654,
+        0.46136625297367573
+      ],
+      "mean_step_s": 0.45362176932394505,
+      "samples_per_s": 282.1734066924626,
+      "peak_allocated_gib": 0.6809535026550293,
+      "peak_reserved_gib": 0.8515625,
+      "losses": [
+        2.5533430576324463,
+        2.2647464275360107,
+        2.0219411849975586
+      ]
+    },
+    {
+      "model": "cru",
+      "batch_size": 256,
+      "history_length_padded": 32,
+      "parameters": 100488,
+      "status": "ok",
+      "step_times_s": [
+        0.5983267482370138,
+        0.5595486126840115,
+        0.561481180600822
+      ],
+      "mean_step_s": 0.5731188471739491,
+      "samples_per_s": 446.67873210301286,
+      "peak_allocated_gib": 1.340311050415039,
+      "peak_reserved_gib": 1.71484375,
+      "losses": [
+        2.54353666305542,
+        2.2553954124450684,
+        2.0130650997161865
+      ]
+    },
+    {
+      "model": "cru",
+      "batch_size": 512,
+      "history_length_padded": 32,
+      "parameters": 100488,
+      "status": "ok",
+      "step_times_s": [
+        0.9163252813741565,
+        0.9089736817404628,
+        0.8961102338507771
+      ],
+      "mean_step_s": 0.9071363989884654,
+      "samples_per_s": 564.4134670055394,
+      "peak_allocated_gib": 2.660736083984375,
+      "peak_reserved_gib": 3.361328125,
+      "losses": [
+        2.534419059753418,
+        2.2487497329711914,
+        2.0085370540618896
+      ]
+    },
+    {
+      "model": "cru",
+      "batch_size": 1024,
+      "history_length_padded": 32,
+      "parameters": 100488,
+      "status": "ok",
+      "step_times_s": [
+        1.577396142296493,
+        1.56902133859694,
+        1.5701440246775746
+      ],
+      "mean_step_s": 1.5721871685236692,
+      "samples_per_s": 651.3219421333699,
+      "peak_allocated_gib": 5.300610065460205,
+      "peak_reserved_gib": 6.763671875,
+      "losses": [
+        2.527010440826416,
+        2.2418229579925537,
+        2.002030849456787
+      ]
+    },
+    {
+      "model": "latent_ode",
+      "batch_size": 256,
+      "history_length_padded": 32,
+      "parameters": 238880,
+      "status": "ok",
+      "step_times_s": [
+        0.294225649908185,
+        0.2892420142889023,
+        0.2948775589466095
+      ],
+      "mean_step_s": 0.29278174104789895,
+      "samples_per_s": 874.3714655283729,
+      "peak_allocated_gib": 0.12490224838256836,
+      "peak_reserved_gib": 0.154296875,
+      "losses": [
+        2.132133722305298,
+        1.8633352518081665,
+        1.658008337020874
+      ]
+    },
+    {
+      "model": "tpatchgnn",
+      "batch_size": 64,
+      "history_length_padded": 32,
+      "parameters": 163280,
+      "status": "ok",
+      "step_times_s": [
+        0.11505966726690531,
+        0.11448185332119465,
+        0.113118183799088
+      ],
+      "mean_step_s": 0.11421990146239598,
+      "samples_per_s": 560.3226686469379,
+      "peak_allocated_gib": 10.353440761566162,
+      "peak_reserved_gib": 10.419921875,
+      "losses": [
+        6.240669250488281,
+        5.191653251647949,
+        4.526704788208008
+      ]
+    },
+    {
+      "model": "tpatchgnn",
+      "batch_size": 128,
+      "history_length_padded": 32,
+      "parameters": 163280,
+      "status": "ok",
+      "step_times_s": [
+        0.2183164693415165,
+        0.21777787059545517,
+        0.21381939947605133
+      ],
+      "mean_step_s": 0.21663791313767433,
+      "samples_per_s": 590.847641329777,
+      "peak_allocated_gib": 20.688090801239014,
+      "peak_reserved_gib": 20.806640625,
+      "losses": [
+        6.233514308929443,
+        5.191963195800781,
+        4.534694194793701
+      ]
+    }
+  ]
+}

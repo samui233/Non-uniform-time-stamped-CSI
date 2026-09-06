@@ -1,0 +1,3754 @@
+[
+  {
+    "center_m": [
+      -121.47470281926692,
+      15.854238225967308,
+      43.26819048870175
+    ],
+    "velocity_mps": [
+      0.26743702263050123,
+      14.361007362510136,
+      -0.8327420289322536
+    ],
+    "events": [
+      {
+        "time_s": 0.863189697265625,
+        "position_m": [
+          -121.57815021495301,
+          10.299252620504173,
+          43.59030368501267
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.163971424102783,
+          46.725135803222656
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6470588235294118,
+    "speed_mps": 14.387616700270202,
+    "position_min_m": [
+      -121.80899909755504,
+      -2.097020977170363,
+      42.22726295253643
+    ],
+    "position_max_m": [
+      -121.1404065409788,
+      33.805497429104975,
+      44.30911802486707
+    ],
+    "proposal_index": 22091,
+    "traj_id": "occlusion_v3_00_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_00",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      14.387616700270202,
+      14.387616700270202
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -120.00832144378857,
+      14.930873868598605,
+      44.941223164463544
+    ],
+    "velocity_mps": [
+      0.9287195206644827,
+      -15.153479543320817,
+      0.8801906811670664
+    ],
+    "events": [
+      {
+        "time_s": 1.5910705566406254,
+        "position_m": [
+          -119.69156255991253,
+          9.762468165715845,
+          45.241430290039084
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.172915935516357,
+          47.531795501708984
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6274509803921569,
+    "speed_mps": 15.207406019868053,
+    "position_min_m": [
+      -121.16922084461918,
+      -4.010975560552415,
+      43.84098481300471
+    ],
+    "position_max_m": [
+      -118.84742204295797,
+      33.87272329774962,
+      46.04146151592238
+    ],
+    "traj_id": "occlusion_v3_00_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_00",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      15.207406019868053,
+      15.207406019868053
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -120.43284895663648,
+      13.959302363478244,
+      41.859464550782526
+    ],
+    "velocity_mps": [
+      -0.4491439888220958,
+      -14.99478301359236,
+      0.8697315211758312
+    ],
+    "events": [
+      {
+        "time_s": 1.5135681152343752,
+        "position_m": [
+          -120.55122899123917,
+          10.007155666237281,
+          42.08869804857876
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.174404621124268,
+          45.92037582397461
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6078431372549019,
+    "speed_mps": 15.026698934441317,
+    "position_min_m": [
+      -120.9942789426641,
+      -4.784176403512205,
+      40.772300149312734
+    ],
+    "position_max_m": [
+      -119.87141897060886,
+      32.70278113046869,
+      42.94662895225232
+    ],
+    "traj_id": "occlusion_v3_00_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_00",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      15.026698934441317,
+      15.026698934441317
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      93.29329177671988,
+      -86.50985028259554,
+      50.546801705531585
+    ],
+    "velocity_mps": [
+      9.425406464521002,
+      -1.4792459244189933,
+      1.0248939977901266
+    ],
+    "events": [
+      {
+        "time_s": 1.583282470703125,
+        "position_m": [
+          96.43461453059665,
+          -87.00285701906343,
+          50.888380909323885
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          62.554664611816406,
+          -65.56403350830078,
+          50.573646545410156
+        ],
+        "blocking_collision_box_indices": [
+          23
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.37254901960784315,
+    "speed_mps": 9.595668983090794,
+    "position_min_m": [
+      81.51153369606862,
+      -88.35890768811927,
+      49.265684208293926
+    ],
+    "position_max_m": [
+      105.07504985737114,
+      -84.6607928770718,
+      51.827919202769245
+    ],
+    "proposal_index": 17567,
+    "traj_id": "occlusion_v3_01_00",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_01",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      9.595668983090794,
+      9.595668983090794
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      91.91464845872402,
+      -85.78193606866554,
+      50.84612752823615
+    ],
+    "velocity_mps": [
+      -9.571209809373132,
+      1.0398894458563406,
+      -1.0342135726941313
+    ],
+    "events": [
+      {
+        "time_s": 1.247528076171875,
+        "position_m": [
+          91.9383077603158,
+          -85.78450659616537,
+          50.84868402540987
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          62.554664611816406,
+          -66.7161636352539,
+          50.572757720947266
+        ],
+        "blocking_collision_box_indices": [
+          23
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.49019607843137253,
+    "speed_mps": 9.682924402709578,
+    "position_min_m": [
+      79.9506361970076,
+      -87.08179787598597,
+      49.55336056236849
+    ],
+    "position_max_m": [
+      103.87866072044044,
+      -84.48207426134512,
+      52.138894494103816
+    ],
+    "traj_id": "occlusion_v3_01_01",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_01",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      9.682924402709578,
+      9.682924402709578
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      95.09706339906828,
+      -86.66854987461775,
+      50.6254622774786
+    ],
+    "velocity_mps": [
+      -9.861871499568558,
+      -0.2822610506169892,
+      -1.0598204236676847
+    ],
+    "events": [
+      {
+        "time_s": 0.991864013671875,
+        "position_m": [
+          97.64276732565062,
+          -86.59568813991473,
+          50.89904006787275
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          62.55466842651367,
+          -64.82501983642578,
+          50.57331085205078
+        ],
+        "blocking_collision_box_indices": [
+          23
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.39215686274509803,
+    "speed_mps": 9.922671016672938,
+    "position_min_m": [
+      82.76972402460758,
+      -87.02137618788899,
+      49.30068674789399
+    ],
+    "position_max_m": [
+      107.42440277352897,
+      -86.31572356134652,
+      51.9502378070632
+    ],
+    "traj_id": "occlusion_v3_01_02",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_01",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      9.922671016672938,
+      9.922671016672938
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      20.364531461391636,
+      35.15114830628315,
+      25.699080721175584
+    ],
+    "velocity_mps": [
+      1.092554094801681,
+      6.161460883239188,
+      1.7180386946688646
+    ],
+    "events": [
+      {
+        "time_s": 0.782293701171875,
+        "position_m": [
+          19.85353702944243,
+          32.26939424120908,
+          24.895543202048508
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          16.740327835083008,
+          25.023578643798828,
+          28.082489013671875
+        ],
+        "blocking_collision_box_indices": [
+          18
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6862745098039216,
+    "speed_mps": 6.489139513227778,
+    "position_min_m": [
+      18.998838842889533,
+      27.449322202234164,
+      23.5515323528395
+    ],
+    "position_max_m": [
+      21.730224079893738,
+      42.85297441033213,
+      27.846629089511666
+    ],
+    "proposal_index": 16270,
+    "traj_id": "occlusion_v3_02_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_02",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.489139513227778,
+      6.489139513227778
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      21.21590894207436,
+      35.37009779810825,
+      24.813255346273017
+    ],
+    "velocity_mps": [
+      -0.7059825211687799,
+      6.2620073736005235,
+      1.7301467113667628
+    ],
+    "events": [
+      {
+        "time_s": 0.9603332519531251,
+        "position_m": [
+          21.420408603159256,
+          33.55620248595183,
+          24.312089374747412
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          17.638200759887695,
+          25.0257568359375,
+          28.082489013671875
+        ],
+        "blocking_collision_box_indices": [
+          18
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6078431372549019,
+    "speed_mps": 6.534872248948435,
+    "position_min_m": [
+      20.333430790613384,
+      27.542588581107594,
+      22.650571957064564
+    ],
+    "position_max_m": [
+      22.098387093535337,
+      43.1976070151089,
+      26.97593873548147
+    ],
+    "traj_id": "occlusion_v3_02_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_02",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.534872248948435,
+      6.534872248948435
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      20.216526925001883,
+      33.71515869800775,
+      24.258364291531528
+    ],
+    "velocity_mps": [
+      -1.0536241578628323,
+      -4.918220828563351,
+      -1.3809519301219382
+    ],
+    "events": [
+      {
+        "time_s": 1.2550720214843754,
+        "position_m": [
+          20.211182920636745,
+          33.69021337630037,
+          24.25136007367306
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          16.528839111328125,
+          25.0711727142334,
+          28.082489013671875
+        ],
+        "blocking_collision_box_indices": [
+          18
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5098039215686274,
+    "speed_mps": 5.215941738349274,
+    "position_min_m": [
+      18.89949672767334,
+      27.567382662303558,
+      22.532174378879105
+    ],
+    "position_max_m": [
+      21.533557122330425,
+      39.86293473371194,
+      25.98455420418395
+    ],
+    "traj_id": "occlusion_v3_02_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_02",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      5.215941738349274,
+      5.215941738349274
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -81.46698971327268,
+      -86.59475948743511,
+      22.32995843918768
+    ],
+    "velocity_mps": [
+      -10.732278136356658,
+      0.7300152368608827,
+      1.7527719825533117
+    ],
+    "events": [
+      {
+        "time_s": 1.109747314453125,
+        "position_m": [
+          -79.96175888261264,
+          -86.697146084895,
+          22.08412746148326
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -44.142906188964844,
+          -56.758331298828125,
+          35.20677947998047
+        ],
+        "blocking_collision_box_indices": [
+          33
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5490196078431373,
+    "speed_mps": 10.898941502044686,
+    "position_min_m": [
+      -94.88233738371851,
+      -87.50727853351121,
+      20.13899346099604
+    ],
+    "position_max_m": [
+      -68.05164204282686,
+      -85.68224044135901,
+      24.520923417379322
+    ],
+    "proposal_index": 25944,
+    "traj_id": "occlusion_v3_03_00",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_03",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      10.898941502044686,
+      10.898941502044686
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -80.68600091109973,
+      -85.72180955504818,
+      20.683773976756807
+    ],
+    "velocity_mps": [
+      -9.980857394779575,
+      0.8241914032908808,
+      1.6318291102294185
+    ],
+    "events": [
+      {
+        "time_s": 1.0779479980468754,
+        "position_m": [
+          -78.96877441511926,
+          -85.86361333597694,
+          20.40301451149645
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -44.146392822265625,
+          -56.75577163696289,
+          34.11252975463867
+        ],
+        "blocking_collision_box_indices": [
+          33
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5686274509803921,
+    "speed_mps": 10.146904555044205,
+    "position_min_m": [
+      -93.16207265457419,
+      -86.75204880916178,
+      18.643987588970035
+    ],
+    "position_max_m": [
+      -68.20992916762526,
+      -84.69157030093459,
+      22.72356036454358
+    ],
+    "traj_id": "occlusion_v3_03_01",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_03",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      10.146904555044205,
+      10.146904555044205
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -79.54557576029681,
+      -84.88279250913308,
+      21.002850815003644
+    ],
+    "velocity_mps": [
+      11.76383777018056,
+      -0.15861943157976663,
+      -1.9169890298855106
+    ],
+    "events": [
+      {
+        "time_s": 1.3960144042968752,
+        "position_m": [
+          -77.82788599603882,
+          -84.90595323094512,
+          20.722942803761267
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -44.137939453125,
+          -56.76197814941406,
+          34.02946853637695
+        ],
+        "blocking_collision_box_indices": [
+          33
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5490196078431373,
+    "speed_mps": 11.920062338255736,
+    "position_min_m": [
+      -94.25037297302251,
+      -85.0810667986078,
+      18.606614527646755
+    ],
+    "position_max_m": [
+      -64.84077854757112,
+      -84.68451821965837,
+      23.399087102360532
+    ],
+    "traj_id": "occlusion_v3_03_02",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_03",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      11.920062338255736,
+      11.920062338255736
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      107.9931739374592,
+      18.755916532657324,
+      42.374253150541335
+    ],
+    "velocity_mps": [
+      -4.217001574898909,
+      4.837338348212009,
+      -0.7771681693331471
+    ],
+    "events": [
+      {
+        "time_s": 1.8430969238281252,
+        "position_m": [
+          105.49208327560831,
+          21.62492702649769,
+          41.91331710001271
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          93.43577575683594,
+          16.8552303314209,
+          42.777889251708984
+        ],
+        "blocking_collision_box_indices": [
+          67
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.7254901960784313,
+    "speed_mps": 6.46428147137847,
+    "position_min_m": [
+      102.72192196883557,
+      12.709243597392312,
+      41.4027929388749
+    ],
+    "position_max_m": [
+      113.26442590608283,
+      24.802589467922335,
+      43.34571336220777
+    ],
+    "proposal_index": 36853,
+    "traj_id": "occlusion_v3_04_00",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_04",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.46428147137847,
+      6.46428147137847
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      107.73591187668534,
+      17.21407741508234,
+      41.77999635238161
+    ],
+    "velocity_mps": [
+      -2.1519626641863,
+      4.788322575360858,
+      -0.6357521659870569
+    ],
+    "events": [
+      {
+        "time_s": 1.2854431152343753,
+        "position_m": [
+          107.6596396159985,
+          17.383790483900214,
+          41.75746331510203
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          93.57569122314453,
+          12.408297538757324,
+          42.777889251708984
+        ],
+        "blocking_collision_box_indices": [
+          67
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5098039215686274,
+    "speed_mps": 5.288020159787543,
+    "position_min_m": [
+      105.04595854645245,
+      11.228674195881268,
+      40.98530614489779
+    ],
+    "position_max_m": [
+      110.42586520691822,
+      23.19948063428341,
+      42.57468655986543
+    ],
+    "traj_id": "occlusion_v3_04_01",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_04",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      5.288020159787543,
+      5.288020159787543
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      107.40808946275797,
+      19.105185415012166,
+      42.46683569549173
+    ],
+    "velocity_mps": [
+      4.732297438124055,
+      -3.2827041715795993,
+      0.6974838987792689
+    ],
+    "events": [
+      {
+        "time_s": 0.5858947753906251,
+        "position_m": [
+          104.26534600969423,
+          21.285246406205168,
+          42.0036329942315
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          93.44325256347656,
+          16.974313735961914,
+          42.777896881103516
+        ],
+        "blocking_collision_box_indices": [
+          67
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.7647058823529411,
+    "speed_mps": 5.801488559847199,
+    "position_min_m": [
+      101.4927176651029,
+      15.001805200537667,
+      41.59498082201765
+    ],
+    "position_max_m": [
+      113.32346126041304,
+      23.208565629486664,
+      43.338690568965816
+    ],
+    "traj_id": "occlusion_v3_04_02",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_04",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      5.801488559847199,
+      5.801488559847199
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      7.815193500817912,
+      -75.22821353243332,
+      20.954935135146908
+    ],
+    "velocity_mps": [
+      -5.244077431519115,
+      -3.352777829934031,
+      -1.8445501854931199
+    ],
+    "events": [
+      {
+        "time_s": 1.656317138671875,
+        "position_m": [
+          5.68443496386931,
+          -76.59050462689461,
+          20.205462781640666
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          2.39559006690979,
+          -59.32905578613281,
+          29.82058334350586
+        ],
+        "blocking_collision_box_indices": [
+          36
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6666666666666666,
+    "speed_mps": 6.4918281455586895,
+    "position_min_m": [
+      1.2600967114190178,
+      -79.41918581985085,
+      18.64924740328051
+    ],
+    "position_max_m": [
+      14.370290290216808,
+      -71.03724124501578,
+      23.260622867013307
+    ],
+    "proposal_index": 32020,
+    "traj_id": "occlusion_v3_05_00",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_05",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.4918281455586895,
+      6.4918281455586895
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      7.722577589254244,
+      -76.81820838137448,
+      21.457371517350666
+    ],
+    "velocity_mps": [
+      -4.529942891524183,
+      -4.932685556295898,
+      -1.9846879529447228
+    ],
+    "events": [
+      {
+        "time_s": 1.7228820800781248,
+        "position_m": [
+          5.580448772075173,
+          -79.150786987607,
+          20.51884814985617
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          2.405940055847168,
+          -61.485755920410156,
+          29.82058334350586
+        ],
+        "blocking_collision_box_indices": [
+          36
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6862745098039216,
+    "speed_mps": 6.9850379861762075,
+    "position_min_m": [
+      2.0601489748490156,
+      -82.98406532674434,
+      18.976511576169763
+    ],
+    "position_max_m": [
+      13.385006203659472,
+      -70.65235143600461,
+      23.93823145853157
+    ],
+    "traj_id": "occlusion_v3_05_01",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_05",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.9850379861762075,
+      6.9850379861762075
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      9.147188526586639,
+      -76.14901052559841,
+      21.25672621636504
+    ],
+    "velocity_mps": [
+      -5.49652362759178,
+      -1.7948157420120447,
+      -1.7135271803926189
+    ],
+    "events": [
+      {
+        "time_s": 1.878448486328125,
+        "position_m": [
+          5.69290657275981,
+          -77.27695976190377,
+          20.1798626535652
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          2.392117500305176,
+          -59.73951721191406,
+          29.820579528808594
+        ],
+        "blocking_collision_box_indices": [
+          36
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.7450980392156863,
+    "speed_mps": 6.030697383752001,
+    "position_min_m": [
+      2.2765339920969137,
+      -78.39253020311347,
+      19.114817240874267
+    ],
+    "position_max_m": [
+      16.017843061076363,
+      -73.90549084808336,
+      23.39863519185581
+    ],
+    "traj_id": "occlusion_v3_05_02",
+    "scenario": "occlusion",
+    "split": "val",
+    "channel_group": "channel_05",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.030697383752001,
+      6.030697383752001
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      57.1732779080732,
+      -26.52382432101578,
+      37.73362375239465
+    ],
+    "velocity_mps": [
+      5.6785593858365315,
+      3.535759297401738,
+      2.472013281245526
+    ],
+    "events": [
+      {
+        "time_s": 0.8197570800781251,
+        "position_m": [
+          54.73011793696112,
+          -28.04505972527082,
+          36.67005754018592
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          46.62983322143555,
+          -27.45206069946289,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6666666666666666,
+    "speed_mps": 7.131513175356916,
+    "position_min_m": [
+      50.07507867577754,
+      -30.943523442767955,
+      34.64360715083774
+    ],
+    "position_max_m": [
+      64.27147714036887,
+      -22.104125199263606,
+      40.82364035395156
+    ],
+    "proposal_index": 8808,
+    "traj_id": "occlusion_v3_06_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_06",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.131513175356916,
+      7.131513175356916
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      55.95424377109377,
+      -27.131952143766945,
+      39.14961266439055
+    ],
+    "velocity_mps": [
+      5.189698589390109,
+      5.603732917899065,
+      2.8224718071630384
+    ],
+    "events": [
+      {
+        "time_s": 0.560260009765625,
+        "position_m": [
+          52.37470111672849,
+          -30.99707083183469,
+          37.20284098768112
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          46.59132385253906,
+          -30.33214569091797,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.7647058823529411,
+    "speed_mps": 8.142551268864903,
+    "position_min_m": [
+      49.467120534356134,
+      -34.13661829114078,
+      35.621522905436755
+    ],
+    "position_max_m": [
+      62.44136700783141,
+      -20.127285996393113,
+      42.67770242334435
+    ],
+    "traj_id": "occlusion_v3_06_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_06",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      8.142551268864903,
+      8.142551268864903
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      55.93662140739093,
+      -28.40099560402059,
+      38.0188208822792
+    ],
+    "velocity_mps": [
+      -5.068312742107584,
+      -4.081540047481155,
+      -2.404782973341777
+    ],
+    "events": [
+      {
+        "time_s": 1.7066589355468755,
+        "position_m": [
+          53.622131105561415,
+          -30.26486733749528,
+          36.92065524945169
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          46.642826080322266,
+          -29.503799438476562,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6862745098039216,
+    "speed_mps": 6.9375604040525,
+    "position_min_m": [
+      49.60123047975645,
+      -33.50292066337204,
+      35.01284216560198
+    ],
+    "position_max_m": [
+      62.27201233502541,
+      -23.299070544669146,
+      41.02479959895642
+    ],
+    "traj_id": "occlusion_v3_06_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_06",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.9375604040525,
+      6.9375604040525
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -54.20505723716688,
+      -1.2691718614796912,
+      20.50841168440606
+    ],
+    "velocity_mps": [
+      -7.53829315577348,
+      -2.1519875746209585,
+      -1.3987865704279867
+    ],
+    "events": [
+      {
+        "time_s": 1.719512939453125,
+        "position_m": [
+          -57.74438341519346,
+          -2.2795578733065787,
+          19.85166329005686
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -47.070587158203125,
+          -6.531397342681885,
+          25.9183349609375
+        ],
+        "blocking_collision_box_indices": [
+          12
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6862745098039216,
+    "speed_mps": 7.9632605189905705,
+    "position_min_m": [
+      -63.62792368188373,
+      -3.9591563297558894,
+      18.759928471371076
+    ],
+    "position_max_m": [
+      -44.78219079245004,
+      1.420812606796507,
+      22.256894897441043
+    ],
+    "proposal_index": 48724,
+    "traj_id": "occlusion_v3_07_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_07",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.9632605189905705,
+      7.9632605189905705
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -55.64946912085876,
+      -0.6984856709808231,
+      20.640445100373636
+    ],
+    "velocity_mps": [
+      -7.2066029530895985,
+      -2.424963020996681,
+      -1.3567145774643263
+    ],
+    "events": [
+      {
+        "time_s": 1.7083190917968754,
+        "position_m": [
+          -58.95239284125947,
+          -1.8098925204050291,
+          20.018636907402605
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -47.07059097290039,
+          -6.532041549682617,
+          26.575410842895508
+        ],
+        "blocking_collision_box_indices": [
+          12
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6862745098039216,
+    "speed_mps": 7.723745608277455,
+    "position_min_m": [
+      -64.65772281222075,
+      -3.7296894472266744,
+      18.94455187854323
+    ],
+    "position_max_m": [
+      -46.64121542949676,
+      2.332718105265028,
+      22.336338322204043
+    ],
+    "traj_id": "occlusion_v3_07_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_07",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.723745608277455,
+      7.723745608277455
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -53.14325434972859,
+      -2.206035953256143,
+      21.438219862757748
+    ],
+    "velocity_mps": [
+      6.343335176831669,
+      0.7798436747262358,
+      1.1403578332147686
+    ],
+    "events": [
+      {
+        "time_s": 0.6762390136718751,
+        "position_m": [
+          -56.782812597397424,
+          -2.6534798292488175,
+          20.78392702760544
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -47.070587158203125,
+          -6.495993614196777,
+          26.22868537902832
+        ],
+        "blocking_collision_box_indices": [
+          12
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.7254901960784313,
+    "speed_mps": 6.4920315241390245,
+    "position_min_m": [
+      -61.07242332076818,
+      -3.1808405466639376,
+      20.01277257123929
+    ],
+    "position_max_m": [
+      -45.214085378689006,
+      -1.2312313598483482,
+      22.863667154276207
+    ],
+    "traj_id": "occlusion_v3_07_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_07",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.4920315241390245,
+      6.4920315241390245
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -105.42582862956309,
+      -38.81273260249884,
+      24.288444562896117
+    ],
+    "velocity_mps": [
+      4.517787488239697,
+      6.09355931503396,
+      -1.8184932309089932
+    ],
+    "events": [
+      {
+        "time_s": 0.8208435058593752,
+        "position_m": [
+          -107.36466646928841,
+          -41.427823154976764,
+          25.06886274249148
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -94.46509552001953,
+          -39.0202751159668,
+          28.12249183654785
+        ],
+        "blocking_collision_box_indices": [
+          38
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.3333333333333333,
+    "speed_mps": 7.800563219767795,
+    "position_min_m": [
+      -111.0730629898627,
+      -46.429681746291294,
+      22.015328024259876
+    ],
+    "position_max_m": [
+      -99.77859426926346,
+      -31.19578345870639,
+      26.56156110153236
+    ],
+    "proposal_index": 18568,
+    "traj_id": "occlusion_v3_08_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_08",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.800563219767795,
+      7.800563219767795
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -106.60332121594305,
+      -37.790480368095515,
+      24.32438035684346
+    ],
+    "velocity_mps": [
+      3.8017781270636353,
+      6.1104656679032106,
+      -1.7252345432325673
+    ],
+    "events": [
+      {
+        "time_s": 0.898834228515625,
+        "position_m": [
+          -107.93837556494577,
+          -39.93626675849353,
+          24.930223676209216
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -94.49053955078125,
+          -37.63410186767578,
+          28.12248992919922
+        ],
+        "blocking_collision_box_indices": [
+          38
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.35294117647058826,
+    "speed_mps": 7.400523078486155,
+    "position_min_m": [
+      -111.3555438747726,
+      -45.42856245297453,
+      22.16783717780275
+    ],
+    "position_max_m": [
+      -101.85109855711352,
+      -30.152398283216503,
+      26.48092353588417
+    ],
+    "traj_id": "occlusion_v3_08_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_08",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.400523078486155,
+      7.400523078486155
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -105.05903295616686,
+      -40.304769199574366,
+      24.69257229720783
+    ],
+    "velocity_mps": [
+      -2.492036138445959,
+      -6.657612304962849,
+      1.7041653925333329
+    ],
+    "events": [
+      {
+        "time_s": 1.6547424316406252,
+        "position_m": [
+          -106.06766572257779,
+          -42.99938739280557,
+          25.382320342099568
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -94.51719665527344,
+          -40.6061897277832,
+          28.12249183654785
+        ],
+        "blocking_collision_box_indices": [
+          38
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.3333333333333333,
+    "speed_mps": 7.3101453749991645,
+    "position_min_m": [
+      -108.17407812922431,
+      -48.62678458077793,
+      22.562365556541163
+    ],
+    "position_max_m": [
+      -101.9439877831094,
+      -31.982753818370803,
+      26.822779037874493
+    ],
+    "traj_id": "occlusion_v3_08_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_08",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.3101453749991645,
+      7.3101453749991645
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      47.82926690713808,
+      -84.80046447937237,
+      23.556542492984402
+    ],
+    "velocity_mps": [
+      8.787925205161178,
+      -1.4323434249840532,
+      1.900093105144066
+    ],
+    "events": [
+      {
+        "time_s": 1.861993408203125,
+        "position_m": [
+          53.20741920447881,
+          -85.67704921374569,
+          24.719386948304777
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          45.28702163696289,
+          -77.21965789794922,
+          28.082481384277344
+        ],
+        "blocking_collision_box_indices": [
+          15
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.2549019607843137,
+    "speed_mps": 9.104372076470634,
+    "position_min_m": [
+      36.844360400686604,
+      -86.59089376060243,
+      21.18142611155432
+    ],
+    "position_max_m": [
+      58.81417341358955,
+      -83.0100351981423,
+      25.931658874414484
+    ],
+    "proposal_index": 25338,
+    "traj_id": "occlusion_v3_09_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_09",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      9.104372076470634,
+      9.104372076470634
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      46.422393715362404,
+      -83.3309256465845,
+      24.682250130150052
+    ],
+    "velocity_mps": [
+      -7.31374919664033,
+      1.8235450151456671,
+      -1.6085383140660743
+    ],
+    "events": [
+      {
+        "time_s": 0.830023193359375,
+        "position_m": [
+          49.493998747537844,
+          -84.09677225881082,
+          25.357798914650616
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          43.31690216064453,
+          -77.22350311279297,
+          28.082481384277344
+        ],
+        "blocking_collision_box_indices": [
+          15
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.3333333333333333,
+    "speed_mps": 7.707375639051091,
+    "position_min_m": [
+      37.28020721956199,
+      -85.61035691551659,
+      22.67157723756746
+    ],
+    "position_max_m": [
+      55.56458021116282,
+      -81.05149437765242,
+      26.692923022732646
+    ],
+    "traj_id": "occlusion_v3_09_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_09",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.707375639051091,
+      7.707375639051091
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      48.831519682113466,
+      -83.00365947780863,
+      24.490419945551128
+    ],
+    "velocity_mps": [
+      7.084243500787869,
+      -1.2560038644452245,
+      1.535356676908243
+    ],
+    "events": [
+      {
+        "time_s": 1.8907897949218753,
+        "position_m": [
+          53.37103062215995,
+          -83.80849393652757,
+          25.474260835679093
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          47.01015090942383,
+          -77.23958587646484,
+          28.082483291625977
+        ],
+        "blocking_collision_box_indices": [
+          15
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.2549019607843137,
+    "speed_mps": 7.356722898905682,
+    "position_min_m": [
+      39.97621530612863,
+      -84.57366430836515,
+      22.571224099415826
+    ],
+    "position_max_m": [
+      57.6868240580983,
+      -81.4336546472521,
+      26.40961579168643
+    ],
+    "traj_id": "occlusion_v3_09_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_09",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.356722898905682,
+      7.356722898905682
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      96.30747743514252,
+      -45.35398502600934,
+      27.074551866584457
+    ],
+    "velocity_mps": [
+      8.559938838152693,
+      -2.0447874467672325,
+      0.5394298940907434
+    ],
+    "events": [
+      {
+        "time_s": 1.327032470703125,
+        "position_m": [
+          96.96687067291306,
+          -45.511500055096555,
+          27.116105484097393
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          46.85036849975586,
+          -34.407318115234375,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.47058823529411764,
+    "speed_mps": 8.817295119593677,
+    "position_min_m": [
+      85.60755388745164,
+      -47.90996933446838,
+      26.400264498971026
+    ],
+    "position_max_m": [
+      107.00740098283339,
+      -42.7980007175503,
+      27.748839234197888
+    ],
+    "proposal_index": 32065,
+    "traj_id": "occlusion_v3_10_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_10",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      8.817295119593677,
+      8.817295119593677
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      95.95798995811138,
+      -47.28746560847156,
+      26.858027340790628
+    ],
+    "velocity_mps": [
+      6.743688802851347,
+      -3.9510080363945295,
+      0.47906137373235447
+    ],
+    "events": [
+      {
+        "time_s": 1.4925964355468753,
+        "position_m": [
+          97.5939848241205,
+          -48.24596607491793,
+          26.974245922466284
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          46.87736892700195,
+          -35.6888313293457,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.4117647058823529,
+    "speed_mps": 7.8305365699394525,
+    "position_min_m": [
+      87.52837895454721,
+      -52.22622565396472,
+      26.259200623625183
+    ],
+    "position_max_m": [
+      104.38760096167556,
+      -42.348705562978395,
+      27.456854057956072
+    ],
+    "traj_id": "occlusion_v3_10_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_10",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.8305365699394525,
+      7.8305365699394525
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      96.33085193435633,
+      -47.13150204179068,
+      26.702763578250824
+    ],
+    "velocity_mps": [
+      7.289849522829715,
+      -0.37680003152779323,
+      0.44741633938701125
+    ],
+    "events": [
+      {
+        "time_s": 1.515802001953125,
+        "position_m": [
+          98.2685085314615,
+          -47.23165624450677,
+          26.82168773696643
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          46.873069763183594,
+          -35.14459991455078,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.39215686274509803,
+    "speed_mps": 7.31328009240795,
+    "position_min_m": [
+      87.21854003081918,
+      -47.60250208120043,
+      26.14349315401706
+    ],
+    "position_max_m": [
+      105.44316383789348,
+      -46.66050200238094,
+      27.262034002484587
+    ],
+    "traj_id": "occlusion_v3_10_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_10",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.31328009240795,
+      7.31328009240795
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      56.53465833762954,
+      12.279211746133953,
+      20.974919768051283
+    ],
+    "velocity_mps": [
+      -9.945742499452136,
+      10.199311097792892,
+      1.5485438818688895
+    ],
+    "events": [
+      {
+        "time_s": 1.212896728515625,
+        "position_m": [
+          56.9036779217004,
+          11.900783937518943,
+          20.917463723996832
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          20.19422149658203,
+          -9.284764289855957,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      },
+      {
+        "time_s": 1.7083557128906253,
+        "position_m": [
+          51.97597044406656,
+          16.954124255356078,
+          21.684703702967713
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          40.81980895996094,
+          9.347615242004395,
+          27.238204956054688
+        ],
+        "blocking_collision_box_indices": [
+          18
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.19607843137254902,
+    "speed_mps": 14.329749784593004,
+    "position_min_m": [
+      44.102480213314365,
+      -0.46992712610716225,
+      19.03923991571517
+    ],
+    "position_max_m": [
+      68.96683646194471,
+      25.028350618375068,
+      22.910599620387394
+    ],
+    "proposal_index": 22962,
+    "traj_id": "occlusion_v3_11_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_11",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      14.329749784593004,
+      14.329749784593004
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      55.09920051924633,
+      12.44321614206747,
+      20.655646112488643
+    ],
+    "velocity_mps": [
+      -7.73360892056405,
+      9.861947931065986,
+      1.3623157536984882
+    ],
+    "events": [
+      {
+        "time_s": 1.2302429199218752,
+        "position_m": [
+          55.25199404998281,
+          12.248372847067102,
+          20.62873073105113
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          19.286399841308594,
+          -9.278039932250977,
+          38.4211311340332
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      },
+      {
+        "time_s": 1.6882019042968754,
+        "position_m": [
+          51.71031836316786,
+          16.764740505537215,
+          21.252615470012955
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          40.871681213378906,
+          9.347615242004395,
+          26.772647857666016
+        ],
+        "blocking_collision_box_indices": [
+          18
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.17647058823529413,
+    "speed_mps": 12.606451845942205,
+    "position_min_m": [
+      45.432189368541266,
+      0.11578122823498838,
+      18.952751420365534
+    ],
+    "position_max_m": [
+      64.76621166995139,
+      24.770651055899954,
+      22.358540804611753
+    ],
+    "traj_id": "occlusion_v3_11_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_11",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      12.606451845942205,
+      12.606451845942205
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      55.60294650573502,
+      11.430191456715,
+      21.66380238900613
+    ],
+    "velocity_mps": [
+      -7.942282018350304,
+      9.847837334745558,
+      1.3752344557822773
+    ],
+    "events": [
+      {
+        "time_s": 1.212835693359375,
+        "position_m": [
+          55.89811591009131,
+          11.064203410259521,
+          21.612692753988682
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          20.36458969116211,
+          -9.281960487365723,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      },
+      {
+        "time_s": 1.7728698730468748,
+        "position_m": [
+          51.45016651509772,
+          16.579328913719685,
+          22.382871054310698
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          40.865718841552734,
+          9.347615242004395,
+          27.58340072631836
+        ],
+        "blocking_collision_box_indices": [
+          18
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.21568627450980393,
+    "speed_mps": 12.725997549857922,
+    "position_min_m": [
+      45.67509398279714,
+      -0.879605211716946,
+      19.944759319278283
+    ],
+    "position_max_m": [
+      65.5307990286729,
+      23.739988125146947,
+      23.382845458733975
+    ],
+    "traj_id": "occlusion_v3_11_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_11",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      12.725997549857922,
+      12.725997549857922
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -22.261342924908746,
+      -7.888921562898162,
+      20.62576089423474
+    ],
+    "velocity_mps": [
+      -9.589397476924754,
+      -0.893432739041153,
+      1.4980942586394983
+    ],
+    "events": [
+      {
+        "time_s": 0.9273010253906252,
+        "position_m": [
+          -19.1668541919834,
+          -7.600611734127137,
+          20.142327413103583
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -16.328027725219727,
+          -10.31760025024414,
+          25.3808650970459
+        ],
+        "blocking_collision_box_indices": [
+          41
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6274509803921569,
+    "speed_mps": 9.746745735752526,
+    "position_min_m": [
+      -34.248089771064684,
+      -9.005712486699602,
+      18.75314307093537
+    ],
+    "position_max_m": [
+      -10.274596078752804,
+      -6.772130639096721,
+      22.498378717534113
+    ],
+    "proposal_index": 42724,
+    "traj_id": "occlusion_v3_12_00",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_12",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      9.746745735752526,
+      9.746745735752526
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -23.635114814602623,
+      -6.90543334951942,
+      19.975177859836347
+    ],
+    "velocity_mps": [
+      7.802056896070915,
+      -0.609880166662626,
+      -1.2173149569734525
+    ],
+    "events": [
+      {
+        "time_s": 1.771209716796875,
+        "position_m": [
+          -19.568606949368395,
+          -7.223308818465679,
+          19.340701475859614
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -16.37214469909668,
+          -10.376035690307617,
+          25.380863189697266
+        ],
+        "blocking_collision_box_indices": [
+          41
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.7058823529411765,
+    "speed_mps": 7.919968518352041,
+    "position_min_m": [
+      -33.38768593469126,
+      -7.667783557847702,
+      18.45353416361953
+    ],
+    "position_max_m": [
+      -13.88254369451398,
+      -6.143083141191138,
+      21.496821556053163
+    ],
+    "traj_id": "occlusion_v3_12_01",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_12",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.919968518352041,
+      7.919968518352041
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -23.857305375130004,
+      -7.724189256495476,
+      20.034765662144935
+    ],
+    "velocity_mps": [
+      10.177034557979237,
+      0.3842049241216318,
+      -1.5841690894377707
+    ],
+    "events": [
+      {
+        "time_s": 1.6726135253906254,
+        "position_m": [
+          -19.556352922560173,
+          -7.561819059039996,
+          19.36527437844278
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -16.320764541625977,
+          -10.621387481689453,
+          25.380863189697266
+        ],
+        "blocking_collision_box_indices": [
+          41
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6666666666666666,
+    "speed_mps": 10.306756886720141,
+    "position_min_m": [
+      -36.57859857260405,
+      -8.204445411647516,
+      18.05455430034772
+    ],
+    "position_max_m": [
+      -11.136012177655957,
+      -7.243933101343437,
+      22.014977023942148
+    ],
+    "traj_id": "occlusion_v3_12_02",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_12",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      10.306756886720141,
+      10.306756886720141
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -88.68413702260425,
+      -0.4632914031352158,
+      55.37081796130005
+    ],
+    "velocity_mps": [
+      6.385387387824715,
+      1.6107549657080353,
+      0.25090084303495486
+    ],
+    "events": [
+      {
+        "time_s": 1.659246826171875,
+        "position_m": [
+          -86.07093750025906,
+          0.19590495432138488,
+          55.47349833499595
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.041808605194092,
+          54.01025390625
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.3333333333333333,
+    "speed_mps": 6.5901938427621145,
+    "position_min_m": [
+      -96.66587125738513,
+      -2.47673511027026,
+      55.05719190750636
+    ],
+    "position_max_m": [
+      -80.70240278782336,
+      1.5501523039998286,
+      55.68444401509374
+    ],
+    "proposal_index": 21014,
+    "traj_id": "occlusion_v3_13_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_13",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.5901938427621145,
+      6.5901938427621145
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -89.53906885899539,
+      0.7585349286880527,
+      54.128847198204866
+    ],
+    "velocity_mps": [
+      -6.0996292544177715,
+      -0.47634708698364286,
+      -0.2331002013118301
+    ],
+    "events": [
+      {
+        "time_s": 1.058221435546875,
+        "position_m": [
+          -88.36929071688687,
+          0.8498880892112035,
+          54.173550820186186
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.018413543701172,
+          52.97399139404297
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.43137254901960786,
+    "speed_mps": 6.122639895704999,
+    "position_min_m": [
+      -97.1636054270176,
+      0.16310106995849916,
+      53.83747194656508
+    ],
+    "position_max_m": [
+      -81.91453229097318,
+      1.3539687874176063,
+      54.42022244984465
+    ],
+    "traj_id": "occlusion_v3_13_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_13",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.122639895704999,
+      6.122639895704999
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -89.33912651038553,
+      0.9378741132621919,
+      54.18746487006004
+    ],
+    "velocity_mps": [
+      7.249260416459849,
+      1.2874795615429768,
+      0.2805150251482322
+    ],
+    "events": [
+      {
+        "time_s": 1.3061096191406247,
+        "position_m": [
+          -88.93237326936676,
+          1.010114101111707,
+          54.20320446128433
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.038299560546875,
+          52.97344207763672
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.47058823529411764,
+    "speed_mps": 7.368043762517731,
+    "position_min_m": [
+      -98.40070203096033,
+      -0.6714753386665291,
+      53.83682108862475
+    ],
+    "position_max_m": [
+      -80.27755098981072,
+      2.547223565190913,
+      54.53810865149533
+    ],
+    "traj_id": "occlusion_v3_13_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_13",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.368043762517731,
+      7.368043762517731
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      17.872236427352505,
+      -3.854719959897352,
+      30.440598609980213
+    ],
+    "velocity_mps": [
+      6.50113568379912,
+      -2.603656511959273,
+      1.944067744171127
+    ],
+    "events": [
+      {
+        "time_s": 1.6419738769531254,
+        "position_m": [
+          20.420511785929552,
+          -4.87528529714428,
+          31.202622380722488
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          14.625627517700195,
+          -9.305639266967773,
+          35.75810241699219
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6470588235294118,
+    "speed_mps": 7.267956508218854,
+    "position_min_m": [
+      9.745816822603604,
+      -7.109290599846443,
+      28.010513929766304
+    ],
+    "position_max_m": [
+      25.998656032101405,
+      -0.6001493199482608,
+      32.87068329019412
+    ],
+    "proposal_index": 5696,
+    "traj_id": "occlusion_v3_14_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_14",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.267956508218854,
+      7.267956508218854
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      17.708676969077345,
+      -2.8914271395478215,
+      32.10138212747385
+    ],
+    "velocity_mps": [
+      6.817597210266149,
+      -3.3350003771766716,
+      2.106869434110195
+    ],
+    "events": [
+      {
+        "time_s": 1.726190185546875,
+        "position_m": [
+          20.95514984961784,
+          -4.479521587954479,
+          33.10465267422582
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          14.625627517700195,
+          -9.320552825927734,
+          37.480098724365234
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.6862745098039216,
+    "speed_mps": 7.87659558753559,
+    "position_min_m": [
+      9.186680456244659,
+      -7.060177611018661,
+      29.467795334836104
+    ],
+    "position_max_m": [
+      26.23067348191003,
+      1.277323331923018,
+      34.73496892011159
+    ],
+    "traj_id": "occlusion_v3_14_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_14",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.87659558753559,
+      7.87659558753559
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      19.69620887911704,
+      -4.1671884770922984,
+      30.511587859762415
+    ],
+    "velocity_mps": [
+      6.23035311521614,
+      -1.5216454889044762,
+      1.7803812294231536
+    ],
+    "events": [
+      {
+        "time_s": 1.4528625488281253,
+        "position_m": [
+          20.960114192169037,
+          -4.47587335938428,
+          30.872760533848947
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          14.625627517700195,
+          -9.27884292602539,
+          35.80951690673828
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5882352941176471,
+    "speed_mps": 6.656009484388457,
+    "position_min_m": [
+      11.908267485096866,
+      -6.069245338222894,
+      28.286111322983473
+    ],
+    "position_max_m": [
+      27.484150273137217,
+      -2.265131615961703,
+      32.737064396541356
+    ],
+    "traj_id": "occlusion_v3_14_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_14",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      6.656009484388457,
+      6.656009484388457
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      27.892299715693355,
+      -48.060268259881454,
+      32.51582204328765
+    ],
+    "velocity_mps": [
+      -13.574997140535896,
+      0.5258819538900958,
+      1.6806283457503408
+    ],
+    "events": [
+      {
+        "time_s": 1.637384033203125,
+        "position_m": [
+          22.63356257267167,
+          -47.85654998759477,
+          33.166870630179915
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          14.625616073608398,
+          -40.2606315612793,
+          38.30876922607422
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.35294117647058826,
+    "speed_mps": 13.688740293815371,
+    "position_min_m": [
+      10.923553290023484,
+      -48.717620702244076,
+      30.415036611099723
+    ],
+    "position_max_m": [
+      44.861046141363225,
+      -47.40291581751883,
+      34.616607475475575
+    ],
+    "proposal_index": 46927,
+    "traj_id": "occlusion_v3_15_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_15",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      13.688740293815371,
+      13.688740293815371
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      28.18401482210556,
+      -47.75185887899885,
+      31.22186135510197
+    ],
+    "velocity_mps": [
+      -14.716935028656096,
+      4.202151748357989,
+      1.8934011452654707
+    ],
+    "events": [
+      {
+        "time_s": 1.8073547363281248,
+        "position_m": [
+          19.981461379650796,
+          -45.409769699282016,
+          32.27715745118478
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          14.625616073608398,
+          -40.288734436035156,
+          36.37299728393555
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.27450980392156865,
+    "speed_mps": 15.421777584014286,
+    "position_min_m": [
+      9.78784603628544,
+      -53.00454856444634,
+      28.855109923520132
+    ],
+    "position_max_m": [
+      46.580183607925676,
+      -42.49916919355137,
+      33.58861278668381
+    ],
+    "traj_id": "occlusion_v3_15_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_15",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      15.421777584014286,
+      15.421777584014286
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      26.28035898384898,
+      -48.411092511605695,
+      32.721230802883746
+    ],
+    "velocity_mps": [
+      -12.84770075815186,
+      1.2441630912211163,
+      1.5968297185109395
+    ],
+    "events": [
+      {
+        "time_s": 1.514862060546875,
+        "position_m": [
+          22.87749048775523,
+          -48.0815609116085,
+          33.14417041247104
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          14.625616073608398,
+          -40.28618240356445,
+          38.39094543457031
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.39215686274509803,
+    "speed_mps": 13.006199357171658,
+    "position_min_m": [
+      10.220733036159157,
+      -49.96629637563209,
+      30.72519365474507
+    ],
+    "position_max_m": [
+      42.33998493153881,
+      -46.8558886475793,
+      34.71726795102242
+    ],
+    "traj_id": "occlusion_v3_15_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_15",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      13.006199357171658,
+      13.006199357171658
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -116.5531819022691,
+      -26.882820119952683,
+      53.97140890221583
+    ],
+    "velocity_mps": [
+      -0.7099225802517207,
+      12.77039220553561,
+      -1.8765860237567058
+    ],
+    "events": [
+      {
+        "time_s": 1.4461242675781252,
+        "position_m": [
+          -116.69241494835815,
+          -24.378236301956612,
+          53.6033648427592
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -23.612857818603516,
+          51.9019775390625
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5686274509803921,
+    "speed_mps": 12.927044606471926,
+    "position_min_m": [
+      -117.44058512758376,
+      -42.845810376872194,
+      51.62567637251995
+    ],
+    "position_max_m": [
+      -115.66577867695445,
+      -10.919829863033172,
+      56.31714143191171
+    ],
+    "proposal_index": 11070,
+    "traj_id": "occlusion_v3_16_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_16",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      12.927044606471926,
+      12.927044606471926
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -115.0350186740098,
+      -27.66853882399614,
+      54.70088620236825
+    ],
+    "velocity_mps": [
+      1.6231426870721672,
+      13.28694093584802,
+      -1.9639743512369265
+    ],
+    "events": [
+      {
+        "time_s": 1.499395751953125,
+        "position_m": [
+          -114.63021378304023,
+          -24.354832198143566,
+          54.21107934222487
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -23.60291290283203,
+          52.2685661315918
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5882352941176471,
+    "speed_mps": 13.52902756548401,
+    "position_min_m": [
+      -117.06394703285001,
+      -44.27721499380617,
+      52.245918263322096
+    ],
+    "position_max_m": [
+      -113.0060903151696,
+      -11.059862654186116,
+      57.15585414141441
+    ],
+    "traj_id": "occlusion_v3_16_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_16",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      13.52902756548401,
+      13.52902756548401
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -114.74641242689792,
+      -26.115756808486115,
+      55.78557955082322
+    ],
+    "velocity_mps": [
+      -2.6453048213368358,
+      -11.043041535420125,
+      1.666091406231222
+    ],
+    "events": [
+      {
+        "time_s": 1.090216064453125,
+        "position_m": [
+          -114.3237352118236,
+          -24.351256171549082,
+          55.51936490895477
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -23.63314437866211,
+          52.99474334716797
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5686274509803921,
+    "speed_mps": 11.477032043377744,
+    "position_min_m": [
+      -118.05304345356896,
+      -39.91955872776127,
+      53.7029652930342
+    ],
+    "position_max_m": [
+      -111.43978140022688,
+      -12.31195488921096,
+      57.86819380861225
+    ],
+    "traj_id": "occlusion_v3_16_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_16",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      11.477032043377744,
+      11.477032043377744
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -103.04584295315514,
+      7.866347416829328,
+      22.24787623389901
+    ],
+    "velocity_mps": [
+      -4.999839083326802,
+      5.509277792134039,
+      2.459359557602725
+    ],
+    "events": [
+      {
+        "time_s": 0.554962158203125,
+        "position_m": [
+          -99.57076558734802,
+          4.037190870325032,
+          20.538528274780294
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.043501853942871,
+          31.349321365356445
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      },
+      {
+        "time_s": 1.896881103515625,
+        "position_m": [
+          -106.28014437677814,
+          11.43019511457912,
+          23.83878945846276
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -94.95841217041016,
+          7.685203552246094,
+          26.823375701904297
+        ],
+        "blocking_collision_box_indices": [
+          37
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5098039215686274,
+    "speed_mps": 7.835750256589051,
+    "position_min_m": [
+      -109.29564180731364,
+      0.9797501766617787,
+      19.173676786895605
+    ],
+    "position_max_m": [
+      -96.79604409899665,
+      14.752944656996878,
+      25.322075680902415
+    ],
+    "proposal_index": 39979,
+    "traj_id": "occlusion_v3_17_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_17",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.835750256589051,
+      7.835750256589051
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -103.31094308856255,
+      6.09144812114026,
+      23.869276023324804
+    ],
+    "velocity_mps": [
+      -6.311750086588552,
+      5.759167686293603,
+      2.824496243599209
+    ],
+    "events": [
+      {
+        "time_s": 1.0002014160156252,
+        "position_m": [
+          -101.73427685446947,
+          4.65281618817555,
+          23.163720861204535
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.040175914764404,
+          33.37392044067383
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.5882352941176471,
+    "speed_mps": 8.999109990688249,
+    "position_min_m": [
+      -111.20063069679824,
+      -1.107511486726743,
+      20.33865571882579
+    ],
+    "position_max_m": [
+      -95.42125548032686,
+      13.290407729007264,
+      27.399896327823818
+    ],
+    "traj_id": "occlusion_v3_17_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_17",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      8.999109990688249,
+      8.999109990688249
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -104.24746850474492,
+      7.000013526339352,
+      22.053072823052503
+    ],
+    "velocity_mps": [
+      6.7752492698021,
+      -4.653075994285747,
+      -2.717003864295755
+    ],
+    "events": [
+      {
+        "time_s": 1.8488830566406254,
+        "position_m": [
+          -100.18988651254367,
+          4.213365152100387,
+          20.42590524389867
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -64.37007141113281,
+          -6.021738529205322,
+          31.38642120361328
+        ],
+        "blocking_collision_box_indices": [
+          26
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.7254901960784313,
+    "speed_mps": 8.6566291866494,
+    "position_min_m": [
+      -112.71653009199754,
+      1.1836685334821677,
+      18.65681799268281
+    ],
+    "position_max_m": [
+      -95.77840691749229,
+      12.816358519196536,
+      25.449327653422195
+    ],
+    "traj_id": "occlusion_v3_17_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_17",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      8.6566291866494,
+      8.6566291866494
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -103.43114632476303,
+      29.023591582742796,
+      27.558691940211027
+    ],
+    "velocity_mps": [
+      -2.2141670364016597,
+      8.82045033589677,
+      1.0579057199231148
+    ],
+    "events": [
+      {
+        "time_s": 1.533270263671875,
+        "position_m": [
+          -104.0583540049781,
+          31.522162875096953,
+          27.858365172433633
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -95.05000305175781,
+          26.421457290649414,
+          29.820545196533203
+        ],
+        "blocking_collision_box_indices": [
+          37
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.39215686274509803,
+    "speed_mps": 9.155437963601479,
+    "position_min_m": [
+      -106.19885512026511,
+      17.998028662871835,
+      26.236309790307132
+    ],
+    "position_max_m": [
+      -100.66343752926096,
+      40.04915450261376,
+      28.88107409011492
+    ],
+    "proposal_index": 28884,
+    "traj_id": "occlusion_v3_18_00",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_18",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      9.155437963601479,
+      9.155437963601479
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -102.40599401024241,
+      29.77316030306379,
+      28.100195900480024
+    ],
+    "velocity_mps": [
+      -3.662864048391785,
+      8.959430108018706,
+      1.125974467152405
+    ],
+    "events": [
+      {
+        "time_s": 1.314263916015625,
+        "position_m": [
+          -102.64138399782492,
+          30.348928367073366,
+          28.172555429072844
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -95.00721740722656,
+          26.04303741455078,
+          29.82054328918457
+        ],
+        "blocking_collision_box_indices": [
+          37
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.47058823529411764,
+    "speed_mps": 9.744525611755162,
+    "position_min_m": [
+      -106.98457407073214,
+      18.57387266804041,
+      26.692727816539517
+    ],
+    "position_max_m": [
+      -97.82741394975268,
+      40.97244793808717,
+      29.50766398442053
+    ],
+    "traj_id": "occlusion_v3_18_01",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_18",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      9.744525611755162,
+      9.744525611755162
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      -105.26574241066015,
+      29.98258957377678,
+      26.58884675510823
+    ],
+    "velocity_mps": [
+      -3.130671839731808,
+      6.802464721535233,
+      0.8711037171322404
+    ],
+    "events": [
+      {
+        "time_s": 1.8900207519531254,
+        "position_m": [
+          -107.26943735564377,
+          34.33630815998837,
+          27.14637121117637
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          -95.05329895019531,
+          27.417211532592773,
+          29.82054328918457
+        ],
+        "blocking_collision_box_indices": [
+          37
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.2549019607843137,
+    "speed_mps": 7.5387965977218645,
+    "position_min_m": [
+      -109.1790822103249,
+      21.47950867185774,
+      25.49996710869293
+    ],
+    "position_max_m": [
+      -101.3524026109954,
+      38.48567047569583,
+      27.67772640152353
+    ],
+    "traj_id": "occlusion_v3_18_02",
+    "scenario": "occlusion",
+    "split": "train",
+    "channel_group": "channel_18",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      7.5387965977218645,
+      7.5387965977218645
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      52.78018177688077,
+      -55.43862639210959,
+      26.627456693172014
+    ],
+    "velocity_mps": [
+      6.101729254812798,
+      -7.5256334366643785,
+      2.9080784763149072
+    ],
+    "events": [
+      {
+        "time_s": 1.478851318359375,
+        "position_m": [
+          54.17657056111664,
+          -57.16087752557963,
+          27.292974286369205
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          25.39509391784668,
+          -40.31740951538086,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.4117647058823529,
+    "speed_mps": 10.115492026910273,
+    "position_min_m": [
+      45.153020208364765,
+      -64.84566818794006,
+      22.99235859777838
+    ],
+    "position_max_m": [
+      60.40734334539677,
+      -46.03158459627912,
+      30.262554788565648
+    ],
+    "proposal_index": 39914,
+    "traj_id": "occlusion_v3_19_00",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_19",
+    "variant": 0,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      10.115492026910273,
+      10.115492026910273
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      53.91936329195963,
+      -57.12718413577599,
+      25.15302203944367
+    ],
+    "velocity_mps": [
+      -5.15858132047776,
+      8.099258506231862,
+      -2.882291531475733
+    ],
+    "events": [
+      {
+        "time_s": 0.9888977050781251,
+        "position_m": [
+          55.26628071327749,
+          -59.241919118918645,
+          25.90559497294587
+        ],
+        "direction": "los_to_nlos",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          24.230260848999023,
+          -40.319644927978516,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.39215686274509803,
+    "speed_mps": 10.025794435513227,
+    "position_min_m": [
+      47.47113664136243,
+      -67.25125726856582,
+      21.550157625099004
+    ],
+    "position_max_m": [
+      60.367589942556826,
+      -47.00311100298616,
+      28.755886453788335
+    ],
+    "traj_id": "occlusion_v3_19_01",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_19",
+    "variant": 1,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      10.025794435513227,
+      10.025794435513227
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  },
+  {
+    "center_m": [
+      51.70634213234818,
+      -56.44149916486045,
+      26.685921612898767
+    ],
+    "velocity_mps": [
+      5.360009538585895,
+      -8.700837289112394,
+      3.0674174915315615
+    ],
+    "events": [
+      {
+        "time_s": 1.372528076171875,
+        "position_m": [
+          52.36309378937401,
+          -57.5075960189799,
+          27.061766376952086
+        ],
+        "direction": "nlos_to_los",
+        "blocking_shape_id": "CPU scene material-merged mesh",
+        "blocking_surface_point_m": [
+          24.189619064331055,
+          -40.301116943359375,
+          38.42113494873047
+        ],
+        "blocking_collision_box_indices": [
+          31
+        ]
+      }
+    ],
+    "coarse_los_fraction": 0.45098039215686275,
+    "speed_mps": 10.669738602828762,
+    "position_min_m": [
+      45.006330209115816,
+      -67.31754577625094,
+      22.851649748484316
+    ],
+    "position_max_m": [
+      58.40635405558055,
+      -45.56545255346996,
+      30.520193477313217
+    ],
+    "traj_id": "occlusion_v3_19_02",
+    "scenario": "occlusion",
+    "split": "test",
+    "channel_group": "channel_19",
+    "variant": 2,
+    "duration_s": 2.5,
+    "trajectory_hz": 1000,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0,
+    "max_acceleration_mps2": 0.0,
+    "max_jerk_mps3": 0.0,
+    "speed_range_mps": [
+      10.669738602828762,
+      10.669738602828762
+    ],
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; straight constant-velocity kinematic flight"
+  }
+]

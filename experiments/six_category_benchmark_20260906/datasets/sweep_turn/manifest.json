@@ -1,0 +1,682 @@
+[
+  {
+    "traj_id": "sweep_turn_000",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 0,
+    "attempts": 3,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      0.10201905033171103,
+      7.2856133351113606,
+      44.600597741753894
+    ],
+    "position_max_m": [
+      37.942330433002276,
+      30.346388214510668,
+      54.406313255482665
+    ],
+    "speed_range_mps": [
+      5.8772280763313764,
+      10.747737575694615
+    ],
+    "max_acceleration_mps2": 7.515620052232444,
+    "max_jerk_mps3": 5.768414968359582,
+    "yaw_range_deg": 219.20184993204236,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 9.394525065290556e-05,
+    "minimum_bs_distance_m": 35.14528114141227,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_001",
+    "scenario": "sweep_turn",
+    "split": "test",
+    "trajectory_seed": 20260906,
+    "number": 1,
+    "attempts": 3,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -60.69933565392897,
+      -54.13621062269351,
+      37.082440051339105
+    ],
+    "position_max_m": [
+      -21.06673905010937,
+      -23.43640039145491,
+      42.58910171144809
+    ],
+    "speed_range_mps": [
+      6.215499343314044,
+      14.252989932573946
+    ],
+    "max_acceleration_mps2": 7.99440499138371,
+    "max_jerk_mps3": 7.563723364127816,
+    "yaw_range_deg": 213.05003040613752,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 9.993006239229638e-05,
+    "minimum_bs_distance_m": 21.043992334773904,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_002",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 2,
+    "attempts": 2,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -91.99075045271634,
+      -31.173791908698906,
+      58.77386500587995
+    ],
+    "position_max_m": [
+      -64.90131014027116,
+      12.202697478719543,
+      66.40958434317203
+    ],
+    "speed_range_mps": [
+      6.9622777912230625,
+      10.04033409925276
+    ],
+    "max_acceleration_mps2": 6.746585694910592,
+    "max_jerk_mps3": 4.602419896594903,
+    "yaw_range_deg": 204.019455614192,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 8.43323211863824e-05,
+    "minimum_bs_distance_m": 69.21336007196712,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_003",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 3,
+    "attempts": 2,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      14.61713426713735,
+      17.50997165401143,
+      47.18200987406963
+    ],
+    "position_max_m": [
+      50.53163189513843,
+      38.542199878278254,
+      55.433944607022106
+    ],
+    "speed_range_mps": [
+      5.109045707064278,
+      10.448788645669406
+    ],
+    "max_acceleration_mps2": 4.9054213799226485,
+    "max_jerk_mps3": 4.270518463369784,
+    "yaw_range_deg": 182.02275437002677,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 6.131776724903312e-05,
+    "minimum_bs_distance_m": 44.99802815871554,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_004",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 4,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -52.9742761969189,
+      -44.4260737720965,
+      35.26554989688139
+    ],
+    "position_max_m": [
+      -34.41280668327191,
+      9.225267628584565,
+      45.200901669030166
+    ],
+    "speed_range_mps": [
+      7.029490773446747,
+      10.327439950672964
+    ],
+    "max_acceleration_mps2": 5.62941807420663,
+    "max_jerk_mps3": 3.6584829752294232,
+    "yaw_range_deg": 154.08094432006047,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 7.036772592758288e-05,
+    "minimum_bs_distance_m": 31.146202907239722,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_005",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 5,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -108.22810375170873,
+      -66.52961878748802,
+      52.69185375797058
+    ],
+    "position_max_m": [
+      -56.82813003942753,
+      -42.11578400010225,
+      58.70920711331999
+    ],
+    "speed_range_mps": [
+      9.171200291494696,
+      11.404089820078099
+    ],
+    "max_acceleration_mps2": 8.177692581739297,
+    "max_jerk_mps3": 5.025766806610371,
+    "yaw_range_deg": 220.5937650689308,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00010222115727174121,
+    "minimum_bs_distance_m": 56.320520420542984,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_006",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 6,
+    "attempts": 2,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -73.21080041196726,
+      -6.753051826566441,
+      29.082958920815127
+    ],
+    "position_max_m": [
+      -32.96483929985558,
+      24.821296910831983,
+      38.600844301060526
+    ],
+    "speed_range_mps": [
+      6.221181878967253,
+      11.352279199678891
+    ],
+    "max_acceleration_mps2": 6.102671215444859,
+    "max_jerk_mps3": 4.938858195884716,
+    "yaw_range_deg": 190.4958856418032,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 7.628339019306074e-05,
+    "minimum_bs_distance_m": 42.59436123270188,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_007",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 7,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -65.3756426486572,
+      -54.14652951303197,
+      64.47826658186159
+    ],
+    "position_max_m": [
+      -32.81345640300745,
+      0.7980034930271067,
+      69.14043039123482
+    ],
+    "speed_range_mps": [
+      8.409111033951328,
+      11.182624140460439
+    ],
+    "max_acceleration_mps2": 11.608252685534822,
+    "max_jerk_mps3": 8.202885376267439,
+    "yaw_range_deg": 238.83408115076315,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00014510315856918529,
+    "minimum_bs_distance_m": 43.94344753296324,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_008",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 8,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      49.96119552076304,
+      -41.7269435201295,
+      26.747996922600084
+    ],
+    "position_max_m": [
+      81.19634271604923,
+      8.473770916537223,
+      36.36615766550342
+    ],
+    "speed_range_mps": [
+      6.372664881249972,
+      13.713852862517806
+    ],
+    "max_acceleration_mps2": 7.2641659821786995,
+    "max_jerk_mps3": 6.070647157403533,
+    "yaw_range_deg": 177.08864725951798,
+    "coarse_los_fraction": 0.9565217391304348,
+    "coarse_los_switch_count": 2,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 9.080207477723375e-05,
+    "minimum_bs_distance_m": 64.66564581553776,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_009",
+    "scenario": "sweep_turn",
+    "split": "test",
+    "trajectory_seed": 20260906,
+    "number": 9,
+    "attempts": 2,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -8.56851257000052,
+      -83.20843286280784,
+      48.00422669124863
+    ],
+    "position_max_m": [
+      34.1144988479495,
+      -41.214286460797645,
+      54.03219571976811
+    ],
+    "speed_range_mps": [
+      10.06000838081694,
+      18.50831846317774
+    ],
+    "max_acceleration_mps2": 13.81800358783874,
+    "max_jerk_mps3": 12.369985995481844,
+    "yaw_range_deg": 288.23979418349717,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00017272504484798425,
+    "minimum_bs_distance_m": 28.420330067029187,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_010",
+    "scenario": "sweep_turn",
+    "split": "val",
+    "trajectory_seed": 20260906,
+    "number": 10,
+    "attempts": 4,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      44.16581716270048,
+      -20.880321670387058,
+      58.272564144964015
+    ],
+    "position_max_m": [
+      80.33639132900389,
+      23.03987010797842,
+      67.23135706581378
+    ],
+    "speed_range_mps": [
+      6.164325808088494,
+      16.57163750755798
+    ],
+    "max_acceleration_mps2": 8.281650568113244,
+    "max_jerk_mps3": 8.073100996957377,
+    "yaw_range_deg": 191.41751066192947,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00010352063210141556,
+    "minimum_bs_distance_m": 51.39190114360735,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_011",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 11,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      21.496723068597237,
+      -55.093208159477015,
+      52.78180316249025
+    ],
+    "position_max_m": [
+      64.43662804668442,
+      -12.531723071064892,
+      59.81234134736836
+    ],
+    "speed_range_mps": [
+      6.987584724522758,
+      18.86438208261691
+    ],
+    "max_acceleration_mps2": 11.457236980667542,
+    "max_jerk_mps3": 11.25173465266307,
+    "yaw_range_deg": 233.16717026087977,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.0001432154622583443,
+    "minimum_bs_distance_m": 31.65115442805205,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_012",
+    "scenario": "sweep_turn",
+    "split": "val",
+    "trajectory_seed": 20260906,
+    "number": 12,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      22.22182782475065,
+      -5.008212942434504,
+      37.99803273417168
+    ],
+    "position_max_m": [
+      59.5267640647043,
+      39.52314339876057,
+      45.67719017849945
+    ],
+    "speed_range_mps": [
+      11.129253614100579,
+      18.38084736224193
+    ],
+    "max_acceleration_mps2": 14.789862799593283,
+    "max_jerk_mps3": 13.621906377292225,
+    "yaw_range_deg": 311.4587110796227,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00018487328499491604,
+    "minimum_bs_distance_m": 37.24386452328817,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_013",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 13,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      6.961018624392791,
+      -6.250917048673582,
+      58.04190392213001
+    ],
+    "position_max_m": [
+      48.29743387215365,
+      27.086270850666025,
+      61.752183418237585
+    ],
+    "speed_range_mps": [
+      8.712527854131011,
+      17.63271530698014
+    ],
+    "max_acceleration_mps2": 13.527458780437142,
+    "max_jerk_mps3": 12.532224146420857,
+    "yaw_range_deg": 296.97143979497764,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00016909323475546427,
+    "minimum_bs_distance_m": 32.64014875656789,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_014",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 14,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -51.07673053021835,
+      -18.663806291823985,
+      51.70748217029978
+    ],
+    "position_max_m": [
+      -18.560454257245595,
+      19.755801761123294,
+      62.40668572976213
+    ],
+    "speed_range_mps": [
+      5.737220699088726,
+      13.81368545980534
+    ],
+    "max_acceleration_mps2": 7.7368158861188165,
+    "max_jerk_mps3": 7.379834892250957,
+    "yaw_range_deg": 206.07268394248828,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 9.671019857648521e-05,
+    "minimum_bs_distance_m": 24.550035955519107,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_015",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 15,
+    "attempts": 2,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      35.32724510122985,
+      -19.058032277737,
+      46.351057329997666
+    ],
+    "position_max_m": [
+      70.89930741184577,
+      28.056892168257143,
+      52.904557607667755
+    ],
+    "speed_range_mps": [
+      9.86046013406139,
+      13.985354294960189
+    ],
+    "max_acceleration_mps2": 12.247933689864913,
+    "max_jerk_mps3": 8.181049127246933,
+    "yaw_range_deg": 277.6914935556664,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00015309917112331142,
+    "minimum_bs_distance_m": 41.56129461197143,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_016",
+    "scenario": "sweep_turn",
+    "split": "test",
+    "trajectory_seed": 20260906,
+    "number": 16,
+    "attempts": 3,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -44.94782355074093,
+      -51.36394532549949,
+      34.37380507417567
+    ],
+    "position_max_m": [
+      -26.07448101830924,
+      -13.392725327142573,
+      44.4370055904815
+    ],
+    "speed_range_mps": [
+      5.3570039900730535,
+      9.727201925025788
+    ],
+    "max_acceleration_mps2": 4.047347030467161,
+    "max_jerk_mps3": 2.8655971658697372,
+    "yaw_range_deg": 165.90875422139197,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 5.059183788083951e-05,
+    "minimum_bs_distance_m": 26.766122977116602,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_017",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 17,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      22.697612111169178,
+      -63.158205656350084,
+      45.214359007009904
+    ],
+    "position_max_m": [
+      58.930556240896784,
+      -14.118678085918395,
+      50.4271460339263
+    ],
+    "speed_range_mps": [
+      8.878789221736115,
+      13.97621465964632
+    ],
+    "max_acceleration_mps2": 8.713181073794926,
+    "max_jerk_mps3": 6.5279347464566975,
+    "yaw_range_deg": 221.6622048785685,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00010891476342243659,
+    "minimum_bs_distance_m": 29.63629133188373,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_018",
+    "scenario": "sweep_turn",
+    "split": "val",
+    "trajectory_seed": 20260906,
+    "number": 18,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -41.62376798750619,
+      -44.954489868593754,
+      41.91974727485285
+    ],
+    "position_max_m": [
+      8.413734135851644,
+      6.352343797399363,
+      44.640324601155825
+    ],
+    "speed_range_mps": [
+      9.567351842311934,
+      19.948439789919778
+    ],
+    "max_acceleration_mps2": 13.898840608511273,
+    "max_jerk_mps3": 12.595259287510105,
+    "yaw_range_deg": 242.82786017074008,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 0.00017373550760639092,
+    "minimum_bs_distance_m": 14.018151068525384,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  },
+  {
+    "traj_id": "sweep_turn_019",
+    "scenario": "sweep_turn",
+    "split": "train",
+    "trajectory_seed": 20260906,
+    "number": 19,
+    "attempts": 1,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "position_min_m": [
+      -8.03943818807696,
+      -48.964554490211455,
+      40.398851778471126
+    ],
+    "position_max_m": [
+      26.018302798242917,
+      -28.70737110042405,
+      49.90273516600622
+    ],
+    "speed_range_mps": [
+      3.8133610059619714,
+      9.981207528240462
+    ],
+    "max_acceleration_mps2": 4.797379745232263,
+    "max_jerk_mps3": 4.29401192666293,
+    "yaw_range_deg": 164.0457772013041,
+    "coarse_los_fraction": 1.0,
+    "coarse_los_switch_count": 0,
+    "collision_clearance_m": 2.0,
+    "collision_curve_deviation_bound_m": 5.996724681540329e-05,
+    "minimum_bs_distance_m": 11.377030588459727,
+    "coordinate_frame": "SimART scene metres Z-up",
+    "attitude_model": "tangent yaw, zero roll/pitch; kinematic trajectory not UAV flight-controller dynamics"
+  }
+]

@@ -1,0 +1,1217 @@
+{
+  "signature": "5db62b6f87dd879bbd85facaa4efdd35bd7358e8dbb646595d8a47cf88eef008",
+  "provenance": {
+    "data": {
+      "small_file_sha256": {
+        "dataset_config.json": "bf5981ef8f912630e051826b6e6c70939d9c09c18671100a320d19ed389670f7",
+        "manifest.json": "75f946d69a52c412415637017836c5dc990025a8bea9860f610d4811016462ab",
+        "window_coverage.json": "4cffffb570d37bcb95ff2b2b3705274f754e968e08c8075931063d5675807436",
+        "compression/basis.npy": "ba4b50460b081376359cab4d742cb8f80d4ccf73bbf0aad12f28ca3393077024",
+        "physical_config.json": "086f04966b39e4de12e2e36cf61395c054d613658cbb4bd6ba9081c3d97437e4",
+        "routes/occlusion_v3_00_00/complete.json": "434dd4a081b41728dfe08b761ee0f7127bd2e9dbd4056e4254655b53bc31dd45",
+        "routes/occlusion_v3_00_00/compression.json": "9a42bac7c7bb768f3b452a63bf44d5fff2edd3e030c834cd995ba455e042319e",
+        "routes/occlusion_v3_00_00/paths.npz": "b3100fbb4738059800c243045da936d52fce4fa9fc27d7701e0ccc50553284da",
+        "routes/occlusion_v3_00_00/energy.npy": "2fd1bf3baaecc5f34e616ebfea515939bbd50648eb1b5dd3771af2c4e0b92cda",
+        "routes/occlusion_v3_00_00/residual_energy.npy": "00d4a1976b75c9e7d845586b72b598f56ff5e181ef6ec519b8622266ac295d51",
+        "routes/occlusion_v3_00_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_00_01/complete.json": "cf410b1d48af7fbe88c5a6b74e45610ed87c357499cb043eb23298922099032d",
+        "routes/occlusion_v3_00_01/compression.json": "6c63f5dcc89dd9d84184073a0b0f01dd5c7fcc29bb245dc122d1441b4bf65b2a",
+        "routes/occlusion_v3_00_01/paths.npz": "84ee09c10af675e9f37a2129b43f0a37e36098e5d95f19955728d3c302c14dfe",
+        "routes/occlusion_v3_00_01/energy.npy": "660c28f30ed23d5e6aacf450b1c4dd7f1e457eabdcc953d16936070b01ee6165",
+        "routes/occlusion_v3_00_01/residual_energy.npy": "26c97a17f152b6f100c61b897ebc1f6f44206204f7236ab0310a83384c7d21e7",
+        "routes/occlusion_v3_00_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_00_02/complete.json": "5f6c905c2f57f8057da86a5239c78d6dcacdae20c8c7550241fe35cb7b868c69",
+        "routes/occlusion_v3_00_02/compression.json": "b4cb62544ba023fa124542f9a7878590134edeeac8fb335cef7ae91a5101162c",
+        "routes/occlusion_v3_00_02/paths.npz": "7e011fbe5150c2790b4ecedb42dfb8af9aa01d84b784a366052f326d45cbe9a1",
+        "routes/occlusion_v3_00_02/energy.npy": "5e48a4cad56a3256e2f4afa1c445172ea1a38081aa4d03b850d58f0aff9437ba",
+        "routes/occlusion_v3_00_02/residual_energy.npy": "6118059849813e92763ca6933cef84a14c0f5970a9a914c8d26a4298223f8e08",
+        "routes/occlusion_v3_00_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_01_00/complete.json": "be1225482fb95cab5558b4b3d7556dbccddfc2aa866517c460b00d5d5e49f7a0",
+        "routes/occlusion_v3_01_00/compression.json": "11c627b4905f42f501f49eee1d7db05d514ab990863dc7e1e15a10646d0347ce",
+        "routes/occlusion_v3_01_00/paths.npz": "6ef2f4bde9a1fd9518213aa07dadb69c588a660244806ffd5ba294fef79fede0",
+        "routes/occlusion_v3_01_00/energy.npy": "a46010717ec5c325c567e3c66f0f77278811c98129148b37940b268eaa50c4e0",
+        "routes/occlusion_v3_01_00/residual_energy.npy": "0af0706b46decc33011d8cc22fcc4f3f30c86163cac28b644a24c3a13153a0f9",
+        "routes/occlusion_v3_01_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_01_00/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_01_01/complete.json": "9144d3428d716f65707020c58e4e4b655a41d7aa60134ada540ce77f39d6b241",
+        "routes/occlusion_v3_01_01/compression.json": "7901551dd668d781428a89dd2d30ea74063ccbcd080df9c4d488353ef16f9f68",
+        "routes/occlusion_v3_01_01/paths.npz": "c7abb924b89ca8c3db448fd61fec051a43619de593f65aae7376cff2d227f62a",
+        "routes/occlusion_v3_01_01/energy.npy": "fe071cc06803b57feaf8af10e28174aeb084457f364ead35a3f27a8b8b7dede0",
+        "routes/occlusion_v3_01_01/residual_energy.npy": "68383b0c6076b140204de963d506e002287c8491cdf1f02e5ca53e28f0022b9a",
+        "routes/occlusion_v3_01_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_01_01/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_01_02/complete.json": "19711aa6af503849ff95582bb50260c0225094265819740de85e2ec2d8b34371",
+        "routes/occlusion_v3_01_02/compression.json": "51fd11920ecbd2614a4efadbfd8101747dd024ef90e73127c4e5641d74442d8b",
+        "routes/occlusion_v3_01_02/paths.npz": "a2cc32b466348fd5f9e07ee038249d06f05636d19f6696dc55595c7b80f7345b",
+        "routes/occlusion_v3_01_02/energy.npy": "32090a4fc710b92199b6f1532f3eec2c9559b1bddb3fd2d2ddbfea9d931b7a8a",
+        "routes/occlusion_v3_01_02/residual_energy.npy": "367ef6e69bd0d7b7e3ada01bd944349adab4247dce464f18d829c34d96f14576",
+        "routes/occlusion_v3_01_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_01_02/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_02_00/complete.json": "3d3f947e63bc1875c100f2d49e513de7c247d3fc89896c8ae28fb951c9bbecf2",
+        "routes/occlusion_v3_02_00/compression.json": "5d4e00e4754a83f6b5293a045584d24536c639a2491cc7b859f64897b86cee56",
+        "routes/occlusion_v3_02_00/paths.npz": "5ca2440dba404adda46124fe67cc1289029f6642e5d8d8d5c2772e0a9956daeb",
+        "routes/occlusion_v3_02_00/energy.npy": "afd46583e3152efaefd515ed89ba5aff3506c4449122322e0e254da9f5f8adf8",
+        "routes/occlusion_v3_02_00/residual_energy.npy": "2861bc636b61dac07e458f955cd6da5fe0babf9bd58a61b3f060652916be708b",
+        "routes/occlusion_v3_02_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_02_01/complete.json": "09714d31b0a5d15109b1764e64113450eec63da0f65a403baba11798d295ce1d",
+        "routes/occlusion_v3_02_01/compression.json": "9e8cb2427836ba9d73992b4f1d1edb44f1774801f679bc42090801431e2e0399",
+        "routes/occlusion_v3_02_01/paths.npz": "9ebe6275d50474d5423d76b7dbe861f049e98fc866636672f91711a228439175",
+        "routes/occlusion_v3_02_01/energy.npy": "20d6b5bcd4916debbbf4b15211a3166cfe7618753f69805ba286a482c58eda5b",
+        "routes/occlusion_v3_02_01/residual_energy.npy": "1dfb89eb781e1ebf263000d194771e8c9fa0160dac1290a4fb49bd6d1d8e646f",
+        "routes/occlusion_v3_02_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_02_02/complete.json": "57907dbfcdf72d68360868fcbff1f717e5685995c681f55ab61af89519e9de43",
+        "routes/occlusion_v3_02_02/compression.json": "5d5e6b68c29fed30e3f1bf5ef1bacdcce98fb542a3e81e9864c0324f0ed5b1c8",
+        "routes/occlusion_v3_02_02/paths.npz": "b8915a784348ba6bb6a059abb097f6d52db1d1a4656321eb914a0bac8975a93d",
+        "routes/occlusion_v3_02_02/energy.npy": "a1b3bdbf2e62f2da06c68b6836942035cfccc2999dd7b140dc6168b8d555bff0",
+        "routes/occlusion_v3_02_02/residual_energy.npy": "02c3fb4b5a6705b9ded2f425c9db59657db7e80ebc1f83850229b86fb98ea5c3",
+        "routes/occlusion_v3_02_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_03_00/complete.json": "01021f605b478b49e6cc5c5168db428a4e70f9bf1496d179b0157689f3875ba3",
+        "routes/occlusion_v3_03_00/compression.json": "f71b236cf69c22f1a299dc6ae96d7a7593818db852ac1b3315a87d4c4747061e",
+        "routes/occlusion_v3_03_00/paths.npz": "e23c6a75b50d68215b3751d5674bbd0656c9aeea7039f527b16c740cadfb04a4",
+        "routes/occlusion_v3_03_00/energy.npy": "de66c5b248637bc4bfa78fcf02f6aae1be224855eef8ff6b6af7be16e70cec87",
+        "routes/occlusion_v3_03_00/residual_energy.npy": "2fca644dbefa5341ddd6c8970c9dc53757bc2e0045fafd301dd4c3aaf4203e26",
+        "routes/occlusion_v3_03_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_03_00/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_03_01/complete.json": "ded56752a802730419ecb5ce5c56fbe10d1ba6cb80cdb4ac38173da8c199b45d",
+        "routes/occlusion_v3_03_01/compression.json": "83e83c34885114bc1b00cb42a86490eb39b136c21346751fc5edcbbf6f5b8707",
+        "routes/occlusion_v3_03_01/paths.npz": "d39d83708ce97c69b4c65cb91ce1667e5681fea5b8ae16bd218baaf4f7a7569d",
+        "routes/occlusion_v3_03_01/energy.npy": "2586ca904ae075c8125d343564ee840059ad85957b772c3a08e01e63f1a5ead1",
+        "routes/occlusion_v3_03_01/residual_energy.npy": "e2466f11c0f58ed3d3cace9c2f44dd272e201a4b8a584fde4329c1de1285430c",
+        "routes/occlusion_v3_03_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_03_01/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_03_02/complete.json": "4e9dc3e158ebea4ad473b2494da15f7a243b68ea7f92960b7807b3e61329d42e",
+        "routes/occlusion_v3_03_02/compression.json": "5eb4ec7cd557840d2272f89fcf5506bcfabf1aa552f78f389ca932f4478f5dc8",
+        "routes/occlusion_v3_03_02/paths.npz": "439647bca4b2b1b53578d7437acb4729c6830d36da7dd7c17d91b0756ce48462",
+        "routes/occlusion_v3_03_02/energy.npy": "bf0f7bacf57cfe046581afad9422e73ec99f9ffc6b8435aed3a75a1367f9e9aa",
+        "routes/occlusion_v3_03_02/residual_energy.npy": "17fddd072b8b40addfc8cb6f09ab2fe2f7f7627b33641861cdbc3026c072a49a",
+        "routes/occlusion_v3_03_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_03_02/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_04_00/complete.json": "dabcd4288b44b719aee67a9645c54179b3bfa7c5f9ba816a6baf7092f65ce6e3",
+        "routes/occlusion_v3_04_00/compression.json": "62a2659e7c07f0afbd7a8256609b6addad08103bd5f244ffc381b8329527a746",
+        "routes/occlusion_v3_04_00/paths.npz": "5a6171545bf65b6fa63755bcf3faa3198a4362b01d07cc0c74436791ab0ffe75",
+        "routes/occlusion_v3_04_00/energy.npy": "77fa702a27253c54335343c843910408c1567512691cf33273183d101fba1b14",
+        "routes/occlusion_v3_04_00/residual_energy.npy": "e9007e9139cb3ca8dedfec54b44d09531aa9332f25fa89c587c156a167233bb1",
+        "routes/occlusion_v3_04_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_04_00/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_04_01/complete.json": "0eb5e86c52a5e0bf4f84fd76d296c9e11d2310425f1c28c5c0c41b00216a2ec4",
+        "routes/occlusion_v3_04_01/compression.json": "218ac3047a83c98a480d6452d63cfed64eb919c2a14fa239eb8a4cc2d2069364",
+        "routes/occlusion_v3_04_01/paths.npz": "618cec591cb89121844ab38350536bb97a91d710245f04418dcb460f54363d5d",
+        "routes/occlusion_v3_04_01/energy.npy": "0af6b2b8f5f2fe2b1e348c0df7a7df26f52f92172a45947736a11f43b55b3158",
+        "routes/occlusion_v3_04_01/residual_energy.npy": "811142936fd4b91cdedb6e4ddaa48eb833cfee3102db789128125398f2953ee2",
+        "routes/occlusion_v3_04_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_04_01/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_04_02/complete.json": "83113011c0c3613e038f0ae7b090d746e7fb0e2494c356d4f4cd9e7deff35ee6",
+        "routes/occlusion_v3_04_02/compression.json": "e2274c7555bc3867d14ba76e189a1dbd53374bee83f32dfa42125e86e781f2e2",
+        "routes/occlusion_v3_04_02/paths.npz": "bbeabeedd42a23582112b2c7a5a707ef0a4bbccfd6b760527bb8a257aa6eee5b",
+        "routes/occlusion_v3_04_02/energy.npy": "4887031707336196b9a84f39e67baeffc2f6dd77fa1b74f0d965b486fcf15583",
+        "routes/occlusion_v3_04_02/residual_energy.npy": "ece1928dc37a5a17c8c3642c6ad5f492af2d7d72b71b8739d1ff1d9f950d55f2",
+        "routes/occlusion_v3_04_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_04_02/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_05_00/complete.json": "87e1abb6847ef3cf1ee79ff1b8f8c4c5dbb3296df43f7743357ff1c47a5b96d3",
+        "routes/occlusion_v3_05_00/compression.json": "dc85814ef0344e41071a760d2c3470bb5e2414f5b763e25f505c575ee592652e",
+        "routes/occlusion_v3_05_00/paths.npz": "e0f5826c8028f8f4acdfd01245effa5925d9ed94df3787779259b8769af89972",
+        "routes/occlusion_v3_05_00/energy.npy": "082cda8d081dae79eaba45880d6ea51b23e0e786317f5a13ae0bbfa5d136a155",
+        "routes/occlusion_v3_05_00/residual_energy.npy": "299a34079b59950b4ba1869bd3d5f7ed9221f11ddc078f1cd9e265be49de5944",
+        "routes/occlusion_v3_05_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_05_00/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_05_01/complete.json": "8f5300d20b60ca903b5e3f899ade017225844420d558ac7d85619e15ba6e4d3b",
+        "routes/occlusion_v3_05_01/compression.json": "ab38eb3011c1cffe36fdbe22b4cbd26e35886ad09472365df7261133248f0ac5",
+        "routes/occlusion_v3_05_01/paths.npz": "94f9875572aabdfaa2b186c8de71e5f8fd2101352ff4cbf94c5131c521010cdf",
+        "routes/occlusion_v3_05_01/energy.npy": "49c32bacacb73ebc0d8e9529246962c7e2589cf7ed2f6d8e3db80df8bb489164",
+        "routes/occlusion_v3_05_01/residual_energy.npy": "2b31b4060a18bc4bb02a07f0fb44c64eee599904b6c5c5240659dccacbb05b5d",
+        "routes/occlusion_v3_05_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_05_01/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_05_02/complete.json": "bd58be5808b60a3e3bf632c9cd30597ae493f2915504bb8ecf698f9032288269",
+        "routes/occlusion_v3_05_02/compression.json": "cb4b2142e185cd88b0b11523526f6cad5ef74639d626c806b3ea1816fd780be6",
+        "routes/occlusion_v3_05_02/paths.npz": "bae98e5b4b5ec3a602f1d034becaf61c4036d2b9c3ead5cfb4a6b48a8f60a518",
+        "routes/occlusion_v3_05_02/energy.npy": "7076529c8f04cbccd8a53367e9b117720009fac9bda58c52838932b2d71b1517",
+        "routes/occlusion_v3_05_02/residual_energy.npy": "02947d7d2a521a663835e1055b398c06b5ab46915463cd7d504e1f35ea839f34",
+        "routes/occlusion_v3_05_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_05_02/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_06_00/complete.json": "4a840575f4719dcda54d371c596d59a89d66f3696918d24ae90f6983047a002e",
+        "routes/occlusion_v3_06_00/compression.json": "f32d557ba07289d8776c8197a1c41ae40ef82462786c5ddc231a753905a9ebcb",
+        "routes/occlusion_v3_06_00/paths.npz": "47e701a09eec8ac2f5fca84a3380a39a796aaa4ffc2cf00459e381ba513b8590",
+        "routes/occlusion_v3_06_00/energy.npy": "dc5bbac5f29cc6a66d5424e83d9aec225ce6b0d6926a5efa309a1648e9138265",
+        "routes/occlusion_v3_06_00/residual_energy.npy": "a00a396b35942734f35c135ded26c553fc3d435d8daec7afc5ce5028f1780190",
+        "routes/occlusion_v3_06_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_06_01/complete.json": "3746bad73d71892de8263238c4ca9d39a0cc7cbe6e86c04d302872290c0c6442",
+        "routes/occlusion_v3_06_01/compression.json": "bd3498a7d8d436c39d194b96c1d499796a79ce9a6dd5f747c1898c73ae243ec3",
+        "routes/occlusion_v3_06_01/paths.npz": "f6fc4f172b38f03bb553b8ee63d86175665ae13ad5fa86700feeef0ee2fcac06",
+        "routes/occlusion_v3_06_01/energy.npy": "0910b83ccfc078dcb48d9f3b851aaf08336681b24a7358d0a9658954fddf89e7",
+        "routes/occlusion_v3_06_01/residual_energy.npy": "413bda3ec7d18366769299146f3d66dde67d8b972d5f7b689538806988c48ff7",
+        "routes/occlusion_v3_06_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_06_02/complete.json": "2832499db1e065b41073d1483bfb2f18661a21c4497c6e170ab3bf63d3f34cdc",
+        "routes/occlusion_v3_06_02/compression.json": "9f8d7b60159506e864805b3276bb45a27815cded495afefd154640dd33d8e1c0",
+        "routes/occlusion_v3_06_02/paths.npz": "21447e9fbee1fa9840f60bb0b87c5f13b1473bf299eb3b7c9fe59c246ee628e8",
+        "routes/occlusion_v3_06_02/energy.npy": "60a3d62a1cbdf61634b2a369cb67a9c48452eea740978dbd27266ddc630da537",
+        "routes/occlusion_v3_06_02/residual_energy.npy": "c7d9dd864bfc9aed8922593866623cbd089134d08cc6e1f0cfaf0a5c1b51d45c",
+        "routes/occlusion_v3_06_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_07_00/complete.json": "d4972d640206a5756399fbdd9d6f825142702d961f1fd4397760ee3561b32d83",
+        "routes/occlusion_v3_07_00/compression.json": "b9bb36fceaa94bdf34765eb77b0f79060268267e0d2a6683623d775525d8b8b3",
+        "routes/occlusion_v3_07_00/paths.npz": "7879fd0097c068872777bd4e1824bbc1a82b0e7cb75f7ea05184204ba4b37741",
+        "routes/occlusion_v3_07_00/energy.npy": "cb9d88e839dc0a88c38e1d1c2730103e4e3ffd2193bde089c967697faf94b81c",
+        "routes/occlusion_v3_07_00/residual_energy.npy": "f640f9282ac53bbf3a71eaa1cc98e145cffbf7dc755f45bee7ea34bdb7765c25",
+        "routes/occlusion_v3_07_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_07_01/complete.json": "9b2b78edee2ce851114cf414b1053ff22595cba6151e18ecaa7362164970fc00",
+        "routes/occlusion_v3_07_01/compression.json": "9d130c703fd3f0ed40653d2130478b2c06e5f88a5f207f31af70940ef82ff2cd",
+        "routes/occlusion_v3_07_01/paths.npz": "2cf24c5680b6cb21108d49b0c0998c99872e2ee94474d9e6c1df794980a8862b",
+        "routes/occlusion_v3_07_01/energy.npy": "fabace53c32fc0da0a95ba52a1cc2f5c7456c8032ab01b14fb4181816214cf00",
+        "routes/occlusion_v3_07_01/residual_energy.npy": "b4c594c367978ef53547e65b81759d25ebd08290207fef5f2ffffb98cbd3cd39",
+        "routes/occlusion_v3_07_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_07_02/complete.json": "a05e7312f6282aeff8ab867d757ad4114373dd0bcab55ea6a21a1008f328bd2f",
+        "routes/occlusion_v3_07_02/compression.json": "5eb56cc31c2e551ba449048446155a0ef3946c4b918011e6694000ef8cc3332e",
+        "routes/occlusion_v3_07_02/paths.npz": "b78933e39fa1315eae1a3b44ceb7b7b81c777ebd05810903daadd73d0ac621e2",
+        "routes/occlusion_v3_07_02/energy.npy": "5cb2cf837daea847b3a7b4ede1171b1a32b0b15af3e441b896d183696600e526",
+        "routes/occlusion_v3_07_02/residual_energy.npy": "b63251a8fe14c2a64ce9d20fae6dd8c84ae54433e43887d516113cd91d189551",
+        "routes/occlusion_v3_07_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_08_00/complete.json": "7384db39a350b0fea7f6e532fec49c2909309f337db723f3a8fa1083c7d2506a",
+        "routes/occlusion_v3_08_00/compression.json": "a1b4775871fb6af227f1dfd009e3afc288cafe85349936048aa00167c030a6f5",
+        "routes/occlusion_v3_08_00/paths.npz": "699273a0a95e29a6fc2077760f30c9c333e350d6788fde7d1ab687fcefd468d0",
+        "routes/occlusion_v3_08_00/energy.npy": "84d0e1b1ef9321f26c5edfec4279acac0356e04dbbf0f81ff5633323038ddf87",
+        "routes/occlusion_v3_08_00/residual_energy.npy": "047b69b4b924dce1227a39fab3845a2cee940ab75e4718271ba6e1f31d013292",
+        "routes/occlusion_v3_08_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_08_01/complete.json": "0b23420bcf50fc8f85f433b9dd3757d9e2cc4c12487f3a5c11f2abb12b8779ca",
+        "routes/occlusion_v3_08_01/compression.json": "be742b51e605896baa6d72fa53ac895be1d011c2e9610f1204f0ebcfe121a4be",
+        "routes/occlusion_v3_08_01/paths.npz": "3ca633532885c5cdea442ff3ec8f877cbb825848fec88bf267ca9cd9c544ac1b",
+        "routes/occlusion_v3_08_01/energy.npy": "381145bbb6bc95d347682be5767330ac46cb550c7a45fbf55947aff496843b22",
+        "routes/occlusion_v3_08_01/residual_energy.npy": "cfac2edf26a6a5e6eb40a66b884548640ca94b4bcf258d7cd4dc82ba6c1ac240",
+        "routes/occlusion_v3_08_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_08_02/complete.json": "84251c09000aaf9dec9ef2766b44ccdf1b672c3c8fc8f5f81e2c109cc64d21d2",
+        "routes/occlusion_v3_08_02/compression.json": "b8c96c6bce649da36912f90e4ebdd7534e24cbdcb7b7cef8dd6b5d83d0e2fc5a",
+        "routes/occlusion_v3_08_02/paths.npz": "45d2f2844f439250a6fa9ab25a4423ee64e8373198269806dd37418216f3be38",
+        "routes/occlusion_v3_08_02/energy.npy": "87eaf08a5d9070f151fb047280008b925288d8405d272698776212bdb5b85798",
+        "routes/occlusion_v3_08_02/residual_energy.npy": "567d5f7c5d916fa5ad0c80a2f4ed21d58d1c54dd132ad76445fdfc7ecbefb954",
+        "routes/occlusion_v3_08_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_09_00/complete.json": "b5e218cdfdab4904fdc3a5e8f342a627dd79b141c0945dc4c6ecfa8ecbc0ac23",
+        "routes/occlusion_v3_09_00/compression.json": "29af25e7d48d45357086f0816bf149254f365d963689d97cd30f071d4906acfa",
+        "routes/occlusion_v3_09_00/paths.npz": "070ece18bfd8ba192cb90d05f3bdcae3f2c8b29fbe69a378497df50f9491d994",
+        "routes/occlusion_v3_09_00/energy.npy": "05c6193a4af4b908a9f45797392f3969cfeeab43fa2854b4e1fda17c807e517e",
+        "routes/occlusion_v3_09_00/residual_energy.npy": "104ce502a8006d2d1ed25a5338d7b40a0798d4ef9e591c61929153ea7f0d1d42",
+        "routes/occlusion_v3_09_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_09_01/complete.json": "60971f3b8f7e8967269b36cc2a9742519ab6ec0038aadeeea1002dbe0e007e90",
+        "routes/occlusion_v3_09_01/compression.json": "d34d3f2d3ab8d213af72c3af15ce72d8843a23dc82bd710e20561a518226f149",
+        "routes/occlusion_v3_09_01/paths.npz": "b02302af5b0a6d071b48b67fecd105857d56a190573b985930fc0e3bdf8a1d85",
+        "routes/occlusion_v3_09_01/energy.npy": "ed11c13422ff8277daf255d702626916d0be170624789a231383c877772724c4",
+        "routes/occlusion_v3_09_01/residual_energy.npy": "ae8e7f719b6b6c5d33a48883e9c359c62dec25c0b9233e846b37ab380afb052a",
+        "routes/occlusion_v3_09_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_09_02/complete.json": "0afb4af6192e533f56ae05bf9e86918efbaf276b83e8bbc7da806f6191561c6d",
+        "routes/occlusion_v3_09_02/compression.json": "cb5b5c93403dad87d97d0794aca7d9ccbff9f5cb8fecf835fe54a05a685825f6",
+        "routes/occlusion_v3_09_02/paths.npz": "52672c59d83060622c36085779708d9486fb495cd720b826a1eef0d77f88b626",
+        "routes/occlusion_v3_09_02/energy.npy": "fac8d42e906f413b5b0f7cf9981e01fd457ec03e3ef61e069ea95c8d98542cb5",
+        "routes/occlusion_v3_09_02/residual_energy.npy": "70097791b4c516a1a459fe69eeac22779e1499d3025f748a340f0a2754747f72",
+        "routes/occlusion_v3_09_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_10_00/complete.json": "48a0ceee1359910033b3f33df36fbb4aa8319f2c60054e5ef8ab9272249debcf",
+        "routes/occlusion_v3_10_00/compression.json": "946bae69b1ff4f1cc0490863332a0e4952fff7d21feae1bae87740a8b06dce23",
+        "routes/occlusion_v3_10_00/paths.npz": "e094959f127ba7d6abfa10f046b9950e05e540ad53755e00bba719b56c779613",
+        "routes/occlusion_v3_10_00/energy.npy": "10282e2c4998668be5cea4a37a7d67f06585eece219affb9ac0da779f846598f",
+        "routes/occlusion_v3_10_00/residual_energy.npy": "b19781d1c1488f9eb31de25c95c86614ccca49fe8cfcd3941d26378fa3b0c771",
+        "routes/occlusion_v3_10_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_10_01/complete.json": "c2863f5f82020f6357174e2d82985ec7f357e0df4f164980db37278cdf06d4e1",
+        "routes/occlusion_v3_10_01/compression.json": "371d6744750023a13dd39d181ae89072f181476283c8b7ba0b44c3f3a3a4b46e",
+        "routes/occlusion_v3_10_01/paths.npz": "b2314da55fe5cb2a56b4168276a5f84b7b2e63f5739ced6cc087a5dc06943a7f",
+        "routes/occlusion_v3_10_01/energy.npy": "ff9b68383c309249780e265c44c9a207885a4091aa4b33fd0f8342eab5cdb3df",
+        "routes/occlusion_v3_10_01/residual_energy.npy": "3f4eddcab1fd1004f903d5fc0f923601a8f32ac3712a7c198318240dc1b8143c",
+        "routes/occlusion_v3_10_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_10_02/complete.json": "4c429034f28ca9f620bf4fcc7cb428a76b6d72f20369b46df2b963c0a10faa49",
+        "routes/occlusion_v3_10_02/compression.json": "322ff98cd571b9b7f98a7b5b87a004ae86b899011e393fec21121f127b4e3e23",
+        "routes/occlusion_v3_10_02/paths.npz": "d48d17ed74e91e38e24e8083af73b1a94970976695d6cfa3b078da695e276658",
+        "routes/occlusion_v3_10_02/energy.npy": "b9955a99e1da51d3be7b8efe59146ca640e41ca103997ef2261053e321801857",
+        "routes/occlusion_v3_10_02/residual_energy.npy": "bcc8408e271fe380bfa5db7cb5b7e055b1f382519717701af1730ad1bf6ada7e",
+        "routes/occlusion_v3_10_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_11_00/complete.json": "0b4024dd948204623a8f8b246c7fae2eed881d402ff394e8c19ddf0d121d6dd0",
+        "routes/occlusion_v3_11_00/compression.json": "cfb430b6513287f92621739430ddb8b4fb51c82beedc6c4fe85e6baa19ca0863",
+        "routes/occlusion_v3_11_00/paths.npz": "2c120262871277d8ebcad3a19f08aa5f9a0c45533be4dbf9e0fa769c15b8296d",
+        "routes/occlusion_v3_11_00/energy.npy": "f2f5857a583701db2a513044268e499f08ffc8bffe7d48899c67c73ccc1c4369",
+        "routes/occlusion_v3_11_00/residual_energy.npy": "9377232eb6f408edd14ebdd4210cc2fdb9b8e7a00330282658edf3713e8c9b49",
+        "routes/occlusion_v3_11_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_11_01/complete.json": "b09929c90241b09c810d8366331e30ac794b830bbee664ec607826be8a3afef0",
+        "routes/occlusion_v3_11_01/compression.json": "21e79150781ee12d2fec69264e4305a26ad8e3d06585f3ac4f2098f6ae1f1887",
+        "routes/occlusion_v3_11_01/paths.npz": "685febc6b126594742316d135bbc25a9717fd5a462dc41debe22e70baa7a192c",
+        "routes/occlusion_v3_11_01/energy.npy": "fb57d1ff2fafa004ee3fb481f8e4d972c20730d9d95d15f9181b0f28fb7b8bb5",
+        "routes/occlusion_v3_11_01/residual_energy.npy": "04aa5587a3e35d5374ab66996092594406e25eb7c57eb23b68b1ed6ea33fceb3",
+        "routes/occlusion_v3_11_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_11_02/complete.json": "c1520c4ae88bb16d5fe09e408c192bccaac114a38538918b997f90524dc47bdf",
+        "routes/occlusion_v3_11_02/compression.json": "4e9263352dcef84ad50170c44805b78a88a8c5d2a287d1d7252f5e9050c69955",
+        "routes/occlusion_v3_11_02/paths.npz": "0214d2b7268db15ac56c9434a2aebea92a89c86bb959369ae53609c1c9d4a407",
+        "routes/occlusion_v3_11_02/energy.npy": "f671d0396f421bdb569bd935d13dbed78e04ccfdade19f35aec683366d42ec1d",
+        "routes/occlusion_v3_11_02/residual_energy.npy": "51bb3ca251c61c117f774c96f6ad5f9cbb124e90f9dc0bd9c7439f555ac44823",
+        "routes/occlusion_v3_11_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_12_00/complete.json": "88af2524c7c867b697e5e5d7f48bc044969cc8221b60b87e0ed31ea12445677f",
+        "routes/occlusion_v3_12_00/compression.json": "50cd755d55e21409af71f201c466d4ebc8c876b7a3e89d9ec178fac6babb6326",
+        "routes/occlusion_v3_12_00/paths.npz": "be55607bb4740e0e451195b2e23294e78d55cb387ed881fad5d49347ef666d2b",
+        "routes/occlusion_v3_12_00/energy.npy": "4c10710956d479903684efd7bdb7e17a93cc1e1c9f64a16b65ed6a4a46880194",
+        "routes/occlusion_v3_12_00/residual_energy.npy": "fd60c16357fea5ea39862ae43c9082f9727664e253abee8594d162ccbccc5aac",
+        "routes/occlusion_v3_12_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_12_00/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_12_01/complete.json": "6df0be0e0b485036aaf1394ab33d22f06888178e1874f3973bf5dcd9b41530ab",
+        "routes/occlusion_v3_12_01/compression.json": "5908b608a42bfcac597c1da3100e4b9cd3202adbf65c32e9d5ba0049a8c0bed8",
+        "routes/occlusion_v3_12_01/paths.npz": "fad0f52346d2d3869441d1f52c72371ff14971bfb7297d7756ee160c51b53c5e",
+        "routes/occlusion_v3_12_01/energy.npy": "f50bb667a74193446c96892fca02991462fe3eba1637f5f086574dc80fcf57d6",
+        "routes/occlusion_v3_12_01/residual_energy.npy": "af07acde07cb3cae7f7e04c64f0550ac64109fe2de8013fbe5080ed94c27791d",
+        "routes/occlusion_v3_12_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_12_01/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_12_02/complete.json": "4b48bce8a0a57f5cb6f1b11b4305faa11bbea041f7d401d77d7f838d3b88381c",
+        "routes/occlusion_v3_12_02/compression.json": "be341dff8c5de0e5a251178d0b87a019b227f3735a8a3f73b82462e0f439dbc6",
+        "routes/occlusion_v3_12_02/paths.npz": "68243c016f55873155c152a43df2c4821d5d3a67ca000596f056297b48fc3af8",
+        "routes/occlusion_v3_12_02/energy.npy": "3ba53b1cb8a4fb5da63c091663cb01f19966794267ca6428f566dd0a2e2963a9",
+        "routes/occlusion_v3_12_02/residual_energy.npy": "9a156d17b84b0673a041f6af60bf5521fd5c8896af3dd509d06ae5d6a4e49404",
+        "routes/occlusion_v3_12_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_12_02/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_13_00/complete.json": "8a588df42469564810ff74d35b223245389bb3c57c535ab5b82b8e1042480892",
+        "routes/occlusion_v3_13_00/compression.json": "02ac4479a57456edbedd830f30efb632562f4cfd3f40b67b7344a088e314857f",
+        "routes/occlusion_v3_13_00/paths.npz": "47e7cbecb1fd80381ea793c8998f4bf1e0cc49b48350191bc534105c9f768b94",
+        "routes/occlusion_v3_13_00/energy.npy": "11bd7bf85f970c268e950861a2b01bb747740d31f43b736872e3e643d689f8bb",
+        "routes/occlusion_v3_13_00/residual_energy.npy": "015675ebfcf0b2e699f75f6add795811047a2ff57ba3e0350aa9db97d9454929",
+        "routes/occlusion_v3_13_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_13_01/complete.json": "efcbf9b8694d47ba6860a6dcba4bc1dffcb079875cebbbcd0aacbcadae390470",
+        "routes/occlusion_v3_13_01/compression.json": "45e924c45f52ff2044416bda608100bc86d0ed67eb953affd5424d2650ea6a0d",
+        "routes/occlusion_v3_13_01/paths.npz": "bc5a022b8e328e7a23dc30198accd195417736c7f55d10c47e5a1b4a5506ec38",
+        "routes/occlusion_v3_13_01/energy.npy": "34f960345e015e0352d7e1cdb00901ea4a08a55b884b8b1e30aeb0cd2d625a22",
+        "routes/occlusion_v3_13_01/residual_energy.npy": "9c1a6963e7d831186fcca6b0e243436d0a155c5cfc07523689432dc6f8c220fd",
+        "routes/occlusion_v3_13_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_13_02/complete.json": "60e14f6b8b90042fe19efb023a5a81540ff487e00d05e252919c7f7c652944b3",
+        "routes/occlusion_v3_13_02/compression.json": "2d7ba73f5ec1d0406edd0fb3fa84048ecbba54ff8bb746fe59b5d9c68b0fd8f3",
+        "routes/occlusion_v3_13_02/paths.npz": "6ace17a95d8367022ea50a79d0e3718030cc55036182e072fa251770d6c2ac3b",
+        "routes/occlusion_v3_13_02/energy.npy": "5c823cf1a054876c753f304b59c3159ad4045356c67a2cfc002985006460d217",
+        "routes/occlusion_v3_13_02/residual_energy.npy": "d9cce2022b0d12ad6f6a90d377a1a925d91e93e802b3d04db805853c6b142263",
+        "routes/occlusion_v3_13_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_14_00/complete.json": "efff3265c41d6d1a3ac43b13786946198a0079b6c2ddc793d64b6cb693b66485",
+        "routes/occlusion_v3_14_00/compression.json": "c5e2e7f962ddc5c97c3e0556d157d9e48a7c03f7307190e0c25a42cf844bab7e",
+        "routes/occlusion_v3_14_00/paths.npz": "1c6bb9cc9dfdc383d6f71f4419ae4be4b4cfe04e0a6cb7b708d86f5396c0aee9",
+        "routes/occlusion_v3_14_00/energy.npy": "e75a141fd3ddd9388a3fc31cadb86ecda5570097032b268dae7151e0a015535a",
+        "routes/occlusion_v3_14_00/residual_energy.npy": "2665b9d6d5d603d8592d368d9446600d51e74557e90173476fdf2b3288d5464a",
+        "routes/occlusion_v3_14_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_14_01/complete.json": "5488ca0931a8b72e04a7455be9223de9c1a43e77f2b39374dc7eb67955de62d0",
+        "routes/occlusion_v3_14_01/compression.json": "bf2e47f1885e8b039704f33f6c65b0a1c8784d14514bb74da2352a29f227c555",
+        "routes/occlusion_v3_14_01/paths.npz": "91d355cc2f6198268654dd7328d39adc889b0f304e60a3896b6dc9f83f4263e6",
+        "routes/occlusion_v3_14_01/energy.npy": "2337e5e4f684acf3ee0a6ae9f393e1b62262cf7d60d20c84bfe49efbf346e857",
+        "routes/occlusion_v3_14_01/residual_energy.npy": "2ee82b77702bf154ff1b7dbc44d704c499f2dea7e4d625241bba3e8d2d025fa8",
+        "routes/occlusion_v3_14_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_14_02/complete.json": "cbc37e447e5b04c7afbaef5b98da6ee84d3b6652d7563ee8d8639c6da40f86e9",
+        "routes/occlusion_v3_14_02/compression.json": "3e072e61f2bbbaa2e1cae5f7079bb3d1ed782674603e2a902d2b4f78f3cafaa1",
+        "routes/occlusion_v3_14_02/paths.npz": "da0dfd979f66790ba962b8c8eafc1c4b186d8a6f15f6cc784f6d5f6d331b3c86",
+        "routes/occlusion_v3_14_02/energy.npy": "863b849efcb3a0cbc65746b31eac574ba47e6d61bcd1289386869161a8bb57ac",
+        "routes/occlusion_v3_14_02/residual_energy.npy": "24e5ce09df02c58c89b1ebf7cd55e1cebcac2b7ca02ae5f31dac5e34bd89a29a",
+        "routes/occlusion_v3_14_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_15_00/complete.json": "a32800d3d255047a002a57947a3daa67b941a7fcee3de9d8555ecf358191d01f",
+        "routes/occlusion_v3_15_00/compression.json": "d6ffb3375c1fe5dfaf4f3da19aea12dd2ab3941c5f81a3b39a16d673d91db80f",
+        "routes/occlusion_v3_15_00/paths.npz": "62b0d92d27b6c16b2c62c2737e1aca01d4d36d293bf967c492b4e43019492672",
+        "routes/occlusion_v3_15_00/energy.npy": "d6b2fb29d7b64ecd2ca65fa44f69c33edcf9796a953dd1f88334137554def690",
+        "routes/occlusion_v3_15_00/residual_energy.npy": "aa102eae9f60dabbd7e87e1d884163da4aa4f28fb1ea6e7ce1ed087b12ef0370",
+        "routes/occlusion_v3_15_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_15_01/complete.json": "ef38359d033022cae719c14bfcfba3f22c3414f4c75c0f602a397751c330ae6c",
+        "routes/occlusion_v3_15_01/compression.json": "3f726bac34fd67237923734730f0984e0b815caa88fe4a6a6cbdd5945d5c6765",
+        "routes/occlusion_v3_15_01/paths.npz": "9ec16a28e34c02f752b9e2d8bc9c71f24709061b7ff58298a967d21a987e783b",
+        "routes/occlusion_v3_15_01/energy.npy": "0d3acd7674a37ed3d5e65f8040fd0597939a329a3376dda00497d6354299b7ce",
+        "routes/occlusion_v3_15_01/residual_energy.npy": "9fbfd37253dc27c1234a40ec0968e5fe71eb6d84cd65620531e8c9c4f475191a",
+        "routes/occlusion_v3_15_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_15_02/complete.json": "8d8bb84a30bdc51f974a9f4a734df91770445ca66c7c6e04d71c9b6bd3e3ef59",
+        "routes/occlusion_v3_15_02/compression.json": "8bf43537274c4506f258aeffe8cd0dba23aa496243491031ab79348ed26e2ba3",
+        "routes/occlusion_v3_15_02/paths.npz": "2983045e63e4d7a66c33860eda3a4029dc3195a7dea91b2e70b063250cd35d4d",
+        "routes/occlusion_v3_15_02/energy.npy": "6d8187198dbb3b81686db7477e99e1df12b1d3cac3f62bd8d84622dbd703c9d0",
+        "routes/occlusion_v3_15_02/residual_energy.npy": "987d97080ef13cd66bc6314d0c8ecab5a7c12427c0a51cfed331361ff96d4641",
+        "routes/occlusion_v3_15_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_16_00/complete.json": "54de855005854df5dabd5c43ff2860488385e992b991479c1c880cac38709fb3",
+        "routes/occlusion_v3_16_00/compression.json": "946fe6e2fb1f646382d47a375bc56fb332d7ccc5bc63b84cd7543deb8b3b749e",
+        "routes/occlusion_v3_16_00/paths.npz": "55f63ae5da46fee1b9df8942ed0b7f9fc76206a9757a1f46f251e46846da5314",
+        "routes/occlusion_v3_16_00/energy.npy": "c20730122bc1325a87516ba8d531f1f02c678ba5eeb4a0f689d8374a4a6b6c0c",
+        "routes/occlusion_v3_16_00/residual_energy.npy": "92a883c456f908ea1b0d1d7bc8987cb581f63589ee40d523a1ab816fe1ffbefd",
+        "routes/occlusion_v3_16_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_16_01/complete.json": "c93da3d94fb87d86fb0d7dbcd89d038bb57dda5f5d37eca1eca88bf3f4f2f1f6",
+        "routes/occlusion_v3_16_01/compression.json": "7e50503412fb46836178693a931ae27142f3221829333b11281fb2a959d6bc67",
+        "routes/occlusion_v3_16_01/paths.npz": "54ddaaa59574816517dad25b32e9d1934db8a384f5f1c1dddf3b43b1295b24f5",
+        "routes/occlusion_v3_16_01/energy.npy": "ffaf549099b116bdfe4fe492ac6c2bf442b9185990bce336bb4d1d2dcbb3d0db",
+        "routes/occlusion_v3_16_01/residual_energy.npy": "4844a6dada31a0b93994b1aa498d766aa619e50c70ca59027dffa591d1f90a2b",
+        "routes/occlusion_v3_16_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_16_02/complete.json": "fa0cac9922113862d73f322c5138fc29896c6af060b90f53fca5158a6e7c2cb1",
+        "routes/occlusion_v3_16_02/compression.json": "d3382c8db2ad2a188c6997bf59b051643a65f9e04933ea74ddb5a80f1fbff671",
+        "routes/occlusion_v3_16_02/paths.npz": "20891c42e00bb860c8e43877367d89cdafe317746add87dce58ed544d23f5cd0",
+        "routes/occlusion_v3_16_02/energy.npy": "5f849ed55b626773458dc7568fd63b27ffa3d0e553cf98f2a130bbecb4fbf7ad",
+        "routes/occlusion_v3_16_02/residual_energy.npy": "1028fc7978db1b82d992f9aef40fe94872168ea47ca96aa45c87d2101dfc80d4",
+        "routes/occlusion_v3_16_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_17_00/complete.json": "5ab5ae1276e5105e53be721993d216fe0ed5fce26d640d66f6ee4227f5723d98",
+        "routes/occlusion_v3_17_00/compression.json": "516c0d9a676a45e6d8d276807f371019b33910c19f81e98716c4b295705225c3",
+        "routes/occlusion_v3_17_00/paths.npz": "fe15b11a85722f5ef40cb00a3b6b89ab9e17b5df06230f55b4b826d49b5bed52",
+        "routes/occlusion_v3_17_00/energy.npy": "2734c82e23f157c6d7320a69f3edd791ba4ccaec71397b9b8c4179accadeb308",
+        "routes/occlusion_v3_17_00/residual_energy.npy": "249d8a4b01a3ee7c622d10532cd8642a509868f041be7f5f2f3edeaf9bc465ee",
+        "routes/occlusion_v3_17_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_17_01/complete.json": "3ff2e52f289ac6daea4c247d670a5aa3f5d7aa6d47a2e6ebe169c6f3a3cad885",
+        "routes/occlusion_v3_17_01/compression.json": "e9c8c1e9bcb9b36255a159eab202661134fb25f619e019f577cdf28d5dd27b23",
+        "routes/occlusion_v3_17_01/paths.npz": "48c8cfe0241b4f276f84baf293f5ada017a0bce616a6004d0e4c4ffa3ccfd930",
+        "routes/occlusion_v3_17_01/energy.npy": "6beb22711d34a0ff37fc4073a4d9e87aa1be42ac51b28c7e2c68e9f9ae8152fc",
+        "routes/occlusion_v3_17_01/residual_energy.npy": "ead77c7d791840eaddfc141036968f77ea4606c8a8ab40838c9d14229f21b610",
+        "routes/occlusion_v3_17_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_17_02/complete.json": "b93f4b2620f8f74c8d262f055acf3572fb6ee21f4b5e84f27104632f98dc4532",
+        "routes/occlusion_v3_17_02/compression.json": "b943373467e58a9563d1a18426d6f01754f21af17d1eddc76db32bb69b4a6040",
+        "routes/occlusion_v3_17_02/paths.npz": "8146133f752bb8a1173fe54294dda1a6f794e05516ee87038fb6791c1b34524a",
+        "routes/occlusion_v3_17_02/energy.npy": "d7b11bfc7fccc8c7b2f51eeda76fe6ca3628eb05d621cba363e4299273bdd3d6",
+        "routes/occlusion_v3_17_02/residual_energy.npy": "0f2f284ae99ed5c17510b4db7f37ad3982ceefa3855c317294d4c0df592b2e41",
+        "routes/occlusion_v3_17_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_18_00/complete.json": "99681d2693eedcd7d53571a78b61625d2d250df0060dcbf8ed41791ce9ec1e9f",
+        "routes/occlusion_v3_18_00/compression.json": "79f6b09279198008e90684477ad8fb49cabec173bcf29c7a3f2a506ea702d9f9",
+        "routes/occlusion_v3_18_00/paths.npz": "790bf1a60436948d32d6f037393803207f95d2489e09fd873785fbf245c69bdb",
+        "routes/occlusion_v3_18_00/energy.npy": "0a5a579d15cba241ba10c49bd5c43319da2129fdba74b973f3e091e8809acc46",
+        "routes/occlusion_v3_18_00/residual_energy.npy": "e1f653f5388bf3fcd23fda2a13427324385427551444c588e6ed328f2cb0464e",
+        "routes/occlusion_v3_18_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_18_01/complete.json": "f83be53badc886596f1a470ef09cffd1b4b5640762d65d0017aba384d7ad7bc9",
+        "routes/occlusion_v3_18_01/compression.json": "b174b2a91b3b6aeda3745c03098baa88d9330f785893a3fe0c12f1e24853fb09",
+        "routes/occlusion_v3_18_01/paths.npz": "44ebb970881d988aa7a96b1ea4466be338fbd46badda99c26ee0742d98a9dc08",
+        "routes/occlusion_v3_18_01/energy.npy": "b7ce1c96c4c775df50c4875988b21eae5ba92f5856b19d66e0269f0e35025ac5",
+        "routes/occlusion_v3_18_01/residual_energy.npy": "db21a4e03f56da8aa897e8b38b17b219a7c923f06e6dd39dfbeb49a204afdc34",
+        "routes/occlusion_v3_18_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_18_02/complete.json": "35fb3e67e26fcbf66115a8bab2d795b02af0eb4dd2ed296705fb0cad3e95f786",
+        "routes/occlusion_v3_18_02/compression.json": "cd74ecf0645e20418aea359fc3d2c32a284d45b0157851192ba67c3c41349283",
+        "routes/occlusion_v3_18_02/paths.npz": "17a6d45a9ee9c01c5cc51c8a7fc67cdb48f4bc67853cf1b0a023a19e4d1c378f",
+        "routes/occlusion_v3_18_02/energy.npy": "9f53b1e1e969db008e966cb4c989308723ac0bc0f90e0cc3b8956ade740072f7",
+        "routes/occlusion_v3_18_02/residual_energy.npy": "7aee207d3b1c95c5ea78987e6518798d8055c6fa19fd8ba3755426cc6d55bd74",
+        "routes/occlusion_v3_18_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_19_00/complete.json": "373f0eaf06acac1d7cf53eb363d3ac04e36e5503a1d36f0e5655767f91a802c4",
+        "routes/occlusion_v3_19_00/compression.json": "ca35e1886911e3b7cd10643964db211a77320435a841cf42769d995e6d7dffb4",
+        "routes/occlusion_v3_19_00/paths.npz": "84c0211a04206b7ad5bb7bf7c58dd859a232baf93e2e1c43076c025a756a55d6",
+        "routes/occlusion_v3_19_00/energy.npy": "a74bcf26158bcb8222e3cdd3b80481491f9ae362c7c8290fd7220c01de341880",
+        "routes/occlusion_v3_19_00/residual_energy.npy": "047b25d6a5223b765b4119ae5f46a957415d50a2dbfd32b5952396a1df31628e",
+        "routes/occlusion_v3_19_00/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_19_00/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_19_01/complete.json": "e0ac69ba39bef525b3468740f88d9445d463372eb1f27173741c808de1cd3b91",
+        "routes/occlusion_v3_19_01/compression.json": "53825d401636ca1ae58b57cd0e2878d397ada189b088e38fdaa00aa84179661f",
+        "routes/occlusion_v3_19_01/paths.npz": "e9961c500bcafd1384cadc6b76592a59fb4fe3fe53cafb1f1e0801f8f08a7d61",
+        "routes/occlusion_v3_19_01/energy.npy": "becc3b34c49479b172aaf52fe5d8397234682759e689fec4a89cb53a9619630c",
+        "routes/occlusion_v3_19_01/residual_energy.npy": "f41dfc7916543b805e894e04affcce7210c7bef69d574bd50a56eb1d149f71e3",
+        "routes/occlusion_v3_19_01/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_19_01/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/occlusion_v3_19_02/complete.json": "0f5c76b2fb9385ff3dad25c2534c0a099f4699dad9f10153628be2afe1a54f8d",
+        "routes/occlusion_v3_19_02/compression.json": "ce1be1b74a63d670d3f28f05cfc6db59eb7beb7ffc5a41977bf9c578943e9940",
+        "routes/occlusion_v3_19_02/paths.npz": "088aa96319df24d2e6a26a73264ff137b3084d67c76f2fb433399f919b8c3cd0",
+        "routes/occlusion_v3_19_02/energy.npy": "277b28a33e4e9e584330933f6e8922eb6dc2747b39b4b1f9e3a497c46218cc32",
+        "routes/occlusion_v3_19_02/residual_energy.npy": "16d240acc9b0aa7329d52219b72f327fffec5b4ff028ed4dfc88fce3c5c10437",
+        "routes/occlusion_v3_19_02/eligible_cutoffs.npy": "5d9b3ff85b746f3273107ec7216170d26b9cd168aa829ae363560d661f4cbb15",
+        "routes/occlusion_v3_19_02/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6"
+      },
+      "large_array_stat_and_source_guard": {
+        "routes/occlusion_v3_00_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788684981006614627,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_00_00/H.npy"
+        },
+        "routes/occlusion_v3_00_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691939169058301,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_00_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_00_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788684981206622260,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_00_01/H.npy"
+        },
+        "routes/occlusion_v3_00_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691939393061418,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_00_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_00_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685029508437496,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_00_02/H.npy"
+        },
+        "routes/occlusion_v3_00_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691939581064033,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_00_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_01_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685029584440309,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_01_00/H.npy"
+        },
+        "routes/occlusion_v3_01_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691939737066204,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_01_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_01_00/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685034088606768,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_01_00/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_01_00/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691939777066760,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_01_00/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_01_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685074998098009,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_01_01/H.npy"
+        },
+        "routes/occlusion_v3_01_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691939929068875,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_01_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_01_01/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685079242250656,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_01_01/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_01_01/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691939953069209,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_01_01/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_01_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685079154247496,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_01_02/H.npy"
+        },
+        "routes/occlusion_v3_01_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940053070601,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_01_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_01_02/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685083578406227,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_01_02/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_01_02/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691940077070935,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_01_02/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_02_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685125679897053,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_02_00/H.npy"
+        },
+        "routes/occlusion_v3_02_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940181072382,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_02_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_02_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685130316059112,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_02_01/H.npy"
+        },
+        "routes/occlusion_v3_02_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940285073830,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_02_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_02_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685214065448301,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_02_02/H.npy"
+        },
+        "routes/occlusion_v3_02_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940389075277,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_02_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_03_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685216450720018,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_03_00/H.npy"
+        },
+        "routes/occlusion_v3_03_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940489076669,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_03_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_03_00/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685221097197050,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_03_00/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_03_00/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691940505076892,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_03_00/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_03_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685228921367338,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_03_01/H.npy"
+        },
+        "routes/occlusion_v3_03_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940613078395,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_03_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_03_01/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685233896018336,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_03_01/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_03_01/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691940641078785,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_03_01/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_03_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685229681772583,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_03_02/H.npy"
+        },
+        "routes/occlusion_v3_03_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940777080678,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_03_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_03_02/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685234204182543,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_03_02/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_03_02/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691940793080900,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_03_02/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_04_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685262967503080,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_04_00/H.npy"
+        },
+        "routes/occlusion_v3_04_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691940961083238,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_04_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_04_00/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685267786068454,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_04_00/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_04_00/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691940981083517,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_04_00/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_04_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685267918138763,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_04_01/H.npy"
+        },
+        "routes/occlusion_v3_04_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691941137085688,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_04_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_04_01/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685273104899780,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_04_01/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_04_01/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691941161086023,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_04_01/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_04_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685283114226868,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_04_02/H.npy"
+        },
+        "routes/occlusion_v3_04_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691941321088250,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_04_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_04_02/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685287544584310,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_04_02/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_04_02/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691941337088473,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_04_02/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_05_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685281789521924,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_05_00/H.npy"
+        },
+        "routes/occlusion_v3_05_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691941505090812,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_05_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_05_00/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685286163849636,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_05_00/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_05_00/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691941521091034,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_05_00/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_05_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685315495643168,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_05_01/H.npy"
+        },
+        "routes/occlusion_v3_05_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691941685093318,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_05_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_05_01/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685319567773311,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_05_01/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_05_01/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691941713093707,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_05_01/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_05_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685319035756321,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_05_02/H.npy"
+        },
+        "routes/occlusion_v3_05_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691941905096381,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_05_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_05_02/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685324291924022,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_05_02/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_05_02/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691941933096770,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_05_02/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_06_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685335852291617,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_06_00/H.npy"
+        },
+        "routes/occlusion_v3_06_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691942125099444,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_06_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_06_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685335372276387,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_06_01/H.npy"
+        },
+        "routes/occlusion_v3_06_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691942305101950,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_06_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_06_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685371453413238,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_06_02/H.npy"
+        },
+        "routes/occlusion_v3_06_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691942481104402,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_06_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_07_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685376085558059,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_07_00/H.npy"
+        },
+        "routes/occlusion_v3_07_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691942677107131,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_07_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_07_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685389205966906,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_07_01/H.npy"
+        },
+        "routes/occlusion_v3_07_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691942821109136,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_07_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_07_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685383869800863,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_07_02/H.npy"
+        },
+        "routes/occlusion_v3_07_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691942949110919,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_07_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_08_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685454955987303,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_08_00/H.npy"
+        },
+        "routes/occlusion_v3_08_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943057112423,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_08_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_08_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685461776194308,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_08_01/H.npy"
+        },
+        "routes/occlusion_v3_08_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943165113928,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_08_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_08_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685468256390570,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_08_02/H.npy"
+        },
+        "routes/occlusion_v3_08_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943277115488,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_08_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_09_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685464916289462,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_09_00/H.npy"
+        },
+        "routes/occlusion_v3_09_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943401117215,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_09_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_09_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685475680614921,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_09_01/H.npy"
+        },
+        "routes/occlusion_v3_09_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943517118830,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_09_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_09_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685475432607435,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_09_02/H.npy"
+        },
+        "routes/occlusion_v3_09_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943629120391,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_09_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_10_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685475388606106,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_10_00/H.npy"
+        },
+        "routes/occlusion_v3_10_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943737121896,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_10_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_10_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685475956623252,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_10_01/H.npy"
+        },
+        "routes/occlusion_v3_10_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691943853123511,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_10_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_10_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685520993973061,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_10_02/H.npy"
+        },
+        "routes/occlusion_v3_10_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691944013125740,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_10_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_11_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685526690142478,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_11_00/H.npy"
+        },
+        "routes/occlusion_v3_11_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691944157127746,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_11_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_11_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685531238277549,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_11_01/H.npy"
+        },
+        "routes/occlusion_v3_11_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691944317129976,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_11_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_11_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685529922238484,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_11_02/H.npy"
+        },
+        "routes/occlusion_v3_11_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691944465132039,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_11_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_12_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685542290605042,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_12_00/H.npy"
+        },
+        "routes/occlusion_v3_12_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691944621134212,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_12_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_12_00/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685548918800951,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_12_00/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_12_00/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691944641134491,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_12_00/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_12_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685541450580188,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_12_01/H.npy"
+        },
+        "routes/occlusion_v3_12_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691944785136498,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_12_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_12_01/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685547950772362,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_12_01/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_12_01/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691944809136832,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_12_01/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_12_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685541742588828,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_12_02/H.npy"
+        },
+        "routes/occlusion_v3_12_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691944997139451,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_12_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_12_02/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685548286782286,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_12_02/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_12_02/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691945033139953,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_12_02/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_13_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685541354577347,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_13_00/H.npy"
+        },
+        "routes/occlusion_v3_13_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691945221142573,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_13_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_13_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685588487963050,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_13_01/H.npy"
+        },
+        "routes/occlusion_v3_13_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691945401145083,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_13_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_13_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685594596141344,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_13_02/H.npy"
+        },
+        "routes/occlusion_v3_13_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691945605147926,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_13_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_14_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685597532226946,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_14_00/H.npy"
+        },
+        "routes/occlusion_v3_14_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691945769150212,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_14_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_14_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685595740174706,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_14_01/H.npy"
+        },
+        "routes/occlusion_v3_14_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691945929152442,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_14_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_14_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685615892760784,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_14_02/H.npy"
+        },
+        "routes/occlusion_v3_14_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946069154394,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_14_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_15_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685614952733512,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_15_00/H.npy"
+        },
+        "routes/occlusion_v3_15_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946197156178,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_15_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_15_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685612004647944,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_15_01/H.npy"
+        },
+        "routes/occlusion_v3_15_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946297157573,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_15_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_15_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685611344628777,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_15_02/H.npy"
+        },
+        "routes/occlusion_v3_15_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946401159023,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_15_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_16_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685651477788509,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_16_00/H.npy"
+        },
+        "routes/occlusion_v3_16_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946505160473,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_16_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_16_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685658353986088,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_16_01/H.npy"
+        },
+        "routes/occlusion_v3_16_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946609161922,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_16_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_16_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685661890087570,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_16_02/H.npy"
+        },
+        "routes/occlusion_v3_16_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946721163484,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_16_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_17_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685661286070241,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_17_00/H.npy"
+        },
+        "routes/occlusion_v3_17_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946837165102,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_17_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_17_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685680682625510,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_17_01/H.npy"
+        },
+        "routes/occlusion_v3_17_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691946989167221,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_17_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_17_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685679390588598,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_17_02/H.npy"
+        },
+        "routes/occlusion_v3_17_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691947145169396,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_17_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_18_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685675122466590,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_18_00/H.npy"
+        },
+        "routes/occlusion_v3_18_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691947297171516,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_18_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_18_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685675590479974,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_18_01/H.npy"
+        },
+        "routes/occlusion_v3_18_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691947461173804,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_18_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_18_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685706643364929,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_18_02/H.npy"
+        },
+        "routes/occlusion_v3_18_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691947613175923,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_18_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_19_00/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685712607534213,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_19_00/H.npy"
+        },
+        "routes/occlusion_v3_19_00/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691947765178043,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_19_00/coefficients.npy"
+        },
+        "routes/occlusion_v3_19_00/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685717539674042,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_19_00/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_19_00/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691947793178434,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_19_00/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_19_01/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685715183607264,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_19_01/H.npy"
+        },
+        "routes/occlusion_v3_19_01/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691947953180665,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_19_01/coefficients.npy"
+        },
+        "routes/occlusion_v3_19_01/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685719603732516,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_19_01/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_19_01/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691947973180944,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_19_01/offgrid_coefficients.npz"
+        },
+        "routes/occlusion_v3_19_02/H.npy": {
+          "bytes": 81985664,
+          "mtime_ns": 1788685712667535914,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_19_02/H.npy"
+        },
+        "routes/occlusion_v3_19_02/coefficients.npy": {
+          "bytes": 2562176,
+          "mtime_ns": 1788691948153183455,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_19_02/coefficients.npy"
+        },
+        "routes/occlusion_v3_19_02/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788685717555674495,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v3/routes/occlusion_v3_19_02/offgrid_queries.npz"
+        },
+        "routes/occlusion_v3_19_02/offgrid_coefficients.npz": {
+          "bytes": 200716,
+          "mtime_ns": 1788691948173183734,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/occlusion/routes/occlusion_v3_19_02/offgrid_coefficients.npz"
+        }
+      },
+      "note": "Large CSI arrays guarded by size/mtime and hashed generation/projection metadata; not claimed as full-array content SHA."
+    },
+    "code": {
+      "experiments/six_category_v1/common.py": "d37733e6a5568d9fb77ce0a5a8a0e3a4d8bed31322aef2b990d589d203975e3e",
+      "experiments/six_category_v1/dataset.py": "81f03a0a794a898772df07921771c68bcd6406ff9917df082307a69192c5a45a",
+      "experiments/six_category_v1/evaluate_family.py": "da362619601f1344f4da7878f33082987e92e86d6a7b0f352f11ea82bcc47434",
+      "benchmark/dataset.py": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+      "benchmark/metrics.py": "b07008d7d19097490cbecf38b0bad91f0ffadfc063d5b0b1f121c69fbd0cd94c",
+      "benchmark/evaluation.py": "fe04785a3ed3a461f0361f0fabf5bbf5adfb5558f9c9861e616740e0bb0754a6",
+      "benchmark/baselines.py": "9fc80bd8a54cd16fce090ac601dea666e2d179f094625e88c5c9b20a48cdb1e0",
+      "benchmark/harmonic.py": "56b2053de2ed46208d90a2d91f188ea1b2e5db0bd8bc75de28cbddc54ad6a3a0",
+      "benchmark/engine.py": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+      "models/adapters.py": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+      "experiments/flow_repair/observed_flow.py": "b7becbc146b1420d30a34c2826f8a6a0790c3c89677a4473a006eb518d841063",
+      "experiments/flow_repair/local_dynamics.py": "2f43f020d96c5a9b599998f80ccd29f5779527cdd192140d3c6bde30645c11f4",
+      "third_party/neural-flows-experiments/nfe/models/flow.py": "3ded8c892a506a31aeeaf3faa32f160d07b31e03f5de56e4863264743e87ee39",
+      "third_party/t-PatchGNN/tPatchGNN/model/tPatchGNN.py": "ba9db3896a025103369e27b710794fe7cdce6d03b508c02b5bce5ae12aa6a26c",
+      "third_party/Continuous-Recurrent-Units/lib/CRUCell.py": "345014b856474cc528ffde5ef0b64021839c1083d7398b9c81d95af506dec55d",
+      "experiments/six_category_v1/cru_float32.py": "198f8dea1116c6f2293630c1b308d4b2c5db348afe64a3689291ccd38957b807"
+    },
+    "split": "val",
+    "samples": 600,
+    "seed": 917,
+    "ratios": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "tuning": {
+    "process_ratio": 100,
+    "validation_nmse": {
+      "0.01": 379.48661399727376,
+      "0.1": 379.46576892097505,
+      "1": 379.25985750145963,
+      "10": 377.42751747951365,
+      "100": 371.18879506600786,
+      "1000": 383.264190550781,
+      "10000": 470.0466858975448
+    }
+  }
+}

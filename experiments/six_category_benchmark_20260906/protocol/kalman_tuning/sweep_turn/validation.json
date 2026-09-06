@@ -1,0 +1,444 @@
+{
+  "signature": "2eeeb18646689e8f092e243bd732e0a5d3fba84a731bfae643a4645b89a4c453",
+  "provenance": {
+    "data": {
+      "small_file_sha256": {
+        "dataset_config.json": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+        "manifest.json": "389f51a03af5f16e10c7e0cbd438ebbe8751b569238859b4699ee5956d3059aa",
+        "window_coverage.json": "876f171afe3bb3f5d570fa52ce626c8175a41cf9a9217d710b681bb0e48be204",
+        "compression/basis.npy": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+        "routes/sweep_turn_000/complete.json": "f40f267d2f9947e4919d195aa89e7a539ea6b93197bf8611c1ce39e1782dd2a8",
+        "routes/sweep_turn_000/compression.json": "9f2a0de115311cf237cd7accda5ea9e84b4414df66878f79973ee748aee09bf6",
+        "routes/sweep_turn_000/paths.npz": "0367a1441895f867ea975f18c6c3f5f0a49f73cbbd841368d45ffe9e62d7c89d",
+        "routes/sweep_turn_000/energy.npy": "3fc5a52d8df7d5dba5cd5b105507b4ea7c21bc279d4e4601ff3776279c4e0eb1",
+        "routes/sweep_turn_000/residual_energy.npy": "5f05a77261be5eb402dd540945ae568d2faf4a6ce6499bd803be5b9979f8ee65",
+        "routes/sweep_turn_000/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_001/complete.json": "d9f8c3b4d9dade6a0907727120986f9b0d45c5f5df305a0373bed450289dd1f0",
+        "routes/sweep_turn_001/compression.json": "4296593c3ad7d6c1ce5e1313fcf416d1324fb5ab1ae9db6880d9cc9c3b7e8924",
+        "routes/sweep_turn_001/paths.npz": "8dcca8307115f32ebd8c6e547f6243c0304715c906e2c0f93db95605eb20e81d",
+        "routes/sweep_turn_001/energy.npy": "d8bc6f988d2162b860239ccfd15b577be8f920e6156f7b88bd81f4a756c8f04e",
+        "routes/sweep_turn_001/residual_energy.npy": "4b6620d0c3868eb857f6ddb44e64df4c986a668192b6e14b390bfbe49eeeaf66",
+        "routes/sweep_turn_001/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_001/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/sweep_turn_002/complete.json": "610ddb8ba6819d8b241c1af5edc0e966953ca9248ac86d95481230b26f7a820f",
+        "routes/sweep_turn_002/compression.json": "ed354b8f7f02cf7ae250455ce889b5597f370f898e47c276d518ebfae8ccb96f",
+        "routes/sweep_turn_002/paths.npz": "c59f0cb757ef227e771a6e311868ddbe4f9ce8164a2be82c0f5fe07504f55eea",
+        "routes/sweep_turn_002/energy.npy": "436c5aef2fe07896a02362a5de84618a8e618784f463637ed6f7888a2eb864b8",
+        "routes/sweep_turn_002/residual_energy.npy": "ff34ec40b7a3636fad54c5d3f1e4f1161f9542d5b1714904b13a8171f36e4fe8",
+        "routes/sweep_turn_002/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_003/complete.json": "e05d880d46e76f237530b8518fe93b90a15ac749a01b59216f8a77e4d2b0e5cc",
+        "routes/sweep_turn_003/compression.json": "c150de430e1c5b5650fd29d1095374d7762ba7519804791aaaeaf823239f3cea",
+        "routes/sweep_turn_003/paths.npz": "08b44460b8b7a96bbf9c8f7444f7c21f850a4854d7781ce2ab8f5e0ef6d9079a",
+        "routes/sweep_turn_003/energy.npy": "29b9f8c2fb4f1f2cec5dfc53dd982518b4093ab4f0ebf8187d2fd882b61cdce6",
+        "routes/sweep_turn_003/residual_energy.npy": "685e637e5f2d8c9f309e737712681953ccc21eda35295c7b0b799770d18ea900",
+        "routes/sweep_turn_003/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_004/complete.json": "e8447e3c27516d14b9f8618dac36d2011db757cbebfcee4261a184f263a4b942",
+        "routes/sweep_turn_004/compression.json": "37257d7df18a97868783caf950a34568838b6dfedc39560d6ffec9118d195b4a",
+        "routes/sweep_turn_004/paths.npz": "9c9c559e0da99214a3dd603e8afd2723d524f488f1c66b1118508bade156a4a8",
+        "routes/sweep_turn_004/energy.npy": "5ea6e7c285aba3dea103c35a2a7426483fac7e5bd5b06dbb8f6c5291102ea556",
+        "routes/sweep_turn_004/residual_energy.npy": "94cfbe63c49eec2ae705289622340d130507bbee1222cfbdae4200e09c8ddf1e",
+        "routes/sweep_turn_004/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_005/complete.json": "cd7decf51259da69e6f0094a80057cc28c0bb5ccf8e5b2badd8f3d5524d011f4",
+        "routes/sweep_turn_005/compression.json": "064d372c660b354e2b430381d77e6a3a65d17e28df8c8e0a9c8c0a9e6825f3e8",
+        "routes/sweep_turn_005/paths.npz": "0601e04e3c89dd83795293952dcaaf4d199f42ebe0cb21f738a31890435f2f6d",
+        "routes/sweep_turn_005/energy.npy": "df6b8524649e5e91e4db7de89cdb682f688abf9f966416b95bf3cc5342bfba26",
+        "routes/sweep_turn_005/residual_energy.npy": "c177b1a1c1936ab75dd6656e538f65be86b9bb7c072d69ff7687ae275ce09ea0",
+        "routes/sweep_turn_005/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_006/complete.json": "ed7b2fe8e9f40dad221d02b98cd044b291d6c0767eca7535e9c03673dee2a7a9",
+        "routes/sweep_turn_006/compression.json": "c8b80b63ea091ae66de196e8a18cf9c246a202e1a3785ec9734e3c9b5c17a8ee",
+        "routes/sweep_turn_006/paths.npz": "b99c7e3b82ff67a9ea406942f98dd479e5bd9c7eb314a368457cb0ad45f37681",
+        "routes/sweep_turn_006/energy.npy": "d71b41dd74ef32e4eac0b8b5e75c62f56788a17b28ceaefecaffa071e99deccb",
+        "routes/sweep_turn_006/residual_energy.npy": "b74a1764d1a67d89b488855275041636e421dbd702c9378609901347f168d7ff",
+        "routes/sweep_turn_006/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_007/complete.json": "bbde9fb71fadd5da638a25c6f8e1770d2255f8ca1b85e9d9f76a6302f8c454e6",
+        "routes/sweep_turn_007/compression.json": "a97a4eb0e77831a078a2205d0f90ad4e1ea9f090bb5af92d44423d5b19c499bb",
+        "routes/sweep_turn_007/paths.npz": "0350bbc3a6c825bc0a0e30a449ca6a53658b559271078b3358f5cf828e1f6295",
+        "routes/sweep_turn_007/energy.npy": "ca46358703955abbe595f6d0a5ae6fa1c483d1aabe55f6c455d076224c4acb98",
+        "routes/sweep_turn_007/residual_energy.npy": "2b3d5bb57c50647461a390bd6377326f0ed2d6ed0847a7050d73a53bb1ea05c6",
+        "routes/sweep_turn_007/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_008/complete.json": "b9c6c4f55ee732b7caf5fb48d01ec360d7eff6a3cdb3053fb34dccdd9769172b",
+        "routes/sweep_turn_008/compression.json": "4212ef2fc88db3a5739ab8e42407c2a2b8f4b2cb339b5bc19c9b4d730a10ac98",
+        "routes/sweep_turn_008/paths.npz": "379f32c35c90d4eefa696f71f948b50725606e3618922446edd85806cdeebe87",
+        "routes/sweep_turn_008/energy.npy": "3cf63dfbe9ca91089ad85b12a002c357ee59c1746531f0c692ceab630a27ae5a",
+        "routes/sweep_turn_008/residual_energy.npy": "e589eda7ce328fda4905168f0fc3de05e33c2a0186fa031585877c892407a9d2",
+        "routes/sweep_turn_008/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_009/complete.json": "cae331e9a1179395dda37826d7de7e0955e881734f4b7985ffe85b027a0a678c",
+        "routes/sweep_turn_009/compression.json": "284d31880b942778b6980ba71d3fc6fa753c768e3145da4af9471f84989e3339",
+        "routes/sweep_turn_009/paths.npz": "b0edb34a68083cb42f3f97db0aac9e251b2d39d79ba84deaa3d0b31d4bac22d3",
+        "routes/sweep_turn_009/energy.npy": "8c8cf439afe9e3783a73edd93ee643b5bbffaee022164cb078572f77b7a368fb",
+        "routes/sweep_turn_009/residual_energy.npy": "f40db5b13994e077e7704ec9e3225e75fcffb789e92b3b8f644479347e80ba86",
+        "routes/sweep_turn_009/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_009/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/sweep_turn_010/complete.json": "f5fcc84619f1689ad2ba43131d03d648ac2cff231df2d1b8fa288cab34a134a8",
+        "routes/sweep_turn_010/compression.json": "f8a98c6e2635d3e5ccf94f7db9861e0315c927d6f5a37aab1a6b64c0609c1404",
+        "routes/sweep_turn_010/paths.npz": "a54c0c9925db42ea02b2f354433d3254f2823cd5c0465c7439f7732c26b13fa3",
+        "routes/sweep_turn_010/energy.npy": "5e65d0ce7e7f41f8ab5a58913fc8eb42d4be928c405c3a8a21bfd9d46cd864f4",
+        "routes/sweep_turn_010/residual_energy.npy": "424a1e879712c739d365a8d566c6ea2023a278b8a61de003c5b23a2a98f98ff9",
+        "routes/sweep_turn_010/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_010/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/sweep_turn_011/complete.json": "54cd401ec38b675aa896b53dbc618876bf974ee0abc03be10cbc63e624e4d031",
+        "routes/sweep_turn_011/compression.json": "1ccfa6795819f25a05c5c1bb44a0d09740c4e73501a931fca9fd0d4f79f3adf7",
+        "routes/sweep_turn_011/paths.npz": "fbe5cd91bc12761a190042977bcfbe9e556bbc9e4d6c51cd006883ff2ec93695",
+        "routes/sweep_turn_011/energy.npy": "f56d69249af807c6f6a6c2d02c8e91136ee1c71cf90730cc7e08fc2c129685b5",
+        "routes/sweep_turn_011/residual_energy.npy": "e6528fb3844172ad91104c6561c4b96730c7c136d4c95874f2dde940fdba823c",
+        "routes/sweep_turn_011/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_012/complete.json": "200a7571195ee2f5542fdeb7d48dcdf87557aa7844b81124e67b904d4df1b5f4",
+        "routes/sweep_turn_012/compression.json": "b33b640975152cfeae1360a79815b4abfaab2143461699c7865ac509042b77d9",
+        "routes/sweep_turn_012/paths.npz": "bc3051fd9237e62a6336b3380e1086b0399f95dea97cdf0076446bf2c6390cd2",
+        "routes/sweep_turn_012/energy.npy": "00d88df777a88c718b3d9a27db2ff18d760be9d41ebc9177a93f9c8c91bcf7ff",
+        "routes/sweep_turn_012/residual_energy.npy": "3be4ce475dadc196430f76f05a5188efc484a9eb11947b78ba75e99c40f495d3",
+        "routes/sweep_turn_012/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_012/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/sweep_turn_013/complete.json": "33bc1d4b54059d892c74641ab3f231ebfa13d549df7973114a13bd3fc3aaeb87",
+        "routes/sweep_turn_013/compression.json": "0922e9452b01278a0018398f814a8ffe0a9248410dd3192fbeec5661d443e79f",
+        "routes/sweep_turn_013/paths.npz": "08901a29517e24c037069f66666361bdd475663a84c8aeaed31b20ca02cc6dd4",
+        "routes/sweep_turn_013/energy.npy": "0b8d7e3fa0f39f3834f907155720ce99640c1e0feb2c3de4318929ea9bc1b1d9",
+        "routes/sweep_turn_013/residual_energy.npy": "5fa77eb9130f9a7b125514f417ff53d97a3ae5d09fc0e3a1bdb658d7b6af9878",
+        "routes/sweep_turn_013/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_014/complete.json": "35a9dc07ec2c7058358cf3be008863294d556eb2180c73d2b659e2a4649c5599",
+        "routes/sweep_turn_014/compression.json": "2201506054ed26b918f267a4db956a0294405ae4c636da1a70135d16be7ff03b",
+        "routes/sweep_turn_014/paths.npz": "1e0cc87a467d0b6a588e06a6f5a90fbd9266ce8db624c1387321ea324a1eb69a",
+        "routes/sweep_turn_014/energy.npy": "4d5978822ae7a35df9d1278d5158bb3d9cd4c2d19f0fcedab447e9bd6162ee4f",
+        "routes/sweep_turn_014/residual_energy.npy": "0837816ad80d782078f1c2738b8dff23d5a5ed804f6af50efd6f4ba5d48a123b",
+        "routes/sweep_turn_014/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_015/complete.json": "1aea573d3ce1a66ec39c7a98959128058c798082c1da42f72bb7ea52c1fb0835",
+        "routes/sweep_turn_015/compression.json": "12745ac9cae18a903aa4adac2d86f053373850b66eb08cc43b9389c93ffd0293",
+        "routes/sweep_turn_015/paths.npz": "c66c840af1899438c4dfbadc9c098af53d67d95887187f218e22a3879f6e8ea2",
+        "routes/sweep_turn_015/energy.npy": "5dda9a4509c5e3705f3778ff0daae52e5a13caf2bc9ac16694e5927af8290ea0",
+        "routes/sweep_turn_015/residual_energy.npy": "203c334c9095bbc6a71759313a184009fa50b72640d787c5ec04725738672472",
+        "routes/sweep_turn_015/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_016/complete.json": "f74634a9163e008256f85f40683ab9e3753165b0ea6cdd42fef5799541d05cc3",
+        "routes/sweep_turn_016/compression.json": "9c17297c907ae7d86bce5161f0357d3bbef55ca5678af7141ab17152b5996d19",
+        "routes/sweep_turn_016/paths.npz": "d6b2b0426058a31b557f85fc0cc3005fa7c50d2d06a999ddcb1daed5bf54d365",
+        "routes/sweep_turn_016/energy.npy": "c1c41c5afae5afb8589afeb0e6867ce26d6043956053d89f0f3ab5a25e0535af",
+        "routes/sweep_turn_016/residual_energy.npy": "03f75baf0ae3bac78acbd95fe014db0e9867538483d6ee4ad66748030ff8f72b",
+        "routes/sweep_turn_016/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_016/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/sweep_turn_017/complete.json": "661cca153816f19bde936406efb5b8eb18bd4aa0b8d71cfac357ea2ea56af863",
+        "routes/sweep_turn_017/compression.json": "ea025f382e9c1578aa9a6419b57b872cbaf9478cf5ce62fcbf0ebd460e2fc7b1",
+        "routes/sweep_turn_017/paths.npz": "610bbd119237b1c8f94e26e68d2fa91a52ed32915c1fffaeab6cd8499ead4596",
+        "routes/sweep_turn_017/energy.npy": "9931b36cef9b6ad97a8c7b4db1bf1cc0831b8fb275b08c9f43febb47792222c4",
+        "routes/sweep_turn_017/residual_energy.npy": "ebc9ebc5f85e6d035a965c0458b39a3f8be3222d9983756b194d691aaf64bbc3",
+        "routes/sweep_turn_017/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_018/complete.json": "e14bd65c755cf5105172214e1057b08b3acf4160b1f034bea71191b907845a08",
+        "routes/sweep_turn_018/compression.json": "7fe740bd5b68c2d51ef1b5eb5638a74bce71a25406dda12d8e806754329652ca",
+        "routes/sweep_turn_018/paths.npz": "31992b8e381db3785f58d0d95a1d7242c85f929c6a4507d5396ee7915d5f72a1",
+        "routes/sweep_turn_018/energy.npy": "9aaed9619f3bbc52f501a2f762c50b359a014398a49d881e95f557bb4edc34b7",
+        "routes/sweep_turn_018/residual_energy.npy": "5e087c313b1457e7bb4671ae34c04b1fb456cee96e1e476bb713da15c51ecb13",
+        "routes/sweep_turn_018/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/sweep_turn_018/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/sweep_turn_019/complete.json": "0cd1913fd14355ed4d0020f3d33b2242288ef27ae7fbc23168d9e39f246ffaf8",
+        "routes/sweep_turn_019/compression.json": "e1944f5a5ff014ae5df5d2f7a7c2e45d6b7b57ffe35285bfa9862f663df2c1e3",
+        "routes/sweep_turn_019/paths.npz": "3898c5c399221b43f8175dedeec23e99448bb494bd2fbdc0cb0ce0915ff6c09a",
+        "routes/sweep_turn_019/energy.npy": "3dca2c1d94114da42ff4081f9c508bf683b78db0cb625a9d3172e8d43d969526",
+        "routes/sweep_turn_019/residual_energy.npy": "9197cb829d2c0106d749df63afd9c7786e1cd0417d7d5cedd8a3269b62165a7f",
+        "routes/sweep_turn_019/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5"
+      },
+      "large_array_stat_and_source_guard": {
+        "routes/sweep_turn_000/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632554164840855,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_000/H.npy"
+        },
+        "routes/sweep_turn_000/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634383253434219,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_000/coefficients.npy"
+        },
+        "routes/sweep_turn_001/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632548012607784,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_001/H.npy"
+        },
+        "routes/sweep_turn_001/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634383533447640,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_001/coefficients.npy"
+        },
+        "routes/sweep_turn_001/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632554080837680,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_001/offgrid_queries.npz"
+        },
+        "routes/sweep_turn_001/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634383545448215,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_001/offgrid_coefficients.npz"
+        },
+        "routes/sweep_turn_002/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632557808978492,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_002/H.npy"
+        },
+        "routes/sweep_turn_002/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634383777459335,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_002/coefficients.npy"
+        },
+        "routes/sweep_turn_003/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632567973360773,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_003/H.npy"
+        },
+        "routes/sweep_turn_003/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634384013470646,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_003/coefficients.npy"
+        },
+        "routes/sweep_turn_004/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632553696823155,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_004/H.npy"
+        },
+        "routes/sweep_turn_004/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634384261482526,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_004/coefficients.npy"
+        },
+        "routes/sweep_turn_005/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632549840677131,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_005/H.npy"
+        },
+        "routes/sweep_turn_005/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634384505494215,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_005/coefficients.npy"
+        },
+        "routes/sweep_turn_006/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632557160954040,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_006/H.npy"
+        },
+        "routes/sweep_turn_006/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634384749505904,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_006/coefficients.npy"
+        },
+        "routes/sweep_turn_007/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632555172878960,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_007/H.npy"
+        },
+        "routes/sweep_turn_007/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634384993517593,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_007/coefficients.npy"
+        },
+        "routes/sweep_turn_008/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632742179582732,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_008/H.npy"
+        },
+        "routes/sweep_turn_008/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634385257530234,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_008/coefficients.npy"
+        },
+        "routes/sweep_turn_009/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632749743840435,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_009/H.npy"
+        },
+        "routes/sweep_turn_009/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634385565544981,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_009/coefficients.npy"
+        },
+        "routes/sweep_turn_009/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632755576038505,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_009/offgrid_queries.npz"
+        },
+        "routes/sweep_turn_009/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634385577545556,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_009/offgrid_coefficients.npz"
+        },
+        "routes/sweep_turn_010/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632752155922420,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_010/H.npy"
+        },
+        "routes/sweep_turn_010/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634385845558387,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_010/coefficients.npy"
+        },
+        "routes/sweep_turn_010/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632757256095463,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_010/offgrid_queries.npz"
+        },
+        "routes/sweep_turn_010/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634385857558961,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_010/offgrid_coefficients.npz"
+        },
+        "routes/sweep_turn_011/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632761264231168,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_011/H.npy"
+        },
+        "routes/sweep_turn_011/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634386105570833,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_011/coefficients.npy"
+        },
+        "routes/sweep_turn_012/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632749875844925,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_012/H.npy"
+        },
+        "routes/sweep_turn_012/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634386369583466,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_012/coefficients.npy"
+        },
+        "routes/sweep_turn_012/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632755728043661,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_012/offgrid_queries.npz"
+        },
+        "routes/sweep_turn_012/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634386381584041,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_012/offgrid_coefficients.npz"
+        },
+        "routes/sweep_turn_013/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632743387623950,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_013/H.npy"
+        },
+        "routes/sweep_turn_013/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634386617595334,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_013/coefficients.npy"
+        },
+        "routes/sweep_turn_014/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632749867844653,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_014/H.npy"
+        },
+        "routes/sweep_turn_014/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634386861607011,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_014/coefficients.npy"
+        },
+        "routes/sweep_turn_015/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632748711805329,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_015/H.npy"
+        },
+        "routes/sweep_turn_015/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634387105618685,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_015/coefficients.npy"
+        },
+        "routes/sweep_turn_016/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632930561756859,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_016/H.npy"
+        },
+        "routes/sweep_turn_016/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634387401632842,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_016/coefficients.npy"
+        },
+        "routes/sweep_turn_016/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632936637948512,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_016/offgrid_queries.npz"
+        },
+        "routes/sweep_turn_016/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634387413633416,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_016/offgrid_coefficients.npz"
+        },
+        "routes/sweep_turn_017/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632947486289675,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_017/H.npy"
+        },
+        "routes/sweep_turn_017/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634387653644895,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_017/coefficients.npy"
+        },
+        "routes/sweep_turn_018/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632952154436086,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_018/H.npy"
+        },
+        "routes/sweep_turn_018/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634387917657522,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_018/coefficients.npy"
+        },
+        "routes/sweep_turn_018/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632958174624557,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_018/offgrid_queries.npz"
+        },
+        "routes/sweep_turn_018/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634387933658287,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_018/offgrid_coefficients.npz"
+        },
+        "routes/sweep_turn_019/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632954606512899,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_019/H.npy"
+        },
+        "routes/sweep_turn_019/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634388173669762,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/sweep_turn_019/coefficients.npy"
+        }
+      },
+      "note": "Large CSI arrays guarded by size/mtime and hashed generation/projection metadata; not claimed as full-array content SHA."
+    },
+    "code": {
+      "experiments/six_category_v1/common.py": "d37733e6a5568d9fb77ce0a5a8a0e3a4d8bed31322aef2b990d589d203975e3e",
+      "experiments/six_category_v1/dataset.py": "81f03a0a794a898772df07921771c68bcd6406ff9917df082307a69192c5a45a",
+      "experiments/six_category_v1/evaluate_family.py": "da362619601f1344f4da7878f33082987e92e86d6a7b0f352f11ea82bcc47434",
+      "benchmark/dataset.py": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+      "benchmark/metrics.py": "b07008d7d19097490cbecf38b0bad91f0ffadfc063d5b0b1f121c69fbd0cd94c",
+      "benchmark/evaluation.py": "fe04785a3ed3a461f0361f0fabf5bbf5adfb5558f9c9861e616740e0bb0754a6",
+      "benchmark/baselines.py": "9fc80bd8a54cd16fce090ac601dea666e2d179f094625e88c5c9b20a48cdb1e0",
+      "benchmark/harmonic.py": "56b2053de2ed46208d90a2d91f188ea1b2e5db0bd8bc75de28cbddc54ad6a3a0",
+      "benchmark/engine.py": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+      "models/adapters.py": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+      "experiments/flow_repair/observed_flow.py": "b7becbc146b1420d30a34c2826f8a6a0790c3c89677a4473a006eb518d841063",
+      "experiments/flow_repair/local_dynamics.py": "2f43f020d96c5a9b599998f80ccd29f5779527cdd192140d3c6bde30645c11f4",
+      "third_party/neural-flows-experiments/nfe/models/flow.py": "3ded8c892a506a31aeeaf3faa32f160d07b31e03f5de56e4863264743e87ee39",
+      "third_party/t-PatchGNN/tPatchGNN/model/tPatchGNN.py": "ba9db3896a025103369e27b710794fe7cdce6d03b508c02b5bce5ae12aa6a26c",
+      "third_party/Continuous-Recurrent-Units/lib/CRUCell.py": "345014b856474cc528ffde5ef0b64021839c1083d7398b9c81d95af506dec55d",
+      "experiments/six_category_v1/cru_float32.py": "198f8dea1116c6f2293630c1b308d4b2c5db348afe64a3689291ccd38957b807"
+    },
+    "split": "val",
+    "samples": 600,
+    "seed": 917,
+    "ratios": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "tuning": {
+    "process_ratio": 100,
+    "validation_nmse": {
+      "0.01": 0.3388733761365519,
+      "0.1": 0.33884166249096676,
+      "1": 0.3385276386091007,
+      "10": 0.3356836747707146,
+      "100": 0.3252382472083102,
+      "1000": 0.3978295109192388,
+      "10000": 0.7610945180310712
+    }
+  }
+}

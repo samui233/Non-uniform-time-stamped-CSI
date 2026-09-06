@@ -1,0 +1,5 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/flow_repair_v1/selected/cruise/seed43",
+  "best_sha256": "d2ba078efd25e6302c6abbb191bc4faf42b86979a4d8bacb88fb3ea8fd8ee2f9",
+  "note": "Existing completed matching run, not retrained or edited."
+}

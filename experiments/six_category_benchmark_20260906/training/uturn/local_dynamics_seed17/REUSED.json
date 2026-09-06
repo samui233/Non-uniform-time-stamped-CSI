@@ -1,0 +1,5 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/flow_repair_v1/local_dynamics/uturn/seed17",
+  "best_sha256": "81251122ebd4b6dd94deb8d27312ee08e8f4e01c2e9c4ec4ff0feb1ec66d91de",
+  "note": "Existing completed matching run, not retrained or edited."
+}

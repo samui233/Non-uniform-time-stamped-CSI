@@ -1,0 +1,39 @@
+{
+  "data_root": "/root/autodl-tmp/csi-irregular-benchmark/data_categories_v1/highspeed",
+  "output": "/root/autodl-tmp/csi-irregular-benchmark/runs/category_neural_flow_v1/checkpoints/highspeed",
+  "models": [
+    "neural_flow"
+  ],
+  "seeds": [
+    17
+  ],
+  "epochs": 60,
+  "patience": 10,
+  "samples": 4000,
+  "val_samples": 600,
+  "batch_size": 256,
+  "workers": 1,
+  "lr": 0.0003,
+  "pattern": "mixed",
+  "device": "cuda",
+  "model_kwargs": {
+    "context": 0.4
+  },
+  "no_resume": false,
+  "parallel_jobs": 1,
+  "threads": 1,
+  "child_run": true,
+  "model": "neural_flow",
+  "seed": 17,
+  "input_dim": 256,
+  "basis_sha256": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+  "dataset_config_sha256": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+  "manifest_sha256": "b278ac71bade05a4734c94c6152b5e54489963ae9413e586d3b17f583eae4c54",
+  "coverage_sha256": "ab047e57d43f55120b03753e9669c95e0b468d983c8e0418b5246bfa3fc596d0",
+  "loader_sha256": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+  "model_source_sha256": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+  "engine_sha256": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+  "loss_name": "full_matrix_per_target_nmse_v1",
+  "normalization": "scalar sqrt(mean observed full Frobenius energy), no future statistics",
+  "kl_beta": 0.0001
+}

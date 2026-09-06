@@ -1,0 +1,12 @@
+{
+  "trained": 108,
+  "evaluated": [
+    "climb_descent",
+    "cruise",
+    "highspeed",
+    "occlusion",
+    "sweep_turn",
+    "uturn"
+  ],
+  "wall_elapsed_s": 610.3204550743103
+}

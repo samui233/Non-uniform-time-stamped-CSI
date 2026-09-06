@@ -1,0 +1,35 @@
+{
+  "model": "local_dynamics_diagnostic",
+  "model_kwargs": {
+    "history_decay_s": [
+      0.025,
+      0.1,
+      0.4
+    ],
+    "hidden_dim": 32
+  },
+  "family": "cruise",
+  "input_dim": 256,
+  "seed": 17,
+  "epochs": 60,
+  "samples": 4000,
+  "val_samples": 600,
+  "batch_size": 256,
+  "lr": 0.0003,
+  "weight_decay": 0.0001,
+  "patience": 12,
+  "kl_beta": 0.0,
+  "loss_name": "full_matrix_per_target_nmse_v1",
+  "data_root": "/root/autodl-tmp/csi-irregular-benchmark/data_categories_v1/cruise",
+  "basis_sha256": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+  "dataset_config_sha256": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+  "manifest_sha256": "578d754eee67e7929621f8e90c8f549845becf0f135586134a5a6a068943d681",
+  "coverage_sha256": "180d1ef85bbbfda13ee453078f639baad626ea295fbac4c60a82d3b82cf9ea76",
+  "loader_sha256": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+  "model_source_sha256": "2f43f020d96c5a9b599998f80ccd29f5779527cdd192140d3c6bde30645c11f4",
+  "trainer_source_sha256": "afc691aecf9e94b86ef9724aa83cae87ddbed206518d225f2fc4d621e8388288",
+  "selection": "TRAIN/VAL only, no TEST or future input",
+  "representation": "Original PCA128, history-only normalization; full-matrix target residual included",
+  "method_status": "Learned local dynamics diagnostic; not Neural Flow or Time-IMM reproduction",
+  "engine_sha256": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff"
+}

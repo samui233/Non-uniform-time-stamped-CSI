@@ -1,0 +1,30 @@
+{
+  "family": "highspeed",
+  "seed": 43,
+  "output": "runs/flow_repair_v1/selected/highspeed/seed43",
+  "epochs": 60,
+  "data_root": "/root/autodl-tmp/csi-irregular-benchmark/data_categories_v1/highspeed",
+  "model": "observed_state_flow",
+  "model_kwargs": {
+    "hidden_dim": 32,
+    "flow_layers": 2
+  },
+  "input_dim": 256,
+  "samples": 4000,
+  "batch_size": 128,
+  "lr": 0.0003,
+  "patience": 12,
+  "loss_name": "full_matrix_per_target_nmse_v1",
+  "kl_beta": 0.0,
+  "basis_sha256": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+  "dataset_config_sha256": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+  "manifest_sha256": "b278ac71bade05a4734c94c6152b5e54489963ae9413e586d3b17f583eae4c54",
+  "coverage_sha256": "ab047e57d43f55120b03753e9669c95e0b468d983c8e0418b5246bfa3fc596d0",
+  "loader_sha256": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+  "model_source_sha256": "b7becbc146b1420d30a34c2826f8a6a0790c3c89677a4473a006eb518d841063",
+  "original_adapter_sha256": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+  "upstream_flow_sha256": "3ded8c892a506a31aeeaf3faa32f160d07b31e03f5de56e4863264743e87ee39",
+  "selection": "TRAIN/VAL only; best validation mean full-matrix NMSE",
+  "adaptation": "Deterministic observed-state shared complex-component CouplingFlow; not the original latent-variable architecture",
+  "engine_sha256": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff"
+}

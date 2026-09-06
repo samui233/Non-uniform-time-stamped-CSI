@@ -1,0 +1,444 @@
+{
+  "signature": "714e025434a6401e4173a7077774239d82b40f1767670d79b6a72563c647b0e4",
+  "provenance": {
+    "data": {
+      "small_file_sha256": {
+        "dataset_config.json": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+        "manifest.json": "b278ac71bade05a4734c94c6152b5e54489963ae9413e586d3b17f583eae4c54",
+        "window_coverage.json": "ab047e57d43f55120b03753e9669c95e0b468d983c8e0418b5246bfa3fc596d0",
+        "compression/basis.npy": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+        "routes/highspeed_000/complete.json": "502b1a14d3c2757ae564c5118b79637f4fcf052f09879cf0c7fffda1681b5678",
+        "routes/highspeed_000/compression.json": "711f34ca530d2b3c5c20c699ef70af97f835fd429ddbc0adee7b447fbfa27003",
+        "routes/highspeed_000/paths.npz": "7b47ae9a39b4ae1d1fd4e630729700f5c7bd35d505e258057f24484d10ec5ee8",
+        "routes/highspeed_000/energy.npy": "75302556e2c0d6dd96566d1da629a9a196a99f0cccea066b1915633a156f255c",
+        "routes/highspeed_000/residual_energy.npy": "ab583a44a5231fda2a9409d523b0c55550f8a1ebed61def683b242ecc1275419",
+        "routes/highspeed_000/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_001/complete.json": "a848725d45a92143e8312029a7a7b4dbd7336759773b626b3e4de24c39aa05b3",
+        "routes/highspeed_001/compression.json": "8c2e78b5441b4ce1b1e5ce922c23e9641895d2167c2e68bb2f54975e42f148f8",
+        "routes/highspeed_001/paths.npz": "05a0a1973c918f4e1e752e1100c1a82ffd3afa7dc78cd7f42dec9646cc27e4f9",
+        "routes/highspeed_001/energy.npy": "87e553648bdf056d5cd496bf5d70ddef42a58ee4db3a62a421f9204058f13e8a",
+        "routes/highspeed_001/residual_energy.npy": "f48f7a0dc1dbc824ad080fbb73fe1f56f64fbb2376c9a6e012e55e1a2b62ed8b",
+        "routes/highspeed_001/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_002/complete.json": "447788dd4bbb733b436a7cb82c6c695146fee1d3d4797ea8689e0c7c79679d3f",
+        "routes/highspeed_002/compression.json": "e26cb5489e95735848e32902508fb0cefc4117962ef328f65f04c20a2ab770f6",
+        "routes/highspeed_002/paths.npz": "2e10058e1d217f1508d0f2ce3c281354a36af5fc2bc13368f2d5b277439e8ec0",
+        "routes/highspeed_002/energy.npy": "062ae2f7a2339f9bfd79e73f7af5fded9df1cda0f52f04b38d7bfa521e41ac5f",
+        "routes/highspeed_002/residual_energy.npy": "94ce507c9928c7e7deb67b06adbd8517c9e89d04bf9549d022738ea6d7e5199c",
+        "routes/highspeed_002/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_002/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/highspeed_003/complete.json": "ea145259f9dafd5eb5a8b723c5a9c5d83e38a21c895e62720b2df3033e8f6630",
+        "routes/highspeed_003/compression.json": "d2a4df62ec0cf0e4ee03464fd6a15a573ee5853ee541767450cf73a9d7e05c19",
+        "routes/highspeed_003/paths.npz": "fbea23bf1cfd949f191d00ef0a8fa0f442fba4cfddaca05ccc4678ba3781dce6",
+        "routes/highspeed_003/energy.npy": "7a4a482a851b85fc463d42ba707b586ca158fb2dc8dc234af2b30c8bf4bd4f19",
+        "routes/highspeed_003/residual_energy.npy": "21b426fcb99e1d79fc330152e47b3ddc8881cd7c964e8d1bc5cdafeba1ac9632",
+        "routes/highspeed_003/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_004/complete.json": "0a2c8098af78eb7a869de6931c4fdd5a533ce4ff549f35e136c28e7c5ab433bc",
+        "routes/highspeed_004/compression.json": "3bb41b4a5a689aeb4365bf3939828173e71b9a83ac6a7ae59824430cbf84f5d9",
+        "routes/highspeed_004/paths.npz": "25a407fbcc89052ff11d399dbe0bbf9455ba8f0ff387bfba016d65d73c6d5332",
+        "routes/highspeed_004/energy.npy": "cd51bb0998f77e3a01cde5a094a4fae9fd5a2f9cc7cba1d411703cf706a25a36",
+        "routes/highspeed_004/residual_energy.npy": "2e9e28f6fa277cc43dfaa0a2aa40b0ec7ac89c00e5c159395300ab013fdb772d",
+        "routes/highspeed_004/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_005/complete.json": "8c6f0b8c19b8b338ad15e12f1e16a27fbee003cc94e7707b0e5bd3b115084efe",
+        "routes/highspeed_005/compression.json": "66483213b0fbeb31cc107ae16fc25c6119c3721741ffc568d5911be4a0b727ef",
+        "routes/highspeed_005/paths.npz": "aa0f12eff3e68da47f4a2811e4560fc4322c0aacdafc5225e545a86fdcedeb31",
+        "routes/highspeed_005/energy.npy": "5e93ad16d14383252e878cffc477bf2e333f1bc1e7641aae832f5d82f81f1374",
+        "routes/highspeed_005/residual_energy.npy": "5948fc9caf9d9ed91af6f276c5a9b637ae943a5050b628821181ab011bb196ba",
+        "routes/highspeed_005/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_005/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/highspeed_006/complete.json": "8e834f5e13ffc5951ec4495d0c7d74e38175e0fa3a0fefcb4d5fe77326729a0e",
+        "routes/highspeed_006/compression.json": "a700936153d8afac2e8a4ed4f475dfcf1ae9468571ba9b06698ae03d45ae54bc",
+        "routes/highspeed_006/paths.npz": "9bc873280a9c5581e3ce5c63e2b59beb0a0e0504cb1a526d3ccef6b1552a2171",
+        "routes/highspeed_006/energy.npy": "54ead61a479aa95d0237b8371a01abc8d91744a7f04f10b0ebd7a338d119c5e6",
+        "routes/highspeed_006/residual_energy.npy": "e1cd3c986cdc5f36b7846e1d0e2a3039bd10479a4e702d9ad19c49cb121f6f91",
+        "routes/highspeed_006/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_006/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/highspeed_007/complete.json": "55ef727f5d25a8406724f607fd31eb55eede2db1609f2a7f1a56a023c0c27276",
+        "routes/highspeed_007/compression.json": "53061816234664eb72b6385ee82dd0e872d1d69eea118a813ab0fa4841cbc6b0",
+        "routes/highspeed_007/paths.npz": "d18fa2b364f4c0e21381d1270bb2da41edccddd88874c2534ff769cc86f9f47a",
+        "routes/highspeed_007/energy.npy": "f2caf84b77c2ce797ff786b51f02e10091fff248f30d26cb7fa9e48befd0875f",
+        "routes/highspeed_007/residual_energy.npy": "8a4343a2ec6da8935062ba3ff4ba92184c71d9ad6b24268534dcf856ba0e465a",
+        "routes/highspeed_007/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_007/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/highspeed_008/complete.json": "eae57f1ba6a28215f98571216564222bc9ccdbb752abab07266a674b370a5b98",
+        "routes/highspeed_008/compression.json": "95823bd954f2564046f569f0a9bf23a408df2e03cc4cb8d0e72131959128ecd7",
+        "routes/highspeed_008/paths.npz": "4751310e9de01187993dec4bcad79f13ea5d1444115c8a1ecf06447c281507eb",
+        "routes/highspeed_008/energy.npy": "1ce9937e4f899d6632b4b36f16b1a7b084381ea48e8b3c78aabd08815cab2703",
+        "routes/highspeed_008/residual_energy.npy": "759837a08d5e8deaccd0edc1b6ff5ccd6778a9482a300da620980c331833177e",
+        "routes/highspeed_008/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_009/complete.json": "defd7d965d8ca93a0468a1a2faa31764bc3a8408f15155ac48b28eecd80744b9",
+        "routes/highspeed_009/compression.json": "5a1394897f23d3e4d0405d021d52696f73071eb4d632e53f863b2b26ba500895",
+        "routes/highspeed_009/paths.npz": "76ca7269a650b5773dd46838e37a7da127e2b13114b500fefa7b5d7d2fdcd90c",
+        "routes/highspeed_009/energy.npy": "4f436ff2b237580bffed7b1cfa290145d138f419ffb37c8ea5420cd5e87a0111",
+        "routes/highspeed_009/residual_energy.npy": "e6091ea37c0b8f06ad26f8fcba4d10287c616d824cb1ce02b85a7c8caeff9c4c",
+        "routes/highspeed_009/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_010/complete.json": "37bdee659ebef22d65ce35d0b96e6aec9e09a56293da921decd95a0c14b5b419",
+        "routes/highspeed_010/compression.json": "243fa6d24bd9f3347e6326b0bf7e6cd88c6db205b89ef153204c59925fcb92f5",
+        "routes/highspeed_010/paths.npz": "bec1ad8c241a64be9f850f7236c1f22a605071f5d06ae4f3351d6963743ef3f6",
+        "routes/highspeed_010/energy.npy": "902539cf98e211cef40164f4c85e56f1ad6bcf4dc221d364e47c157930fad0ef",
+        "routes/highspeed_010/residual_energy.npy": "58c9a2bef3833d159b6d2deefb653c484f5de42dff50f77afc40991b32082003",
+        "routes/highspeed_010/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_011/complete.json": "b10b131fd83fb4cbd7515e58cb698096e19c89e1c66fc1aa9059d160e0583d38",
+        "routes/highspeed_011/compression.json": "168ed6b6230970098247dd93de57080d183686ae1eab6187d56fcf5b191e8a40",
+        "routes/highspeed_011/paths.npz": "c51746827b8b96ae0134effd20c06e37044f066006672efdbe9e063ab40a4c45",
+        "routes/highspeed_011/energy.npy": "4d9baf1acd83b5075808499f4ddba39f35c19936fcd6a44eef67b38b1ae456eb",
+        "routes/highspeed_011/residual_energy.npy": "7fcb3f4cc53fbaaa6ae63dadf8ecdb7359307f3b2970099a62dda25e82a70101",
+        "routes/highspeed_011/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_012/complete.json": "80d466aaebbd37a64e775fc68abaef6a102a18bb5d6982950fab3705aaeacc23",
+        "routes/highspeed_012/compression.json": "eda99b32cc598b717deecad4f6f267c1cb3128dd0f89e4201e5341262683ba58",
+        "routes/highspeed_012/paths.npz": "0fdcf7a34b77511503404a19838b915908698da2af191c6eb1cc869e541a1073",
+        "routes/highspeed_012/energy.npy": "8c442c644b26aa0afe6f56d2311b0f79a7d9ac09e6da8fd3dfc8beecfa15be6b",
+        "routes/highspeed_012/residual_energy.npy": "8d9991afea47fb0e46ddf28a64a5ff4a31ed9e4e7a09864b47cbf01ceaef1053",
+        "routes/highspeed_012/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_013/complete.json": "14a6b51f8cdaa04abc7b64ff0a9d5e33f548033c2dda8bb65630c8cdbc313cc9",
+        "routes/highspeed_013/compression.json": "73fb1fe3446bf1c5cfccda4aab3c61d7fa5255a6803d24341f50f6b23938e6d4",
+        "routes/highspeed_013/paths.npz": "b9f2dc341bf587deeb7776946c032ffdd27d81de49d90f16b6e49cfa2ded96d9",
+        "routes/highspeed_013/energy.npy": "51c511a2574fb80c7ac5250b65d7e0ba5e28a7409da8a765271d5d5824392f10",
+        "routes/highspeed_013/residual_energy.npy": "908517cee801c1e7de5d0189aef1d272f507503ced16058fa11c64c3e1aacaaa",
+        "routes/highspeed_013/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_014/complete.json": "62901dfc3acd56ceeeccd444e81ac0f252a3088969c8ae140d7a904d626639db",
+        "routes/highspeed_014/compression.json": "9340b33a7631ceaec2c6597ee82576cacf5b9eb09bfce85cae916b1a6e0bf7df",
+        "routes/highspeed_014/paths.npz": "e244cac1f44e8fa90887e4632f38a72ba16f12c239eebf7242b3765207ec4d78",
+        "routes/highspeed_014/energy.npy": "b638f91e185935f3c2f58ab9300d3d42a3176abff84b4fc40746410017b2dd1c",
+        "routes/highspeed_014/residual_energy.npy": "59a6d48186796352c67108996873a1d61e43a132ecbf49d90caaa63a27ca982f",
+        "routes/highspeed_014/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_015/complete.json": "5027bd53434eab37b2f39519c63f559c9ac91930fdc8e3cd9a3f7d884d397eea",
+        "routes/highspeed_015/compression.json": "4e97eef0f16c9074eb868e525a0950701b3e9fcb7ce8ec851c767ca63c635bfd",
+        "routes/highspeed_015/paths.npz": "9ea402f604a864896817f3f9deb6ba9b5028bfed64487126210a87c7df0384ff",
+        "routes/highspeed_015/energy.npy": "ea98109497f0e076201b2979bca8b1cb69c607f4bfc776218dd40fb58b73b3f5",
+        "routes/highspeed_015/residual_energy.npy": "a72aa5fc3cd3ed1f3ec40fc17e74b24316cf3d2a98df96a4747beb5d53310c78",
+        "routes/highspeed_015/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_015/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/highspeed_016/complete.json": "5fdd694288b28066e0bf802dcf201fe3265458a952f7532da41fe6e64192df36",
+        "routes/highspeed_016/compression.json": "f33a6326a6437287dd536966821b9cbb6b53207efc0e981d1e3d848d76518dea",
+        "routes/highspeed_016/paths.npz": "61e9d0c2cb2f194bf459c73253866d99821630b56d2888863670777ebedf5d00",
+        "routes/highspeed_016/energy.npy": "6935ec2242516ab6f35a83221de7fbe857f3e07fffc772ef0ca53dc7c0b1c894",
+        "routes/highspeed_016/residual_energy.npy": "ba5a023b91ebabe188cac55ace182e3aea3afd1f9fcf5d7624c9d47f7f5422a6",
+        "routes/highspeed_016/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_017/complete.json": "b5a8e331d218c4620f0af16ffda53f839bebd01df3f19f9f3ce652892ca889d2",
+        "routes/highspeed_017/compression.json": "bc0fcbb1546c52f3ace5941252cd11abde958f38678138495882382c230083ef",
+        "routes/highspeed_017/paths.npz": "6336244298af8c33538847119eff82a1288a707ea1ad5b06e2a308c232c0f7f4",
+        "routes/highspeed_017/energy.npy": "8b0d326473f4e33fff55dae0b30361ca0a76551cc277e2f6a6a92d3d8b145241",
+        "routes/highspeed_017/residual_energy.npy": "be81fa5d0f9fe22d2e506b35ae1c9e9a40b3f9ca52c62f91c5aa3f5d40254ce1",
+        "routes/highspeed_017/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_018/complete.json": "0866cc7e17f16406724ad53099f92b6627b99c2337031b0d6333f018eb70964e",
+        "routes/highspeed_018/compression.json": "06193fba25775c46a895e138aaa7410a0e4c0778b49894701ff351c553d5a47c",
+        "routes/highspeed_018/paths.npz": "2bc8c4fbcaca434786471b66a94e656fbac8333cf91d50a566d5c01ff22380b6",
+        "routes/highspeed_018/energy.npy": "d5c1184c2f96e6bf371cee81dc11170a228b4e1c7a2fbcaaa9811cc06f595162",
+        "routes/highspeed_018/residual_energy.npy": "4d5fc625a8a156b036fc5450bc8cf3bb13f43e8f3f8f161a485db462791c5fcf",
+        "routes/highspeed_018/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/highspeed_018/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/highspeed_019/complete.json": "9f196aa455d837125b07d2ed778850dc9a863bad5ac8e2e62817cb313dc46f65",
+        "routes/highspeed_019/compression.json": "2acc21de62c3a043bd9c8e50f0dc941c49b3a82da436e2a16b35c50cb0657cc2",
+        "routes/highspeed_019/paths.npz": "ed65131011d3a3d642e68dfd8588ac70331f29ecbba262cd034d270e1cbccdac",
+        "routes/highspeed_019/energy.npy": "5c902c2fb62ca9b1e302a96f82925dd463a698251716a1ae49acd4823c40b11e",
+        "routes/highspeed_019/residual_energy.npy": "afd9094f060b58340655e9a60c70451e85766aa6d1e57de0811ca0b553c700c7",
+        "routes/highspeed_019/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5"
+      },
+      "large_array_stat_and_source_guard": {
+        "routes/highspeed_000/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631973004873227,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_000/H.npy"
+        },
+        "routes/highspeed_000/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634377713168251,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_000/coefficients.npy"
+        },
+        "routes/highspeed_001/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631975889054998,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_001/H.npy"
+        },
+        "routes/highspeed_001/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634377973180754,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_001/coefficients.npy"
+        },
+        "routes/highspeed_002/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631972336831029,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_002/H.npy"
+        },
+        "routes/highspeed_002/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634378285195749,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_002/coefficients.npy"
+        },
+        "routes/highspeed_002/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788631977105131461,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_002/offgrid_queries.npz"
+        },
+        "routes/highspeed_002/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634378297196326,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_002/offgrid_coefficients.npz"
+        },
+        "routes/highspeed_003/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788631975241014205,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_003/H.npy"
+        },
+        "routes/highspeed_003/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634378569209398,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_003/coefficients.npy"
+        },
+        "routes/highspeed_004/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632168719994725,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_004/H.npy"
+        },
+        "routes/highspeed_004/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634378833222086,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_004/coefficients.npy"
+        },
+        "routes/highspeed_005/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632158963492088,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_005/H.npy"
+        },
+        "routes/highspeed_005/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634379125236116,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_005/coefficients.npy"
+        },
+        "routes/highspeed_005/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632164543780156,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_005/offgrid_queries.npz"
+        },
+        "routes/highspeed_005/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634379137236693,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_005/offgrid_coefficients.npz"
+        },
+        "routes/highspeed_006/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632162383668830,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_006/H.npy"
+        },
+        "routes/highspeed_006/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634379449251679,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_006/coefficients.npy"
+        },
+        "routes/highspeed_006/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632167703942601,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_006/offgrid_queries.npz"
+        },
+        "routes/highspeed_006/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634379461252255,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_006/offgrid_coefficients.npz"
+        },
+        "routes/highspeed_007/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632170268074041,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_007/H.npy"
+        },
+        "routes/highspeed_007/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634379797268394,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_007/coefficients.npy"
+        },
+        "routes/highspeed_007/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632175620347355,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_007/offgrid_queries.npz"
+        },
+        "routes/highspeed_007/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634379813269164,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_007/offgrid_coefficients.npz"
+        },
+        "routes/highspeed_008/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632166139862266,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_008/H.npy"
+        },
+        "routes/highspeed_008/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634380081282034,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_008/coefficients.npy"
+        },
+        "routes/highspeed_009/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632166007855483,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_009/H.npy"
+        },
+        "routes/highspeed_009/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634380341294516,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_009/coefficients.npy"
+        },
+        "routes/highspeed_010/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632168663991853,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_010/H.npy"
+        },
+        "routes/highspeed_010/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634380601306999,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_010/coefficients.npy"
+        },
+        "routes/highspeed_011/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632170268074041,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_011/H.npy"
+        },
+        "routes/highspeed_011/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634380861319480,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_011/coefficients.npy"
+        },
+        "routes/highspeed_012/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632363221135799,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_012/H.npy"
+        },
+        "routes/highspeed_012/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634381113331576,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_012/coefficients.npy"
+        },
+        "routes/highspeed_013/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632356444842078,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_013/H.npy"
+        },
+        "routes/highspeed_013/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634381377344243,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_013/coefficients.npy"
+        },
+        "routes/highspeed_014/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632365153219259,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_014/H.npy"
+        },
+        "routes/highspeed_014/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634381645357102,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_014/coefficients.npy"
+        },
+        "routes/highspeed_015/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632372997556815,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_015/H.npy"
+        },
+        "routes/highspeed_015/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634381949371689,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_015/coefficients.npy"
+        },
+        "routes/highspeed_015/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632379397830704,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_015/offgrid_queries.npz"
+        },
+        "routes/highspeed_015/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634381965372457,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_015/offgrid_coefficients.npz"
+        },
+        "routes/highspeed_016/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632360469016696,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_016/H.npy"
+        },
+        "routes/highspeed_016/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634382217384542,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_016/coefficients.npy"
+        },
+        "routes/highspeed_017/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632359276965030,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_017/H.npy"
+        },
+        "routes/highspeed_017/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634382473396819,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_017/coefficients.npy"
+        },
+        "routes/highspeed_018/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632360925036452,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_018/H.npy"
+        },
+        "routes/highspeed_018/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634382749410056,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_018/coefficients.npy"
+        },
+        "routes/highspeed_018/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788632366521278276,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_018/offgrid_queries.npz"
+        },
+        "routes/highspeed_018/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634382761410630,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_018/offgrid_coefficients.npz"
+        },
+        "routes/highspeed_019/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632362713113833,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_019/H.npy"
+        },
+        "routes/highspeed_019/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634383001422140,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/highspeed_019/coefficients.npy"
+        }
+      },
+      "note": "Large CSI arrays guarded by size/mtime and hashed generation/projection metadata; not claimed as full-array content SHA."
+    },
+    "code": {
+      "experiments/six_category_v1/common.py": "d37733e6a5568d9fb77ce0a5a8a0e3a4d8bed31322aef2b990d589d203975e3e",
+      "experiments/six_category_v1/dataset.py": "81f03a0a794a898772df07921771c68bcd6406ff9917df082307a69192c5a45a",
+      "experiments/six_category_v1/evaluate_family.py": "da362619601f1344f4da7878f33082987e92e86d6a7b0f352f11ea82bcc47434",
+      "benchmark/dataset.py": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+      "benchmark/metrics.py": "b07008d7d19097490cbecf38b0bad91f0ffadfc063d5b0b1f121c69fbd0cd94c",
+      "benchmark/evaluation.py": "fe04785a3ed3a461f0361f0fabf5bbf5adfb5558f9c9861e616740e0bb0754a6",
+      "benchmark/baselines.py": "9fc80bd8a54cd16fce090ac601dea666e2d179f094625e88c5c9b20a48cdb1e0",
+      "benchmark/harmonic.py": "56b2053de2ed46208d90a2d91f188ea1b2e5db0bd8bc75de28cbddc54ad6a3a0",
+      "benchmark/engine.py": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+      "models/adapters.py": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+      "experiments/flow_repair/observed_flow.py": "b7becbc146b1420d30a34c2826f8a6a0790c3c89677a4473a006eb518d841063",
+      "experiments/flow_repair/local_dynamics.py": "2f43f020d96c5a9b599998f80ccd29f5779527cdd192140d3c6bde30645c11f4",
+      "third_party/neural-flows-experiments/nfe/models/flow.py": "3ded8c892a506a31aeeaf3faa32f160d07b31e03f5de56e4863264743e87ee39",
+      "third_party/t-PatchGNN/tPatchGNN/model/tPatchGNN.py": "ba9db3896a025103369e27b710794fe7cdce6d03b508c02b5bce5ae12aa6a26c",
+      "third_party/Continuous-Recurrent-Units/lib/CRUCell.py": "345014b856474cc528ffde5ef0b64021839c1083d7398b9c81d95af506dec55d",
+      "experiments/six_category_v1/cru_float32.py": "198f8dea1116c6f2293630c1b308d4b2c5db348afe64a3689291ccd38957b807"
+    },
+    "split": "val",
+    "samples": 600,
+    "seed": 917,
+    "ratios": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "tuning": {
+    "process_ratio": 100,
+    "validation_nmse": {
+      "0.01": 0.20221013385798464,
+      "0.1": 0.20219582769619593,
+      "1": 0.20205392553988025,
+      "10": 0.2007420037645271,
+      "100": 0.19401614837427283,
+      "1000": 0.19543463474994294,
+      "10000": 0.26574033212592135
+    }
+  }
+}

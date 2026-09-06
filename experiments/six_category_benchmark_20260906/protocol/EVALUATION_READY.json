@@ -1,0 +1,21 @@
+{
+  "status": "ready",
+  "entrypoint": "experiments/six_category_v1/evaluate_family.py",
+  "interface": "--family FAMILY; defaults all main/offgrid/stress, all six methods and three seeds; stress seed17; four baselines",
+  "scheduler_guard": "experiments.six_category_v1.evaluate_family.family_marker_current(family)",
+  "complete_marker": "runs/six_category_v1/results/<family>_complete.json",
+  "source_sha256": {
+    "evaluate_family.py": "da362619601f1344f4da7878f33082987e92e86d6a7b0f352f11ea82bcc47434",
+    "dataset.py": "81f03a0a794a898772df07921771c68bcd6406ff9917df082307a69192c5a45a",
+    "test_evaluation.py": "918a2fc6ee9ed08ec663fc41ceca407db32e19a4c8029670c7fe52dbd4a9b163"
+  },
+  "tests": "13 passed in 3.83s, CPU, TRAIN/VAL only; CRU registry uses validated FP32 adapter",
+  "test_sample_seed": 1917,
+  "validation_sample_seed": 917,
+  "precision": "CRU FP32 autocast disabled and TF32 off; other learned models AMP bfloat16; harmonic internally complex128",
+  "trained_checkpoint_smoke": "common.load_model provenance-checked cruise neural_flow/observed_state_flow/local_dynamics seed17, real VAL2, output [2,6,256] finite",
+  "gpu_batch": "F256:16; F512:4; one eval stream budget5GiB including context",
+  "timestamp_jitter": "Internal20ms only, first/last anchors fixed, values and full CSI paired identically; hold unchanged",
+  "formal_evaluation_started_by_author": false,
+  "notes": "Registry model sources are read dynamically and hashed at evaluation time; common.py may add the validated CRU precision adapter without changing this interface. No dataset or original benchmark source modified."
+}

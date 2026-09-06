@@ -1,0 +1,161 @@
+{
+  "protocol": "Same weights, true TRAIN-only batch128, unchanged CRU equations; FP32 core only. TF32 and AMP disabled. No optimizer update or formal training performed. Other training continues; timings interleaved and are feasibility measurements, not isolated latency.",
+  "data": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/cruise",
+  "checkpoint": "/root/autodl-tmp/csi-irregular-benchmark/runs/six_category_v1/checkpoints/cruise/cru_seed17/best.pt",
+  "checkpoint_epoch": 14,
+  "batch_shape": [
+    128,
+    32,
+    256
+  ],
+  "valid_min_dt_s": 0.001999974250793457,
+  "queries_s": [
+    0.0020000000949949026,
+    0.009999999776482582,
+    0.05000000074505806,
+    0.10000000149011612,
+    0.20000000298023224,
+    0.5
+  ],
+  "padding_entries": 1770,
+  "results": {
+    "initial": {
+      "output_relative_l2": 9.772954306208107e-08,
+      "output_max_abs": 5.960464477539063e-08,
+      "full_matrix_nmse_linear": [
+        2.690558433532715,
+        2.690558433532715
+      ],
+      "full_matrix_nmse_db": [
+        4.298424284900174,
+        4.298424284900174
+      ],
+      "gradient_relative_l2": 5.669496514071818e-08,
+      "gradient_finite": [
+        true,
+        true
+      ],
+      "gradient_relative_l2_per_parameter": {
+        "initial_mean": 6.269436683250871e-08,
+        "initial_logvar": 2.461050695248667e-06,
+        "cell._tm_11_basis": 1.5183408454274927e-07,
+        "cell._tm_12_basis": 3.0629424541961097e-06,
+        "cell._tm_21_basis": 8.015763570226393e-08,
+        "cell._tm_22_basis": 0.0,
+        "cell._log_transition_noise": 1.1791441622549493e-06,
+        "cell._coefficient_net.0.weight": 0.0,
+        "cell._coefficient_net.0.bias": 0.0,
+        "encoder.0.weight": 1.0735766600306241e-07,
+        "encoder.0.bias": 6.980535183644068e-08,
+        "encoder.2.weight": 7.803231436109276e-08,
+        "encoder.2.bias": 7.491567633489401e-08,
+        "enc_mean.weight": 7.861249025501749e-08,
+        "enc_mean.bias": 7.458816073848776e-08,
+        "enc_var.weight": 1.57465071724071e-06,
+        "enc_var.bias": 1.5091357895999056e-06,
+        "decoder.0.weight": 5.9335721378517044e-08,
+        "decoder.0.bias": 5.249276451697114e-08,
+        "decoder.2.weight": 5.441151077804158e-08,
+        "decoder.2.bias": 4.1638198694035076e-08
+      },
+      "covariance_fp64_fp32": [
+        {
+          "finite": true,
+          "minimum_block_eigenvalue": 9.953547297492094e-07,
+          "minimum_diagonal_variance": 9.95354729771368e-07
+        },
+        {
+          "finite": true,
+          "minimum_block_eigenvalue": 9.5367431640625e-07,
+          "minimum_diagonal_variance": 9.5367431640625e-07
+        }
+      ],
+      "forward_backward_seconds_fp64_fp32": [
+        [
+          2.0287360325455666,
+          1.8961603241041303,
+          1.2544189682230353
+        ],
+        [
+          1.7554040858522058,
+          0.845003230497241,
+          0.45847098249942064
+        ]
+      ],
+      "median_speedup_fp32": 2.2439681360606603,
+      "peak_allocated_gib": 0.718665599822998
+    },
+    "trained": {
+      "output_relative_l2": 4.646806371240863e-07,
+      "output_max_abs": 4.470348358154297e-07,
+      "full_matrix_nmse_linear": [
+        0.41406697034835815,
+        0.41406697034835815
+      ],
+      "full_matrix_nmse_db": [
+        -3.8292941129322218,
+        -3.8292941129322218
+      ],
+      "gradient_relative_l2": 1.6594271065125397e-06,
+      "gradient_finite": [
+        true,
+        true
+      ],
+      "gradient_relative_l2_per_parameter": {
+        "initial_mean": 4.8635906966304615e-06,
+        "initial_logvar": 4.378601227874574e-06,
+        "cell._tm_11_basis": 2.5001325533569785e-06,
+        "cell._tm_12_basis": 4.4512324263850006e-06,
+        "cell._tm_21_basis": 3.766300076613453e-06,
+        "cell._tm_22_basis": 3.3230973751429617e-06,
+        "cell._log_transition_noise": 4.018128106814895e-06,
+        "cell._coefficient_net.0.weight": 3.175345351617701e-06,
+        "cell._coefficient_net.0.bias": 9.873788674268903e-06,
+        "encoder.0.weight": 1.346388898927421e-06,
+        "encoder.0.bias": 2.3340318514984133e-06,
+        "encoder.2.weight": 1.6327901147615288e-06,
+        "encoder.2.bias": 2.0903916341261527e-06,
+        "enc_mean.weight": 2.066369971845753e-06,
+        "enc_mean.bias": 2.1783670692125185e-06,
+        "enc_var.weight": 2.8697547097698375e-05,
+        "enc_var.bias": 2.7217530640840517e-05,
+        "decoder.0.weight": 1.1984206971362652e-06,
+        "decoder.0.bias": 1.6409603949451437e-06,
+        "decoder.2.weight": 1.0597469561676853e-06,
+        "decoder.2.bias": 1.2653340677929014e-06
+      },
+      "covariance_fp64_fp32": [
+        {
+          "finite": true,
+          "minimum_block_eigenvalue": 9.948982679919283e-07,
+          "minimum_diagonal_variance": 9.948983811674162e-07
+        },
+        {
+          "finite": true,
+          "minimum_block_eigenvalue": 9.547751460559084e-07,
+          "minimum_diagonal_variance": 9.547751460559084e-07
+        }
+      ],
+      "forward_backward_seconds_fp64_fp32": [
+        [
+          2.236355585977435,
+          2.062616577371955,
+          2.059696110896766
+        ],
+        [
+          1.754175204783678,
+          1.7228515017777681,
+          2.0168071007356048
+        ]
+      ],
+      "median_speedup_fp32": 1.1758327057338114,
+      "peak_allocated_gib": 0.817258358001709
+    }
+  },
+  "padding_nan_max_abs_error": 0.0,
+  "source_sha256": {
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/cru_precision_probe.py": "cef63a10f8f545993e49af921533a64d130e7bfb956496f5b6757a7ad03809a8",
+    "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/cru_float32.py": "198f8dea1116c6f2293630c1b308d4b2c5db348afe64a3689291ccd38957b807",
+    "/root/autodl-tmp/csi-irregular-benchmark/models/adapters.py": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9"
+  }
+}

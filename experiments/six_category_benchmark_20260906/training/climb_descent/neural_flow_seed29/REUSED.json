@@ -1,0 +1,5 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/category_neural_flow_v1/checkpoints/climb_descent/neural_flow_seed29",
+  "best_sha256": "5608d739e82722a057a30ec976e7315007f305743ca2b3977ed21718a4e691a1",
+  "note": "Existing completed matching run, not retrained or edited."
+}

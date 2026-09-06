@@ -1,0 +1,444 @@
+{
+  "signature": "cf33c92d2b1c732ab1694d5fd1ae61f3d108ac420ec797e2576c30c0673f26e2",
+  "provenance": {
+    "data": {
+      "small_file_sha256": {
+        "dataset_config.json": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+        "manifest.json": "79254c09ea1ba2871e7dafe1fafd2025e9475c2e419aaf37fe2b60401971039a",
+        "window_coverage.json": "6581d2fb9871c8c60079cc5f4c18a74a41c4aba00cea334bd7a55cc5966f2fe3",
+        "compression/basis.npy": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+        "routes/uturn_000/complete.json": "ec88ec2ead0a2c5c430f44b7a9440239abb73d4979de35655b553c2524db6798",
+        "routes/uturn_000/compression.json": "510b926072246af08830bc8c86fbd26090cacb5c44c85df03a19dada89b91cc3",
+        "routes/uturn_000/paths.npz": "fde054bf39d8a5e353cc74ec17cc312b71b06ffad6bd569b2eca9ebf222d9a1e",
+        "routes/uturn_000/energy.npy": "2e783a3f33a3350b9bf14d02d155ea173327e8fa1885860c1ab3db0faf938be4",
+        "routes/uturn_000/residual_energy.npy": "671406d9292d56b455bd5f4c9411a7e0a68d053b00f5e1e25a992efae079b1ec",
+        "routes/uturn_000/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_001/complete.json": "120edc7fa800cd75a6b5dd01cc6c10cfb013fe092dfd8578e5b8030712324b02",
+        "routes/uturn_001/compression.json": "466904d3adf76cffc971590970dd04e1f3be4b9e1d5db95f17677fe2f219c1c4",
+        "routes/uturn_001/paths.npz": "f373b4973832f5107e12fd5e0711e2e914bdaae7896f264d0515e57ec170d05c",
+        "routes/uturn_001/energy.npy": "f52a88488f7afe790cc0099dd221b6be179930fb66f4ef1bebe12c7f645f83eb",
+        "routes/uturn_001/residual_energy.npy": "c63172b003520887149df2d3e40e05013857ff83d84ab9c6efc9c5a5c9b25ee5",
+        "routes/uturn_001/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_002/complete.json": "135b5c4d26dcc3ca15fdb43e2f3fdb69029daf1d6f7fa559b170a2764ce696ed",
+        "routes/uturn_002/compression.json": "d12f5f62ad4a030c54ac5f892423579bd180d6e809ae748638a5699e8636f097",
+        "routes/uturn_002/paths.npz": "13147028d39c5f464d35104d6a19e2b62cac655733a366ddfe5eb1cb6b8e2c89",
+        "routes/uturn_002/energy.npy": "5258c8f6e6ebf10dd5f963816394499eb21f91dfb84c33351f3d515f6cd8b6d2",
+        "routes/uturn_002/residual_energy.npy": "dd6ef79fe5ce9dac54cb177d335e8e8f85dac68718f2382debfb82cc05b1a7e5",
+        "routes/uturn_002/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_003/complete.json": "7d17014f8ee1624082aee9d4bc146803f19186b79b1290288b859bcb764f9764",
+        "routes/uturn_003/compression.json": "ae2ad4ba26984ccc9891809ef4f1afd47c30ce68814960bcae58d45773089294",
+        "routes/uturn_003/paths.npz": "343171c31b5fae36b1296175f21df4c24e17ee93ca570f86e28c352fee48d7b4",
+        "routes/uturn_003/energy.npy": "963edd35a55c2b8dd77865a1a4e4de9f6b251419f8d3851695dbf899e865a5d8",
+        "routes/uturn_003/residual_energy.npy": "60785010c24c723f0484fc0ad6470de8fc6735163d3564460ebd0323e0eaf7ca",
+        "routes/uturn_003/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_004/complete.json": "2b68c47a276450f71b34e9e4ce85f0ab1efdae38a12bf309d4f4ae3429e0b972",
+        "routes/uturn_004/compression.json": "f43ec7bb7e4bc1a81ebe6176e9123a187060aec7d564d6b3b806d6e1fa64eafb",
+        "routes/uturn_004/paths.npz": "27e9872d4516d3230f61f1f1d10885d0fa87172922b2ebb2b60426cdea8b9448",
+        "routes/uturn_004/energy.npy": "0b5c60838b70088620418128329f6364d87384d7f7c57a7e18684fd51b8456cf",
+        "routes/uturn_004/residual_energy.npy": "f7c32d063e19872dc3fff08c2f3a53d3d204ac7a5d26fdef611f52be8bf99ce4",
+        "routes/uturn_004/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_004/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/uturn_005/complete.json": "7e81ed9fcc40f26ae86aa98c1e7a66331e71e5412e05704440e1fb66f77f746f",
+        "routes/uturn_005/compression.json": "fd1c8186b1eaf006f57d26a9595272a59a1de67317f2e92e9d7e5dde6fe04e4c",
+        "routes/uturn_005/paths.npz": "be430bc5e17de90fefc723211db689831d70a06400e0b23ffd67cc99b3879842",
+        "routes/uturn_005/energy.npy": "8ef51a5e5900712199a9bff56f89d5b45663c7e96729b0816ae9375e717daba2",
+        "routes/uturn_005/residual_energy.npy": "bb7f9ef18b0f0600ec56c8f35d8172f93417ce54b1bd71f9292daddfb0f83f53",
+        "routes/uturn_005/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_006/complete.json": "271a019621819a7cd27a5b425d75a7118fb9683c11f67c714555e58d39a8d5b4",
+        "routes/uturn_006/compression.json": "35baae9b4482fbcf86da1e56bc45e70ad962c6c0f30c5108e91431a635d97bf9",
+        "routes/uturn_006/paths.npz": "9fc3793cea294417e2fedd0b14d0a2e23a132b28957a3c9ef30c627a38975f7c",
+        "routes/uturn_006/energy.npy": "9427c3cfa190a3bb301c54b3fd015c8b4d2118e9f1d8f27ba4b93c5a5c821f92",
+        "routes/uturn_006/residual_energy.npy": "8c7c56c5afbb96b2cf934ae97d9d60b95df86098640f6bf7b2b76c93d815db2f",
+        "routes/uturn_006/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_007/complete.json": "023574810feead9b489364b00d3345d30dca99265c6a7027ef13940caff85d5d",
+        "routes/uturn_007/compression.json": "28f9ac25aa41c35bff7fd0c4fbeb594dec6b2a2852994d136d0fc28cb580ca41",
+        "routes/uturn_007/paths.npz": "4830a4a5cc048c0086bb35d8dbfe4236591e420fa619161c5b81635660a2e147",
+        "routes/uturn_007/energy.npy": "3d2628cf2ebef6c1b4a132d368ce2c7fcca7b152f37eac28369a8ebecee86649",
+        "routes/uturn_007/residual_energy.npy": "f41674222529135f3e80ec7a627e92e08a750f19bc6af743721f0092eb466c25",
+        "routes/uturn_007/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_007/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/uturn_008/complete.json": "4307b9a5e7e99595e26e3c42cfa53d9013267e793e323840ea966d1a768b5640",
+        "routes/uturn_008/compression.json": "9fc7b0caa41c44929d4d43aa3d730c490532183e091e48ca37dd0109907f73ef",
+        "routes/uturn_008/paths.npz": "2edb4e1cef464c2db0199cb076216b902b599b4de00be50edc6b09645058e638",
+        "routes/uturn_008/energy.npy": "c5f872055ec586935cc2e0f39fc5c8d0046341142d972c9a959bc50fbb8500ca",
+        "routes/uturn_008/residual_energy.npy": "18de0a169af317af3628f510fb9053eb077dbbeec7bf50280563a539b9fcf8eb",
+        "routes/uturn_008/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_009/complete.json": "26fe4ab28102d8c6c8c630bf0a7221e460f5d37e263cf4ae597b38ef72f878d6",
+        "routes/uturn_009/compression.json": "3c90f137772a03ad78900dc52609b19888e6217ee137d94c40b73436f94054c7",
+        "routes/uturn_009/paths.npz": "419bb13e2737f2f11d9205cbd682fe5e2ade4dbf216d44ed4744e4bdd85587a8",
+        "routes/uturn_009/energy.npy": "b8e74f95273fe72984e38bc3a4210f21d9ecb0d7c3af04d8fc73bb22af446dee",
+        "routes/uturn_009/residual_energy.npy": "447f173fa6c7bffa05ec03f07288b3d4f5c714f222286f946c9adbecfbbb0b69",
+        "routes/uturn_009/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_009/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/uturn_010/complete.json": "77114150deb2795c40a47bc6cf44d66a04ee1cca68a91ebc5362575ab770119d",
+        "routes/uturn_010/compression.json": "f50db32738b8cb833fafc581fe1424e98d2a44e557b439009efc29b804db4984",
+        "routes/uturn_010/paths.npz": "296a1deeebbabe1440eddb9751891e6fa7487b3c31d8314fa722e3db8f25da9d",
+        "routes/uturn_010/energy.npy": "416d5ae080172220c040dc53b74c79d9cebb91dcde5f9c4fca7b50f2f2e65a5f",
+        "routes/uturn_010/residual_energy.npy": "bb2b236b1ec1809d8713e1968684216fe12f2c5cacc7042564af50d4befe1e71",
+        "routes/uturn_010/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_011/complete.json": "38aa54d311dc956caf18051f84fa8ef8c2887a68f6ddbf5a28398f57f03ccbac",
+        "routes/uturn_011/compression.json": "0e803c0f748b2a093d9cf694c85c235af149bf41846f0f4832328109522881cc",
+        "routes/uturn_011/paths.npz": "67218d855818d29d1b579f766143da9cb44000e0f67ac138f927f89ca6d51bbe",
+        "routes/uturn_011/energy.npy": "7abfa81bd2a44c01fc4b09cd0ffc94a0c47d5e422382c47a10e9186328e80339",
+        "routes/uturn_011/residual_energy.npy": "d196b5fe9c19c63c1c2b1a9a17c578df9793b385884897ac72603f92877f857a",
+        "routes/uturn_011/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_012/complete.json": "8b37d241786dad47879c4436f95367b22f25b396b1dab399dac436936ac03ffc",
+        "routes/uturn_012/compression.json": "79d3055b8e85427a15f9a71acdc0423e7358655c6e1bc4f4f01497df1ecb1c40",
+        "routes/uturn_012/paths.npz": "695700bace0966d0ae5b469af4faa127d75f53b4f7dd2ecc59492e6f1881e1db",
+        "routes/uturn_012/energy.npy": "f4edb07e0f1dbefbb8e0d3015b58e89bb132aa9427b47ccc039094532bd7d575",
+        "routes/uturn_012/residual_energy.npy": "b8ac8b164ddf022aaa1487f5d6f3be6dafd97a3ee79dfbc712024d77e45c2d15",
+        "routes/uturn_012/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_013/complete.json": "735ef4e922cd9f04e3fe3079d0a720be0fe473d1fc39e6ede37cd510b3bdafec",
+        "routes/uturn_013/compression.json": "688e15397d401d3c09b3ab5e80ea892d657da47dc1af84d56d15140eec9bb44d",
+        "routes/uturn_013/paths.npz": "74840e8cde638ef4f13eaa2aaa0531406b236da2bc484f5435b4671824afcca3",
+        "routes/uturn_013/energy.npy": "a58caf2e545c8ebed252a305f969f4a9e67169b821f6ee6e58574a86a82d21a4",
+        "routes/uturn_013/residual_energy.npy": "c796d19d3498fd74be86fbe0138fe96b6cf184408433a82b0a490553762188ec",
+        "routes/uturn_013/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_014/complete.json": "5f0eaf03a1e39952d53d879082a09f77b4a2a9ddcf3242e92a2a394b87c14d83",
+        "routes/uturn_014/compression.json": "b4c4a492bc3cdb191bc4c7dfab3d6f155faf02cce8560c8836d25ee58d990a6e",
+        "routes/uturn_014/paths.npz": "f8cae1ca732adf7d07b2b94c8dd5e9cfe79d5f3efcca782277e92848d8e7ce54",
+        "routes/uturn_014/energy.npy": "ddb3dcbb29d14c76be5e755f56924643e947c7085b220ec841384372c99422a0",
+        "routes/uturn_014/residual_energy.npy": "b77b5bc4bc483e949fe254396e5ea8e29557a3eebf76781c321d035b936ce9c4",
+        "routes/uturn_014/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_015/complete.json": "c81b14c9e3e52e68e027348b03f151dd78e3fafa5c20d3ef475e570251808d2f",
+        "routes/uturn_015/compression.json": "c19be9dd0761bb15a0a7b3eee1fdc7dd1ed92819dea9d0af16c3e0dad8f454f3",
+        "routes/uturn_015/paths.npz": "00f574127023e37b0f941ba4444e10b097f15b8c69c1caf4afd7976d98dcdf5a",
+        "routes/uturn_015/energy.npy": "678bc588ad9b774537ac8ef92785a4390aca263260b4299fd201e9e31d26ef41",
+        "routes/uturn_015/residual_energy.npy": "f91a7dee5336df5547882b35ad220d1b61165fbdaac4e6a335e20e4bf921f668",
+        "routes/uturn_015/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_015/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/uturn_016/complete.json": "da4d05109b4d087b346c1519ef125bf30c98d9a4b5ce90e6bc12a7f50c9a43ac",
+        "routes/uturn_016/compression.json": "de55af1b3ab20396d790582c66ee99f882a643a9b2d56170cfa7f7ad1e88805d",
+        "routes/uturn_016/paths.npz": "56fb3fc1f11b38e9ae115e28560c638b9658a0988d8512c4d752e10766a0be7a",
+        "routes/uturn_016/energy.npy": "62e1d4171c0e5a067a6061183aea791608f7a544119bcccb717788d7e489c551",
+        "routes/uturn_016/residual_energy.npy": "3b5cfe8bcb7b14d1192aa9455c7accc613f6304642077215b24a181c6742fd00",
+        "routes/uturn_016/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_016/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6",
+        "routes/uturn_017/complete.json": "dc16776897c153bb86fa9be6c84874e6111da781f17e90dd3137378e3d3581b2",
+        "routes/uturn_017/compression.json": "3e5d9e9f7d02b31ce56b739f750e49f16fbaeb07328687949d7d5491541558ee",
+        "routes/uturn_017/paths.npz": "193df0d9c0a57351561c125ae6bbc185b510baab16b91312dd5d05cf1013e95c",
+        "routes/uturn_017/energy.npy": "231a985b53abfb69f93b285eddce886dd27c4fb5fc52ef043fe0ba094cf91d47",
+        "routes/uturn_017/residual_energy.npy": "85247119b44435608265792e2fb22a82ef88b4e6bb1d6d0c6614774f80568042",
+        "routes/uturn_017/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_018/complete.json": "c6b2cafc25ade6a62f502e9716c14d1713a261fbe2bc1c924a59d8b91777bbe6",
+        "routes/uturn_018/compression.json": "d90d29d46f4cf22d8d2da668aee305019b8cf9fd625dacd43946175ed18d5481",
+        "routes/uturn_018/paths.npz": "e366d4f88292fe8988133e0b6f50e505ad018651cfa880e033216a48205dde51",
+        "routes/uturn_018/energy.npy": "0400377fe45d18c45b8c7ccaa85c85473cac8dcf937e29b7303ed9782df6b544",
+        "routes/uturn_018/residual_energy.npy": "36686b56d38e3a3283e64a775d6f62b65ba39549fd21eef87e1a8f1681e5bc97",
+        "routes/uturn_018/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_019/complete.json": "b1a76d2b9ab63ce76218b870aad42ca0ac21320062fd17d51f567d93b94d959e",
+        "routes/uturn_019/compression.json": "05674e57a790b5c1e353b0c842465f5da57044d7028c266d1f6f77e6be00606d",
+        "routes/uturn_019/paths.npz": "be31e1a35af005d501036f96f74fa106a4ffe9e68f03891c3ad92e36936fb005",
+        "routes/uturn_019/energy.npy": "37fbf5e55f59a51154bfafd11b9b7f6293efd38fa161eeabcdc5b2073183b693",
+        "routes/uturn_019/residual_energy.npy": "d924e8becd605fd7285f7544f3b125ebfa0462ee562788282b833376546f734c",
+        "routes/uturn_019/eligible_cutoffs.npy": "5728d4ab7823a09046b82947bc00a0fa1bc9ba66d1abcf69d24620fc26358fb5",
+        "routes/uturn_019/eligible_offgrid.npy": "f4f2b7d08f056fe1e6df46ffd4d3337c22eca292d754ae7889f211a975e445f6"
+      },
+      "large_array_stat_and_source_guard": {
+        "routes/uturn_000/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632952766455265,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_000/H.npy"
+        },
+        "routes/uturn_000/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634388425681809,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_000/coefficients.npy"
+        },
+        "routes/uturn_001/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632933929863146,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_001/H.npy"
+        },
+        "routes/uturn_001/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634388669693473,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_001/coefficients.npy"
+        },
+        "routes/uturn_002/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632942978148059,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_002/H.npy"
+        },
+        "routes/uturn_002/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634388909704945,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_002/coefficients.npy"
+        },
+        "routes/uturn_003/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788632941254093841,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_003/H.npy"
+        },
+        "routes/uturn_003/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634389141716031,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_003/coefficients.npy"
+        },
+        "routes/uturn_004/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633123883675690,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_004/H.npy"
+        },
+        "routes/uturn_004/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634389401728454,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_004/coefficients.npy"
+        },
+        "routes/uturn_004/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633129755850376,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_004/offgrid_queries.npz"
+        },
+        "routes/uturn_004/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634389417729219,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_004/offgrid_coefficients.npz"
+        },
+        "routes/uturn_005/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633141776207145,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_005/H.npy"
+        },
+        "routes/uturn_005/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634389653740494,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_005/coefficients.npy"
+        },
+        "routes/uturn_006/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633152700530452,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_006/H.npy"
+        },
+        "routes/uturn_006/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634389881751387,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_006/coefficients.npy"
+        },
+        "routes/uturn_007/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633149136425068,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_007/H.npy"
+        },
+        "routes/uturn_007/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634390133763424,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_007/coefficients.npy"
+        },
+        "routes/uturn_007/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633154944596759,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_007/offgrid_queries.npz"
+        },
+        "routes/uturn_007/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634390145763997,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_007/offgrid_coefficients.npz"
+        },
+        "routes/uturn_008/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633150112453937,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_008/H.npy"
+        },
+        "routes/uturn_008/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634390441778133,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_008/coefficients.npy"
+        },
+        "routes/uturn_009/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633132375928233,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_009/H.npy"
+        },
+        "routes/uturn_009/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634390741792459,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_009/coefficients.npy"
+        },
+        "routes/uturn_009/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633138740117135,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_009/offgrid_queries.npz"
+        },
+        "routes/uturn_009/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634390757793222,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_009/offgrid_coefficients.npz"
+        },
+        "routes/uturn_010/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633138468109067,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_010/H.npy"
+        },
+        "routes/uturn_010/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634391033806402,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_010/coefficients.npy"
+        },
+        "routes/uturn_011/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633136832060532,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_011/H.npy"
+        },
+        "routes/uturn_011/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634391309819574,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_011/coefficients.npy"
+        },
+        "routes/uturn_012/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633325737547166,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_012/H.npy"
+        },
+        "routes/uturn_012/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634391573832174,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_012/coefficients.npy"
+        },
+        "routes/uturn_013/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633332581742030,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_013/H.npy"
+        },
+        "routes/uturn_013/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634391853845538,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_013/coefficients.npy"
+        },
+        "routes/uturn_014/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633353022322589,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_014/H.npy"
+        },
+        "routes/uturn_014/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634392129858708,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_014/coefficients.npy"
+        },
+        "routes/uturn_015/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633353758343454,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_015/H.npy"
+        },
+        "routes/uturn_015/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634392417872446,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_015/coefficients.npy"
+        },
+        "routes/uturn_015/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633359270499638,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_015/offgrid_queries.npz"
+        },
+        "routes/uturn_015/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634392429873019,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_015/offgrid_coefficients.npz"
+        },
+        "routes/uturn_016/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633348538195407,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_016/H.npy"
+        },
+        "routes/uturn_016/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634392713886566,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_016/coefficients.npy"
+        },
+        "routes/uturn_016/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633354446362957,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_016/offgrid_queries.npz"
+        },
+        "routes/uturn_016/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634392725887139,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_016/offgrid_coefficients.npz"
+        },
+        "routes/uturn_017/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633339205930401,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_017/H.npy"
+        },
+        "routes/uturn_017/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634392965898587,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_017/coefficients.npy"
+        },
+        "routes/uturn_018/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633336453852168,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_018/H.npy"
+        },
+        "routes/uturn_018/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634393237911556,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_018/coefficients.npy"
+        },
+        "routes/uturn_019/H.npy": {
+          "bytes": 262209664,
+          "mtime_ns": 1788633334665801318,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_019/H.npy"
+        },
+        "routes/uturn_019/coefficients.npy": {
+          "bytes": 4097152,
+          "mtime_ns": 1788634393505924334,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_019/coefficients.npy"
+        },
+        "routes/uturn_019/offgrid_queries.npz": {
+          "bytes": 6296556,
+          "mtime_ns": 1788633340389964048,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_019/offgrid_queries.npz"
+        },
+        "routes/uturn_019/offgrid_coefficients.npz": {
+          "bytes": 102412,
+          "mtime_ns": 1788634393517924906,
+          "resolved_path": "/root/autodl-tmp/csi-irregular-benchmark/data/routes/uturn_019/offgrid_coefficients.npz"
+        }
+      },
+      "note": "Large CSI arrays guarded by size/mtime and hashed generation/projection metadata; not claimed as full-array content SHA."
+    },
+    "code": {
+      "experiments/six_category_v1/common.py": "d37733e6a5568d9fb77ce0a5a8a0e3a4d8bed31322aef2b990d589d203975e3e",
+      "experiments/six_category_v1/dataset.py": "81f03a0a794a898772df07921771c68bcd6406ff9917df082307a69192c5a45a",
+      "experiments/six_category_v1/evaluate_family.py": "da362619601f1344f4da7878f33082987e92e86d6a7b0f352f11ea82bcc47434",
+      "benchmark/dataset.py": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+      "benchmark/metrics.py": "b07008d7d19097490cbecf38b0bad91f0ffadfc063d5b0b1f121c69fbd0cd94c",
+      "benchmark/evaluation.py": "fe04785a3ed3a461f0361f0fabf5bbf5adfb5558f9c9861e616740e0bb0754a6",
+      "benchmark/baselines.py": "9fc80bd8a54cd16fce090ac601dea666e2d179f094625e88c5c9b20a48cdb1e0",
+      "benchmark/harmonic.py": "56b2053de2ed46208d90a2d91f188ea1b2e5db0bd8bc75de28cbddc54ad6a3a0",
+      "benchmark/engine.py": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+      "models/adapters.py": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+      "experiments/flow_repair/observed_flow.py": "b7becbc146b1420d30a34c2826f8a6a0790c3c89677a4473a006eb518d841063",
+      "experiments/flow_repair/local_dynamics.py": "2f43f020d96c5a9b599998f80ccd29f5779527cdd192140d3c6bde30645c11f4",
+      "third_party/neural-flows-experiments/nfe/models/flow.py": "3ded8c892a506a31aeeaf3faa32f160d07b31e03f5de56e4863264743e87ee39",
+      "third_party/t-PatchGNN/tPatchGNN/model/tPatchGNN.py": "ba9db3896a025103369e27b710794fe7cdce6d03b508c02b5bce5ae12aa6a26c",
+      "third_party/Continuous-Recurrent-Units/lib/CRUCell.py": "345014b856474cc528ffde5ef0b64021839c1083d7398b9c81d95af506dec55d",
+      "experiments/six_category_v1/cru_float32.py": "198f8dea1116c6f2293630c1b308d4b2c5db348afe64a3689291ccd38957b807"
+    },
+    "split": "val",
+    "samples": 600,
+    "seed": 917,
+    "ratios": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "tuning": {
+    "process_ratio": 100,
+    "validation_nmse": {
+      "0.01": 0.08238599010012018,
+      "0.1": 0.08238087571486176,
+      "1": 0.08233039019287794,
+      "10": 0.08188624928767846,
+      "100": 0.08097425349343211,
+      "1000": 0.10153396063864117,
+      "10000": 0.22014738042360427
+    }
+  }
+}

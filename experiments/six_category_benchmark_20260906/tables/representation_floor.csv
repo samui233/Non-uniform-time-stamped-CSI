@@ -1,0 +1,7 @@
+family,targets,complex_rank,mean_projection_nmse_linear,mean_projection_nmse_db,p95_projection_nmse_db,energy_weighted_projection_nmse_db,source
+cruise,3600,128,0.00011131966878627115,-39.53428094509292,-36.34871756905615,-39.443227512812555,stored exact projection residual; no basis fitting or rank selection on TEST
+highspeed,3600,128,0.000215917130704185,-36.657128996983865,-33.029662457723255,-35.30239993686485,stored exact projection residual; no basis fitting or rank selection on TEST
+sweep_turn,3600,128,0.00020670330277178627,-36.846525840205,-29.341926907927274,-36.9631509301533,stored exact projection residual; no basis fitting or rank selection on TEST
+uturn,3600,128,0.0002696406419050695,-35.692146476528954,-29.434746726810417,-36.66409020026707,stored exact projection residual; no basis fitting or rank selection on TEST
+climb_descent,3600,128,0.00011356949295569044,-39.44738313170093,-34.767802215157225,-38.53096255038571,stored exact projection residual; no basis fitting or rank selection on TEST
+occlusion,3600,256,2.285960370412071e-05,-46.40931302838612,-39.21184067486757,-45.01641391658106,stored exact projection residual; no basis fitting or rank selection on TEST

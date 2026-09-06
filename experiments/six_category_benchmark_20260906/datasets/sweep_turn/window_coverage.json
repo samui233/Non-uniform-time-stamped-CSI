@@ -1,0 +1,243 @@
+{
+  "policy": "Whole dense [cutoff-history_span,cutoff+future_span] finite positive energy and count>0; offgrid additionally all actual query energies finite positive. No gain threshold, jump threshold or model score. Offline label availability, not online causal gating.",
+  "routes": [
+    {
+      "traj_id": "sweep_turn_000",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_001",
+      "scenario": "sweep_turn",
+      "split": "test",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0,
+      "offgrid_cutoffs": 24,
+      "eligible_offgrid": 24
+    },
+    {
+      "traj_id": "sweep_turn_002",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_003",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_004",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_005",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_006",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_007",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_008",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_009",
+      "scenario": "sweep_turn",
+      "split": "test",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0,
+      "offgrid_cutoffs": 24,
+      "eligible_offgrid": 24
+    },
+    {
+      "traj_id": "sweep_turn_010",
+      "scenario": "sweep_turn",
+      "split": "val",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0,
+      "offgrid_cutoffs": 24,
+      "eligible_offgrid": 24
+    },
+    {
+      "traj_id": "sweep_turn_011",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_012",
+      "scenario": "sweep_turn",
+      "split": "val",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0,
+      "offgrid_cutoffs": 24,
+      "eligible_offgrid": 24
+    },
+    {
+      "traj_id": "sweep_turn_013",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_014",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_015",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_016",
+      "scenario": "sweep_turn",
+      "split": "test",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0,
+      "offgrid_cutoffs": 24,
+      "eligible_offgrid": 24
+    },
+    {
+      "traj_id": "sweep_turn_017",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    },
+    {
+      "traj_id": "sweep_turn_018",
+      "scenario": "sweep_turn",
+      "split": "val",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0,
+      "offgrid_cutoffs": 24,
+      "eligible_offgrid": 24
+    },
+    {
+      "traj_id": "sweep_turn_019",
+      "scenario": "sweep_turn",
+      "split": "train",
+      "dense_frames": 4001,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 3551,
+      "eligible_cutoffs": 3551,
+      "excluded_cutoffs": 0
+    }
+  ],
+  "by_split": {
+    "train": {
+      "dense_frames": 56014,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 49714,
+      "eligible_cutoffs": 49714,
+      "excluded_cutoffs": 0,
+      "coverage_fraction": 1.0
+    },
+    "val": {
+      "dense_frames": 12003,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 10653,
+      "eligible_cutoffs": 10653,
+      "excluded_cutoffs": 0,
+      "coverage_fraction": 1.0
+    },
+    "test": {
+      "dense_frames": 12003,
+      "unresolved_frames": 0,
+      "candidate_cutoffs": 10653,
+      "eligible_cutoffs": 10653,
+      "excluded_cutoffs": 0,
+      "coverage_fraction": 1.0
+    }
+  }
+}
