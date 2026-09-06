@@ -1,0 +1,4771 @@
+{
+  "generated_utc": "2026-09-06T02:24:46.711235+00:00",
+  "run_root": "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1",
+  "data_root": "/root/autodl-tmp/csi-irregular-benchmark/data",
+  "status": {
+    "rt_routes": {
+      "complete": 120,
+      "planned": 120
+    },
+    "training_jobs": {
+      "complete": 12,
+      "planned": 12
+    },
+    "main_complete": true,
+    "offgrid_complete": true,
+    "stress_conditions_complete": 16,
+    "stress_conditions_planned": 16,
+    "timestamp_conditions_complete": 5,
+    "timestamp_conditions_planned": 5,
+    "uniform_conditions_complete": 4,
+    "uniform_conditions_planned": 4,
+    "latency_conditions_complete": 48,
+    "latency_conditions_planned": 48
+  },
+  "conditions": {
+    "main": {
+      "cru": {
+        "nmse_linear": 116.10312405252716,
+        "nmse_db": 20.64843905703432,
+        "amplitude_nmse_db": 20.61306913524809,
+        "shape_correlation": 0.5387778869404932,
+        "gain_abs_error_db": 6.013593028408351,
+        "energy_weighted_nmse_db": -2.4839131766400953,
+        "seed_std_db": 1.734787027164464,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          7200,
+          7200,
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 6620.656779563797,
+        "nmse_db": 38.20901074272328,
+        "amplitude_nmse_db": 38.20482730823953,
+        "shape_correlation": 0.8559903475458734,
+        "gain_abs_error_db": 1.494234066668988,
+        "energy_weighted_nmse_db": -1.4216727519026382,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1288.8500021629043,
+        "nmse_db": 31.102023766059066,
+        "amplitude_nmse_db": 31.095894773966037,
+        "shape_correlation": 0.8865495044488034,
+        "gain_abs_error_db": 0.5818744998495954,
+        "energy_weighted_nmse_db": -8.415289315288014,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 4478.014822607766,
+        "nmse_db": 36.51085526796854,
+        "amplitude_nmse_db": 36.50605890697993,
+        "shape_correlation": 0.9026282024559817,
+        "gain_abs_error_db": 1.2466807838823868,
+        "energy_weighted_nmse_db": -7.061239468204144,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 55.64893848793443,
+        "nmse_db": 17.45456884515661,
+        "amplitude_nmse_db": 17.402827875363258,
+        "shape_correlation": 0.4116940145793109,
+        "gain_abs_error_db": 7.534836498076264,
+        "energy_weighted_nmse_db": -1.838018946196815,
+        "seed_std_db": 0.27245774787074184,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          7200,
+          7200,
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 7070.3859808519765,
+        "nmse_db": 38.4944312310079,
+        "amplitude_nmse_db": 38.49058079133199,
+        "shape_correlation": 0.8977094786780789,
+        "gain_abs_error_db": 1.3516254562852252,
+        "energy_weighted_nmse_db": -6.63964300055993,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 11.824474655603645,
+        "nmse_db": 10.72781854759478,
+        "amplitude_nmse_db": 10.585776999305168,
+        "shape_correlation": 0.12069666127991134,
+        "gain_abs_error_db": 16.73680156886198,
+        "energy_weighted_nmse_db": -0.36315310031911824,
+        "seed_std_db": 4.228063513022555,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          7200,
+          7200,
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 256.83501995296166,
+        "nmse_db": 24.09654240329036,
+        "amplitude_nmse_db": 24.081354084730254,
+        "shape_correlation": 0.5805639584673123,
+        "gain_abs_error_db": 8.065920889857036,
+        "energy_weighted_nmse_db": -3.7854972157159117,
+        "seed_std_db": 5.976399972519472,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          7200,
+          7200,
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "offgrid": {
+      "cru": {
+        "nmse_linear": 280.1967936794045,
+        "nmse_db": 24.47463161301972,
+        "amplitude_nmse_db": 24.446510650109996,
+        "shape_correlation": 0.5322819157760348,
+        "gain_abs_error_db": 6.264749748860562,
+        "energy_weighted_nmse_db": -2.4471861242160924,
+        "seed_std_db": 1.675072571420141,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1728,
+          1728,
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 23217.973218762952,
+        "nmse_db": 43.65824305913969,
+        "amplitude_nmse_db": 43.654914493855266,
+        "shape_correlation": 0.8233025316793643,
+        "gain_abs_error_db": 2.0823228312882645,
+        "energy_weighted_nmse_db": -0.15021304308780042,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 2236.9610761492695,
+        "nmse_db": 33.496584272970516,
+        "amplitude_nmse_db": 33.49057418108035,
+        "shape_correlation": 0.8431121666646381,
+        "gain_abs_error_db": 0.9480868649937259,
+        "energy_weighted_nmse_db": -6.423567605897608,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 18615.69892609146,
+        "nmse_db": 42.69879346439262,
+        "amplitude_nmse_db": 42.695210794990274,
+        "shape_correlation": 0.8710022413824634,
+        "gain_abs_error_db": 1.7164152929466143,
+        "energy_weighted_nmse_db": -4.973751175289582,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 108.58327150062864,
+        "nmse_db": 20.357629223561947,
+        "amplitude_nmse_db": 20.315507060328507,
+        "shape_correlation": 0.3965560760629822,
+        "gain_abs_error_db": 7.632063487820244,
+        "energy_weighted_nmse_db": -1.732610138867456,
+        "seed_std_db": 0.38452354605972,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1728,
+          1728,
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 25094.291654788856,
+        "nmse_db": 43.995749412112126,
+        "amplitude_nmse_db": 43.99265787868173,
+        "shape_correlation": 0.8649791481591028,
+        "gain_abs_error_db": 1.8727860881851686,
+        "energy_weighted_nmse_db": -4.428561818165041,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 17.214209127182396,
+        "nmse_db": 12.358870746973572,
+        "amplitude_nmse_db": 12.21628357457468,
+        "shape_correlation": 0.11433732528035524,
+        "gain_abs_error_db": 17.169964026567744,
+        "energy_weighted_nmse_db": -0.33377022704077913,
+        "seed_std_db": 2.0471586537340687,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1728,
+          1728,
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 510.73314186883175,
+        "nmse_db": 27.08194040474977,
+        "amplitude_nmse_db": 27.067808832683884,
+        "shape_correlation": 0.5591926227226112,
+        "gain_abs_error_db": 8.686592229340606,
+        "energy_weighted_nmse_db": -3.3903711168857327,
+        "seed_std_db": 5.8607469421661404,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1728,
+          1728,
+          1728
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "uniform_n4": {
+      "cru": {
+        "nmse_linear": 106.37384031170669,
+        "nmse_db": 20.268348384372096,
+        "amplitude_nmse_db": 20.211487863259265,
+        "shape_correlation": 0.5467752523089557,
+        "gain_abs_error_db": 6.107128458478498,
+        "energy_weighted_nmse_db": -2.6375418546358826,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 76085.81366027183,
+        "nmse_db": 48.81303689314645,
+        "amplitude_nmse_db": 48.811196806615314,
+        "shape_correlation": 0.648991867944745,
+        "gain_abs_error_db": 2.7609658103418284,
+        "energy_weighted_nmse_db": 2.1831302608774688,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.409610726755133,
+        "nmse_db": 1.4909919594370886,
+        "amplitude_nmse_db": 0.47074494693962793,
+        "shape_correlation": 0.887943406007702,
+        "gain_abs_error_db": 0.5625469050019941,
+        "energy_weighted_nmse_db": -8.905152175386839,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 7184.481708163547,
+        "nmse_db": 38.563954433952986,
+        "amplitude_nmse_db": 38.55853247082382,
+        "shape_correlation": 0.8969834151156074,
+        "gain_abs_error_db": 1.1621981616126988,
+        "energy_weighted_nmse_db": -7.961707382082805,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 31.925218135885274,
+        "nmse_db": 15.041338733555822,
+        "amplitude_nmse_db": 14.929994225026281,
+        "shape_correlation": 0.40904100890917616,
+        "gain_abs_error_db": 7.874441433945515,
+        "energy_weighted_nmse_db": -1.9007699911967544,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 11229.527333944947,
+        "nmse_db": 40.503614766016526,
+        "amplitude_nmse_db": 40.49921083498576,
+        "shape_correlation": 0.8944379272833197,
+        "gain_abs_error_db": 1.2641935770559576,
+        "energy_weighted_nmse_db": -7.513993485611263,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 23.149404823482037,
+        "nmse_db": 13.645398296865725,
+        "amplitude_nmse_db": 13.51226570358545,
+        "shape_correlation": 0.121180101245854,
+        "gain_abs_error_db": 16.78389045000076,
+        "energy_weighted_nmse_db": -0.35520761527793643,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 56.82994382736584,
+        "nmse_db": 17.54577226773622,
+        "amplitude_nmse_db": 17.48709728008794,
+        "shape_correlation": 0.036459532401352086,
+        "gain_abs_error_db": 19.851005500157672,
+        "energy_weighted_nmse_db": -0.06688119885660257,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n4/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "uniform_n8": {
+      "cru": {
+        "nmse_linear": 121.9652560818568,
+        "nmse_db": 20.862361319786828,
+        "amplitude_nmse_db": 20.81031367886135,
+        "shape_correlation": 0.5453215654041834,
+        "gain_abs_error_db": 6.072524722373928,
+        "energy_weighted_nmse_db": -2.637733226870237,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 17923.2452208527,
+        "nmse_db": 42.53416646727244,
+        "amplitude_nmse_db": 42.530302748500745,
+        "shape_correlation": 0.7196249809664772,
+        "gain_abs_error_db": 1.9993454790981438,
+        "energy_weighted_nmse_db": -1.1334731384146064,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096106865802842,
+        "nmse_db": 1.4909918356602538,
+        "amplitude_nmse_db": 0.4707447997760001,
+        "shape_correlation": 0.8879433953214569,
+        "gain_abs_error_db": 0.5625468979547744,
+        "energy_weighted_nmse_db": -8.905152219832397,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 9127.235896222273,
+        "nmse_db": 39.60339275149812,
+        "amplitude_nmse_db": 39.598475677943526,
+        "shape_correlation": 0.9002607862603528,
+        "gain_abs_error_db": 1.3359806826707306,
+        "energy_weighted_nmse_db": -8.026807165372263,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 29.542014453026155,
+        "nmse_db": 14.704401062773638,
+        "amplitude_nmse_db": 14.587279983498483,
+        "shape_correlation": 0.4088143967846095,
+        "gain_abs_error_db": 7.73120082633143,
+        "energy_weighted_nmse_db": -1.908082812121076,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 14321.064563725991,
+        "nmse_db": 41.55975302676269,
+        "amplitude_nmse_db": 41.555812439738474,
+        "shape_correlation": 0.8963873429021506,
+        "gain_abs_error_db": 1.450547373595216,
+        "energy_weighted_nmse_db": -7.6159894464563385,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 11.996769476905465,
+        "nmse_db": 10.790643137777671,
+        "amplitude_nmse_db": 10.579763860466294,
+        "shape_correlation": 0.1331213920192062,
+        "gain_abs_error_db": 16.260740753064553,
+        "energy_weighted_nmse_db": -0.4330557792440518,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 51.71099164014061,
+        "nmse_db": 17.1358286613625,
+        "amplitude_nmse_db": 17.07399135893494,
+        "shape_correlation": 0.036459532395840856,
+        "gain_abs_error_db": 19.88033503929774,
+        "energy_weighted_nmse_db": -0.06688523145255904,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n8/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "uniform_n16": {
+      "cru": {
+        "nmse_linear": 122.35768238082062,
+        "nmse_db": 20.876312422685643,
+        "amplitude_nmse_db": 20.824635372054043,
+        "shape_correlation": 0.5455355980671202,
+        "gain_abs_error_db": 6.003172932431177,
+        "energy_weighted_nmse_db": -2.6383025832941325,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 14587.497857979635,
+        "nmse_db": 41.63980805281862,
+        "amplitude_nmse_db": 41.63581792526112,
+        "shape_correlation": 0.846663691204309,
+        "gain_abs_error_db": 1.5627121054019941,
+        "energy_weighted_nmse_db": -5.4385743629869046,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096106774188744,
+        "nmse_db": 1.4909918074343773,
+        "amplitude_nmse_db": 0.4707447513150487,
+        "shape_correlation": 0.887943401144211,
+        "gain_abs_error_db": 0.5625469083948216,
+        "energy_weighted_nmse_db": -8.905152169470483,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 8029.976517515654,
+        "nmse_db": 39.04714275250252,
+        "amplitude_nmse_db": 39.04183092274679,
+        "shape_correlation": 0.904716392026143,
+        "gain_abs_error_db": 1.5218335990823273,
+        "energy_weighted_nmse_db": -8.231619077865652,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 29.787414227863774,
+        "nmse_db": 14.740328048158942,
+        "amplitude_nmse_db": 14.62075463304785,
+        "shape_correlation": 0.4069774579318963,
+        "gain_abs_error_db": 7.543818289094294,
+        "energy_weighted_nmse_db": -1.904129996189043,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 14926.080705729331,
+        "nmse_db": 41.73945785532946,
+        "amplitude_nmse_db": 41.73556982960524,
+        "shape_correlation": 0.8975349533825215,
+        "gain_abs_error_db": 1.6784461010680025,
+        "energy_weighted_nmse_db": -7.799631934602617,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 9.330756124394636,
+        "nmse_db": 9.699168385317716,
+        "amplitude_nmse_db": 9.43890880810752,
+        "shape_correlation": 0.13141171665456597,
+        "gain_abs_error_db": 15.995190078707722,
+        "energy_weighted_nmse_db": -0.4329791207996631,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 45.93659089910487,
+        "nmse_db": 16.621587616765094,
+        "amplitude_nmse_db": 16.555393903227667,
+        "shape_correlation": 0.03645953240290534,
+        "gain_abs_error_db": 19.88910957336426,
+        "energy_weighted_nmse_db": -0.0668721604710607,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n16/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "uniform_n32": {
+      "cru": {
+        "nmse_linear": 122.89752780204871,
+        "nmse_db": 20.89543146737331,
+        "amplitude_nmse_db": 20.844021820214547,
+        "shape_correlation": 0.5466316834570373,
+        "gain_abs_error_db": 5.995559640116237,
+        "energy_weighted_nmse_db": -2.6396327640571697,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 14753.42487465901,
+        "nmse_db": 41.68892849568997,
+        "amplitude_nmse_db": 41.68494990478396,
+        "shape_correlation": 0.891222064634863,
+        "gain_abs_error_db": 1.5383869809596338,
+        "energy_weighted_nmse_db": -7.164483097505022,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.409610743468326,
+        "nmse_db": 1.4909920109296557,
+        "amplitude_nmse_db": 0.4707451470912142,
+        "shape_correlation": 0.8879434076112814,
+        "gain_abs_error_db": 0.5625469045653881,
+        "energy_weighted_nmse_db": -8.905152141976446,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 5558.32635012827,
+        "nmse_db": 37.44944042243257,
+        "amplitude_nmse_db": 37.44297382377363,
+        "shape_correlation": 0.9044246491105987,
+        "gain_abs_error_db": 1.6490349302928817,
+        "energy_weighted_nmse_db": -8.404940455909168,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 39.155831423029305,
+        "nmse_db": 15.92796450078483,
+        "amplitude_nmse_db": 15.823455567217831,
+        "shape_correlation": 0.4029432502740274,
+        "gain_abs_error_db": 7.333411000175402,
+        "energy_weighted_nmse_db": -1.8783956434863107,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 15361.647938208152,
+        "nmse_db": 41.8643780762783,
+        "amplitude_nmse_db": 41.8605348372963,
+        "shape_correlation": 0.8977561231723388,
+        "gain_abs_error_db": 1.8816412588359284,
+        "energy_weighted_nmse_db": -7.837171505452756,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 8.44634969453017,
+        "nmse_db": 9.266690580575016,
+        "amplitude_nmse_db": 8.980281825131263,
+        "shape_correlation": 0.12786926755751513,
+        "gain_abs_error_db": 15.717147300050904,
+        "energy_weighted_nmse_db": -0.4178866644354545,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 43.62783404149115,
+        "nmse_db": 16.397636524280703,
+        "amplitude_nmse_db": 16.329455906818165,
+        "shape_correlation": 0.036459532419510554,
+        "gain_abs_error_db": 19.893748646179834,
+        "energy_weighted_nmse_db": -0.06687222869600287,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_n32/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "random_n4": {
+      "cru": {
+        "nmse_linear": 111.76132158364325,
+        "nmse_db": 20.48291528692114,
+        "amplitude_nmse_db": 20.427465987535122,
+        "shape_correlation": 0.5467824384582461,
+        "gain_abs_error_db": 6.0249586495094505,
+        "energy_weighted_nmse_db": -2.637345552041006,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 26001.853228684093,
+        "nmse_db": 44.15004302521149,
+        "amplitude_nmse_db": 44.14679660226184,
+        "shape_correlation": 0.7823968646762409,
+        "gain_abs_error_db": 1.6133484810535872,
+        "energy_weighted_nmse_db": -2.9109529489907566,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096107396519877,
+        "nmse_db": 1.4909919991716956,
+        "amplitude_nmse_db": 0.470744751450271,
+        "shape_correlation": 0.8879434011436796,
+        "gain_abs_error_db": 0.5625469075448017,
+        "energy_weighted_nmse_db": -8.905152143917164,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 6908.123433009582,
+        "nmse_db": 38.39360088854314,
+        "amplitude_nmse_db": 38.38820669574506,
+        "shape_correlation": 0.8991597357922205,
+        "gain_abs_error_db": 1.1631555399631754,
+        "energy_weighted_nmse_db": -7.959371525963594,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 29.457303874498855,
+        "nmse_db": 14.691929948484038,
+        "amplitude_nmse_db": 14.575352753821708,
+        "shape_correlation": 0.40906172949300923,
+        "gain_abs_error_db": 7.867558915351207,
+        "energy_weighted_nmse_db": -1.9011471573572525,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 10104.93586646496,
+        "nmse_db": 40.045335615001335,
+        "amplitude_nmse_db": 40.04082463684206,
+        "shape_correlation": 0.8972373561772542,
+        "gain_abs_error_db": 1.2447962776541772,
+        "energy_weighted_nmse_db": -7.575625650442969,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 23.67108206431071,
+        "nmse_db": 13.74218111068842,
+        "amplitude_nmse_db": 13.612568617635121,
+        "shape_correlation": 0.12162343958171647,
+        "gain_abs_error_db": 16.77821451663971,
+        "energy_weighted_nmse_db": -0.35531914041458124,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 52.11411559728285,
+        "nmse_db": 17.16955371969497,
+        "amplitude_nmse_db": 17.108060137002848,
+        "shape_correlation": 0.036402046401250346,
+        "gain_abs_error_db": 19.783659113645555,
+        "energy_weighted_nmse_db": -0.06723024939414898,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n4/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "random_n8": {
+      "cru": {
+        "nmse_linear": 117.17312446830019,
+        "nmse_db": 20.6882801071295,
+        "amplitude_nmse_db": 20.634593579898855,
+        "shape_correlation": 0.5459118589962553,
+        "gain_abs_error_db": 6.047988481336045,
+        "energy_weighted_nmse_db": -2.6376244572884264,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 11451.87625988629,
+        "nmse_db": 40.58876646724787,
+        "amplitude_nmse_db": 40.58447661884736,
+        "shape_correlation": 0.8847598357631561,
+        "gain_abs_error_db": 1.4360796358856411,
+        "energy_weighted_nmse_db": -6.820719338440309,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.409610689231093,
+        "nmse_db": 1.490991843827272,
+        "amplitude_nmse_db": 0.4707447495607047,
+        "shape_correlation": 0.8879434038726064,
+        "gain_abs_error_db": 0.5625468931489316,
+        "energy_weighted_nmse_db": -8.905152159106008,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 7846.4666800898485,
+        "nmse_db": 38.94674134861638,
+        "amplitude_nmse_db": 38.94161372448464,
+        "shape_correlation": 0.9016098766857893,
+        "gain_abs_error_db": 1.3255177468555486,
+        "energy_weighted_nmse_db": -7.953458045666912,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 31.455439373282715,
+        "nmse_db": 14.976957558398771,
+        "amplitude_nmse_db": 14.868756572696737,
+        "shape_correlation": 0.4087356197768817,
+        "gain_abs_error_db": 7.718650988436615,
+        "energy_weighted_nmse_db": -1.9080263508489035,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 11574.415952362493,
+        "nmse_db": 40.63499085645446,
+        "amplitude_nmse_db": 40.63073184966544,
+        "shape_correlation": 0.8992154776980851,
+        "gain_abs_error_db": 1.4022622549589383,
+        "energy_weighted_nmse_db": -7.582772368446617,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 13.36837297094365,
+        "nmse_db": 11.260785536539725,
+        "amplitude_nmse_db": 11.073234642734004,
+        "shape_correlation": 0.13301523916189942,
+        "gain_abs_error_db": 16.271759075211982,
+        "energy_weighted_nmse_db": -0.4314334505031471,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 55.128203543896475,
+        "nmse_db": 17.41373840408081,
+        "amplitude_nmse_db": 17.356298177613557,
+        "shape_correlation": 0.03637969159302609,
+        "gain_abs_error_db": 19.843372870484988,
+        "energy_weighted_nmse_db": -0.06688969597332056,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n8/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "random_n16": {
+      "cru": {
+        "nmse_linear": 120.67412601722792,
+        "nmse_db": 20.816141621228432,
+        "amplitude_nmse_db": 20.76331849290594,
+        "shape_correlation": 0.5450831508880137,
+        "gain_abs_error_db": 6.013427391032504,
+        "energy_weighted_nmse_db": -2.637985565916815,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 19841.027571197774,
+        "nmse_db": 42.975641606077055,
+        "amplitude_nmse_db": 42.972243455169846,
+        "shape_correlation": 0.8917903409074358,
+        "gain_abs_error_db": 1.5144866628966762,
+        "energy_weighted_nmse_db": -7.231720737844204,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096106662495307,
+        "nmse_db": 1.4909917730221496,
+        "amplitude_nmse_db": 0.4707447004472637,
+        "shape_correlation": 0.8879433975273787,
+        "gain_abs_error_db": 0.562546888378923,
+        "energy_weighted_nmse_db": -8.90515217043244,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 11614.952511154821,
+        "nmse_db": 40.650174384853216,
+        "amplitude_nmse_db": 40.645758031598376,
+        "shape_correlation": 0.9039831389293196,
+        "gain_abs_error_db": 1.3994244331017134,
+        "energy_weighted_nmse_db": -8.108326056066145,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 45.44609312995337,
+        "nmse_db": 16.57496554113932,
+        "amplitude_nmse_db": 16.48472768129022,
+        "shape_correlation": 0.4068460166406272,
+        "gain_abs_error_db": 7.544171389379383,
+        "energy_weighted_nmse_db": -1.9028827427867687,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 20318.46894643621,
+        "nmse_db": 43.07890979538765,
+        "amplitude_nmse_db": 43.07557532555442,
+        "shape_correlation": 0.9004334713590703,
+        "gain_abs_error_db": 1.5080439784023716,
+        "energy_weighted_nmse_db": -7.716850574288272,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 13.529556466788053,
+        "nmse_db": 11.31283559555213,
+        "amplitude_nmse_db": 11.110837524660154,
+        "shape_correlation": 0.13103966864836897,
+        "gain_abs_error_db": 15.96109245767196,
+        "energy_weighted_nmse_db": -0.4322856046868603,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 69.04882953725755,
+        "nmse_db": 18.391563211504405,
+        "amplitude_nmse_db": 18.339467590985453,
+        "shape_correlation": 0.03644550912648412,
+        "gain_abs_error_db": 19.874134152630965,
+        "energy_weighted_nmse_db": -0.06686094202110358,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n16/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "random_n32": {
+      "cru": {
+        "nmse_linear": 122.05521945566171,
+        "nmse_db": 20.865563559148175,
+        "amplitude_nmse_db": 20.81359485355668,
+        "shape_correlation": 0.5457592484793811,
+        "gain_abs_error_db": 6.026174280948665,
+        "energy_weighted_nmse_db": -2.6376646700677666,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 18060.739163775557,
+        "nmse_db": 42.567355205167914,
+        "amplitude_nmse_db": 42.56374794326735,
+        "shape_correlation": 0.8904064919984264,
+        "gain_abs_error_db": 1.5326989950651841,
+        "energy_weighted_nmse_db": -7.209782198915864,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096106377551678,
+        "nmse_db": 1.4909916852323437,
+        "amplitude_nmse_db": 0.47074474901984287,
+        "shape_correlation": 0.8879433994359389,
+        "gain_abs_error_db": 0.562546916595608,
+        "energy_weighted_nmse_db": -8.905152181808694,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 7558.189196283454,
+        "nmse_db": 38.78417758958806,
+        "amplitude_nmse_db": 38.77864114264093,
+        "shape_correlation": 0.9091564037755866,
+        "gain_abs_error_db": 1.4903944999570438,
+        "energy_weighted_nmse_db": -8.336235791404086,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 50.76772232489039,
+        "nmse_db": 17.05587679380162,
+        "amplitude_nmse_db": 16.96792050833125,
+        "shape_correlation": 0.4026299924847546,
+        "gain_abs_error_db": 7.336607585142677,
+        "energy_weighted_nmse_db": -1.8765980155888724,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 19133.610537061602,
+        "nmse_db": 42.817969296910704,
+        "amplitude_nmse_db": 42.81452106591746,
+        "shape_correlation": 0.9022638565774285,
+        "gain_abs_error_db": 1.704996954508449,
+        "energy_weighted_nmse_db": -7.788850133587596,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 10.481208437507352,
+        "nmse_db": 10.204113577894454,
+        "amplitude_nmse_db": 9.958597176052054,
+        "shape_correlation": 0.1279781254418729,
+        "gain_abs_error_db": 15.71170064340035,
+        "energy_weighted_nmse_db": -0.4176185134069838,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 56.50048888449867,
+        "nmse_db": 17.52052205676456,
+        "amplitude_nmse_db": 17.461976294140314,
+        "shape_correlation": 0.03645953231166897,
+        "gain_abs_error_db": 19.888771449724832,
+        "energy_weighted_nmse_db": -0.06692468110814606,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/random_n32/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "bursty_n4": {
+      "cru": {
+        "nmse_linear": 111.98030996837343,
+        "nmse_db": 20.491416653144196,
+        "amplitude_nmse_db": 20.435823529854783,
+        "shape_correlation": 0.5458236628287654,
+        "gain_abs_error_db": 6.0944265258547485,
+        "energy_weighted_nmse_db": -2.636821501255274,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 36937.54091629234,
+        "nmse_db": 45.67467979300393,
+        "amplitude_nmse_db": 45.67205633453396,
+        "shape_correlation": 0.7689108868935863,
+        "gain_abs_error_db": 1.8182447224793576,
+        "energy_weighted_nmse_db": -0.9139710305449201,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096106894133769,
+        "nmse_db": 1.4909918443888803,
+        "amplitude_nmse_db": 0.47074475022870543,
+        "shape_correlation": 0.8879433978196198,
+        "gain_abs_error_db": 0.5625468964299337,
+        "energy_weighted_nmse_db": -8.905152179232953,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 8509.00236026511,
+        "nmse_db": 39.298786441233446,
+        "amplitude_nmse_db": 39.29395424120375,
+        "shape_correlation": 0.8953181403402959,
+        "gain_abs_error_db": 1.1874211847616924,
+        "energy_weighted_nmse_db": -7.8857938675738986,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 37.347769674075145,
+        "nmse_db": 15.722646718230829,
+        "amplitude_nmse_db": 15.622823336421805,
+        "shape_correlation": 0.4089490261834006,
+        "gain_abs_error_db": 7.873733700571223,
+        "energy_weighted_nmse_db": -1.9005555791273132,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 11687.944979965227,
+        "nmse_db": 40.67738158525681,
+        "amplitude_nmse_db": 40.67318972223188,
+        "shape_correlation": 0.8931701825121898,
+        "gain_abs_error_db": 1.2787786607409195,
+        "energy_weighted_nmse_db": -7.473746564264662,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 29.244613233829536,
+        "nmse_db": 14.660458821013126,
+        "amplitude_nmse_db": 14.54569705079458,
+        "shape_correlation": 0.12168757431471912,
+        "gain_abs_error_db": 16.731884790460267,
+        "energy_weighted_nmse_db": -0.35389308242149,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 66.39469231178363,
+        "nmse_db": 18.221333626234678,
+        "amplitude_nmse_db": 18.16812931250902,
+        "shape_correlation": 0.03633801826163146,
+        "gain_abs_error_db": 19.79127965827783,
+        "energy_weighted_nmse_db": -0.0670002613404944,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n4/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "bursty_n8": {
+      "cru": {
+        "nmse_linear": 116.60355318776176,
+        "nmse_db": 20.667117846110436,
+        "amplitude_nmse_db": 20.613220762404456,
+        "shape_correlation": 0.5453090287274123,
+        "gain_abs_error_db": 6.105181824922862,
+        "energy_weighted_nmse_db": -2.6364041554446107,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 11614.42160701448,
+        "nmse_db": 40.649975870043974,
+        "amplitude_nmse_db": 40.64564378508102,
+        "shape_correlation": 0.8751207286218899,
+        "gain_abs_error_db": 1.461464495316659,
+        "energy_weighted_nmse_db": -5.976130929864736,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.409610690991902,
+        "nmse_db": 1.4909918492522425,
+        "amplitude_nmse_db": 0.47074450413039337,
+        "shape_correlation": 0.8879433980590693,
+        "gain_abs_error_db": 0.562546912792277,
+        "energy_weighted_nmse_db": -8.90515219683454,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 8280.56818810089,
+        "nmse_db": 39.180601378103276,
+        "amplitude_nmse_db": 39.175564612772725,
+        "shape_correlation": 0.8951993823546527,
+        "gain_abs_error_db": 1.2596186804106007,
+        "energy_weighted_nmse_db": -7.772744220480098,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 32.06202925921107,
+        "nmse_db": 15.059910061088242,
+        "amplitude_nmse_db": 14.952856529136742,
+        "shape_correlation": 0.4087631539502725,
+        "gain_abs_error_db": 7.722026500469074,
+        "energy_weighted_nmse_db": -1.9072776592714793,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 11896.397514604005,
+        "nmse_db": 40.75415467578006,
+        "amplitude_nmse_db": 40.7498880799624,
+        "shape_correlation": 0.8912360395409464,
+        "gain_abs_error_db": 1.3602682355934759,
+        "energy_weighted_nmse_db": -7.294829448936002,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 13.418577724123994,
+        "nmse_db": 11.277064860789661,
+        "amplitude_nmse_db": 11.089774149062235,
+        "shape_correlation": 0.13304891508594466,
+        "gain_abs_error_db": 16.231741098041336,
+        "energy_weighted_nmse_db": -0.4282195147185016,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 55.091331439092755,
+        "nmse_db": 17.410832684645094,
+        "amplitude_nmse_db": 17.35345507543391,
+        "shape_correlation": 0.0363141925370806,
+        "gain_abs_error_db": 19.83645105163256,
+        "energy_weighted_nmse_db": -0.06693632434493449,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n8/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "bursty_n16": {
+      "cru": {
+        "nmse_linear": 109.77561286857973,
+        "nmse_db": 20.40505870414998,
+        "amplitude_nmse_db": 20.349509710373557,
+        "shape_correlation": 0.5448432027265477,
+        "gain_abs_error_db": 6.112264708778806,
+        "energy_weighted_nmse_db": -2.6359710819196094,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 9096.654883718684,
+        "nmse_db": 39.58881718406525,
+        "amplitude_nmse_db": 39.58399868283521,
+        "shape_correlation": 0.8692997248635883,
+        "gain_abs_error_db": 1.4493503949100885,
+        "energy_weighted_nmse_db": -6.580930769644356,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096106856948578,
+        "nmse_db": 1.4909918329322962,
+        "amplitude_nmse_db": 0.47074454977889696,
+        "shape_correlation": 0.887943398476735,
+        "gain_abs_error_db": 0.5625469056554964,
+        "energy_weighted_nmse_db": -8.905152140777183,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 6743.121777577466,
+        "nmse_db": 38.2886100289959,
+        "amplitude_nmse_db": 38.28322064938092,
+        "shape_correlation": 0.8964749492600765,
+        "gain_abs_error_db": 1.3346613338768627,
+        "energy_weighted_nmse_db": -7.727686059187073,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 29.981287555036445,
+        "nmse_db": 14.768502798144711,
+        "amplitude_nmse_db": 14.658453546477269,
+        "shape_correlation": 0.4069509770929202,
+        "gain_abs_error_db": 7.529977760826101,
+        "energy_weighted_nmse_db": -1.9037106817089993,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 9372.915858004277,
+        "nmse_db": 39.71874718320572,
+        "amplitude_nmse_db": 39.71401358948529,
+        "shape_correlation": 0.8899890215462036,
+        "gain_abs_error_db": 1.4764530499579451,
+        "energy_weighted_nmse_db": -7.237866921229745,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 8.872712884445985,
+        "nmse_db": 9.480564282429075,
+        "amplitude_nmse_db": 9.225803557446223,
+        "shape_correlation": 0.1309403665360016,
+        "gain_abs_error_db": 15.951414123078187,
+        "energy_weighted_nmse_db": -0.4274716226905819,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 43.2496395398428,
+        "nmse_db": 16.359824922283572,
+        "amplitude_nmse_db": 16.29588268068425,
+        "shape_correlation": 0.03637324688175705,
+        "gain_abs_error_db": 19.854320416698855,
+        "energy_weighted_nmse_db": -0.06709326104176923,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n16/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "bursty_n32": {
+      "cru": {
+        "nmse_linear": 91.95827580195541,
+        "nmse_db": 19.635908197447357,
+        "amplitude_nmse_db": 19.57546943547858,
+        "shape_correlation": 0.5447975674999828,
+        "gain_abs_error_db": 6.0664584225189175,
+        "energy_weighted_nmse_db": -2.636483299182031,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 7504.333631879489,
+        "nmse_db": 38.753121339082284,
+        "amplitude_nmse_db": 38.747864355293316,
+        "shape_correlation": 0.8605934442577211,
+        "gain_abs_error_db": 1.467026475298541,
+        "energy_weighted_nmse_db": -6.2767348815522075,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.409610780165464,
+        "nmse_db": 1.4909921239918211,
+        "amplitude_nmse_db": 0.4707447034707545,
+        "shape_correlation": 0.887943399753035,
+        "gain_abs_error_db": 0.5625469193359337,
+        "energy_weighted_nmse_db": -8.905152152323094,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 5726.394344238459,
+        "nmse_db": 37.5788125210851,
+        "amplitude_nmse_db": 37.573272265622414,
+        "shape_correlation": 0.8969580725704861,
+        "gain_abs_error_db": 1.4520206697913591,
+        "energy_weighted_nmse_db": -7.67600246424398,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 35.53526795250985,
+        "nmse_db": 15.506595945739353,
+        "amplitude_nmse_db": 15.4084686382656,
+        "shape_correlation": 0.40303412307754294,
+        "gain_abs_error_db": 7.299524983544834,
+        "energy_weighted_nmse_db": -1.8786730143149764,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 8023.213064312817,
+        "nmse_db": 39.043483254726794,
+        "amplitude_nmse_db": 39.038440094475334,
+        "shape_correlation": 0.8927969050604565,
+        "gain_abs_error_db": 1.6081877160715492,
+        "energy_weighted_nmse_db": -7.128161455156292,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 6.625278671917816,
+        "nmse_db": 8.212041502512374,
+        "amplitude_nmse_db": 7.892921885338096,
+        "shape_correlation": 0.12775546786332767,
+        "gain_abs_error_db": 15.678269600868225,
+        "energy_weighted_nmse_db": -0.4099002396396278,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 34.15562157330414,
+        "nmse_db": 15.334621931520067,
+        "amplitude_nmse_db": 15.263534012609805,
+        "shape_correlation": 0.03641623891853667,
+        "gain_abs_error_db": 19.863101677050192,
+        "energy_weighted_nmse_db": -0.06711002045097697,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/bursty_n32/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "dropout_n4": {
+      "cru": {
+        "nmse_linear": 108.812445525319,
+        "nmse_db": 20.36678571040988,
+        "amplitude_nmse_db": 20.309589953436603,
+        "shape_correlation": 0.54616715352822,
+        "gain_abs_error_db": 6.0804608321275255,
+        "energy_weighted_nmse_db": -2.639256988913141,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 427949.3151121838,
+        "nmse_db": 56.313923356707264,
+        "amplitude_nmse_db": 56.31329717801377,
+        "shape_correlation": 0.7740491891070644,
+        "gain_abs_error_db": 1.802792001222818,
+        "energy_weighted_nmse_db": -0.3030266600957811,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096108043849245,
+        "nmse_db": 1.4909921986108443,
+        "amplitude_nmse_db": 0.47074494768336017,
+        "shape_correlation": 0.8879433996407723,
+        "gain_abs_error_db": 0.5625468919743677,
+        "energy_weighted_nmse_db": -8.905152178999817,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 7354.964052647093,
+        "nmse_db": 38.66580554456458,
+        "amplitude_nmse_db": 38.66098615468209,
+        "shape_correlation": 0.8999933791076683,
+        "gain_abs_error_db": 1.11610668289845,
+        "energy_weighted_nmse_db": -7.948440349373421,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 49.22450390576695,
+        "nmse_db": 16.92181347926995,
+        "amplitude_nmse_db": 16.83914010239105,
+        "shape_correlation": 0.4089884337698832,
+        "gain_abs_error_db": 7.8809382356338515,
+        "energy_weighted_nmse_db": -1.900413900181534,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 8945.222741981263,
+        "nmse_db": 39.515911592587806,
+        "amplitude_nmse_db": 39.51140909309692,
+        "shape_correlation": 0.8973170640011805,
+        "gain_abs_error_db": 1.1922985842593092,
+        "energy_weighted_nmse_db": -7.636527651063258,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 40.48335213129719,
+        "nmse_db": 16.072764660810194,
+        "amplitude_nmse_db": 15.979265419716347,
+        "shape_correlation": 0.1209331042634768,
+        "gain_abs_error_db": 16.771713468929132,
+        "energy_weighted_nmse_db": -0.35393469939033284,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 88.47119757105907,
+        "nmse_db": 19.468019060437282,
+        "amplitude_nmse_db": 19.423525051553842,
+        "shape_correlation": 0.03642520726457815,
+        "gain_abs_error_db": 19.799551282723744,
+        "energy_weighted_nmse_db": -0.06704301943097819,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n4/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "dropout_n8": {
+      "cru": {
+        "nmse_linear": 113.68669458437556,
+        "nmse_db": 20.557096396506562,
+        "amplitude_nmse_db": 20.50157487235627,
+        "shape_correlation": 0.5440257634821564,
+        "gain_abs_error_db": 6.07602924069089,
+        "energy_weighted_nmse_db": -2.639663259781346,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 11375.256020961346,
+        "nmse_db": 40.55961180031524,
+        "amplitude_nmse_db": 40.55539756670594,
+        "shape_correlation": 0.8877053257243536,
+        "gain_abs_error_db": 1.396168135418605,
+        "energy_weighted_nmse_db": -7.034780002314555,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096107041334789,
+        "nmse_db": 1.490991889740828,
+        "amplitude_nmse_db": 0.47074500032983146,
+        "shape_correlation": 0.8879434015764878,
+        "gain_abs_error_db": 0.5625469212201339,
+        "energy_weighted_nmse_db": -8.905152169517525,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 9037.174631875156,
+        "nmse_db": 39.560326745487934,
+        "amplitude_nmse_db": 39.555717931533415,
+        "shape_correlation": 0.9015956960332763,
+        "gain_abs_error_db": 1.227804620267388,
+        "energy_weighted_nmse_db": -7.972290224070782,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 49.96893158402294,
+        "nmse_db": 16.987000636286226,
+        "amplitude_nmse_db": 16.904238554071934,
+        "shape_correlation": 0.40874990058654515,
+        "gain_abs_error_db": 7.737175723008113,
+        "energy_weighted_nmse_db": -1.9077724367678712,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 11680.761078933027,
+        "nmse_db": 40.674711408596416,
+        "amplitude_nmse_db": 40.670561256206845,
+        "shape_correlation": 0.8995962092042226,
+        "gain_abs_error_db": 1.2867816219806658,
+        "energy_weighted_nmse_db": -7.723060663946184,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 21.22606192679455,
+        "nmse_db": 13.268694269447472,
+        "amplitude_nmse_db": 13.12427625422215,
+        "shape_correlation": 0.13338454309770814,
+        "gain_abs_error_db": 16.22801256990681,
+        "energy_weighted_nmse_db": -0.43302501503477686,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 87.86170168017348,
+        "nmse_db": 19.437996103014004,
+        "amplitude_nmse_db": 19.392777525455205,
+        "shape_correlation": 0.03637889147543194,
+        "gain_abs_error_db": 19.826206146478654,
+        "energy_weighted_nmse_db": -0.06692703264620528,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n8/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "dropout_n16": {
+      "cru": {
+        "nmse_linear": 118.24595319698642,
+        "nmse_db": 20.727862865405733,
+        "amplitude_nmse_db": 20.673604848224922,
+        "shape_correlation": 0.5463698027245747,
+        "gain_abs_error_db": 6.014783582156136,
+        "energy_weighted_nmse_db": -2.638395645735316,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 11026.397257767192,
+        "nmse_db": 40.42433635136562,
+        "amplitude_nmse_db": 40.419768100836194,
+        "shape_correlation": 0.8943600131051668,
+        "gain_abs_error_db": 1.474280539659879,
+        "energy_weighted_nmse_db": -7.397963093659294,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.4096107385875545,
+        "nmse_db": 1.4909919958922262,
+        "amplitude_nmse_db": 0.4707448980392179,
+        "shape_correlation": 0.8879434029043758,
+        "gain_abs_error_db": 0.5625469062056496,
+        "energy_weighted_nmse_db": -8.905152183822645,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 11805.939589664726,
+        "nmse_db": 40.72100556630188,
+        "amplitude_nmse_db": 40.71671140787848,
+        "shape_correlation": 0.9082058486312735,
+        "gain_abs_error_db": 1.3850419322863634,
+        "energy_weighted_nmse_db": -8.10727973557233,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 59.833484999854115,
+        "nmse_db": 17.769442990501002,
+        "amplitude_nmse_db": 17.693757790648178,
+        "shape_correlation": 0.4068406472151162,
+        "gain_abs_error_db": 7.5613514123476735,
+        "energy_weighted_nmse_db": -1.9032608752185844,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 18759.219333160647,
+        "nmse_db": 42.73214761209623,
+        "amplitude_nmse_db": 42.72873805757321,
+        "shape_correlation": 0.9041712237190139,
+        "gain_abs_error_db": 1.4758543991610955,
+        "energy_weighted_nmse_db": -7.851782923573573,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 17.12610630347083,
+        "nmse_db": 12.336586354038241,
+        "amplitude_nmse_db": 12.16439724729218,
+        "shape_correlation": 0.13137930583690605,
+        "gain_abs_error_db": 15.963527571049829,
+        "energy_weighted_nmse_db": -0.4351852397359895,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 90.15174685612321,
+        "nmse_db": 19.549741463953573,
+        "amplitude_nmse_db": 19.505059542041266,
+        "shape_correlation": 0.036411330719535756,
+        "gain_abs_error_db": 19.877184411684674,
+        "energy_weighted_nmse_db": -0.06693586908341201,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n16/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "dropout_n32": {
+      "cru": {
+        "nmse_linear": 120.61694716629184,
+        "nmse_db": 20.814083322130973,
+        "amplitude_nmse_db": 20.761072543928336,
+        "shape_correlation": 0.5468083642707264,
+        "gain_abs_error_db": 6.02093373496762,
+        "energy_weighted_nmse_db": -2.6387939007319545,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/cru_seed17/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 12740.400880689762,
+        "nmse_db": 41.05183093425735,
+        "amplitude_nmse_db": 41.04771425660037,
+        "shape_correlation": 0.895603441800948,
+        "gain_abs_error_db": 1.4551727193846697,
+        "energy_weighted_nmse_db": -7.38973211499362,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 1.409610791497192,
+        "nmse_db": 1.4909921589043442,
+        "amplitude_nmse_db": 0.47074495109226394,
+        "shape_correlation": 0.8879434030816696,
+        "gain_abs_error_db": 0.5625469240006532,
+        "energy_weighted_nmse_db": -8.905152138504915,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 7322.882664870783,
+        "nmse_db": 38.64682075457703,
+        "amplitude_nmse_db": 38.64148141073804,
+        "shape_correlation": 0.9109220304852753,
+        "gain_abs_error_db": 1.440158094819714,
+        "energy_weighted_nmse_db": -8.33907586352783,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 70.13042286598123,
+        "nmse_db": 18.45906457575648,
+        "amplitude_nmse_db": 18.38672264475449,
+        "shape_correlation": 0.402590838629132,
+        "gain_abs_error_db": 7.354789552378158,
+        "energy_weighted_nmse_db": -1.8758039282745467,
+        "seed_std_db": null,
+        "runs": [
+          "latent_ode_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/latent_ode_seed17/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 13310.374542650168,
+        "nmse_db": 41.241902763249826,
+        "amplitude_nmse_db": 41.23793562544806,
+        "shape_correlation": 0.9051582583502955,
+        "gain_abs_error_db": 1.6259230592726892,
+        "energy_weighted_nmse_db": -7.931414628592873,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 13.481567661737403,
+        "nmse_db": 11.297403957049838,
+        "amplitude_nmse_db": 11.091296005825857,
+        "shape_correlation": 0.1280369038313908,
+        "gain_abs_error_db": 15.634519278208415,
+        "energy_weighted_nmse_db": -0.4188940248058859,
+        "seed_std_db": null,
+        "runs": [
+          "neural_flow_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/neural_flow_seed17/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 76.15342877686024,
+        "nmse_db": 18.81689462042994,
+        "amplitude_nmse_db": 18.76756083661213,
+        "shape_correlation": 0.03648877319115722,
+        "gain_abs_error_db": 19.891893586913746,
+        "energy_weighted_nmse_db": -0.06699747147809394,
+        "seed_std_db": null,
+        "runs": [
+          "tpatchgnn_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/dropout_n32/tpatchgnn_seed17/summary.json"
+        ]
+      }
+    },
+    "timestamps_none": {
+      "cru": {
+        "nmse_linear": 72.20214246535596,
+        "nmse_db": 18.58550084648265,
+        "amplitude_nmse_db": 18.53476256211144,
+        "shape_correlation": 0.5303066994985541,
+        "gain_abs_error_db": 6.183434848445783,
+        "energy_weighted_nmse_db": -2.4325196171921024,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/timestamps_none/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "timestamps_uniform_times": {
+      "cru": {
+        "nmse_linear": 74.61505377622528,
+        "nmse_db": 18.728264563251628,
+        "amplitude_nmse_db": 18.680137068410453,
+        "shape_correlation": 0.5299563057959243,
+        "gain_abs_error_db": 6.2060398726733785,
+        "energy_weighted_nmse_db": -2.43518031035664,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/timestamps_uniform_times/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "timestamps_permuted_association": {
+      "cru": {
+        "nmse_linear": 578.6311820368787,
+        "nmse_db": 27.624018337738633,
+        "amplitude_nmse_db": 27.610785453972696,
+        "shape_correlation": 0.47642173409092353,
+        "gain_abs_error_db": 6.660829215834432,
+        "energy_weighted_nmse_db": -1.8907692789437416,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/timestamps_permuted_association/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "timestamps_jitter_5": {
+      "cru": {
+        "nmse_linear": 72.33055354852773,
+        "nmse_db": 18.593217887823247,
+        "amplitude_nmse_db": 18.542583548642448,
+        "shape_correlation": 0.5302193410638367,
+        "gain_abs_error_db": 6.1893442242252865,
+        "energy_weighted_nmse_db": -2.4321994325464065,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/timestamps_jitter_5/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "timestamps_jitter_20": {
+      "cru": {
+        "nmse_linear": 74.31017313157234,
+        "nmse_db": 18.710482731477672,
+        "amplitude_nmse_db": 18.660984263851226,
+        "shape_correlation": 0.5299254760220672,
+        "gain_abs_error_db": 6.213557536451748,
+        "energy_weighted_nmse_db": -2.4315435097000098,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          7200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/timestamps_jitter_20/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "uniform_trained_uniform": {
+      "cru": {
+        "nmse_linear": 136.54811118679586,
+        "nmse_db": 21.352856971024433,
+        "amplitude_nmse_db": 21.304237757980168,
+        "shape_correlation": 0.5453290008774697,
+        "gain_abs_error_db": 5.978869723033652,
+        "energy_weighted_nmse_db": -2.6361217785591724,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_trained_uniform/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "uniform_trained_random": {
+      "cru": {
+        "nmse_linear": 132.45267862382966,
+        "nmse_db": 21.220607455685858,
+        "amplitude_nmse_db": 21.170692611993346,
+        "shape_correlation": 0.544848368518783,
+        "gain_abs_error_db": 5.989230991051871,
+        "energy_weighted_nmse_db": -2.635966915833077,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_trained_random/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "uniform_trained_bursty": {
+      "cru": {
+        "nmse_linear": 124.79027134469244,
+        "nmse_db": 20.961807290482746,
+        "amplitude_nmse_db": 20.910251402573998,
+        "shape_correlation": 0.5447245261425572,
+        "gain_abs_error_db": 6.091906388142258,
+        "energy_weighted_nmse_db": -2.6342929274031395,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_trained_bursty/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "uniform_trained_dropout": {
+      "cru": {
+        "nmse_linear": 128.02925160456604,
+        "nmse_db": 21.073092068281944,
+        "amplitude_nmse_db": 21.021465143384297,
+        "shape_correlation": 0.5460225610949366,
+        "gain_abs_error_db": 5.992632557255493,
+        "energy_weighted_nmse_db": -2.636610031695736,
+        "seed_std_db": null,
+        "runs": [
+          "cru_seed17"
+        ],
+        "targets_per_run": [
+          2400
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/uniform_trained_dropout/cru_seed17/summary.json"
+        ]
+      }
+    },
+    "latency": {},
+    "solver_convergence": {},
+    "interpretation": {}
+  },
+  "validation_model_selection": {
+    "criterion": "Lowest mean validation per-target NMSE across seeds; no test scores used",
+    "values": {
+      "cru": 0.4583301015363799,
+      "latent_ode": 0.5657256808292327,
+      "neural_flow": 0.8843559468551367,
+      "tpatchgnn": 0.47550919135499975
+    },
+    "selected": "cru"
+  },
+  "aggregation": "Within seed: per-target linear NMSE mean. Across seeds: linear mean then dB. No missing/nonfinite seed is silently dropped.",
+  "main_horizons": {
+    "10": {
+      "cru": {
+        "nmse_linear": 5.038384973732236,
+        "nmse_db": 7.02291348072775,
+        "amplitude_nmse_db": 6.7253026066739485,
+        "shape_correlation": 0.5483693851769808,
+        "gain_abs_error_db": 5.65548255078986,
+        "energy_weighted_nmse_db": -2.669471840739321,
+        "seed_std_db": 0.6324741890677051,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 61.63347097915694,
+        "nmse_db": 17.898166263490005,
+        "amplitude_nmse_db": 17.834997339332887,
+        "shape_correlation": 0.8961978207164611,
+        "gain_abs_error_db": 1.0388974820541867,
+        "energy_weighted_nmse_db": 0.12419763881550609,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 0.17371637662748676,
+        "nmse_db": -7.601592377204661,
+        "amplitude_nmse_db": -14.924695409903016,
+        "shape_correlation": 0.94401465197249,
+        "gain_abs_error_db": 0.11730279573965163,
+        "energy_weighted_nmse_db": -13.968740784492786,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 31.555670742615057,
+        "nmse_db": 14.990774159074213,
+        "amplitude_nmse_db": 14.918130700910833,
+        "shape_correlation": 0.9417248556556024,
+        "gain_abs_error_db": 0.7637922507703206,
+        "energy_weighted_nmse_db": -15.164701981707259,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 2.583665889433275,
+        "nmse_db": 4.122363515222981,
+        "amplitude_nmse_db": 3.6032512663635394,
+        "shape_correlation": 0.42810792595891617,
+        "gain_abs_error_db": 7.418657850327178,
+        "energy_weighted_nmse_db": -2.0220263159803515,
+        "seed_std_db": 0.3430418163353297,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 60.83266480602159,
+        "nmse_db": 17.84136841371716,
+        "amplitude_nmse_db": 17.7907467787459,
+        "shape_correlation": 0.9382716522232143,
+        "gain_abs_error_db": 0.8279110309009048,
+        "energy_weighted_nmse_db": -14.863028706532246,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 1.4334273057679336,
+        "nmse_db": 1.5637567321248529,
+        "amplitude_nmse_db": 0.7786954429036125,
+        "shape_correlation": 0.1244841268501385,
+        "gain_abs_error_db": 16.194129366709124,
+        "energy_weighted_nmse_db": -0.3972093050162398,
+        "seed_std_db": 0.6767690015687379,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 3.39904115548435,
+        "nmse_db": 5.313564230389427,
+        "amplitude_nmse_db": 5.075549264632608,
+        "shape_correlation": 0.6040988014228357,
+        "gain_abs_error_db": 7.351478809913307,
+        "energy_weighted_nmse_db": -4.319259055524195,
+        "seed_std_db": 3.828794989531538,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "20": {
+      "cru": {
+        "nmse_linear": 5.045949611771956,
+        "nmse_db": 7.029429093922863,
+        "amplitude_nmse_db": 6.734444988851525,
+        "shape_correlation": 0.5499346678941912,
+        "gain_abs_error_db": 5.681658175572456,
+        "energy_weighted_nmse_db": -2.681078245227575,
+        "seed_std_db": 0.6355025524857959,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 74.14429513527693,
+        "nmse_db": 18.70077740845411,
+        "amplitude_nmse_db": 18.651466810969563,
+        "shape_correlation": 0.9044399737130685,
+        "gain_abs_error_db": 0.867478920870611,
+        "energy_weighted_nmse_db": -5.91264797697036,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 0.18506253581243073,
+        "nmse_db": -7.326814912239938,
+        "amplitude_nmse_db": -15.03009751232926,
+        "shape_correlation": 0.9446970787393123,
+        "gain_abs_error_db": 0.15243953722626732,
+        "energy_weighted_nmse_db": -14.051948014073199,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 38.248599730305266,
+        "nmse_db": 15.826155403907299,
+        "amplitude_nmse_db": 15.759871199571947,
+        "shape_correlation": 0.9414805370651084,
+        "gain_abs_error_db": 0.7783963192710689,
+        "energy_weighted_nmse_db": -14.965751983282118,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 2.5322797616157264,
+        "nmse_db": 4.035116840523562,
+        "amplitude_nmse_db": 3.5077737015056734,
+        "shape_correlation": 0.42856259246986905,
+        "gain_abs_error_db": 7.430776827858968,
+        "energy_weighted_nmse_db": -2.0222922192210326,
+        "seed_std_db": 0.34565007672288955,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 73.80356970812986,
+        "nmse_db": 18.680773681516307,
+        "amplitude_nmse_db": 18.634716878949806,
+        "shape_correlation": 0.9380247010847029,
+        "gain_abs_error_db": 0.8529686700908496,
+        "energy_weighted_nmse_db": -14.625214761518446,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 1.4276788149029016,
+        "nmse_db": 1.546305151400274,
+        "amplitude_nmse_db": 0.7600473361748793,
+        "shape_correlation": 0.12484887441460592,
+        "gain_abs_error_db": 16.23535650220182,
+        "energy_weighted_nmse_db": -0.39642804105198376,
+        "seed_std_db": 0.6847282467339308,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 3.3634877907929734,
+        "nmse_db": 5.267898555654647,
+        "amplitude_nmse_db": 5.027704985640449,
+        "shape_correlation": 0.604383322923913,
+        "gain_abs_error_db": 7.375788165224399,
+        "energy_weighted_nmse_db": -4.3315187608695265,
+        "seed_std_db": 3.8155006218208416,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "50": {
+      "cru": {
+        "nmse_linear": 44.49812553844208,
+        "nmse_db": 16.483417169257176,
+        "amplitude_nmse_db": 16.421702586921416,
+        "shape_correlation": 0.5516224822171409,
+        "gain_abs_error_db": 5.749304753779111,
+        "energy_weighted_nmse_db": -2.703809678464641,
+        "seed_std_db": 0.6943053185474156,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 1150.783347765422,
+        "nmse_db": 30.609935688718224,
+        "amplitude_nmse_db": 30.598593584376623,
+        "shape_correlation": 0.8889689903252899,
+        "gain_abs_error_db": 1.1746942441121913,
+        "energy_weighted_nmse_db": 0.0960190588189318,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 0.2222296927479086,
+        "nmse_db": -6.531979141843709,
+        "amplitude_nmse_db": -13.151210863747735,
+        "shape_correlation": 0.9322862658238349,
+        "gain_abs_error_db": 0.2825772130644267,
+        "energy_weighted_nmse_db": -13.485054152360274,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 592.7520768953278,
+        "nmse_db": 27.728730843416646,
+        "amplitude_nmse_db": 27.713701470584546,
+        "shape_correlation": 0.9329022583533636,
+        "gain_abs_error_db": 0.8080229403445628,
+        "energy_weighted_nmse_db": -14.048169188761293,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 17.729841831251978,
+        "nmse_db": 12.487048612568188,
+        "amplitude_nmse_db": 12.376625631189253,
+        "shape_correlation": 0.42699364331766926,
+        "gain_abs_error_db": 7.453989097088989,
+        "energy_weighted_nmse_db": -2.006890796407981,
+        "seed_std_db": 0.4707670887429925,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 1147.4991968503368,
+        "nmse_db": 30.5975239024103,
+        "amplitude_nmse_db": 30.586800682110816,
+        "shape_correlation": 0.9297355966780378,
+        "gain_abs_error_db": 0.90769493435461,
+        "energy_weighted_nmse_db": -13.532513204273416,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 5.694596957398786,
+        "nmse_db": 7.554629917387632,
+        "amplitude_nmse_db": 7.299378525910644,
+        "shape_correlation": 0.12436603081683795,
+        "gain_abs_error_db": 16.345505328906906,
+        "energy_weighted_nmse_db": -0.39053163694009374,
+        "seed_std_db": 1.683602803314054,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 27.016560362460893,
+        "nmse_db": 14.316300556152427,
+        "amplitude_nmse_db": 14.25271028981258,
+        "shape_correlation": 0.6025405260607452,
+        "gain_abs_error_db": 7.486616909660936,
+        "energy_weighted_nmse_db": -4.323493289557615,
+        "seed_std_db": 4.011240444317569,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "100": {
+      "cru": {
+        "nmse_linear": 45.331805378415936,
+        "nmse_db": 16.56403015557045,
+        "amplitude_nmse_db": 16.49785426310061,
+        "shape_correlation": 0.5518878111357014,
+        "gain_abs_error_db": 5.935838802215925,
+        "energy_weighted_nmse_db": -2.7032373126523934,
+        "seed_std_db": 0.694213525053377,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 2111.0071753418033,
+        "nmse_db": 33.24489709482955,
+        "amplitude_nmse_db": 33.236334463943095,
+        "shape_correlation": 0.8879181970132171,
+        "gain_abs_error_db": 1.2332373729359096,
+        "energy_weighted_nmse_db": -5.5127611095813664,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 5.46843085189561,
+        "nmse_db": 7.378627248477283,
+        "amplitude_nmse_db": 7.064900534591231,
+        "shape_correlation": 0.9190301970311945,
+        "gain_abs_error_db": 0.502877404698714,
+        "energy_weighted_nmse_db": -11.632661466345064,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 1087.4489497516818,
+        "nmse_db": 30.364088781677868,
+        "amplitude_nmse_db": 30.352293780971763,
+        "shape_correlation": 0.9234602966507737,
+        "gain_abs_error_db": 0.9823354157434854,
+        "energy_weighted_nmse_db": -12.122142610657917,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 15.679664959998595,
+        "nmse_db": 11.953367785283696,
+        "amplitude_nmse_db": 11.820344077000911,
+        "shape_correlation": 0.423656385704748,
+        "gain_abs_error_db": 7.548636743212377,
+        "energy_weighted_nmse_db": -1.9694461224121058,
+        "seed_std_db": 0.5072790200308664,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 2104.410318025889,
+        "nmse_db": 33.23130422497257,
+        "amplitude_nmse_db": 33.22294004457531,
+        "shape_correlation": 0.9190767173568747,
+        "gain_abs_error_db": 1.0976235864992971,
+        "energy_weighted_nmse_db": -11.519167539263266,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 5.331521840807464,
+        "nmse_db": 7.268511926528076,
+        "amplitude_nmse_db": 6.987138766201087,
+        "shape_correlation": 0.12356930415024053,
+        "gain_abs_error_db": 16.55918998209553,
+        "energy_weighted_nmse_db": -0.3796397734119706,
+        "seed_std_db": 1.8135400123250627,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 26.123054918359657,
+        "nmse_db": 14.17023963437908,
+        "amplitude_nmse_db": 14.094312801238438,
+        "shape_correlation": 0.5998674982676407,
+        "gain_abs_error_db": 7.739693083941449,
+        "energy_weighted_nmse_db": -4.234291139328864,
+        "seed_std_db": 3.4193422575240087,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "200": {
+      "cru": {
+        "nmse_linear": 57.66943609009031,
+        "nmse_db": 17.6094570476343,
+        "amplitude_nmse_db": 17.54154406107596,
+        "shape_correlation": 0.545839332660659,
+        "gain_abs_error_db": 6.202838252790194,
+        "energy_weighted_nmse_db": -2.5891909140053033,
+        "seed_std_db": 0.7778160989392702,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 5111.975584311674,
+        "nmse_db": 37.08588770888991,
+        "amplitude_nmse_db": 37.079721736159996,
+        "shape_correlation": 0.8452014838503055,
+        "gain_abs_error_db": 1.684674497781137,
+        "energy_weighted_nmse_db": -2.5567543877960457,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 102.45791470120065,
+        "nmse_db": 20.105455125497144,
+        "amplitude_nmse_db": 20.06033074686492,
+        "shape_correlation": 0.8775641473719831,
+        "gain_abs_error_db": 0.817713078347224,
+        "energy_weighted_nmse_db": -8.653965927284844,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 2575.2740303026394,
+        "nmse_db": 34.10823448334986,
+        "amplitude_nmse_db": 34.09982005853038,
+        "shape_correlation": 0.8951117410433229,
+        "gain_abs_error_db": 1.3142593479488762,
+        "energy_weighted_nmse_db": -8.53318658449304,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 18.141640147868955,
+        "nmse_db": 12.586765481578649,
+        "amplitude_nmse_db": 12.445901550039158,
+        "shape_correlation": 0.4113368028060407,
+        "gain_abs_error_db": 7.641979726679533,
+        "energy_weighted_nmse_db": -1.8463304099146431,
+        "seed_std_db": 0.32440184409236844,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 4950.998276129142,
+        "nmse_db": 36.94692775116026,
+        "amplitude_nmse_db": 36.94097966354012,
+        "shape_correlation": 0.888541909113604,
+        "gain_abs_error_db": 1.4603373223394738,
+        "energy_weighted_nmse_db": -7.844893345659082,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 6.242772835261293,
+        "nmse_db": 7.953775319219256,
+        "amplitude_nmse_db": 7.686621728767169,
+        "shape_correlation": 0.1203736856478773,
+        "gain_abs_error_db": 16.9608137026098,
+        "energy_weighted_nmse_db": -0.35407427874294684,
+        "seed_std_db": 2.763319729064675,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 45.13479798441856,
+        "nmse_db": 16.54511502972817,
+        "amplitude_nmse_db": 16.474917972562018,
+        "shape_correlation": 0.5829071185964665,
+        "gain_abs_error_db": 8.234553231124002,
+        "energy_weighted_nmse_db": -3.8455438824652473,
+        "seed_std_db": 2.023008305607423,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "500": {
+      "cru": {
+        "nmse_linear": 539.0350427227105,
+        "nmse_db": 27.316169996327563,
+        "amplitude_nmse_db": 27.293736900970693,
+        "shape_correlation": 0.4850136425582865,
+        "gain_abs_error_db": 6.856435635302567,
+        "energy_weighted_nmse_db": -1.6825134286374936,
+        "seed_std_db": 2.1902160679104226,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 31214.39680384945,
+        "nmse_db": 44.943549469145665,
+        "amplitude_nmse_db": 44.94047253125007,
+        "shape_correlation": 0.7132156196568977,
+        "gain_abs_error_db": 2.9664218822598922,
+        "energy_weighted_nmse_db": 0.6819622656829915,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 7624.592658819141,
+        "nmse_db": 38.82216646608648,
+        "amplitude_nmse_db": 38.81703907151566,
+        "shape_correlation": 0.7017046857540057,
+        "gain_abs_error_db": 1.6183369700212886,
+        "energy_weighted_nmse_db": -2.8159974573187236,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 22542.80960822403,
+        "nmse_db": 43.53008043090106,
+        "amplitude_nmse_db": 43.52650097202245,
+        "shape_correlation": 0.7810895259677196,
+        "gain_abs_error_db": 2.8332784292160067,
+        "energy_weighted_nmse_db": -0.6715080688435027,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 277.22653833743806,
+        "nmse_db": 24.428348020647203,
+        "amplitude_nmse_db": 24.39884944587717,
+        "shape_correlation": 0.351506737218622,
+        "gain_abs_error_db": 7.7149787432905415,
+        "energy_weighted_nmse_db": -1.2380520757773756,
+        "seed_std_db": 0.36915361293262405,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 34084.771859592336,
+        "nmse_db": 45.32560391470702,
+        "amplitude_nmse_db": 45.322741689244026,
+        "shape_correlation": 0.7726062956120396,
+        "gain_abs_error_db": 2.9632171935262157,
+        "energy_weighted_nmse_db": -0.30459687492934034,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 50.81685017948349,
+        "nmse_db": 17.060077423345042,
+        "amplitude_nmse_db": 16.99312209340733,
+        "shape_correlation": 0.10653794579976787,
+        "gain_abs_error_db": 18.125814530648707,
+        "energy_weighted_nmse_db": -0.26583763244669295,
+        "seed_std_db": 5.507958028346711,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 1435.9731775062537,
+        "nmse_db": 31.571463278103078,
+        "amplitude_nmse_db": 31.56102106359381,
+        "shape_correlation": 0.48958648353227313,
+        "gain_abs_error_db": 10.20739513927812,
+        "energy_weighted_nmse_db": -2.1776667072018356,
+        "seed_std_db": 7.1037535780341425,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1200,
+          1200,
+          1200
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    }
+  },
+  "offgrid_bands": {
+    "0-20": {
+      "cru": {
+        "nmse_linear": 0.3926823366908174,
+        "nmse_db": -4.059586333622137,
+        "amplitude_nmse_db": -6.400149456110411,
+        "shape_correlation": 0.6280382272523658,
+        "gain_abs_error_db": 4.362557013063149,
+        "energy_weighted_nmse_db": -3.982930486816886,
+        "seed_std_db": 0.11040885731324353,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          68,
+          68,
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 0.884021633740785,
+        "nmse_db": -0.5353710682031738,
+        "amplitude_nmse_db": -2.71061748942219,
+        "shape_correlation": 0.910409177050871,
+        "gain_abs_error_db": 1.0137721533126964,
+        "energy_weighted_nmse_db": 2.279595423012886,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 0.13384402314316984,
+        "nmse_db": -8.734010176327898,
+        "amplitude_nmse_db": -15.931732027083177,
+        "shape_correlation": 0.9580830278642037,
+        "gain_abs_error_db": 0.07274269133546006,
+        "energy_weighted_nmse_db": -15.143348223079261,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 0.10053784460572335,
+        "nmse_db": -9.976704296895498,
+        "amplitude_nmse_db": -14.256861110003758,
+        "shape_correlation": 0.966232556192314,
+        "gain_abs_error_db": 0.7001273192496121,
+        "energy_weighted_nmse_db": -15.576516737677018,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 0.5432861045587297,
+        "nmse_db": -2.6497140262436956,
+        "amplitude_nmse_db": -4.675618903096279,
+        "shape_correlation": 0.4787821711465856,
+        "gain_abs_error_db": 6.483289292630027,
+        "energy_weighted_nmse_db": -2.609545328469778,
+        "seed_std_db": 0.25167291633710487,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          68,
+          68,
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 0.10174090262808022,
+        "nmse_db": -9.925044137003832,
+        "amplitude_nmse_db": -13.761814371162437,
+        "shape_correlation": 0.9639745159622501,
+        "gain_abs_error_db": 0.8964667245163582,
+        "energy_weighted_nmse_db": -15.227850747282837,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 0.8955388904786578,
+        "nmse_db": -0.47915549341989444,
+        "amplitude_nmse_db": -1.576302172311597,
+        "shape_correlation": 0.13430300614958932,
+        "gain_abs_error_db": 15.578723962400474,
+        "energy_weighted_nmse_db": -0.49185619468084857,
+        "seed_std_db": 0.07488104995712726,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          68,
+          68,
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 0.4015957721321861,
+        "nmse_db": -3.962108679480144,
+        "amplitude_nmse_db": -4.718481656576664,
+        "shape_correlation": 0.6153793844702401,
+        "gain_abs_error_db": 7.346477174729693,
+        "energy_weighted_nmse_db": -4.383280005780335,
+        "seed_std_db": 5.386740246292567,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          68,
+          68,
+          68
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "20-50": {
+      "cru": {
+        "nmse_linear": 0.4777080610496891,
+        "nmse_db": -3.208374301843862,
+        "amplitude_nmse_db": -5.631288261734565,
+        "shape_correlation": 0.5565599236904032,
+        "gain_abs_error_db": 5.251179162214456,
+        "energy_weighted_nmse_db": -3.014943867628268,
+        "seed_std_db": 0.13534356521696875,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          97,
+          97,
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 0.3843898244385761,
+        "nmse_db": -4.152281174880618,
+        "amplitude_nmse_db": -8.104565999251003,
+        "shape_correlation": 0.8885654165726347,
+        "gain_abs_error_db": 0.7811006822493696,
+        "energy_weighted_nmse_db": -6.4184977188801895,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 0.22213562016408966,
+        "nmse_db": -6.533817953446421,
+        "amplitude_nmse_db": -14.48858171088,
+        "shape_correlation": 0.9443738637204023,
+        "gain_abs_error_db": 0.25375721635556175,
+        "energy_weighted_nmse_db": -13.539235948512971,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 0.18960775001053745,
+        "nmse_db": -7.221439153206122,
+        "amplitude_nmse_db": -13.855428750457001,
+        "shape_correlation": 0.9430681328798077,
+        "gain_abs_error_db": 0.6583782791414481,
+        "energy_weighted_nmse_db": -15.056431481597796,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 0.5985675074185703,
+        "nmse_db": -2.2288686205616868,
+        "amplitude_nmse_db": -4.211621454198858,
+        "shape_correlation": 0.4245868905620971,
+        "gain_abs_error_db": 7.374296713325986,
+        "energy_weighted_nmse_db": -2.215883616100122,
+        "seed_std_db": 0.17636160465784304,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          97,
+          97,
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 0.19388883395814194,
+        "nmse_db": -7.124472011843056,
+        "amplitude_nmse_db": -13.704745460520583,
+        "shape_correlation": 0.9406978435737571,
+        "gain_abs_error_db": 0.6997511950561527,
+        "energy_weighted_nmse_db": -14.905113321552273,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 0.8992445059248673,
+        "nmse_db": -0.4612220689149438,
+        "amplitude_nmse_db": -1.390289304554034,
+        "shape_correlation": 0.13329932874975636,
+        "gain_abs_error_db": 16.832798020536547,
+        "energy_weighted_nmse_db": -0.49095698766155615,
+        "seed_std_db": 0.062215330586536534,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          97,
+          97,
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 0.4334225274151979,
+        "nmse_db": -3.6308851969396994,
+        "amplitude_nmse_db": -4.643973314284228,
+        "shape_correlation": 0.6012288106484545,
+        "gain_abs_error_db": 7.388269566357955,
+        "energy_weighted_nmse_db": -4.351701924294053,
+        "seed_std_db": 4.5765154811794035,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          97,
+          97,
+          97
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "50-100": {
+      "cru": {
+        "nmse_linear": 0.4930684676024128,
+        "nmse_db": -3.070927703022632,
+        "amplitude_nmse_db": -5.620353463756973,
+        "shape_correlation": 0.5559512588475791,
+        "gain_abs_error_db": 5.2420240398932405,
+        "energy_weighted_nmse_db": -2.932168374364495,
+        "seed_std_db": 0.09431468153616164,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          178,
+          178,
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 6.093507871719298,
+        "nmse_db": 7.84867376498549,
+        "amplitude_nmse_db": 7.310665753459688,
+        "shape_correlation": 0.8644196346096088,
+        "gain_abs_error_db": 1.217564240493027,
+        "energy_weighted_nmse_db": -0.42120225340017015,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 0.37611550572844943,
+        "nmse_db": -4.246787619950626,
+        "amplitude_nmse_db": -9.55627118419809,
+        "shape_correlation": 0.9119769979812457,
+        "gain_abs_error_db": 0.379410683158445,
+        "energy_weighted_nmse_db": -12.048059864452608,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 0.5324301589948284,
+        "nmse_db": -2.737373523069264,
+        "amplitude_nmse_db": -5.699846026127277,
+        "shape_correlation": 0.9064903401801091,
+        "gain_abs_error_db": 0.8166853247244392,
+        "energy_weighted_nmse_db": -12.378473893427746,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 0.5941396569240182,
+        "nmse_db": -2.2611145888661097,
+        "amplitude_nmse_db": -4.379709905140548,
+        "shape_correlation": 0.4323158335536483,
+        "gain_abs_error_db": 6.933506549855743,
+        "energy_weighted_nmse_db": -2.1075188591103022,
+        "seed_std_db": 0.21321232717081015,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          178,
+          178,
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 0.7539040472089009,
+        "nmse_db": -1.2268392524357155,
+        "amplitude_nmse_db": -3.345810737347865,
+        "shape_correlation": 0.9031620159708591,
+        "gain_abs_error_db": 0.9276279358904851,
+        "energy_weighted_nmse_db": -11.687666321933623,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 0.9066433213400037,
+        "nmse_db": -0.42563533270477405,
+        "amplitude_nmse_db": -1.5436778437122847,
+        "shape_correlation": 0.12158092448325408,
+        "gain_abs_error_db": 15.746953324878708,
+        "energy_weighted_nmse_db": -0.38324583909680476,
+        "seed_std_db": 0.08040367828086693,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          178,
+          178,
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 0.46551200307902185,
+        "nmse_db": -3.32069116393104,
+        "amplitude_nmse_db": -4.438215618141969,
+        "shape_correlation": 0.5884751813804888,
+        "gain_abs_error_db": 7.394446061235636,
+        "energy_weighted_nmse_db": -4.270186338366992,
+        "seed_std_db": 4.012689191496497,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          178,
+          178,
+          178
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "100-200": {
+      "cru": {
+        "nmse_linear": 0.5473431153464472,
+        "nmse_db": -2.617403402376628,
+        "amplitude_nmse_db": -4.840011186729263,
+        "shape_correlation": 0.5329000902877569,
+        "gain_abs_error_db": 6.076671112788614,
+        "energy_weighted_nmse_db": -2.4330179699387826,
+        "seed_std_db": 0.1336337946065259,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          347,
+          347,
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 19.423096547378055,
+        "nmse_db": 12.883184689414197,
+        "amplitude_nmse_db": 12.678782983099392,
+        "shape_correlation": 0.8713442644603236,
+        "gain_abs_error_db": 1.356329099374477,
+        "energy_weighted_nmse_db": -4.1274482310771425,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 0.34897024851001834,
+        "nmse_db": -4.572115972777782,
+        "amplitude_nmse_db": -10.037540238929461,
+        "shape_correlation": 0.9057906097396994,
+        "gain_abs_error_db": 0.5499089302572956,
+        "energy_weighted_nmse_db": -9.673140176390561,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 1.52180442813463,
+        "nmse_db": 1.8235884347305995,
+        "amplitude_nmse_db": 0.6366728040527013,
+        "shape_correlation": 0.9010333076380435,
+        "gain_abs_error_db": 0.9896380313972725,
+        "energy_weighted_nmse_db": -9.526762847898333,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 0.6857746645708019,
+        "nmse_db": -1.6381856360769511,
+        "amplitude_nmse_db": -3.6376919044843756,
+        "shape_correlation": 0.4000719463180551,
+        "gain_abs_error_db": 7.6698042260237775,
+        "energy_weighted_nmse_db": -1.748486330528942,
+        "seed_std_db": 0.1551759064102375,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          347,
+          347,
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 2.252147842638858,
+        "nmse_db": 3.5259689645228915,
+        "amplitude_nmse_db": 2.6370145680698003,
+        "shape_correlation": 0.8949917259757603,
+        "gain_abs_error_db": 1.200439195727033,
+        "energy_weighted_nmse_db": -8.732680004812117,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 0.9455608866972837,
+        "nmse_db": -0.24310500763647588,
+        "amplitude_nmse_db": -1.313346197047323,
+        "shape_correlation": 0.11619956844534796,
+        "gain_abs_error_db": 16.77640728213029,
+        "energy_weighted_nmse_db": -0.32890942437679727,
+        "seed_std_db": 0.07954088318199577,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          347,
+          347,
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 0.5199460891351877,
+        "nmse_db": -2.840416840668638,
+        "amplitude_nmse_db": -3.9236040346515235,
+        "shape_correlation": 0.5871067158372852,
+        "gain_abs_error_db": 7.809285615583704,
+        "energy_weighted_nmse_db": -3.989371554487204,
+        "seed_std_db": 4.0807904973774916,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          347,
+          347,
+          347
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    },
+    "200-500": {
+      "cru": {
+        "nmse_linear": 466.1168835731558,
+        "nmse_db": 26.68494834127303,
+        "amplitude_nmse_db": 26.6581256609162,
+        "shape_correlation": 0.5194745501012884,
+        "gain_abs_error_db": 6.7223354096043435,
+        "energy_weighted_nmse_db": -2.2463122152335164,
+        "seed_std_db": 1.676432148189901,
+        "runs": [
+          "cru_seed17",
+          "cru_seed29",
+          "cru_seed43"
+        ],
+        "targets_per_run": [
+          1038,
+          1038,
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/cru_seed43/summary.json"
+        ]
+      },
+      "harmonic": {
+        "nmse_linear": 38644.25420408017,
+        "nmse_db": 45.8708493026045,
+        "amplitude_nmse_db": 45.867572326679905,
+        "shape_correlation": 0.7883862722222486,
+        "gain_abs_error_db": 2.6649113175067116,
+        "energy_weighted_nmse_db": 0.7409544594625044,
+        "seed_std_db": null,
+        "runs": [
+          "harmonic"
+        ],
+        "targets_per_run": [
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/harmonic/summary.json"
+        ]
+      },
+      "hold": {
+        "nmse_linear": 3723.7476394999567,
+        "nmse_db": 35.70980240922,
+        "amplitude_nmse_db": 35.70397130734257,
+        "shape_correlation": 0.7933551696536727,
+        "gain_abs_error_db": 1.3009437854627868,
+        "energy_weighted_nmse_db": -4.866677651881398,
+        "seed_std_db": null,
+        "runs": [
+          "hold"
+        ],
+        "targets_per_run": [
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/hold/summary.json"
+        ]
+      },
+      "kalman": {
+        "nmse_linear": 30989.67213589209,
+        "nmse_db": 44.912169815207896,
+        "amplitude_nmse_db": 44.90861299334492,
+        "shape_correlation": 0.8419042505741982,
+        "gain_abs_error_db": 2.2791135748846356,
+        "energy_weighted_nmse_db": -3.2118799660522823,
+        "seed_std_db": null,
+        "runs": [
+          "kalman"
+        ],
+        "targets_per_run": [
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/kalman/summary.json"
+        ]
+      },
+      "latent_ode": {
+        "nmse_linear": 180.34023890387107,
+        "nmse_db": 22.56092640666529,
+        "amplitude_nmse_db": 22.522537915392103,
+        "shape_correlation": 0.3812423888915486,
+        "gain_abs_error_db": 7.838582872405921,
+        "energy_weighted_nmse_db": -1.576751363883122,
+        "seed_std_db": 0.3854299973643819,
+        "runs": [
+          "latent_ode_seed17",
+          "latent_ode_seed29",
+          "latent_ode_seed43"
+        ],
+        "targets_per_run": [
+          1038,
+          1038,
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/latent_ode_seed43/summary.json"
+        ]
+      },
+      "linear": {
+        "nmse_linear": 41774.56123666192,
+        "nmse_db": 46.209118971411975,
+        "amplitude_nmse_db": 46.20604893947408,
+        "shape_correlation": 0.8348372276979195,
+        "gain_abs_error_db": 2.4332067280256506,
+        "energy_weighted_nmse_db": -2.6876830060090198,
+        "seed_std_db": null,
+        "runs": [
+          "linear"
+        ],
+        "targets_per_run": [
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/linear/summary.json"
+        ]
+      },
+      "neural_flow": {
+        "nmse_linear": 28.042907390425274,
+        "nmse_db": 14.478230377597388,
+        "amplitude_nmse_db": 14.353812509043351,
+        "shape_correlation": 0.10939268205106016,
+        "gain_abs_error_db": 17.6813026799096,
+        "energy_weighted_nmse_db": -0.30397737164853633,
+        "seed_std_db": 2.091472231599597,
+        "runs": [
+          "neural_flow_seed17",
+          "neural_flow_seed29",
+          "neural_flow_seed43"
+        ],
+        "targets_per_run": [
+          1038,
+          1038,
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/neural_flow_seed43/summary.json"
+        ]
+      },
+      "tpatchgnn": {
+        "nmse_linear": 849.917375936608,
+        "nmse_db": 29.293767081626164,
+        "amplitude_nmse_db": 29.279984461307798,
+        "shape_correlation": 0.5372304880602415,
+        "gain_abs_error_db": 9.410573476854275,
+        "energy_weighted_nmse_db": -2.952510626813694,
+        "seed_std_db": 5.875278966407685,
+        "runs": [
+          "tpatchgnn_seed17",
+          "tpatchgnn_seed29",
+          "tpatchgnn_seed43"
+        ],
+        "targets_per_run": [
+          1038,
+          1038,
+          1038
+        ],
+        "sources": [
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed17/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed29/summary.json",
+          "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid/tpatchgnn_seed43/summary.json"
+        ]
+      }
+    }
+  }
+}

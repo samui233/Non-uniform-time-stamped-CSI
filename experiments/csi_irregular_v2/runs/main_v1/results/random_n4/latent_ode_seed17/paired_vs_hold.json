@@ -1,0 +1,9 @@
+{
+  "matched_targets": 2400,
+  "trajectory_count": 18,
+  "delta_nmse_db": 13.20093794931234,
+  "delta_nmse_db_ci95": [
+    -6.55930382283062,
+    23.264540904518476
+  ]
+}

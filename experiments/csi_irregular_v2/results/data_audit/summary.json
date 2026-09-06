@@ -1,0 +1,11 @@
+{
+  "routes": 120,
+  "total_dense_frames": 480120,
+  "zero_path_frames": 422,
+  "total_los_switches": 43,
+  "sampling_interval_s": 0.002,
+  "max_adjacent_gain_step_db": 31.13812255859375,
+  "no_routes_excluded": true,
+  "csi_reference": "geometric_distance",
+  "scope": "Static map; referenced full complex CSI; gain is mean element power, not received dBm. Jump/hold statistics require both endpoints to have resolved positive-energy CSI; unresolved raw frames retained and counted."
+}

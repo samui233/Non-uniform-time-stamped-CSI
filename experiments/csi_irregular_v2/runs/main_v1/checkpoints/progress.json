@@ -1,0 +1,104 @@
+{
+  "completed": [
+    {
+      "model": "neural_flow",
+      "seed": 17,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.8613943875167105,
+      "elapsed_s": 453.1137829236686
+    },
+    {
+      "model": "latent_ode",
+      "seed": 17,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.597663771343521,
+      "elapsed_s": 623.0880643092096
+    },
+    {
+      "model": "tpatchgnn",
+      "seed": 17,
+      "exit_code": 0,
+      "epoch": 26,
+      "best_nmse": 0.9824563041743305,
+      "elapsed_s": 870.0909613054246
+    },
+    {
+      "model": "latent_ode",
+      "seed": 29,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.5474704674807274,
+      "elapsed_s": 673.6880375919864
+    },
+    {
+      "model": "neural_flow",
+      "seed": 29,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.9014123867866066,
+      "elapsed_s": 482.6846059979871
+    },
+    {
+      "model": "cru",
+      "seed": 17,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.46677263253730616,
+      "elapsed_s": 3232.0852790279314
+    },
+    {
+      "model": "tpatchgnn",
+      "seed": 29,
+      "exit_code": 0,
+      "epoch": 37,
+      "best_nmse": 0.2369664268002897,
+      "elapsed_s": 1233.8450500471517
+    },
+    {
+      "model": "cru",
+      "seed": 29,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.45899026553612204,
+      "elapsed_s": 3504.192711980082
+    },
+    {
+      "model": "latent_ode",
+      "seed": 43,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.5520428036634499,
+      "elapsed_s": 670.9846055442467
+    },
+    {
+      "model": "neural_flow",
+      "seed": 43,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.8902610662620929,
+      "elapsed_s": 502.65809955075383
+    },
+    {
+      "model": "tpatchgnn",
+      "seed": 43,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.20710484309037888,
+      "elapsed_s": 1143.7938672453165
+    },
+    {
+      "model": "cru",
+      "seed": 43,
+      "exit_code": 0,
+      "epoch": 39,
+      "best_nmse": 0.4492274065357115,
+      "elapsed_s": 2873.1783130951226
+    }
+  ],
+  "failed": [],
+  "active": [],
+  "queued": [],
+  "wall_elapsed_s": 6118.0986070632935
+}

@@ -1,0 +1,62 @@
+{
+  "checkpoint": "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/checkpoints/latent_ode_seed17/best.pt",
+  "checkpoint_sha256": "9e76f0cf438bf5dc04922fe46627c9e1fb235a446b409a6205225ffd07b1043d",
+  "checkpoint_epoch": 39,
+  "model": "latent_ode",
+  "seed": 17,
+  "basis": "/root/autodl-tmp/csi-irregular-benchmark/data/compression/basis.npy",
+  "data_config": "/root/autodl-tmp/csi-irregular-benchmark/data/dataset_config.json",
+  "verified_hashes": {
+    "basis_sha256": "e1da2f6a9ff30af9bdf82a665aeca5e424aee9566418d27155c1ebf994dd25a5",
+    "dataset_config_sha256": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+    "model_source_sha256": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+    "loader_sha256": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c"
+  },
+  "input_dim": 256,
+  "model_kwargs": {
+    "context": 0.4
+  },
+  "split": "val",
+  "samples": 64,
+  "target_count": 384,
+  "original_steps": {
+    "generation": 24,
+    "recognition": 2
+  },
+  "refined_steps": {
+    "generation": 48,
+    "recognition": 4
+  },
+  "precision": "float32 model without AMP, TF32 disabled; float64 energy reductions",
+  "elapsed_s": 1.0037223175168037,
+  "metrics": {
+    "difference_over_target_energy": {
+      "mean_linear": 1.864840432208699e-13,
+      "mean_db": -127.29358323306242,
+      "p95_linear": 6.419999096573685e-13,
+      "p95_db": -121.92465033045336,
+      "maximum_linear": 2.288321382894005e-12
+    },
+    "difference_over_refined_prediction_energy": {
+      "mean_linear": 1.3557590380292432e-12,
+      "mean_db": -118.67817491703022,
+      "p95_linear": 4.510127399864688e-12,
+      "p95_db": -113.45811190211448,
+      "maximum_linear": 3.036787665776131e-11
+    },
+    "coarse_full_csi_nmse": {
+      "mean_linear": 0.6164862943308739,
+      "mean_db": -2.1007657415768546,
+      "p95_linear": 1.0168738603591918,
+      "p95_db": 0.07267083554451699,
+      "maximum_linear": 1.697903037071228
+    },
+    "refined_full_csi_nmse": {
+      "mean_linear": 0.6164862947189249,
+      "mean_db": -2.1007657388431618,
+      "p95_linear": 1.0168738603591918,
+      "p95_db": 0.07267083554451699,
+      "maximum_linear": 1.6979029178619385
+    }
+  }
+}

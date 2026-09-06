@@ -1,0 +1,1167 @@
+{
+  "schema": "csi_irregular_reproducibility_snapshot_v2",
+  "recorded_utc": "2026-09-05T18:54:11.478253+00:00",
+  "scope": "Current on-disk source/configuration snapshot, not execution attestation; no RT or GPU import.",
+  "data_version": "V2 geometric-distance reference",
+  "active_routes": "data/routes",
+  "excluded_archives": [
+    "data/candidate_v0",
+    "data/candidate_v1_earliest",
+    "runs/pilot_v1_history_mse"
+  ],
+  "historical_hash_semantics": "physical_config.source_sha256 describes initial freeze. Differences below are explicit, not overwritten.",
+  "python": {
+    "executable": "/root/miniconda3/envs/SimART/bin/python",
+    "version": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]"
+  },
+  "platform": "Linux-5.15.0-101-generic-x86_64-with-glibc2.35",
+  "software_versions": {
+    "sionna-rt": "2.0.1",
+    "mitsuba": "3.8.0",
+    "drjit": "1.3.1",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "torchdiffeq": "0.2.1",
+    "torchvision": null
+  },
+  "configs_equal": true,
+  "runtime_config": {
+    "seed": 20260906,
+    "per_family": 20,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "csi_hz": 500,
+    "families": [
+      "cruise",
+      "highspeed",
+      "sweep_turn",
+      "uturn",
+      "climb_descent",
+      "occlusion"
+    ],
+    "split_per_family": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "scene_path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/scene.xml",
+    "collision_cache": "/root/autodl-tmp/simart-irregular-csi/runs/small_batch/collision_geometry.json",
+    "bs_position_m": [
+      -4.2,
+      -23.1,
+      50.0
+    ],
+    "clearance_m": 2.0,
+    "min_bs_distance_m": 10.0,
+    "bounds_min_m": [
+      -122,
+      -89,
+      18
+    ],
+    "bounds_max_m": [
+      114,
+      44,
+      75
+    ],
+    "max_speed_mps": 27,
+    "max_acceleration_mps2": 22,
+    "max_jerk_mps3": 60,
+    "samples_per_src": 32768,
+    "max_paths_per_receiver": 2048,
+    "max_depth": 3,
+    "batch_size": 64,
+    "workers": 8,
+    "rt_seed": 42,
+    "normalize_delays": false,
+    "csi_reference": "geometric_distance",
+    "image_coplanarity_tolerance_m": 0.001,
+    "history_span_s": 0.4,
+    "future_span_s": 0.5,
+    "history_counts": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "query_horizons_s": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "offgrid_cutoffs_per_heldout_route": 24,
+    "offgrid_queries_per_cutoff": 4,
+    "notes": "V2 full complex CSI referenced to geometric TX-RX center distance/c at carrier and subcarriers, evaluated from original path fields in float64; no temporal smoothing, clipping or difficulty filtering. Restoring absolute propagation phase requires the corresponding geometric delay. Collision-free kinematic flights, not flight-controller dynamics. Stage1 CSI only."
+  },
+  "data_side_config": {
+    "seed": 20260906,
+    "per_family": 20,
+    "duration_s": 8.0,
+    "trajectory_hz": 1000,
+    "csi_hz": 500,
+    "families": [
+      "cruise",
+      "highspeed",
+      "sweep_turn",
+      "uturn",
+      "climb_descent",
+      "occlusion"
+    ],
+    "split_per_family": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "scene_path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/scene.xml",
+    "collision_cache": "/root/autodl-tmp/simart-irregular-csi/runs/small_batch/collision_geometry.json",
+    "bs_position_m": [
+      -4.2,
+      -23.1,
+      50.0
+    ],
+    "clearance_m": 2.0,
+    "min_bs_distance_m": 10.0,
+    "bounds_min_m": [
+      -122,
+      -89,
+      18
+    ],
+    "bounds_max_m": [
+      114,
+      44,
+      75
+    ],
+    "max_speed_mps": 27,
+    "max_acceleration_mps2": 22,
+    "max_jerk_mps3": 60,
+    "samples_per_src": 32768,
+    "max_paths_per_receiver": 2048,
+    "max_depth": 3,
+    "batch_size": 64,
+    "workers": 8,
+    "rt_seed": 42,
+    "normalize_delays": false,
+    "csi_reference": "geometric_distance",
+    "image_coplanarity_tolerance_m": 0.001,
+    "history_span_s": 0.4,
+    "future_span_s": 0.5,
+    "history_counts": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "query_horizons_s": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "offgrid_cutoffs_per_heldout_route": 24,
+    "offgrid_queries_per_cutoff": 4,
+    "notes": "V2 full complex CSI referenced to geometric TX-RX center distance/c at carrier and subcarriers, evaluated from original path fields in float64; no temporal smoothing, clipping or difficulty filtering. Restoring absolute propagation phase requires the corresponding geometric delay. Collision-free kinematic flights, not flight-controller dynamics. Stage1 CSI only."
+  },
+  "effective_simulation_config": {
+    "scene_path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/scene.xml",
+    "fc_hz": 3500000000,
+    "mi_variant": "cuda_ad_mono_polarized",
+    "tx_array_num_rows": 8,
+    "tx_array_num_cols": 8,
+    "tx_array_vertical_spacing": 0.5,
+    "tx_array_horizontal_spacing": 0.5,
+    "tx_array_pattern": "iso",
+    "tx_array_polarization": "V",
+    "rx_array_num_rows": 1,
+    "rx_array_num_cols": 1,
+    "rx_array_vertical_spacing": 0.5,
+    "rx_array_horizontal_spacing": 0.5,
+    "rx_array_pattern": "iso",
+    "rx_array_polarization": "V",
+    "max_depth": 3,
+    "samples_per_src": 32768,
+    "max_num_paths_per_src": 2048,
+    "synthetic_array": true,
+    "merge_shapes": false,
+    "enable_sys_integration": false,
+    "enable_beamforming": false,
+    "beam_selection_mode": "exhaustive_sweep",
+    "beam_codebook_type": "auto",
+    "beam_codebook_num_beams": 64,
+    "beam_oversampling_v": 1,
+    "beam_oversampling_h": 1,
+    "beam_manual_index": 0,
+    "beam_normalize_power": true,
+    "beam_codebook_file": "",
+    "beam_model_checkpoint_path": "",
+    "beam_feature_mode": "deepsense_pos_bbox4",
+    "beam_top_k": 3,
+    "beam_export_training_dataset": false,
+    "beam_training_dataset_path": {
+      "absolute_path": "/root/autodl-tmp/simart-workspace/src/SimART/SimART_sample_maps/BigCitySample/beam_training_samples.csv"
+    },
+    "beam_training_reset_dataset_on_start": false,
+    "beam_training_output_checkpoint_path": {
+      "absolute_path": "/root/autodl-tmp/simart-workspace/src/SimART/SimART_sample_maps/BigCitySample/beam_trained_model.pt"
+    },
+    "beam_training_epochs": 30,
+    "beam_training_batch_size": 256,
+    "beam_training_learning_rate": 0.001,
+    "beam_training_validation_split": 0.2,
+    "beam_training_hidden_dim": 512,
+    "sys_num_subcarriers": 128,
+    "sys_subcarrier_spacing_hz": 30000,
+    "sys_num_ofdm_symbols": 1,
+    "sys_temperature_k": 294,
+    "sys_bler_target": 0.1,
+    "sys_mcs_table_index": 1,
+    "sys_bs_tx_power_dbm": 10,
+    "los": true,
+    "specular_reflection": true,
+    "diffuse_reflection": false,
+    "refraction": false,
+    "diffraction": true,
+    "edge_diffraction": false,
+    "diffraction_lit_region": true,
+    "seed": 42,
+    "enable_preview_render": false,
+    "preview_output_dir": "preview_frames",
+    "preview_width": 960,
+    "preview_height": 720,
+    "preview_show_devices": true,
+    "preview_show_orientations": false,
+    "preview_camera_follow_y_offset_m": 80.0,
+    "preview_camera_height_offset_m": 120.0,
+    "bs_list": [
+      {
+        "name": "Central_BS",
+        "id": "bs_0",
+        "position": [
+          -4.2,
+          -23.1,
+          50.0
+        ],
+        "preview_camera_target": [
+          5.8,
+          -23.1,
+          50.0
+        ]
+      }
+    ]
+  },
+  "cfr": {
+    "normalize_delays": false,
+    "reference": "geometric_distance",
+    "definition": "sum_p a_p exp(-j*2*pi*(fc+f)*(tau_p-distance(rx,tx)/c))",
+    "precision": "Original Sionna path coefficients and delays converted to float64 before reference subtraction and phase evaluation; complex64 output",
+    "num_time_steps": 1,
+    "sampling_frequency": 1.0
+  },
+  "runtime_fix": {
+    "fix_id": "image_coplanarity_1mm_v1",
+    "source_file": "/root/miniconda3/envs/SimART/lib/python3.12/site-packages/sionna/rt/path_solvers/image_method.py",
+    "original_sha256": "f1983dc1b5a6038f95788f331855f798552e216caa04c6361443ec0cc5015d2a",
+    "patched_sha256": "ffecd1fa450ac74497a4b861489a3b1b1d0f122f0c1c1cba0546a0952af2c106",
+    "original_squared_tolerance_m2": 0.0001,
+    "patched_squared_tolerance_m2": 1e-06,
+    "image_coplanarity_tolerance_m": 0.001,
+    "changed_expression_before": "dr.squared_norm(exp_img_img - new_img_img) < 1e-4",
+    "changed_expression_after": "dr.squared_norm(exp_img_img - new_img_img) < 1e-6",
+    "source_license": "Apache-2.0",
+    "source_copyright": "Copyright (c) 2021-2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.",
+    "unchanged": [
+      "plane_hashers",
+      "candidate_sampling",
+      "field_calculator",
+      "diffraction",
+      "scene_meshes",
+      "materials",
+      "CSI postprocessing"
+    ],
+    "reason": "Reject near-but-noncoplanar reflection candidates that converge to duplicate physical paths under a 1 cm fallback tolerance; keep exact expected primitive acceptance."
+  },
+  "runtime_fix_requested_m": 0.001,
+  "runtime_patch_hash_matches": true,
+  "installed_original_hash_matches": true,
+  "source_files": [
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/benchmark/baselines.py",
+      "exists": true,
+      "sha256": "9fc80bd8a54cd16fce090ac601dea666e2d179f094625e88c5c9b20a48cdb1e0",
+      "bytes": 3202
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/benchmark/compression.py",
+      "exists": true,
+      "sha256": "a6aa7c16f2406e33ceb957b3d7c623fa5238ff6602117449dc1b2d0f41ca7753",
+      "bytes": 15009
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/benchmark/dataset.py",
+      "exists": true,
+      "sha256": "40c4fe7965e377bc6ca3a51324913bc9035493c15b0e27f571b59cfe7189617c",
+      "bytes": 9865
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/benchmark/engine.py",
+      "exists": true,
+      "sha256": "89ca7959b4820ef650c6af00b2c74e1ce87f1d09360a6d8977f4207ce9d729ff",
+      "bytes": 7426
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/benchmark/evaluation.py",
+      "exists": true,
+      "sha256": "fe04785a3ed3a461f0361f0fabf5bbf5adfb5558f9c9861e616740e0bb0754a6",
+      "bytes": 7632
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/benchmark/harmonic.py",
+      "exists": true,
+      "sha256": "9afeb00aeaf3ddf9448aea97e3c607015bc775d6541cda92cdf053cbc30d7430",
+      "bytes": 6419
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/benchmark/metrics.py",
+      "exists": true,
+      "sha256": "b07008d7d19097490cbecf38b0bad91f0ffadfc063d5b0b1f121c69fbd0cd94c",
+      "bytes": 3576
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/configs/dataset.json",
+      "exists": true,
+      "sha256": "d90743b2175f6dc4aba7ef1e921d65d95222f612303e460f7cfd300c42eb27eb",
+      "bytes": 1555
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/data/dataset_config.json",
+      "exists": true,
+      "sha256": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292",
+      "bytes": 1695,
+      "historical_freeze_sha256": "925cceb9aeaacdd93ac8556aae322ef3a08fbc5660212b282949c69d6cb5496e",
+      "matches_historical_freeze": false
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/data/manifest.json",
+      "exists": true,
+      "sha256": "01c224442acfe140aa12b115dda7dec396cc0c7a48af86fa0f1b3edfe4ee0e68",
+      "bytes": 122060,
+      "historical_freeze_sha256": "01c224442acfe140aa12b115dda7dec396cc0c7a48af86fa0f1b3edfe4ee0e68",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/data/physical_config.json",
+      "exists": true,
+      "sha256": "e31a5f1ea6dabffcc5f660384ba78359ebac620cbc5b497ae7a2d9f154911801",
+      "bytes": 22449
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/evaluate.py",
+      "exists": true,
+      "sha256": "8ba74d273324fdcffe66599dbe7a4a65c885069ec2306c1045b541ebfac158c5",
+      "bytes": 6201
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/generate_dataset.py",
+      "exists": true,
+      "sha256": "ef26ee1e90f2f9af5c2c09b00536228b975a89aa0e4331f827f4578473138302",
+      "bytes": 13748,
+      "historical_freeze_sha256": "278da55d9110e5858a36e8303ac150e593f650242c89ad4cbca83c4a6bb781f5",
+      "matches_historical_freeze": false
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/models/adapters.py",
+      "exists": true,
+      "sha256": "a53f6d79b55127a2674da6b9ebf48e690e771ee4bb6408565408bd6787f6e8c9",
+      "bytes": 11219
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/plot_results.py",
+      "exists": true,
+      "sha256": "03de6217227a3a0164cc087c7169242b385aa5db04e11d4b8ab74b743a65f7ef",
+      "bytes": 9665
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/predict.py",
+      "exists": true,
+      "sha256": "a836b92d8eb7c161b55375a5b16ef483655051fffe024dfe2a6e08b479254688",
+      "bytes": 9345
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/prepare_windows.py",
+      "exists": true,
+      "sha256": "ff81396915ae9cc97d4f57c88bd70d7df684df756b3073ba728bff10bb9a2253",
+      "bytes": 2478
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/record_reproducibility.py",
+      "exists": true,
+      "sha256": "d9d50a91fa891c38cd838e7e8e2d6c156a1bd5d3424aa3acd7b032d91a8ce714",
+      "bytes": 6525
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/rt_runtime/__init__.py",
+      "exists": true,
+      "sha256": "5c96ad89b07644b9ccd1a18fdc9b6424bc2177680b434bf23e5d251a1193a1f5",
+      "bytes": 1405
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/rt_runtime/audit_geometry_reference.py",
+      "exists": true,
+      "sha256": "793451f52f90cbcf71b9f1310722a9cf13f6edd6646c608c1297f36c5fc23932",
+      "bytes": 5413
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/rt_runtime/image_method.py",
+      "exists": true,
+      "sha256": "ffecd1fa450ac74497a4b861489a3b1b1d0f122f0c1c1cba0546a0952af2c106",
+      "bytes": 28862
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/rt_runtime/provenance.json",
+      "exists": true,
+      "sha256": "3ea56fc65a4db586a22fe56756abe08833115ba12ca75a75675d2c8a4b017eb2",
+      "bytes": 1123
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/rt_runtime/snapshots_geometry.py",
+      "exists": true,
+      "sha256": "be054b5761aee11965adb17bb930061fc8b88002f966259f0ccb0db081794236",
+      "bytes": 6602
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/run_experiments.py",
+      "exists": true,
+      "sha256": "305868f831152dad934d207f0a2f9bab927c8508a150f8bd35d184b30d111c79",
+      "bytes": 4994
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/run_pipeline.py",
+      "exists": true,
+      "sha256": "5b6eef5329d6f3b985b8dffa7c1bbf8bd8a4ac499baaf90dd120efadb1057b1b",
+      "bytes": 2249
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/sampling_resolution_audit.py",
+      "exists": true,
+      "sha256": "a34b1b9a4f84d351cd8116d20ceb3b14f976b60d0b04d14ce9e44a1a9d916970",
+      "bytes": 7978
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/summarize_results.py",
+      "exists": true,
+      "sha256": "18d8775b157e82c2774dafbb5e0be6938d7d5fed01b49a3301cf48c70f2231b8",
+      "bytes": 22140
+    },
+    {
+      "path": "/root/autodl-tmp/csi-irregular-benchmark/train.py",
+      "exists": true,
+      "sha256": "4a9b82b03633d0221e78981d63d6097fb996707963bc258b0502e58b3448ad94",
+      "bytes": 8359
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/central_station_study.py",
+      "exists": true,
+      "sha256": "00a1fba238ce4b8afac5573f0ba95e0703b05cd8042cf26040b593722056d2f7",
+      "bytes": 11313,
+      "historical_freeze_sha256": "00a1fba238ce4b8afac5573f0ba95e0703b05cd8042cf26040b593722056d2f7",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Foundation_meshNode.ply",
+      "exists": true,
+      "sha256": "ae0da52a017abb95c451c73308839e0cb6037321ef8921086c1b11e62c4460da",
+      "bytes": 1695,
+      "historical_freeze_sha256": "ae0da52a017abb95c451c73308839e0cb6037321ef8921086c1b11e62c4460da",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Fountain_LoD0Node-itu_concrete.ply",
+      "exists": true,
+      "sha256": "b6d36342e36822afbe6880b1ede087a8a635f238a003848eb6ed49bbee8be224",
+      "bytes": 34158,
+      "historical_freeze_sha256": "b6d36342e36822afbe6880b1ede087a8a635f238a003848eb6ed49bbee8be224",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Fountain_LoD0Node-itu_glass.ply",
+      "exists": true,
+      "sha256": "676c4df3789bec8c9c7764409304e60ade69adc7742c8ec8094096b1c10f1e95",
+      "bytes": 5885,
+      "historical_freeze_sha256": "676c4df3789bec8c9c7764409304e60ade69adc7742c8ec8094096b1c10f1e95",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_DownTown_6mX15m_02_2storey0_mesh1Node.ply",
+      "exists": true,
+      "sha256": "824660aea2d5802f3c9901e34da3dfcdf149341c6deb47be82e8215187013d4f",
+      "bytes": 422,
+      "historical_freeze_sha256": "824660aea2d5802f3c9901e34da3dfcdf149341c6deb47be82e8215187013d4f",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_DownTown_6mX15m_02_2storey0_mesh1Node_001.ply",
+      "exists": true,
+      "sha256": "3109e93efaccdc757e1538d4d9e760758c0603042689e937fcaa8051999a1b57",
+      "bytes": 422,
+      "historical_freeze_sha256": "3109e93efaccdc757e1538d4d9e760758c0603042689e937fcaa8051999a1b57",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_DownTown_6mX15m_02_2storey0_mesh1Node_002.ply",
+      "exists": true,
+      "sha256": "b35836f35de48e84ebca394323adb1d27f9eb7a7989f3c93cc5fbf880cd64cc4",
+      "bytes": 422,
+      "historical_freeze_sha256": "b35836f35de48e84ebca394323adb1d27f9eb7a7989f3c93cc5fbf880cd64cc4",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_DownTown_6mX15m_02_2storey0_mesh1Node_003.ply",
+      "exists": true,
+      "sha256": "f57487c94228f9f781cc9b3373f766700399bf9fda8b1d4bd5f4976648f598ca",
+      "bytes": 422,
+      "historical_freeze_sha256": "f57487c94228f9f781cc9b3373f766700399bf9fda8b1d4bd5f4976648f598ca",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_DownTown_6mX15m_02_2storey0_mesh1Node_004.ply",
+      "exists": true,
+      "sha256": "ab7b1218e7b2859e32469526d17127de55b352c23df3634b1fe4b58cbdfced65",
+      "bytes": 422,
+      "historical_freeze_sha256": "ab7b1218e7b2859e32469526d17127de55b352c23df3634b1fe4b58cbdfced65",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_DownTown_6mX15m_02_2storey0_mesh1Node_005.ply",
+      "exists": true,
+      "sha256": "de491fcc92374a2d3ce4d72b15703f29541b2ed465f4738467eff42cb10de19d",
+      "bytes": 422,
+      "historical_freeze_sha256": "de491fcc92374a2d3ce4d72b15703f29541b2ed465f4738467eff42cb10de19d",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_14mX15m_Corner_01_5storey0Node.ply",
+      "exists": true,
+      "sha256": "f6f4bd10058b631ebee9525da95d193ba9f090f1ac389ddd35f8acb68f0e3296",
+      "bytes": 422,
+      "historical_freeze_sha256": "f6f4bd10058b631ebee9525da95d193ba9f090f1ac389ddd35f8acb68f0e3296",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_14mX15m_Corner_01_5storey0Node_001.ply",
+      "exists": true,
+      "sha256": "efefa642ba8d57f9f99882914bce89950e2ef017c908fb9a394076925024b390",
+      "bytes": 422,
+      "historical_freeze_sha256": "efefa642ba8d57f9f99882914bce89950e2ef017c908fb9a394076925024b390",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_14mX15m_Corner_02_5storey0_1Node.ply",
+      "exists": true,
+      "sha256": "405fe0a2047d542e486da4b4613d9ee6dcae450c8b9a6817c0f7d70144cfa263",
+      "bytes": 422,
+      "historical_freeze_sha256": "405fe0a2047d542e486da4b4613d9ee6dcae450c8b9a6817c0f7d70144cfa263",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_14mX15m_Corner_02_5storey0_1Node_001.ply",
+      "exists": true,
+      "sha256": "42bd178e5565fd5877e923a8ae336b02b1d4f5a6520c35ff3f9642e3a834b520",
+      "bytes": 422,
+      "historical_freeze_sha256": "42bd178e5565fd5877e923a8ae336b02b1d4f5a6520c35ff3f9642e3a834b520",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_14mX15m_Corner_02_5storey0_1Node_002.ply",
+      "exists": true,
+      "sha256": "fc840630d6554f9de06c497b19fa4a1551056884d71d0de2bb387514b672ec27",
+      "bytes": 422,
+      "historical_freeze_sha256": "fc840630d6554f9de06c497b19fa4a1551056884d71d0de2bb387514b672ec27",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_14mX15m_Corner_02_5storey0_1Node_003.ply",
+      "exists": true,
+      "sha256": "c3bff8aef875d2f906c29d61e04c5f5f45d643b83fdc5cc634ba8ff7888a0775",
+      "bytes": 422,
+      "historical_freeze_sha256": "c3bff8aef875d2f906c29d61e04c5f5f45d643b83fdc5cc634ba8ff7888a0775",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX15m_01_5storey0_meshNode.ply",
+      "exists": true,
+      "sha256": "a128d0634870d9410fad080bd6bb057f3bcca35ce46111ae77c3094175ed4323",
+      "bytes": 422,
+      "historical_freeze_sha256": "a128d0634870d9410fad080bd6bb057f3bcca35ce46111ae77c3094175ed4323",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX15m_02_5storey0Node.ply",
+      "exists": true,
+      "sha256": "e97e44e58eb254ad685b19625b98a9ff21697dbc6f7bd16bffa7f61a46872690",
+      "bytes": 422,
+      "historical_freeze_sha256": "e97e44e58eb254ad685b19625b98a9ff21697dbc6f7bd16bffa7f61a46872690",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX15m_02_5storey0Node_001.ply",
+      "exists": true,
+      "sha256": "6d08284194a2e79ecbf381918818093920df2d62a452b30e5c356494d27984df",
+      "bytes": 422,
+      "historical_freeze_sha256": "6d08284194a2e79ecbf381918818093920df2d62a452b30e5c356494d27984df",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX15m_02_5storey0Node_002.ply",
+      "exists": true,
+      "sha256": "d7fb7c807c0216e36a0911c599171bae60a5d01b887a6785ce13161593aa9993",
+      "bytes": 422,
+      "historical_freeze_sha256": "d7fb7c807c0216e36a0911c599171bae60a5d01b887a6785ce13161593aa9993",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX15m_02_5storey0Node_003.ply",
+      "exists": true,
+      "sha256": "2ee3c37fdc3898141776f555ea61408629c5986e5e673f0894dc893528152320",
+      "bytes": 422,
+      "historical_freeze_sha256": "2ee3c37fdc3898141776f555ea61408629c5986e5e673f0894dc893528152320",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX15m_02_5storey0Node_004.ply",
+      "exists": true,
+      "sha256": "d0a5057b222e745632554539ed1a2c03802be2f3ff15740324d03b4063e93e8d",
+      "bytes": 422,
+      "historical_freeze_sha256": "d0a5057b222e745632554539ed1a2c03802be2f3ff15740324d03b4063e93e8d",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_01_5storey_Mesh0Node.ply",
+      "exists": true,
+      "sha256": "ede33cf870edb6a0f4d237ee11182ba8ac0e7cdb9b5e55b4b59ec81967f5682d",
+      "bytes": 422,
+      "historical_freeze_sha256": "ede33cf870edb6a0f4d237ee11182ba8ac0e7cdb9b5e55b4b59ec81967f5682d",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_01_5storey_Mesh0Node_001.ply",
+      "exists": true,
+      "sha256": "da93e14c71b456173e281073ed05b4c1c253165159cb02bc50543a4e25e30967",
+      "bytes": 422,
+      "historical_freeze_sha256": "da93e14c71b456173e281073ed05b4c1c253165159cb02bc50543a4e25e30967",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_01_5storey_Mesh0Node_002.ply",
+      "exists": true,
+      "sha256": "83a50a5a64b732f7b46285a7e928fc7f48f442928ca843fb9c2a1ff9629e2760",
+      "bytes": 422,
+      "historical_freeze_sha256": "83a50a5a64b732f7b46285a7e928fc7f48f442928ca843fb9c2a1ff9629e2760",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_11storey_meshNode.ply",
+      "exists": true,
+      "sha256": "174282da186452bdfceac42af38cc48fd8791187fb685eac483f2bade9b53b92",
+      "bytes": 422,
+      "historical_freeze_sha256": "174282da186452bdfceac42af38cc48fd8791187fb685eac483f2bade9b53b92",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_11storey_meshNode_001.ply",
+      "exists": true,
+      "sha256": "76e32df1a35eb35df9ef337954fe0a3a75281f3402521ee6fb30d60a9bb4ebe2",
+      "bytes": 422,
+      "historical_freeze_sha256": "76e32df1a35eb35df9ef337954fe0a3a75281f3402521ee6fb30d60a9bb4ebe2",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_11storey_meshNode_002.ply",
+      "exists": true,
+      "sha256": "a56d711de120533b9277c1a0236b42abe4614b253e417a76f5d99d0d9d1a814b",
+      "bytes": 422,
+      "historical_freeze_sha256": "a56d711de120533b9277c1a0236b42abe4614b253e417a76f5d99d0d9d1a814b",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_Corner_10storey0_Interior_Emissive.ply",
+      "exists": true,
+      "sha256": "e960174a747e3625d967da4a753c554237d1366359af749544302cbc12b32518",
+      "bytes": 422,
+      "historical_freeze_sha256": "e960174a747e3625d967da4a753c554237d1366359af749544302cbc12b32518",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_Corner_10storey0_Interior_Emissive0Nod.ply",
+      "exists": true,
+      "sha256": "b27f76315718cede09a7b4db9d9ff8a29785b3346aa99f0491d71ed23be599f7",
+      "bytes": 422,
+      "historical_freeze_sha256": "b27f76315718cede09a7b4db9d9ff8a29785b3346aa99f0491d71ed23be599f7",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_Corner_10storey0_meshNode.ply",
+      "exists": true,
+      "sha256": "d0192d29f3ff2da9ee7894f0290592f504eb5e4619e258fb5df9b0c7bca6d3ab",
+      "bytes": 422,
+      "historical_freeze_sha256": "d0192d29f3ff2da9ee7894f0290592f504eb5e4619e258fb5df9b0c7bca6d3ab",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_15mX30m_Corner_10storey0_meshNode_001.ply",
+      "exists": true,
+      "sha256": "0b2ac45673e5a6629e2f3a104bdd93b8253d3ef600a80bd09b40f9ad4fcc0b20",
+      "bytes": 422,
+      "historical_freeze_sha256": "0b2ac45673e5a6629e2f3a104bdd93b8253d3ef600a80bd09b40f9ad4fcc0b20",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_20mX30m_Corner_02_3storey0_meshNode.ply",
+      "exists": true,
+      "sha256": "c71338938dd3c2b8aed0b214b7198a93c0915b9a4137da1daa170b9a42c25814",
+      "bytes": 422,
+      "historical_freeze_sha256": "c71338938dd3c2b8aed0b214b7198a93c0915b9a4137da1daa170b9a42c25814",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_20mX30m_Corner_02_3storey0_meshNode_001.ply",
+      "exists": true,
+      "sha256": "f56a4c828a33b2c0d422ad533d50dbf169c272ac16429b96019b5b3c7c8aad41",
+      "bytes": 422,
+      "historical_freeze_sha256": "f56a4c828a33b2c0d422ad533d50dbf169c272ac16429b96019b5b3c7c8aad41",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX30m_02_5storey0_meshNode.ply",
+      "exists": true,
+      "sha256": "f1f81405118f30a7df508b52b81ea234cb39858a8af0a7c83f192b764c49e887",
+      "bytes": 422,
+      "historical_freeze_sha256": "f1f81405118f30a7df508b52b81ea234cb39858a8af0a7c83f192b764c49e887",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX30m_OffsetHeights0_mesh1Node.ply",
+      "exists": true,
+      "sha256": "995307c17ea3ab938be518d08984c4338db198c838250f38aeb4b468e62c8fe5",
+      "bytes": 422,
+      "historical_freeze_sha256": "995307c17ea3ab938be518d08984c4338db198c838250f38aeb4b468e62c8fe5",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX30m_OffsetHeights0_mesh1Node_001.ply",
+      "exists": true,
+      "sha256": "9b2ae86aa7e32df421c52107d5c530497994da71510471465f6a9e0b5f95356f",
+      "bytes": 422,
+      "historical_freeze_sha256": "9b2ae86aa7e32df421c52107d5c530497994da71510471465f6a9e0b5f95356f",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX30m_OffsetHeights0_mesh1Node_002.ply",
+      "exists": true,
+      "sha256": "4f6cc561a46f479852f109a87a6a6023b38af2a204c3391d7fe0fe8e0a8ebb24",
+      "bytes": 422,
+      "historical_freeze_sha256": "4f6cc561a46f479852f109a87a6a6023b38af2a204c3391d7fe0fe8e0a8ebb24",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX45m_Corner_5storey_meshNode.ply",
+      "exists": true,
+      "sha256": "f26389302f9c06c7a92f3a5b9b9f82d9d7e8055de6005be8aa0a3c6ce3d7ed2b",
+      "bytes": 422,
+      "historical_freeze_sha256": "f26389302f9c06c7a92f3a5b9b9f82d9d7e8055de6005be8aa0a3c6ce3d7ed2b",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX45m_Corner_5storey_meshNode_001.ply",
+      "exists": true,
+      "sha256": "133a53dddc42ee768da375a891e37ed47c766581125a6c7c475bbd86aeec614f",
+      "bytes": 422,
+      "historical_freeze_sha256": "133a53dddc42ee768da375a891e37ed47c766581125a6c7c475bbd86aeec614f",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX45m_Corner_5storey_meshNode_002.ply",
+      "exists": true,
+      "sha256": "43bf58733bab6cbe4aa0ad061a74bf0dda33c4e1bcf9f05f39e52d07abc6b4e4",
+      "bytes": 422,
+      "historical_freeze_sha256": "43bf58733bab6cbe4aa0ad061a74bf0dda33c4e1bcf9f05f39e52d07abc6b4e4",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mX45m_Corner_5storey_meshNode_003.ply",
+      "exists": true,
+      "sha256": "5cc868aa45ec42da7cf861c0bbe18ec0eb9c3de0bf86a275b454e0d408283883",
+      "bytes": 422,
+      "historical_freeze_sha256": "5cc868aa45ec42da7cf861c0bbe18ec0eb9c3de0bf86a275b454e0d408283883",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mx15m_01_5storey0Node.ply",
+      "exists": true,
+      "sha256": "0f103ceb0ef63ee62ca7e7831ed33938f372afa085ba3671a17ec48eca91688d",
+      "bytes": 422,
+      "historical_freeze_sha256": "0f103ceb0ef63ee62ca7e7831ed33938f372afa085ba3671a17ec48eca91688d",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mx15m_01_5storey_Interior1Node.ply",
+      "exists": true,
+      "sha256": "c64f9ba9de90723bc80c9d318ccbafb3d8fbf3e26f9f4015b5d462cbeb2d1421",
+      "bytes": 422,
+      "historical_freeze_sha256": "c64f9ba9de90723bc80c9d318ccbafb3d8fbf3e26f9f4015b5d462cbeb2d1421",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mx15m_01_5storey_InteriorNode.ply",
+      "exists": true,
+      "sha256": "666db6a29f160679b217522b4f675f2d16d28e326c3ddabb3e87f472514c4137",
+      "bytes": 422,
+      "historical_freeze_sha256": "666db6a29f160679b217522b4f675f2d16d28e326c3ddabb3e87f472514c4137",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mx30m_Corner_01_5storey0_mesh1Node.ply",
+      "exists": true,
+      "sha256": "eb3276fb9f1011e8d59dc506c5dc414ff8282894f5cf176a67d09ddaeab67248",
+      "bytes": 422,
+      "historical_freeze_sha256": "eb3276fb9f1011e8d59dc506c5dc414ff8282894f5cf176a67d09ddaeab67248",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_30mx30m_Corner_01_5storey0_mesh1Node_001.ply",
+      "exists": true,
+      "sha256": "3b2d85d916683d18fffcfda97179f150f57fe5dfe703b7e0302b4693c6f617a8",
+      "bytes": 422,
+      "historical_freeze_sha256": "3b2d85d916683d18fffcfda97179f150f57fe5dfe703b7e0302b4693c6f617a8",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_6mX15m_01_2storey0_mesh1Node.ply",
+      "exists": true,
+      "sha256": "15c211105a4fdf88a9a4a6578ac6d4f031fa0142aa56053c54c8c083a9656f07",
+      "bytes": 422,
+      "historical_freeze_sha256": "15c211105a4fdf88a9a4a6578ac6d4f031fa0142aa56053c54c8c083a9656f07",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_6mX15m_01_2storey0_mesh1Node_001.ply",
+      "exists": true,
+      "sha256": "6c70913447229b408c45cd59cd1e66f69190b5a10ca654d42f2519cc3c7a4765",
+      "bytes": 422,
+      "historical_freeze_sha256": "6c70913447229b408c45cd59cd1e66f69190b5a10ca654d42f2519cc3c7a4765",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_6mX15m_01_2storey0_mesh1Node_002.ply",
+      "exists": true,
+      "sha256": "ff1b5e51369d3097e6bb42a2a1c0c092868211a5410bc04ed127689c3e52bc08",
+      "bytes": 422,
+      "historical_freeze_sha256": "ff1b5e51369d3097e6bb42a2a1c0c092868211a5410bc04ed127689c3e52bc08",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_6mX15m_01_2storey0_mesh1Node_003.ply",
+      "exists": true,
+      "sha256": "205af72ed6cbce2e1e1542809e6f40146a773cadc1197b6f47273028f6b51417",
+      "bytes": 422,
+      "historical_freeze_sha256": "205af72ed6cbce2e1e1542809e6f40146a773cadc1197b6f47273028f6b51417",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_6mX15m_01_2storey0_mesh1Node_004.ply",
+      "exists": true,
+      "sha256": "e120533280edf6b381fac31a49eafad64d8cf438c73d913813b6714a4bb4a326",
+      "bytes": 422,
+      "historical_freeze_sha256": "e120533280edf6b381fac31a49eafad64d8cf438c73d913813b6714a4bb4a326",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_6mX15m_01_2storey0_mesh1Node_005.ply",
+      "exists": true,
+      "sha256": "91ea25d82c7d280ef74e7f92f0e4e25f6b3cdf06b2a7908d0b15f269ef7a1b98",
+      "bytes": 422,
+      "historical_freeze_sha256": "91ea25d82c7d280ef74e7f92f0e4e25f6b3cdf06b2a7908d0b15f269ef7a1b98",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node.ply",
+      "exists": true,
+      "sha256": "81e91c09498a78d0197849bd907fb6bffc7fd0d40664481b106f9f6ec0fc5c0e",
+      "bytes": 422,
+      "historical_freeze_sha256": "81e91c09498a78d0197849bd907fb6bffc7fd0d40664481b106f9f6ec0fc5c0e",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_001.ply",
+      "exists": true,
+      "sha256": "af5f1696b050bf4d99e11df79d0703465f5c5fc7dea4e5d5caff227f6b5b1948",
+      "bytes": 422,
+      "historical_freeze_sha256": "af5f1696b050bf4d99e11df79d0703465f5c5fc7dea4e5d5caff227f6b5b1948",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_002.ply",
+      "exists": true,
+      "sha256": "def2212ccaca97fbf2c9a34d54f4ad991eeb2b9566447b860c50922299bf734e",
+      "bytes": 422,
+      "historical_freeze_sha256": "def2212ccaca97fbf2c9a34d54f4ad991eeb2b9566447b860c50922299bf734e",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_003.ply",
+      "exists": true,
+      "sha256": "48320dca07d093fdfd0b041ee37d025657521bfa2177cdb2292cba5af8ab7c05",
+      "bytes": 422,
+      "historical_freeze_sha256": "48320dca07d093fdfd0b041ee37d025657521bfa2177cdb2292cba5af8ab7c05",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_004.ply",
+      "exists": true,
+      "sha256": "02071bdf33ab3dfeefeb6d82ed2681cfa69a7cf3c0ebf8554bcbe5202de51beb",
+      "bytes": 422,
+      "historical_freeze_sha256": "02071bdf33ab3dfeefeb6d82ed2681cfa69a7cf3c0ebf8554bcbe5202de51beb",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_005.ply",
+      "exists": true,
+      "sha256": "ff66915aed2782b0c52badb769b127a79d1be0274112aae7c206a839f3db471a",
+      "bytes": 422,
+      "historical_freeze_sha256": "ff66915aed2782b0c52badb769b127a79d1be0274112aae7c206a839f3db471a",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_006.ply",
+      "exists": true,
+      "sha256": "e527b4a9d66ae7c0e480bd83926c424041edee0fb2946a4f4abe3dd38041d306",
+      "bytes": 422,
+      "historical_freeze_sha256": "e527b4a9d66ae7c0e480bd83926c424041edee0fb2946a4f4abe3dd38041d306",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_007.ply",
+      "exists": true,
+      "sha256": "bfc2c3b358f9231ffc4f1be7e946d79bae2777d2ab15fe5ec401b9c49f78a70b",
+      "bytes": 422,
+      "historical_freeze_sha256": "bfc2c3b358f9231ffc4f1be7e946d79bae2777d2ab15fe5ec401b9c49f78a70b",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_008.ply",
+      "exists": true,
+      "sha256": "1262ee082300113138a711107724a73c41922021bdd460fb9e9684c9c943376d",
+      "bytes": 422,
+      "historical_freeze_sha256": "1262ee082300113138a711107724a73c41922021bdd460fb9e9684c9c943376d",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_009.ply",
+      "exists": true,
+      "sha256": "720e40f9d498d7da3da734ebc90b4c7b4c05cff9907b99abddbff6135f37b0cd",
+      "bytes": 422,
+      "historical_freeze_sha256": "720e40f9d498d7da3da734ebc90b4c7b4c05cff9907b99abddbff6135f37b0cd",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_010.ply",
+      "exists": true,
+      "sha256": "3ab71bdbad06332ee7dc0e21cedd6acd8d33bd2fc683b14fd46d6d319fbec92b",
+      "bytes": 422,
+      "historical_freeze_sha256": "3ab71bdbad06332ee7dc0e21cedd6acd8d33bd2fc683b14fd46d6d319fbec92b",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_01_4storey_0_mesh1Node_011.ply",
+      "exists": true,
+      "sha256": "c3a284aab68fa104ba883fdbbc432bfe1f581b0066336d0a1afe2e4f344274d7",
+      "bytes": 422,
+      "historical_freeze_sha256": "c3a284aab68fa104ba883fdbbc432bfe1f581b0066336d0a1afe2e4f344274d7",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_02_4storey0_meshNode.ply",
+      "exists": true,
+      "sha256": "1f9699669ea8992d87eab944cd7ecb5c0ed9e7757bbe28ac16077fc87ab9c70d",
+      "bytes": 422,
+      "historical_freeze_sha256": "1f9699669ea8992d87eab944cd7ecb5c0ed9e7757bbe28ac16077fc87ab9c70d",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_02_4storey0_meshNode_001.ply",
+      "exists": true,
+      "sha256": "7fa1a39b0835d11e711c57c39618f2cfbd472c07c9f2b8ba4a4fe1ca1dfac5fa",
+      "bytes": 422,
+      "historical_freeze_sha256": "7fa1a39b0835d11e711c57c39618f2cfbd472c07c9f2b8ba4a4fe1ca1dfac5fa",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_02_4storey0_meshNode_002.ply",
+      "exists": true,
+      "sha256": "3f8ddc0a61fa26f5de155189a31ca771f13364c94766902731150ce8edb6bbab",
+      "bytes": 422,
+      "historical_freeze_sha256": "3f8ddc0a61fa26f5de155189a31ca771f13364c94766902731150ce8edb6bbab",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_02_4storey0_meshNode_003.ply",
+      "exists": true,
+      "sha256": "0b9126ed8415e31084505b041dac584265e0cc129bf51b51023381302deb6cd8",
+      "bytes": 422,
+      "historical_freeze_sha256": "0b9126ed8415e31084505b041dac584265e0cc129bf51b51023381302deb6cd8",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_8mX15m_02_4storey0_meshNode_004.ply",
+      "exists": true,
+      "sha256": "36b1f132e1e4dd3f15d0cc30269f882bbf964e6d91fafbc4d6864f57c48bab48",
+      "bytes": 422,
+      "historical_freeze_sha256": "36b1f132e1e4dd3f15d0cc30269f882bbf964e6d91fafbc4d6864f57c48bab48",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_Downtown_9mX14m_01_1storey_meshNode.ply",
+      "exists": true,
+      "sha256": "639813101cdc72beeda5ed3b9901ef08fcfef306583d12eb5393d456b14a55fc",
+      "bytes": 422,
+      "historical_freeze_sha256": "639813101cdc72beeda5ed3b9901ef08fcfef306583d12eb5393d456b14a55fc",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box__30mX30m_8storey_meshNode.ply",
+      "exists": true,
+      "sha256": "364043b50bf40ebe3c1e9659ff69646485caa6403cede9370d83ee5dc6b17b1b",
+      "bytes": 422,
+      "historical_freeze_sha256": "364043b50bf40ebe3c1e9659ff69646485caa6403cede9370d83ee5dc6b17b1b",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_mX15m_01_5storey_Interior_meshNode.ply",
+      "exists": true,
+      "sha256": "8574eb94f42e9aa9678f8df3a7e167678a6e1e2d1a06b7fbeea98c66f424697c",
+      "bytes": 422,
+      "historical_freeze_sha256": "8574eb94f42e9aa9678f8df3a7e167678a6e1e2d1a06b7fbeea98c66f424697c",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/LOD_Box_mX15m_01_5storey_TopInterior_meshNode.ply",
+      "exists": true,
+      "sha256": "432764830720e28da0f781390f5eb213b71357b5f45bd2e2eae770a592aa55a4",
+      "bytes": 422,
+      "historical_freeze_sha256": "432764830720e28da0f781390f5eb213b71357b5f45bd2e2eae770a592aa55a4",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Roads_Layer0Node-itu_concrete.ply",
+      "exists": true,
+      "sha256": "a5fd15230c0740bea142565bc77e9dd443ac1f7d868cce7dde1dede1357b584e",
+      "bytes": 347505,
+      "historical_freeze_sha256": "a5fd15230c0740bea142565bc77e9dd443ac1f7d868cce7dde1dede1357b584e",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Roads_Layer0Node-itu_very_dry_ground.ply",
+      "exists": true,
+      "sha256": "b993ee68c871c7d0e799bf0d61b2c49fbf87774d5ef8b3ceae7b9ab218026b57",
+      "bytes": 515913,
+      "historical_freeze_sha256": "b993ee68c871c7d0e799bf0d61b2c49fbf87774d5ef8b3ceae7b9ab218026b57",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Terrain_Layer0Node-itu_brick.ply",
+      "exists": true,
+      "sha256": "5cba7001f1110c27b1de57684e5f202cf0ca888984bb4f9aacf82513d44c8bba",
+      "bytes": 4622,
+      "historical_freeze_sha256": "5cba7001f1110c27b1de57684e5f202cf0ca888984bb4f9aacf82513d44c8bba",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Terrain_Layer0Node-itu_concrete.ply",
+      "exists": true,
+      "sha256": "6af2756830680e80103ee979002e51b2b213ca7c1d6a196f380b5b16043c1d05",
+      "bytes": 26098,
+      "historical_freeze_sha256": "6af2756830680e80103ee979002e51b2b213ca7c1d6a196f380b5b16043c1d05",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/meshes/Terrain_Layer0Node-itu_medium_dry_ground.ply",
+      "exists": true,
+      "sha256": "b1a8b254e848de4d0ff6c4130a4cffdb7b121e62205b49f75d21635e605ede1e",
+      "bytes": 7271,
+      "historical_freeze_sha256": "b1a8b254e848de4d0ff6c4130a4cffdb7b121e62205b49f75d21635e605ede1e",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/scene.xml",
+      "exists": true,
+      "sha256": "07cd1eedd527ebc8cad249fe844e1f8b31da3a2e426141d44240ce08d84e7961",
+      "bytes": 33483,
+      "historical_freeze_sha256": "07cd1eedd527ebc8cad249fe844e1f8b31da3a2e426141d44240ce08d84e7961",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/small_batch/ROS_to_3D_matrix.json",
+      "exists": true,
+      "sha256": "82bb50f8430128cbe2defadc7c3cf4be9529dce8083cedf01a75e042da08f05f",
+      "bytes": 73,
+      "historical_freeze_sha256": "82bb50f8430128cbe2defadc7c3cf4be9529dce8083cedf01a75e042da08f05f",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/small_batch/collision_geometry.json",
+      "exists": true,
+      "sha256": "1817df59c9bea3b279fdd022b9db64a462947ad993d774e46d80d0f5ba2af845",
+      "bytes": 21441,
+      "historical_freeze_sha256": "1817df59c9bea3b279fdd022b9db64a462947ad993d774e46d80d0f5ba2af845",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-irregular-csi/runs/small_batch/simulation.agcfg",
+      "exists": true,
+      "sha256": "9ff1e1500557117c2feb8ec69acd43caa4f717b0e97f8723f92d13c5c9c63dc8",
+      "bytes": 6604,
+      "historical_freeze_sha256": "9ff1e1500557117c2feb8ec69acd43caa4f717b0e97f8723f92d13c5c9c63dc8",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-workspace/experiments/trajectory_tool/bigcity_batch_planner.py",
+      "exists": true,
+      "sha256": "b293a9dd0d066ca43f15a2c968decb34393697689cef834885dbd672e06b4c1f",
+      "bytes": 29071,
+      "historical_freeze_sha256": "b293a9dd0d066ca43f15a2c968decb34393697689cef834885dbd672e06b4c1f",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/autodl-tmp/simart-workspace/src/SimART/SimART_GUI/scripts/sionna_sim_only_topic2.py",
+      "exists": true,
+      "sha256": "9d78b7e5192c947059fb53d134104cbfd641f45fdaaae3fe6dd10d9c30aace88",
+      "bytes": 149246,
+      "historical_freeze_sha256": "9d78b7e5192c947059fb53d134104cbfd641f45fdaaae3fe6dd10d9c30aace88",
+      "matches_historical_freeze": true
+    },
+    {
+      "path": "/root/miniconda3/envs/SimART/lib/python3.12/site-packages/sionna/rt/path_solvers/image_method.py",
+      "exists": true,
+      "sha256": "f1983dc1b5a6038f95788f331855f798552e216caa04c6361443ec0cc5015d2a",
+      "bytes": 28862
+    },
+    {
+      "path": "/root/miniconda3/envs/SimART/lib/python3.12/site-packages/sionna/rt/path_solvers/paths.py",
+      "exists": true,
+      "sha256": "c81f15e7ae6eddd89cd82ff10025db70e79fbbc19eec3a8cd2ce8d1ef1f852da",
+      "bytes": 55334,
+      "historical_freeze_sha256": "c81f15e7ae6eddd89cd82ff10025db70e79fbbc19eec3a8cd2ce8d1ef1f852da",
+      "matches_historical_freeze": true
+    }
+  ],
+  "historical_hash_differences": [
+    "/root/autodl-tmp/csi-irregular-benchmark/data/dataset_config.json",
+    "/root/autodl-tmp/csi-irregular-benchmark/generate_dataset.py"
+  ],
+  "missing_files": [],
+  "reproduction_limits": "External SimART code and mesh assets are hashed, not bundled. Finite stochastic RT can vary with software, GPU and receiver batch layout. No H arrays or in-progress completion counts are hashed."
+}

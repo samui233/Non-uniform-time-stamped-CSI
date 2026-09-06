@@ -1,0 +1,39 @@
+{
+  "traj_id": "occlusion_018",
+  "split": "val",
+  "window_s": [
+    3.9,
+    4.1
+  ],
+  "audit_hz": 2000,
+  "audit_frames": 401,
+  "primary_hz": 500,
+  "midpoint_1ms_interpolation_nmse": {
+    "global_nmse_db": -17.939291592505768,
+    "sample_equal_nmse_db": -17.934103597606715,
+    "sample_nmse_p95_db": -15.086232284291654,
+    "samples": 100
+  },
+  "primary500_to_true1ms_interpolation_nmse": {
+    "global_nmse_db": -17.93923993637099,
+    "sample_equal_nmse_db": -17.934051808611375,
+    "sample_nmse_p95_db": -15.086232284291654,
+    "samples": 100
+  },
+  "same_grid_retrace_nmse": {
+    "global_nmse_db": -92.1417247825436,
+    "sample_equal_nmse_db": -92.14286810677352,
+    "sample_nmse_p95_db": -350.0,
+    "samples": 101
+  },
+  "mean_element_gain_min_db": -120.07937622070312,
+  "mean_element_gain_max_db": -119.909912109375,
+  "max_gain_change_2ms_db_all_phases": 0.12708282470703125,
+  "max_gain_change_2ms_db_500hz_grid": 0.12708282470703125,
+  "max_gain_change_0p5ms_db": 0.12372589111328125,
+  "hann_spectrum_energy_above_250hz_fraction_total": 0.002723712734098012,
+  "hann_spectrum_energy_above_250hz_fraction_demeaned": 0.0027226239752141594,
+  "los_fraction": 0.0,
+  "path_count_min": 1,
+  "interpretation": "Finite 0.2 s Hann spectrum, not an alias-free certificate; 2 kHz reference may itself miss higher bandwidth. Interpolation is diagnostic, never a label."
+}

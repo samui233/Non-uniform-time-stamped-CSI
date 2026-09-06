@@ -1,0 +1,28 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main",
+  "included_runs": [
+    "cru_seed17",
+    "cru_seed29",
+    "cru_seed43",
+    "harmonic",
+    "hold",
+    "kalman",
+    "latent_ode_seed17",
+    "latent_ode_seed29",
+    "latent_ode_seed43",
+    "linear",
+    "neural_flow_seed17",
+    "neural_flow_seed29",
+    "neural_flow_seed43",
+    "tpatchgnn_seed17",
+    "tpatchgnn_seed29",
+    "tpatchgnn_seed43"
+  ],
+  "harmonic_note": "Includes recomputed input-precision identifiability fix results; archived alias-bug outputs are not used.",
+  "validation_loader_seed": 917,
+  "test_loader_seed": 1917,
+  "windows": 1200,
+  "no_training": true,
+  "no_gpu": true,
+  "no_sample_exclusion": true
+}

@@ -1,0 +1,10 @@
+{
+  "criterion": "Lowest mean validation per-target NMSE across seeds; no test scores used",
+  "values": {
+    "cru": 0.4583301015363799,
+    "latent_ode": 0.5657256808292327,
+    "neural_flow": 0.8843559468551367,
+    "tpatchgnn": 0.47550919135499975
+  },
+  "selected": "cru"
+}

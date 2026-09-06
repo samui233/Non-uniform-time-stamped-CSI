@@ -1,0 +1,4 @@
+{
+  "source": "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results",
+  "rule": "Mean per-target linear NMSE within each seed; mean across seeds; then 10log10. Bootstrap CIs are in per-model summary JSON, not seed error bars."
+}

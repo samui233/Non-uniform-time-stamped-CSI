@@ -1,0 +1,27 @@
+{
+  "data_root": "/root/autodl-tmp/csi-irregular-benchmark/data",
+  "basis": "/root/autodl-tmp/csi-irregular-benchmark/data/compression/basis.npy",
+  "checkpoints": "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/checkpoints",
+  "output": "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/offgrid",
+  "split": "test",
+  "samples": 1200,
+  "batch_size": 32,
+  "workers": 2,
+  "models": null,
+  "pattern": "mixed",
+  "history_count": null,
+  "ablation": "none",
+  "device": "cuda",
+  "no_baselines": false,
+  "kalman_config": "/root/autodl-tmp/csi-irregular-benchmark/runs/main_v1/results/main/kalman_validation_tuning.json",
+  "seeds": null,
+  "offgrid": true,
+  "query_horizons": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ]
+}
