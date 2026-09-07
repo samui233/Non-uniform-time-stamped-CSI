@@ -1,0 +1,84 @@
+{
+  "args": {
+    "family": "highspeed",
+    "backbone": "tpatchgnn",
+    "epochs": 10,
+    "samples": 1024,
+    "val_samples": 384,
+    "batch": 16,
+    "lr": 0.0003,
+    "config": "/root/autodl-tmp/csi-irregular-multimodal/config.json"
+  },
+  "dataset": {
+    "benchmark_root": "/root/autodl-tmp/csi-irregular-benchmark",
+    "capture_root": "/root/autodl-tmp/simart-irregular-csi/runs/six_families_four_view_20hz",
+    "feature_root": "/root/autodl-tmp/csi-irregular-multimodal/features",
+    "history_s": 0.4,
+    "future_min_s": 0.01,
+    "future_max_s": 0.5,
+    "query_count": 6,
+    "eval_queries_s": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "csi_count": [
+      4,
+      32
+    ],
+    "motion_count": [
+      4,
+      16
+    ],
+    "rgb_count": [
+      2,
+      8
+    ],
+    "motion_source": "trajectory_original_1000hz.npz",
+    "patterns": [
+      "random",
+      "uniform",
+      "bursty",
+      "dropout"
+    ],
+    "modality_drop_probability": 0.1,
+    "bs_position_m": [
+      -4.2,
+      -23.1,
+      50.0
+    ],
+    "position_scale_m": 100.0,
+    "velocity_scale_mps": 30.0,
+    "views": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "feature_grid": 8,
+    "visual_weights": "/root/.cache/torch/hub/checkpoints/resnet50-19c8e357.pth",
+    "families": [
+      "cruise",
+      "highspeed",
+      "sweep_turn",
+      "uturn",
+      "climb_descent",
+      "occlusion"
+    ],
+    "seed": 17
+  },
+  "backbone": "/root/autodl-tmp/csi-irregular-benchmark/runs/six_category_affine_s17/checkpoints/highspeed/tpatchgnn_affine_nmse_full_det_center_s17/best.pt",
+  "backbone_sha256": "101f1a73a3ad6d4181a1847e482ffc8f13c47b69d4f94a3251c43ccc2b3b1a5c",
+  "features": 256,
+  "stage": "frozen CSI + trainable adapters",
+  "validation_seed": 2917,
+  "test_used": false,
+  "source_sha256": {
+    "data.py": "a9f2c6c56b34b9f059e0b309803a8f2443ae6e6eb1ade2884c07c8faf74fb69d",
+    "model.py": "f8b7ab64e45d95d376a22f24d2b5a7666e1d48981ccd74ef9c703f0243749f72",
+    "pilot.py": "42f6af435573f5ecbe7aebcbfb608889fc51da13375723a06172a5c38492b2bc"
+  }
+}

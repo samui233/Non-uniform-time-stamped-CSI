@@ -1,0 +1,60 @@
+{
+  "remove_rgb": {
+    "hold": 1.2545483750643858,
+    "pretrained": -1.7149454395599648,
+    "WMI": -1.805654683157005,
+    "WMI_recency": -1.9245310413774253
+  },
+  "remove_motion": {
+    "hold": 1.2545483750643858,
+    "pretrained": -1.7149454395599648,
+    "WMI": -1.6893942657743024,
+    "WMI_recency": -1.5284540990541775
+  },
+  "paired_bootstrap_vs_W": {
+    "WM": {
+      "delta_db": -0.09128962457180023,
+      "ci95_db": [
+        -0.3309013195335865,
+        0.13743076547980296
+      ],
+      "routes": 9,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    },
+    "WI": {
+      "delta_db": 0.0,
+      "ci95_db": [
+        0.0,
+        0.0
+      ],
+      "routes": 9,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    },
+    "WMI": {
+      "delta_db": -0.08878740668296814,
+      "ci95_db": [
+        -0.3472739577293396,
+        0.1547943990677595
+      ],
+      "routes": 9,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    },
+    "WMI_recency": {
+      "delta_db": -0.1972016543149948,
+      "ci95_db": [
+        -0.43679491207003596,
+        0.08373695425689202
+      ],
+      "routes": 9,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    }
+  },
+  "visual_feature_50ms_relative_change": {
+    "median": 0.0032301474129781127,
+    "p90": 0.008877081237733368
+  }
+}

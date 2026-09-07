@@ -1,0 +1,75 @@
+{
+  "warning": "NON-CAUSAL ORACLE DIAGNOSTIC, NOT DEPLOYABLE",
+  "epochs": 16,
+  "train_windows_per_epoch": 2048,
+  "validation_windows": 384,
+  "seed": 17,
+  "val_seed": 2917,
+  "lr": 0.0001,
+  "backbone": "/root/autodl-tmp/csi-irregular-benchmark/runs/occlusion_v4_affine_s17/checkpoints/occlusion/tpatchgnn_affine_nmse_full_det_center_s17/best.pt",
+  "backbone_frozen": true,
+  "input": "same CSI + optional true current/future LoS bits ONLY",
+  "test_used": false,
+  "dataset": {
+    "benchmark_root": "/root/autodl-tmp/csi-irregular-benchmark",
+    "capture_root": "/root/autodl-tmp/simart-irregular-csi/runs/six_families_four_view_20hz",
+    "feature_root": "/root/autodl-tmp/csi-irregular-multimodal/features",
+    "history_s": 0.4,
+    "future_min_s": 0.01,
+    "future_max_s": 0.5,
+    "query_count": 6,
+    "eval_queries_s": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "csi_count": [
+      4,
+      32
+    ],
+    "motion_count": [
+      4,
+      16
+    ],
+    "rgb_count": [
+      2,
+      8
+    ],
+    "motion_source": "trajectory_original_1000hz.npz",
+    "patterns": [
+      "random",
+      "uniform",
+      "bursty",
+      "dropout"
+    ],
+    "modality_drop_probability": 0.1,
+    "bs_position_m": [
+      -4.2,
+      -23.1,
+      50.0
+    ],
+    "position_scale_m": 100.0,
+    "velocity_scale_mps": 30.0,
+    "views": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "feature_grid": 8,
+    "visual_weights": "/root/.cache/torch/hub/checkpoints/resnet50-19c8e357.pth",
+    "families": [
+      "cruise",
+      "highspeed",
+      "sweep_turn",
+      "uturn",
+      "climb_descent",
+      "occlusion"
+    ],
+    "seed": 17
+  },
+  "selection": "minimum full-matrix per-target mean NMSE on validation"
+}

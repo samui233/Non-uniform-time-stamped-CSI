@@ -1,0 +1,60 @@
+{
+  "remove_rgb": {
+    "hold": -9.607573509321485,
+    "pretrained": -12.362931501816776,
+    "WMI": -12.362931501816776,
+    "WMI_recency": -12.362931501816776
+  },
+  "remove_motion": {
+    "hold": -9.607573509321485,
+    "pretrained": -12.362931501816776,
+    "WMI": -12.362931501816776,
+    "WMI_recency": -12.362931501816776
+  },
+  "paired_bootstrap_vs_W": {
+    "WM": {
+      "delta_db": 0.0,
+      "ci95_db": [
+        0.0,
+        0.0
+      ],
+      "routes": 3,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    },
+    "WI": {
+      "delta_db": 0.0,
+      "ci95_db": [
+        0.0,
+        0.0
+      ],
+      "routes": 3,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    },
+    "WMI": {
+      "delta_db": 0.0,
+      "ci95_db": [
+        0.0,
+        0.0
+      ],
+      "routes": 3,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    },
+    "WMI_recency": {
+      "delta_db": 0.0,
+      "ci95_db": [
+        0.0,
+        0.0
+      ],
+      "routes": 3,
+      "exploratory": true,
+      "selection_bias_not_corrected": true
+    }
+  },
+  "visual_feature_50ms_relative_change": {
+    "median": 0.012327013537287712,
+    "p90": 0.023964173905551434
+  }
+}

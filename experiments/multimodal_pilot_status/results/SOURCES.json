@@ -1,0 +1,161 @@
+{
+  "result_files": [
+    {
+      "file": "data_index.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/index/complete.json",
+      "sha256": "a5f80f454ccb68f542ad62420765907eb82d36306156856bb8df3e1dba734a04"
+    },
+    {
+      "file": "sampling_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/config.json",
+      "sha256": "dcfd35f304fab05a58c4daeeaea245165ecd4d578a96e9b43b5743b31d86db04"
+    },
+    {
+      "file": "initial_fusion_metrics.csv",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/results/metrics.csv",
+      "sha256": "62b50587f4bef4219fca599e1875327cd66f524571607af81d65324d3b9e3262"
+    },
+    {
+      "file": "initial_highspeed_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/highspeed/config.json",
+      "sha256": "94e76d4cd44575313811ec84759ec7a215048f761c2ceac8fd83c9f3dffa53a3"
+    },
+    {
+      "file": "initial_highspeed_diagnostics.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/highspeed/diagnostics.json",
+      "sha256": "b849fc6f044d55d19de7bd07c0b46d2bb5ac74a6244719d62f5f0be95ac2af33"
+    },
+    {
+      "file": "initial_occlusion_diagnostics.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/occlusion/diagnostics.json",
+      "sha256": "17e7eb02ee8d9d2ac6eab12beb20e33cd18018cbaac13b8a8841be5fd67d1161"
+    },
+    {
+      "file": "cnn_current_los_metrics.csv",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/visual_los_probe/metrics.csv",
+      "sha256": "04a1ed7afbba9b06213e45b480410d3971aae61f8cc2048cc755e56e2b05a0f6"
+    },
+    {
+      "file": "cnn_frozen_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/visual_los_probe/frozen/config.json",
+      "sha256": "d0ce8517b918ed3caad902aac913a816d2c22065b50f2eebb1bbdd595d88e04c"
+    },
+    {
+      "file": "cnn_finetuned_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/visual_los_probe/finetuned/config.json",
+      "sha256": "fb61fc5b2059c4b5fa449679a2914ea0c933e45495031e98a0f2f8ffd07442d0"
+    },
+    {
+      "file": "visual_feature_ablation_metrics.csv",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/visual_feature_ablation/metrics.csv",
+      "sha256": "53dd84d91478fe111fb6a76038a9f7637b3c2bf70d5b42c43c7352f73f08f8fd"
+    },
+    {
+      "file": "visual_feature_ablation_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/visual_feature_ablation/complete.json",
+      "sha256": "aa576ee70edf261a1e15af0edae86ebc1d02a60b7c22f9a45e3449da7ec57a3e"
+    },
+    {
+      "file": "csi_visual_readout_metrics.csv",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/csi_visual_readout_pilot/metrics.csv",
+      "sha256": "2a397131c513b0043d8004448c2931b4d153ed4af9be5bc3e87d202081199e63"
+    },
+    {
+      "file": "csi_visual_readout_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/csi_visual_readout_pilot/config.json",
+      "sha256": "ec132e7b56d5669fd686cce16f019a19b8800110d5b67a570a7903c51b939da8"
+    },
+    {
+      "file": "csi_visual_readout_summary.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/csi_visual_readout_pilot/summary.json",
+      "sha256": "5b603acb6e1c1bfec1c1b8c8d58a191860c0d72a8986dc56b92331e0ea0b689b"
+    },
+    {
+      "file": "oracle_future_los_results.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/ORACLE_future_los_diagnostic/complete.json",
+      "sha256": "bdc2c13f184bc26050d624d584e128338dd37c58009cde4d05bc34640671b527"
+    },
+    {
+      "file": "oracle_future_los_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/ORACLE_future_los_diagnostic/config.json",
+      "sha256": "6b029d396449de6916d25cd13c4aa8ee8d6736d698b3c32f7dc38a23c1c90ccf"
+    },
+    {
+      "file": "dino_current_los_results.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/dino_linear_check/complete.json",
+      "sha256": "cc5ae50ea6ba33bc54493f3b72a9209348ff3e5f6f8d8b81237d9c4c5d03da90"
+    },
+    {
+      "file": "vit_future_los_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/vit_future_los/config.json",
+      "sha256": "7c63377c137a99d013c8b5e411c6df6304f0ecbf0fb90cdc9ce3aee3dd92519b"
+    },
+    {
+      "file": "vit_future_los_results.json",
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/runs/vit_future_los/complete.json",
+      "sha256": "a7f45bf4580998c9b0089eb86f7872537c7500702c03ab8cfff4521b1011c83a"
+    },
+    {
+      "file": "occlusion_v4_dataset_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v4_nearby/dataset_config.json",
+      "sha256": "aa110215d8e635ff1825454cf801eaa1a9210034bb4bff4346a3eb91dfd62449"
+    },
+    {
+      "file": "occlusion_v4_physical_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-benchmark/data_occlusion_v4_nearby/physical_config.json",
+      "sha256": "086f04966b39e4de12e2e36cf61395c054d613658cbb4bd6ba9081c3d97437e4"
+    },
+    {
+      "file": "first_five_representative_dataset_config.json",
+      "source": "/root/autodl-tmp/csi-irregular-benchmark/experiments/six_category_v1/data/cruise/dataset_config.json",
+      "sha256": "4aab28a1bd54a853ee7a68c37e11145cf33b3ce7a0123f6b991b85eab00b0292"
+    }
+  ],
+  "current_source_hashes": [
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/data.py",
+      "sha256": "a9f2c6c56b34b9f059e0b309803a8f2443ae6e6eb1ade2884c07c8faf74fb69d"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/model.py",
+      "sha256": "f8b7ab64e45d95d376a22f24d2b5a7666e1d48981ccd74ef9c703f0243749f72"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/pilot.py",
+      "sha256": "42f6af435573f5ecbe7aebcbfb608889fc51da13375723a06172a5c38492b2bc"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/visual_los_probe.py",
+      "sha256": "52d8f6ac6fc3a69319d9b060886b7dc84ddd25b527e18c5b9e761a2b50afc22f"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/visual_linear_probe.py",
+      "sha256": "065f6877b4053c97c807229995cd635df85cfb3870c2697f9f5cb62adff16341"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/visual_feature_ablation.py",
+      "sha256": "c75eb4f63407a3edbeab625bfd26edcf7bb673bd34e50b6be0d8c431082ba121"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/csi_visual_readout_pilot.py",
+      "sha256": "acd97ad56c96b2e48676ec6ca8f403456c2df10ec49f819768e34212e2fda7b7"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/oracle_los_pilot.py",
+      "sha256": "287b8b648200aa5573017f6a9c9cc6bedc719e46a43a5e964050f44660967abc"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/cache_dinov2.py",
+      "sha256": "d825858a6c2f3ac31a5f79d6d06e182add752746e283522a4200d4a2a4a5a5c1"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/dino_linear_check.py",
+      "sha256": "b22116423cf4adb6a39986116c1ba692ee704de3a34aa12e45c0e753cf52587d"
+    },
+    {
+      "source": "/root/autodl-tmp/csi-irregular-multimodal/vit_future_los.py",
+      "sha256": "d743066b1677635318e4abe94082acdf5469af18ff6dd43ede2448c0a785dc53"
+    }
+  ],
+  "note": "Current source hashes are provenance snapshots; historical run config hashes take precedence for historical training."
+}

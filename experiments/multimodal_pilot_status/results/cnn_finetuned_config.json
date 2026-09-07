@@ -1,0 +1,18 @@
+{
+  "arm": "finetuned",
+  "epochs": 8,
+  "batch": 8,
+  "head_lr": 0.0003,
+  "cnn_lr": 1e-05,
+  "seed": 17,
+  "selection": "validation AUROC",
+  "threshold": 0.5,
+  "train_groups": 2142,
+  "val_groups": 459,
+  "train_los": 1168,
+  "val_los": 258,
+  "inputs": "current four RGB images only",
+  "test_used": false,
+  "normalization": "ImageNet; BN running stats frozen",
+  "trainable_parameters": 1674401
+}

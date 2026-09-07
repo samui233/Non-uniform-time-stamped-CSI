@@ -1,0 +1,41 @@
+{
+  "metrics": {
+    "auroc": 0.7458058544486867,
+    "balanced_accuracy": 0.6862779127617726,
+    "accuracy": 0.681917211328976,
+    "los_recall": 0.6511627906976745,
+    "nlos_recall": 0.7213930348258707,
+    "brier": 0.2152827855900226
+  },
+  "candidates": [
+    {
+      "ridge_fraction": 0.01,
+      "auroc": 0.7338694126267885,
+      "balanced_accuracy": 0.6887654749508273,
+      "accuracy": 0.6840958605664488,
+      "los_recall": 0.6511627906976745,
+      "nlos_recall": 0.7263681592039801,
+      "brier": 0.21203675605336467
+    },
+    {
+      "ridge_fraction": 0.1,
+      "auroc": 0.7414092329052412,
+      "balanced_accuracy": 0.6978768945967835,
+      "accuracy": 0.690631808278867,
+      "los_recall": 0.6395348837209303,
+      "nlos_recall": 0.7562189054726368,
+      "brier": 0.21023823988429893
+    },
+    {
+      "ridge_fraction": 1,
+      "auroc": 0.7458058544486867,
+      "balanced_accuracy": 0.6862779127617726,
+      "accuracy": 0.681917211328976,
+      "los_recall": 0.6511627906976745,
+      "nlos_recall": 0.7213930348258707,
+      "brier": 0.2152827855900226
+    }
+  ],
+  "inputs": "single current four-view DINO patch features; no mean subtraction",
+  "test_used": false
+}

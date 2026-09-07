@@ -1,0 +1,76 @@
+{
+  "epochs": 16,
+  "windows_per_epoch": 2048,
+  "val_windows": 384,
+  "val_seed": 2917,
+  "seed": 17,
+  "lr": 0.0001,
+  "visual_readout": "/root/autodl-tmp/csi-irregular-multimodal/runs/visual_feature_ablation/raw_linear.pt",
+  "visual_sha256": "c17f17f2d701550bbe969ee42a19128e84fd699c241480dc01ff9711b64158bf",
+  "backbone": "/root/autodl-tmp/csi-irregular-benchmark/runs/occlusion_v4_affine_s17/checkpoints/occlusion/tpatchgnn_affine_nmse_full_det_center_s17/best.pt",
+  "dataset": {
+    "benchmark_root": "/root/autodl-tmp/csi-irregular-benchmark",
+    "capture_root": "/root/autodl-tmp/simart-irregular-csi/runs/six_families_four_view_20hz",
+    "feature_root": "/root/autodl-tmp/csi-irregular-multimodal/features",
+    "history_s": 0.4,
+    "future_min_s": 0.01,
+    "future_max_s": 0.5,
+    "query_count": 6,
+    "eval_queries_s": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5
+    ],
+    "csi_count": [
+      4,
+      32
+    ],
+    "motion_count": [
+      4,
+      16
+    ],
+    "rgb_count": [
+      2,
+      8
+    ],
+    "motion_source": "trajectory_original_1000hz.npz",
+    "patterns": [
+      "random",
+      "uniform",
+      "bursty",
+      "dropout"
+    ],
+    "modality_drop_probability": 0.1,
+    "bs_position_m": [
+      -4.2,
+      -23.1,
+      50.0
+    ],
+    "position_scale_m": 100.0,
+    "velocity_scale_mps": 30.0,
+    "views": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "feature_grid": 8,
+    "visual_weights": "/root/.cache/torch/hub/checkpoints/resnet50-19c8e357.pth",
+    "families": [
+      "cruise",
+      "highspeed",
+      "sweep_turn",
+      "uturn",
+      "climb_descent",
+      "occlusion"
+    ],
+    "seed": 17
+  },
+  "test_used": false,
+  "visual_frozen": true,
+  "backbone_frozen": true,
+  "note": "visual pretraining uses train LoS labels; input consists only of image-derived scores at observed historical times"
+}

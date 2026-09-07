@@ -1,0 +1,40 @@
+{
+  "routes": 160,
+  "splits": {
+    "cruise": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "highspeed": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "sweep_turn": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "uturn": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "climb_descent": {
+      "train": 14,
+      "val": 3,
+      "test": 3
+    },
+    "occlusion": {
+      "train": 42,
+      "val": 9,
+      "test": 9
+    }
+  },
+  "causal_and_reproducibility_checks": "passed",
+  "latest_csi": true,
+  "earliest_csi": true,
+  "duplicate_raw_data": false,
+  "config_sha256": "dcfd35f304fab05a58c4daeeaea245165ecd4d578a96e9b43b5743b31d86db04"
+}

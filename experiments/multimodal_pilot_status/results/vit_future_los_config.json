@@ -1,0 +1,31 @@
+{
+  "visual": "official pretrained DINOv2 ViT-S/14 frozen",
+  "patches": 784,
+  "features": 384,
+  "temporal": "2 layer 96-dimensional Transformer + query-time cross attention",
+  "epochs": 16,
+  "samples_per_epoch": 1024,
+  "val_samples": 384,
+  "seed": 17,
+  "val_seed": 2917,
+  "history_s": 0.4,
+  "query_s": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "rgb_groups": [
+    2,
+    8
+  ],
+  "views": 4,
+  "lr": 0.0001,
+  "inputs": "historical RGB and actual timestamps ONLY",
+  "test_used": false,
+  "selection": "future validation AUROC",
+  "loss": "future BCE + 0.5 current BCE",
+  "params": 378913
+}

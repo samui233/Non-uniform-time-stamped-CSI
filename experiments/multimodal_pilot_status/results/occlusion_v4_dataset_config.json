@@ -1,0 +1,67 @@
+{
+  "seed": 202609081,
+  "per_family": 60,
+  "duration_s": 2.5,
+  "trajectory_hz": 1000,
+  "csi_hz": 500,
+  "families": [
+    "occlusion"
+  ],
+  "split_per_family": {
+    "train": 42,
+    "val": 9,
+    "test": 9
+  },
+  "scene_path": "/root/autodl-tmp/simart-irregular-csi/runs/central_station_study_20260905/scene_welded/scene.xml",
+  "collision_cache": "/root/autodl-tmp/simart-irregular-csi/runs/small_batch/collision_geometry.json",
+  "bs_position_m": [
+    -4.2,
+    -23.1,
+    50.0
+  ],
+  "clearance_m": 2.0,
+  "min_bs_distance_m": 10.0,
+  "bounds_min_m": [
+    -122,
+    -89,
+    18
+  ],
+  "bounds_max_m": [
+    114,
+    44,
+    75
+  ],
+  "max_speed_mps": 27,
+  "max_acceleration_mps2": 22,
+  "max_jerk_mps3": 60,
+  "samples_per_src": 32768,
+  "max_paths_per_receiver": 2048,
+  "max_depth": 3,
+  "batch_size": 64,
+  "workers": 2,
+  "rt_seed": 42,
+  "normalize_delays": false,
+  "csi_reference": "geometric_distance",
+  "image_coplanarity_tolerance_m": 0.001,
+  "history_span_s": 0.4,
+  "future_span_s": 0.5,
+  "history_counts": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "query_horizons_s": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "offgrid_cutoffs_per_heldout_route": 24,
+  "offgrid_queries_per_cutoff": 4,
+  "notes": "Trajectory-only version. Splits pending spatial grouping; do not reuse old CSI for these paths.",
+  "max_bs_distance_m": 80.0,
+  "route_design": "Independent nearby straight crossings, spatially dispersed; no forced three-variant groups"
+}

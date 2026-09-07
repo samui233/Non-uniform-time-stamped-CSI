@@ -1,0 +1,86 @@
+{
+  "warning": "NON-CAUSAL ORACLE DIAGNOSTIC, NOT DEPLOYABLE",
+  "results": {
+    "correct": {
+      "pretrained": {
+        "nmse_db": -1.71503096430725,
+        "switch_nmse_db": 2.0743148120499844,
+        "stable_nmse_db": -2.232746731491034
+      },
+      "none": {
+        "nmse_db": -1.8622395741370215,
+        "switch_nmse_db": 1.7793098423618825,
+        "stable_nmse_db": -2.3484657628309455
+      },
+      "current": {
+        "nmse_db": -1.71503096430725,
+        "switch_nmse_db": 2.0743148120499844,
+        "stable_nmse_db": -2.232746731491034
+      },
+      "future": {
+        "nmse_db": -2.163004253321842,
+        "switch_nmse_db": 0.06424562225099195,
+        "stable_nmse_db": -2.4043461961540995
+      },
+      "both": {
+        "nmse_db": -2.1871132735852825,
+        "switch_nmse_db": 0.12443404590005055,
+        "stable_nmse_db": -2.4405959077425674
+      }
+    },
+    "flipped_future": {
+      "pretrained": {
+        "nmse_db": -1.71503096430725,
+        "switch_nmse_db": 2.0743148120499844,
+        "stable_nmse_db": -2.232746731491034
+      },
+      "none": {
+        "nmse_db": -1.8622395741370215,
+        "switch_nmse_db": 1.7793098423618825,
+        "stable_nmse_db": -2.3484657628309455
+      },
+      "current": {
+        "nmse_db": -1.71503096430725,
+        "switch_nmse_db": 2.0743148120499844,
+        "stable_nmse_db": -2.232746731491034
+      },
+      "future": {
+        "nmse_db": -1.1758206656751904,
+        "switch_nmse_db": 3.578795683596468,
+        "stable_nmse_db": -1.9352397865346458
+      },
+      "both": {
+        "nmse_db": -1.1822917201035392,
+        "switch_nmse_db": 3.4805187332717717,
+        "stable_nmse_db": -1.9157013391429563
+      }
+    }
+  },
+  "paired_vs_none": {
+    "current": {
+      "delta_db": 0.14720860982977166,
+      "exploratory_ci95_db": [
+        -0.21115871146406281,
+        0.536939065978105
+      ]
+    },
+    "future": {
+      "delta_db": -0.30076467918482075,
+      "exploratory_ci95_db": [
+        -0.6368812204258851,
+        -0.03699647943345713
+      ]
+    },
+    "both": {
+      "delta_db": -0.3248736994482607,
+      "exploratory_ci95_db": [
+        -0.6810962577376825,
+        -0.038335767988763876
+      ]
+    }
+  },
+  "validation_only": true,
+  "selection_bias_not_corrected": true,
+  "switch_targets": 172,
+  "elapsed_s": 147.34831231925637
+}

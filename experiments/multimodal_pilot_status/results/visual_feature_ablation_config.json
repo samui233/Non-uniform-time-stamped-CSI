@@ -1,0 +1,16 @@
+{
+  "train": 1974,
+  "validation": 423,
+  "train_routes": 42,
+  "val_routes": 9,
+  "gaps_ms": [
+    50,
+    100,
+    150,
+    200
+  ],
+  "first_four_frames_excluded_all_arms": true,
+  "test_used": false,
+  "centered_model_folded_bias_max_error": 1.325606291402437e-13,
+  "elapsed_s": 25.46870988048613
+}
