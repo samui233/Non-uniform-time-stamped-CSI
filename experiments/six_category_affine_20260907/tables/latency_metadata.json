@@ -6,5 +6,6 @@
   "cpu_threads": 1,
   "includes": "latest normalization, model, PCA reconstruction",
   "excludes": "disk loading, network transfer, dataset preparation",
-  "single_query_s": 0.1
+  "single_query_s": 0.1,
+  "scope": "First five only; old occlusion timing removed, v4 not measured"
 }

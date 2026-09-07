@@ -106,7 +106,9 @@ z_pred = z_last + gate * (alpha * z_last + delta_perp)
 
 参数量不同，不能把结果解释为严格等容量架构比较。CT 模型参数少主要来自逐系数共享，不代表它只输出少量 CSI 元素。
 
-所有训练使用 seed 17、AdamW、初始学习率 0.001、权重衰减 0.0001、余弦学习率下限 0.00001、梯度范数裁剪 1；最多 60 轮，验证指标连续 12 轮不改善则早停。每轮从该类别训练轨迹重采样 4,000 个窗口，验证固定 600 个窗口。batch 分别为 CRU 256、Latent ODE/Flow/RWKV 128、t-PatchGNN 32（遮挡 16）、CT 16（遮挡 8）。除 CRU 核外使用 BF16 混合精度，并保留输出跳连的 FP32 相加。
+所有训练使用 seed 17、AdamW、初始学习率 0.001、权重衰减 0.0001、余弦学习率下限 0.00001、梯度范数裁剪 1；最多 60 轮，验证指标连续 12 轮不改善则早停。每轮从该类别训练轨迹重采样 4,000 个窗口，验证固定 600 个窗口。前五类 batch 分别为 CRU 256、Latent ODE/Flow/RWKV 128、t-PatchGNN 32、CT 16。新版遮挡的逐模型 batch、基与数据清单校验值以 `tables/experiment_metadata.json` 中 `occlusion_training_configs` 为准，CRU 为 128，t-PatchGNN 为 16。除 CRU 核外使用 BF16 混合精度，并保留输出跳连的 FP32 相加。
+
+当前遮挡基与权重来自 `data_occlusion_v4_nearby` / `runs/occlusion_v4_affine_s17`，不是原 v3 权重。基 SHA-256 为 `188e67da061248d92b391731cd35d0b9602387c9e015a11de3b381526e1d139e`；特征维度仍为 512，不能因维度相同而交换两个版本的基与权重。
 
 目标函数为每个未来目标点的完整矩阵 NMSE：系数误差平方和加上不可恢复的投影残差能量，再除以该目标点完整 CSI 能量；最后对窗口及查询求算术平均。不加入增益辅助损失、显式趋势分支或额外相位增量监督。验证集决定最优 checkpoint，测试集不参与选轮次或调参。各实际早停轮次见 [training.csv](tables/training.csv)。
 

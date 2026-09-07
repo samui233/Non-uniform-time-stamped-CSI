@@ -1,6 +1,8 @@
 # 六类非均匀时间戳 CSI 预测：统一复数仿射预测头
 
-本目录对应 **2026-09-07 完成的独立实验**：六类数据分别训练 CRU、Latent ODE、Flow、t-PatchGNN、Time-RWKV CSI 和 CT-Transformer CSI，每个模型仅使用 seed 17，共 36 个训练。不要与相邻目录中的旧版直接预测实验混用。
+本目录保留前五类原实验，**第六类已替换为 `occlusion_v4_nearby` 的数据和重新训练结果**。六类分别训练 CRU、Latent ODE、Flow、t-PatchGNN、Time-RWKV CSI 和 CT-Transformer CSI，每种模型使用 seed 17。不要与相邻目录中的旧版直接预测实验混用。
+
+新版遮挡只有 7 项已完成评估；图表中的 N/E 表示尚未评估，不是零误差。旧遮挡的采样/时钟压力结果、时延和旧模型配对对比已移除，未用旧数值填补。原内容仍可从 Git 历史恢复。
 
 ## 阅读入口
 
@@ -22,11 +24,11 @@
 
 ## 文件与复现范围
 
-本次共保存 960 个评估组合的汇总结果：6 类 × 16 种测试设置 ×（6 个学习模型 + 4 个传统参照）。这是评估设置数量，不是 960 次独立训练或 960 个独立数据集。
+当前保存 870 个评估组合：前五类各 16 项、新遮挡 7 项，每项包含 6 个学习模型和 4 个传统参照。这是评估设置数量，不是独立训练数量。
 
-服务器完整目录：`/root/autodl-tmp/csi-irregular-benchmark/runs/six_category_affine_s17/`。其中 `checkpoints/` 保存 36 组权重，`results/` 保存逐目标 NPZ 和结果来源校验。训练及评估代码位于 `experiments/six_category_affine_s17/`。本 GitHub 目录上传说明、图片、轻量数值结果和轨迹重绘素材，不上传大体积 CSI 数组或 checkpoint。
+前五类服务器目录：`/root/autodl-tmp/csi-irregular-benchmark/runs/six_category_affine_s17/`；新版遮挡：`/root/autodl-tmp/csi-irregular-benchmark/runs/occlusion_v4_affine_s17/`。各自 `checkpoints/` 和 `results/` 保存权重与逐目标结果；新版数据在 `data_occlusion_v4_nearby/`。本目录只上传轻量结果与重绘素材。
 
-`tables/experiment_metadata.json` 的图列表是训练工作流最初生成的十组图；本次另外增加 `00_trajectory_families_altitude`，不属于新增训练实验。`ARTIFACT_MANIFEST.json` 列出整个发布目录的文件校验值。
+`tables/experiment_metadata.json` 记录新版遮挡的可用评估、六个训练配置和来源校验值。`ARTIFACT_MANIFEST.json` 为更新后的发布文件校验。`scripts/plot_results.py` 直接读取本目录 CSV 重绘图 1–10；地图由 `scripts/plot_trajectory_map.py` 重绘。
 
 重画地图图：安装 NumPy、Matplotlib 后运行：
 
