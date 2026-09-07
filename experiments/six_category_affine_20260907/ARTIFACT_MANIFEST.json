@@ -1,0 +1,174 @@
+{
+  "run": "six_category_affine_s17",
+  "seed": 17,
+  "trained_models": 36,
+  "evaluation_combinations": 960,
+  "figure_groups": 11,
+  "source_complete": {
+    "trained": 36,
+    "evaluated": [
+      "cruise",
+      "highspeed",
+      "sweep_turn",
+      "uturn",
+      "climb_descent",
+      "occlusion"
+    ],
+    "elapsed_s": 5193.79215287324
+  },
+  "scope": "Chinese methods/results, unchanged experiment plots and tables, actual trajectory map with height colours; no checkpoints",
+  "files": {
+    "ANALYSIS_CN.md": {
+      "bytes": 13337,
+      "sha256": "b2ac3e34f90f7f914b96e965a4b214ef7e0bf7e5aa1c030998028e848cc8b19b"
+    },
+    "NETWORKS_CN.md": {
+      "bytes": 11173,
+      "sha256": "05ea1d7e83890e17072069c03d3d4240035c54715a9b52251eb89e17398e556c"
+    },
+    "README.md": {
+      "bytes": 3474,
+      "sha256": "b5a258bd0ba55030ce6d80b9d0bf2f88ccc1e019680b1099d42a4bf1db09118a"
+    },
+    "data/trajectory_map.npz": {
+      "bytes": 1400676,
+      "sha256": "8ecad7a1aafba22aada38becec106309c1edf19c3a7dc211faca5fe0905d2e66"
+    },
+    "data/trajectory_map_metadata.json": {
+      "bytes": 15001,
+      "sha256": "a365742b9215c8289718ed628ac7e2c7fd3b951e4ebddaa1bc5d8c4ffb8352bf"
+    },
+    "figures/00_trajectory_families_altitude.pdf": {
+      "bytes": 2226335,
+      "sha256": "040f72bd7d3a013acf4a8982687cfbf4cd8fc9830388c3e15b4775d1f88728bf"
+    },
+    "figures/00_trajectory_families_altitude.png": {
+      "bytes": 1890859,
+      "sha256": "f72c34c1c34a35a7f0f7521e0db8faeada008f579e271a38b7d1c8fdce8f217d"
+    },
+    "figures/01_overall_nmse.pdf": {
+      "bytes": 20433,
+      "sha256": "2fd0cb2a8ec7051dfff85fe8de1668cc91e221b06639db2d687efae412ac69c3"
+    },
+    "figures/01_overall_nmse.png": {
+      "bytes": 256572,
+      "sha256": "fa7d191f943884495f2c1f181cdb90d21ecc33288df05adda9c16c64899f9156"
+    },
+    "figures/02_prediction_horizon.pdf": {
+      "bytes": 32936,
+      "sha256": "a299d8b67bccb84cfbe7e08cb5d6fc538bba18aa79d675e1619e0e185d1ac5ed"
+    },
+    "figures/02_prediction_horizon.png": {
+      "bytes": 544248,
+      "sha256": "60f5823e8c5167e4242a2519b127e99f46f27a520f9c296993040e4d19a611c3"
+    },
+    "figures/03_observation_budget.pdf": {
+      "bytes": 30722,
+      "sha256": "a2300491c8e51514cde6fd157b5153a4d56452afa984c0019cae0d334826075a"
+    },
+    "figures/03_observation_budget.png": {
+      "bytes": 333688,
+      "sha256": "e7e3b0dd80897174813f9f09c45c550f388cea8b48efe7895d80375d442b4bb0"
+    },
+    "figures/04_sampling_pattern.pdf": {
+      "bytes": 23448,
+      "sha256": "185fe69ed7100384ef8c8e3e9f94c791fcf57a5a3e334ad38464a91a1aba481a"
+    },
+    "figures/04_sampling_pattern.png": {
+      "bytes": 366798,
+      "sha256": "65f67dc81be763110d947752bd40ed48cce97c7960137d5a45114b6440078e4c"
+    },
+    "figures/05_timestamp_and_staleness.pdf": {
+      "bytes": 24017,
+      "sha256": "3c3b1d83024488c707e2963fc5faacba112c1674827c1d08f49a3aaaf66f6a20"
+    },
+    "figures/05_timestamp_and_staleness.png": {
+      "bytes": 421149,
+      "sha256": "979a0235109457ca6984eb8b7b35f23285da2e30fe65ab7ec8a85929971efeba"
+    },
+    "figures/06_history_information.pdf": {
+      "bytes": 22915,
+      "sha256": "6586afcf9e3b67d78e491cffc0043864a6029b0b91221f9a9fbba9ddb6fda4d2"
+    },
+    "figures/06_history_information.png": {
+      "bytes": 317397,
+      "sha256": "c2f59762db91bd78cb66bd8499e54175fc47eef47ab6c52688385b27297c4b91"
+    },
+    "figures/07_offgrid_queries.pdf": {
+      "bytes": 20009,
+      "sha256": "3777b4fc7c6399f005c4b81825681f3abc620123f705cbf4965e97152cfcf66b"
+    },
+    "figures/07_offgrid_queries.png": {
+      "bytes": 216256,
+      "sha256": "200c409a1a28526accd40accc5733502efdf2635bf42ab0549e0bf51c7990f6a"
+    },
+    "figures/08_gain_and_shape.pdf": {
+      "bytes": 22777,
+      "sha256": "069fe5bf56b2e65c728a8cf651db6de49e196041f6f32b113c66619f2b573dd6"
+    },
+    "figures/08_gain_and_shape.png": {
+      "bytes": 279625,
+      "sha256": "ae688d188d6fa42bed962b740683fb97b1037efde1ec8a3fd02163b363ac10d2"
+    },
+    "figures/09_before_after.pdf": {
+      "bytes": 18990,
+      "sha256": "810b5aa1d62d00ea1ae6e74c4cf8178e568d2d8c1dea962455a60117c6fc0437"
+    },
+    "figures/09_before_after.png": {
+      "bytes": 160454,
+      "sha256": "16a4a79d58b337a4645b3778ebebc64f681eaf2893972402ee80328e22f1a4a9"
+    },
+    "figures/10_inference_latency.pdf": {
+      "bytes": 19559,
+      "sha256": "efb5975fd76681a8c2dc6f5ff7eaa68e4226ab9b34aa61f893db6b4650671318"
+    },
+    "figures/10_inference_latency.png": {
+      "bytes": 223497,
+      "sha256": "205408173add2edeba6c4781468dff1ab10506f0fd07833e78f37501caef6c2b"
+    },
+    "scripts/plot_trajectory_map.py": {
+      "bytes": 2565,
+      "sha256": "5a797645d3806525c9640c63d1981363ffc2cbdb46a67dd51c1ee6e9cace7d3d"
+    },
+    "tables/before_after.csv": {
+      "bytes": 1946,
+      "sha256": "cbdb3ce25d7d5ae1ca8b051c006c14f6be7e639bb7b0a103233988b5986c6546"
+    },
+    "tables/by_horizon.csv": {
+      "bytes": 1158137,
+      "sha256": "49c30b9659996f42297ddb432e5a89c96eb3bc3be9ff18d953c0ee4a1021e56a"
+    },
+    "tables/dataset_summary.csv": {
+      "bytes": 850,
+      "sha256": "634313e24ed3ef6ae0323f6ce04b3db238e088b09900f09d59ae6963b83402bc"
+    },
+    "tables/energy_change_groups.csv": {
+      "bytes": 4985,
+      "sha256": "cd4c444dd2658c699c4ef482e9cf6e048c8e79ffaf64053a484cf10aeeae5fbd"
+    },
+    "tables/experiment_metadata.json": {
+      "bytes": 1447,
+      "sha256": "2906c4d5bac2f305f0d118a768e98ecb127067a97910ccd20d38356105692c24"
+    },
+    "tables/latency.csv": {
+      "bytes": 8307,
+      "sha256": "819d19dbea81cd0cbde092b90ca394bfba51566d697f750bafade4976507df50"
+    },
+    "tables/latency_metadata.json": {
+      "bytes": 279,
+      "sha256": "5341ac04705cd4e3e84eb1ccfbd3c3cdda3617b97c4085bce95e91c1bbabd7cc"
+    },
+    "tables/overall.csv": {
+      "bytes": 213154,
+      "sha256": "b1ae55dd1088d01a5ca9b31b9a3887b05edfccd7c5edb9a8b9000cc1dbd7d7ff"
+    },
+    "tables/paired_vs_hold.csv": {
+      "bytes": 3835,
+      "sha256": "16a61c6d1acc2c3216dea05f62978df08b29b4efcb9f9a5c915de0676b707d4c"
+    },
+    "tables/training.csv": {
+      "bytes": 3366,
+      "sha256": "d1b8e1cb4af47937302d12156bbfc1c1dfa6e2a5b6580ed0d11a65e00f323a90"
+    }
+  }
+}

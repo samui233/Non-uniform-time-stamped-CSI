@@ -1,0 +1,56 @@
+{
+  "training_seed": 17,
+  "models": [
+    "cru",
+    "latent_ode",
+    "neural_flow",
+    "tpatchgnn",
+    "time_rwkv_csi",
+    "ct_transformer_csi"
+  ],
+  "families": [
+    "cruise",
+    "highspeed",
+    "sweep_turn",
+    "uturn",
+    "climb_descent",
+    "occlusion"
+  ],
+  "cases": [
+    "main",
+    "offgrid",
+    "pattern_uniform_n16",
+    "pattern_random_n16",
+    "pattern_bursty_n16",
+    "pattern_dropout_n16",
+    "count_random_n4",
+    "count_random_n8",
+    "count_random_n32",
+    "timestamps_none",
+    "timestamps_uniform_times",
+    "timestamps_jitter_20",
+    "stale_50",
+    "stale_100",
+    "history_flat",
+    "history_reverse"
+  ],
+  "test_windows_main": 600,
+  "stress_windows": 200,
+  "model_selection": "VAL only",
+  "aggregation": "mean per-target linear NMSE, then 10log10; no sample filtering or phase alignment",
+  "old_new_comparison": "same test targets, multiple adaptation changes; not a pure output-head ablation",
+  "history_controls": "test-time interventions, not separately retrained last-only models",
+  "new_csi_methods": "explicitly simplified paper-inspired adaptations",
+  "figures": [
+    "01_overall_nmse.pdf",
+    "02_prediction_horizon.pdf",
+    "03_observation_budget.pdf",
+    "04_sampling_pattern.pdf",
+    "05_timestamp_and_staleness.pdf",
+    "06_history_information.pdf",
+    "07_offgrid_queries.pdf",
+    "08_gain_and_shape.pdf",
+    "09_before_after.pdf",
+    "10_inference_latency.pdf"
+  ]
+}

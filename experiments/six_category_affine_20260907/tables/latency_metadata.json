@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "torch": "2.11.0+cu128",
+  "warmup": 10,
+  "repeats": 30,
+  "cpu_threads": 1,
+  "includes": "latest normalization, model, PCA reconstruction",
+  "excludes": "disk loading, network transfer, dataset preparation",
+  "single_query_s": 0.1
+}
