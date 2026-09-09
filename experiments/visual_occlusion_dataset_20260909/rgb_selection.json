@@ -1,0 +1,146 @@
+[
+  {
+    "route": "site_00_route_00",
+    "camera": "focus",
+    "frames": [
+      0,
+      53,
+      57,
+      65,
+      80
+    ],
+    "times_s": [
+      0.0,
+      2.65,
+      2.85,
+      3.25,
+      4.0
+    ],
+    "fixed_crop_xyxy": [
+      276,
+      443,
+      798,
+      605
+    ]
+  },
+  {
+    "route": "site_01_route_00",
+    "camera": "focus",
+    "frames": [
+      0,
+      52,
+      56,
+      64,
+      80
+    ],
+    "times_s": [
+      0.0,
+      2.6,
+      2.8,
+      3.2,
+      4.0
+    ],
+    "fixed_crop_xyxy": [
+      265,
+      428,
+      762,
+      589
+    ]
+  },
+  {
+    "route": "site_02_route_00",
+    "camera": "focus",
+    "frames": [
+      0,
+      48,
+      52,
+      60,
+      80
+    ],
+    "times_s": [
+      0.0,
+      2.4,
+      2.6,
+      3.0,
+      4.0
+    ],
+    "fixed_crop_xyxy": [
+      233,
+      426,
+      829,
+      588
+    ]
+  },
+  {
+    "route": "site_03_route_00",
+    "camera": "focus",
+    "frames": [
+      0,
+      50,
+      54,
+      62,
+      80
+    ],
+    "times_s": [
+      0.0,
+      2.5,
+      2.7,
+      3.1,
+      4.0
+    ],
+    "fixed_crop_xyxy": [
+      200,
+      444,
+      797,
+      603
+    ]
+  },
+  {
+    "route": "site_04_route_00",
+    "camera": "focus",
+    "frames": [
+      0,
+      40,
+      44,
+      52,
+      80
+    ],
+    "times_s": [
+      0.0,
+      2.0,
+      2.2,
+      2.6,
+      4.0
+    ],
+    "fixed_crop_xyxy": [
+      220,
+      439,
+      864,
+      610
+    ]
+  },
+  {
+    "route": "site_05_route_00",
+    "camera": "focus",
+    "frames": [
+      0,
+      34,
+      38,
+      46,
+      80
+    ],
+    "times_s": [
+      0.0,
+      1.7,
+      1.9,
+      2.3,
+      4.0
+    ],
+    "fixed_crop_xyxy": [
+      263,
+      428,
+      780,
+      588
+    ]
+  }
+]

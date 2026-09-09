@@ -1,0 +1,650 @@
+[
+  {
+    "traj_id": "site_00_route_00",
+    "site_id": "site_00",
+    "split": "train",
+    "bs_position_m": [
+      43.47820747545211,
+      -55.46526905859025,
+      22.555520881796806
+    ],
+    "camera_target_m": [
+      50.728470993041995,
+      -80.12128870311103,
+      17.94597512531571
+    ],
+    "building_index": 15,
+    "duration_s": 4.0,
+    "events_s": [
+      2.875
+    ],
+    "speed_mps": 3.631103524359604,
+    "distance_range_m": [
+      25.38764782677994,
+      29.082431558187647
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_00_route_01",
+    "site_id": "site_00",
+    "split": "train",
+    "bs_position_m": [
+      43.47820747545211,
+      -55.46526905859025,
+      22.555520881796806
+    ],
+    "camera_target_m": [
+      50.728470993041995,
+      -80.12128870311103,
+      17.94597512531571
+    ],
+    "building_index": 15,
+    "duration_s": 4.0,
+    "events_s": [
+      1.125
+    ],
+    "speed_mps": 3.311829939116904,
+    "distance_range_m": [
+      25.15599225454536,
+      28.671725309878305
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_00_route_02",
+    "site_id": "site_00",
+    "split": "train",
+    "bs_position_m": [
+      43.47820747545211,
+      -55.46526905859025,
+      22.555520881796806
+    ],
+    "camera_target_m": [
+      50.728470993041995,
+      -80.12128870311103,
+      17.94597512531571
+    ],
+    "building_index": 15,
+    "duration_s": 4.0,
+    "events_s": [
+      3.0250000000000004
+    ],
+    "speed_mps": 3.1351758285340168,
+    "distance_range_m": [
+      25.112318295287448,
+      28.30963687460734
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_00_route_03",
+    "site_id": "site_00",
+    "split": "train",
+    "bs_position_m": [
+      43.47820747545211,
+      -55.46526905859025,
+      22.555520881796806
+    ],
+    "camera_target_m": [
+      50.728470993041995,
+      -80.12128870311103,
+      17.94597512531571
+    ],
+    "building_index": 15,
+    "duration_s": 4.0,
+    "events_s": [
+      1.125
+    ],
+    "speed_mps": 3.6112280880148324,
+    "distance_range_m": [
+      25.591238501300513,
+      29.30134953227855
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_01_route_00",
+    "site_id": "site_01",
+    "split": "train",
+    "bs_position_m": [
+      -79.96522021301884,
+      -54.29974287247461,
+      13.405709466855981
+    ],
+    "camera_target_m": [
+      -73.73942108154297,
+      -74.64343540094659,
+      9.278757141614168
+    ],
+    "building_index": 64,
+    "duration_s": 4.0,
+    "events_s": [
+      2.9250000000000003
+    ],
+    "speed_mps": 2.8599932316325662,
+    "distance_range_m": [
+      20.82651154683821,
+      24.187756041612353
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_01_route_01",
+    "site_id": "site_01",
+    "split": "train",
+    "bs_position_m": [
+      -79.96522021301884,
+      -54.29974287247461,
+      13.405709466855981
+    ],
+    "camera_target_m": [
+      -73.73942108154297,
+      -74.64343540094659,
+      9.278757141614168
+    ],
+    "building_index": 64,
+    "duration_s": 4.0,
+    "events_s": [
+      1.1750000000000003
+    ],
+    "speed_mps": 3.2104101841631763,
+    "distance_range_m": [
+      20.236966808733662,
+      23.931341461759914
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_01_route_02",
+    "site_id": "site_01",
+    "split": "train",
+    "bs_position_m": [
+      -79.96522021301884,
+      -54.29974287247461,
+      13.405709466855981
+    ],
+    "camera_target_m": [
+      -73.73942108154297,
+      -74.64343540094659,
+      9.278757141614168
+    ],
+    "building_index": 64,
+    "duration_s": 4.0,
+    "events_s": [
+      2.7750000000000004
+    ],
+    "speed_mps": 3.2372338037450135,
+    "distance_range_m": [
+      20.536468275834636,
+      24.279808434880746
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_01_route_03",
+    "site_id": "site_01",
+    "split": "train",
+    "bs_position_m": [
+      -79.96522021301884,
+      -54.29974287247461,
+      13.405709466855981
+    ],
+    "camera_target_m": [
+      -73.73942108154297,
+      -74.64343540094659,
+      9.278757141614168
+    ],
+    "building_index": 64,
+    "duration_s": 4.0,
+    "events_s": [
+      0.8250000000000001
+    ],
+    "speed_mps": 3.0259212455870927,
+    "distance_range_m": [
+      20.883716313496585,
+      23.92744290105582
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_02_route_00",
+    "site_id": "site_02",
+    "split": "train",
+    "bs_position_m": [
+      -133.4766380385971,
+      -60.3179028160537,
+      19.228627291904516
+    ],
+    "camera_target_m": [
+      -109.61484766043226,
+      -53.21982269287109,
+      15.054082133281165
+    ],
+    "building_index": 17,
+    "duration_s": 4.0,
+    "events_s": [
+      2.575
+    ],
+    "speed_mps": 4.097504685369628,
+    "distance_range_m": [
+      23.803784161383557,
+      28.27878368932746
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_02_route_01",
+    "site_id": "site_02",
+    "split": "train",
+    "bs_position_m": [
+      -133.4766380385971,
+      -60.3179028160537,
+      19.228627291904516
+    ],
+    "camera_target_m": [
+      -109.61484766043226,
+      -53.21982269287109,
+      15.054082133281165
+    ],
+    "building_index": 17,
+    "duration_s": 4.0,
+    "events_s": [
+      1.225
+    ],
+    "speed_mps": 4.213486984040254,
+    "distance_range_m": [
+      24.31225016046652,
+      28.52828208955627
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_02_route_02",
+    "site_id": "site_02",
+    "split": "train",
+    "bs_position_m": [
+      -133.4766380385971,
+      -60.3179028160537,
+      19.228627291904516
+    ],
+    "camera_target_m": [
+      -109.61484766043226,
+      -53.21982269287109,
+      15.054082133281165
+    ],
+    "building_index": 17,
+    "duration_s": 4.0,
+    "events_s": [
+      2.575
+    ],
+    "speed_mps": 3.9894335857230465,
+    "distance_range_m": [
+      24.24606900094565,
+      28.68254909197074
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_02_route_03",
+    "site_id": "site_02",
+    "split": "train",
+    "bs_position_m": [
+      -133.4766380385971,
+      -60.3179028160537,
+      19.228627291904516
+    ],
+    "camera_target_m": [
+      -109.61484766043226,
+      -53.21982269287109,
+      15.054082133281165
+    ],
+    "building_index": 17,
+    "duration_s": 4.0,
+    "events_s": [
+      1.375
+    ],
+    "speed_mps": 4.0532569403123535,
+    "distance_range_m": [
+      24.835310778071673,
+      29.296815867448075
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_03_route_00",
+    "site_id": "site_03",
+    "split": "train",
+    "bs_position_m": [
+      -50.81220499305256,
+      -25.940726695940334,
+      24.36868269941885
+    ],
+    "camera_target_m": [
+      -43.671881103515624,
+      -0.7144213634849272,
+      21.031408785484665
+    ],
+    "building_index": 12,
+    "duration_s": 4.0,
+    "events_s": [
+      2.6750000000000003
+    ],
+    "speed_mps": 4.367279502834058,
+    "distance_range_m": [
+      25.39920163049906,
+      30.09708465084631
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_03_route_01",
+    "site_id": "site_03",
+    "split": "train",
+    "bs_position_m": [
+      -50.81220499305256,
+      -25.940726695940334,
+      24.36868269941885
+    ],
+    "camera_target_m": [
+      -43.671881103515624,
+      -0.7144213634849272,
+      21.031408785484665
+    ],
+    "building_index": 12,
+    "duration_s": 4.0,
+    "events_s": [
+      1.225
+    ],
+    "speed_mps": 4.455482681829386,
+    "distance_range_m": [
+      25.056845329832665,
+      29.628563314028604
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_03_route_02",
+    "site_id": "site_03",
+    "split": "train",
+    "bs_position_m": [
+      -50.81220499305256,
+      -25.940726695940334,
+      24.36868269941885
+    ],
+    "camera_target_m": [
+      -43.671881103515624,
+      -0.7144213634849272,
+      21.031408785484665
+    ],
+    "building_index": 12,
+    "duration_s": 4.0,
+    "events_s": [
+      2.625
+    ],
+    "speed_mps": 4.4367414302003105,
+    "distance_range_m": [
+      25.151761273185784,
+      30.069125462554634
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_03_route_03",
+    "site_id": "site_03",
+    "split": "train",
+    "bs_position_m": [
+      -50.81220499305256,
+      -25.940726695940334,
+      24.36868269941885
+    ],
+    "camera_target_m": [
+      -43.671881103515624,
+      -0.7144213634849272,
+      21.031408785484665
+    ],
+    "building_index": 12,
+    "duration_s": 4.0,
+    "events_s": [
+      1.275
+    ],
+    "speed_mps": 4.105958869738508,
+    "distance_range_m": [
+      25.29431786779593,
+      29.753729742677518
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_04_route_00",
+    "site_id": "site_04",
+    "split": "val",
+    "bs_position_m": [
+      -131.58904477146092,
+      50.6557655710715,
+      12.350460631596903
+    ],
+    "camera_target_m": [
+      -110.33847125105454,
+      57.739881134033205,
+      8.636049567349003
+    ],
+    "building_index": 11,
+    "duration_s": 4.0,
+    "events_s": [
+      2.225
+    ],
+    "speed_mps": 4.108229227315236,
+    "distance_range_m": [
+      21.378054649196073,
+      26.223576855635834
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_04_route_01",
+    "site_id": "site_04",
+    "split": "val",
+    "bs_position_m": [
+      -131.58904477146092,
+      50.6557655710715,
+      12.350460631596903
+    ],
+    "camera_target_m": [
+      -110.33847125105454,
+      57.739881134033205,
+      8.636049567349003
+    ],
+    "building_index": 11,
+    "duration_s": 4.0,
+    "events_s": [
+      1.8250000000000002
+    ],
+    "speed_mps": 4.401511746283972,
+    "distance_range_m": [
+      22.14924653196101,
+      27.32286925015807
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_04_route_02",
+    "site_id": "site_04",
+    "split": "val",
+    "bs_position_m": [
+      -131.58904477146092,
+      50.6557655710715,
+      12.350460631596903
+    ],
+    "camera_target_m": [
+      -110.33847125105454,
+      57.739881134033205,
+      8.636049567349003
+    ],
+    "building_index": 11,
+    "duration_s": 4.0,
+    "events_s": [
+      2.225
+    ],
+    "speed_mps": 4.090758701514173,
+    "distance_range_m": [
+      21.176137071539088,
+      25.894025289352157
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_04_route_03",
+    "site_id": "site_04",
+    "split": "val",
+    "bs_position_m": [
+      -131.58904477146092,
+      50.6557655710715,
+      12.350460631596903
+    ],
+    "camera_target_m": [
+      -110.33847125105454,
+      57.739881134033205,
+      8.636049567349003
+    ],
+    "building_index": 11,
+    "duration_s": 4.0,
+    "events_s": [
+      2.125
+    ],
+    "speed_mps": 3.997855972698478,
+    "distance_range_m": [
+      22.13061954575387,
+      26.922893364153573
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_05_route_00",
+    "site_id": "site_05",
+    "split": "test",
+    "bs_position_m": [
+      -63.30295572627589,
+      -22.61084116939141,
+      16.61625232878731
+    ],
+    "camera_target_m": [
+      -55.06981201171875,
+      -45.251224006383715,
+      12.953916005179737
+    ],
+    "building_index": 59,
+    "duration_s": 4.0,
+    "events_s": [
+      1.975
+    ],
+    "speed_mps": 3.348767439838125,
+    "distance_range_m": [
+      22.492157365517407,
+      27.008947434330846
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_05_route_01",
+    "site_id": "site_05",
+    "split": "test",
+    "bs_position_m": [
+      -63.30295572627589,
+      -22.61084116939141,
+      16.61625232878731
+    ],
+    "camera_target_m": [
+      -55.06981201171875,
+      -45.251224006383715,
+      12.953916005179737
+    ],
+    "building_index": 59,
+    "duration_s": 4.0,
+    "events_s": [
+      2.125
+    ],
+    "speed_mps": 3.760444055685771,
+    "distance_range_m": [
+      22.623602900591994,
+      27.801735557402477
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_05_route_02",
+    "site_id": "site_05",
+    "split": "test",
+    "bs_position_m": [
+      -63.30295572627589,
+      -22.61084116939141,
+      16.61625232878731
+    ],
+    "camera_target_m": [
+      -55.06981201171875,
+      -45.251224006383715,
+      12.953916005179737
+    ],
+    "building_index": 59,
+    "duration_s": 4.0,
+    "events_s": [
+      1.975
+    ],
+    "speed_mps": 3.3351049859169786,
+    "distance_range_m": [
+      23.348903948476366,
+      27.81644021468821
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  },
+  {
+    "traj_id": "site_05_route_03",
+    "site_id": "site_05",
+    "split": "test",
+    "bs_position_m": [
+      -63.30295572627589,
+      -22.61084116939141,
+      16.61625232878731
+    ],
+    "camera_target_m": [
+      -55.06981201171875,
+      -45.251224006383715,
+      12.953916005179737
+    ],
+    "building_index": 59,
+    "duration_s": 4.0,
+    "events_s": [
+      1.9250000000000003
+    ],
+    "speed_mps": 3.461882094684037,
+    "distance_range_m": [
+      22.822160264794753,
+      27.265343327990507
+    ],
+    "attitude_model": "tangent yaw; zero roll/pitch; kinematic playback",
+    "coordinate_frame": "SimART metres Z-up"
+  }
+]
