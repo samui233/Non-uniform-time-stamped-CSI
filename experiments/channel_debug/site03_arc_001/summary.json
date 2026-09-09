@@ -1,0 +1,13 @@
+{
+  "frames": 3323,
+  "gain_range_db": [
+    -89.69538966464695,
+    -65.49382894609751
+  ],
+  "zero_path_frames": 0,
+  "los_fraction": 0.5696659644899188,
+  "los_switch_times_s": [
+    2.86
+  ],
+  "max_adjacent_gain_change_db": 1.7160572923900475
+}

@@ -1,0 +1,40 @@
+{
+  "name": "site03_arc_001",
+  "reference_route": "site_03_route_00",
+  "bs_position_m": [
+    -50.81220499305256,
+    -25.940726695940334,
+    24.36868269941885
+  ],
+  "control_points_m": [
+    [
+      -53.0,
+      0.0,
+      20.620679922454965
+    ],
+    [
+      -38.0,
+      0.0,
+      20.620679922454965
+    ],
+    [
+      -40.0,
+      -7.0,
+      20.620679922454965
+    ],
+    [
+      -40.0,
+      -20.0,
+      20.620679922454965
+    ]
+  ],
+  "height_m": 20.620679922454965,
+  "speed_mps": 4.367112871638212,
+  "length_m": 29.01509791916428,
+  "duration_s": 6.644,
+  "trajectory_hz": 1000,
+  "csi_hz": 500,
+  "coordinate_frame": "SimART metres; east +X, north +Y, up +Z",
+  "curve": "cubic Bezier with arc-length parameterization",
+  "clearance_lower_bound_m": 1.9996552854441716
+}

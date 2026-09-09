@@ -1,0 +1,15 @@
+{
+  "frames": 3323,
+  "shape": [
+    3323,
+    64,
+    128
+  ],
+  "zero_path_frames": 0,
+  "elapsed_s": 88.76552952080965,
+  "reference_config_identical": true,
+  "candidate_search": "mixed_chain_union",
+  "code_sha256": "f6a53479b87da220512473069e7677370627a21d69a8b281921862367b9e899f",
+  "phase_reference": "geometric distance, carrier and subcarriers",
+  "smoothed": false
+}

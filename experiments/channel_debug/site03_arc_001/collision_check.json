@@ -1,0 +1,31 @@
+{
+  "attempts": [
+    {
+      "control_points_m": [
+        [
+          -53.0,
+          0.0,
+          20.620679922454965
+        ],
+        [
+          -38.0,
+          0.0,
+          20.620679922454965
+        ],
+        [
+          -40.0,
+          -7.0,
+          20.620679922454965
+        ],
+        [
+          -40.0,
+          -20.0,
+          20.620679922454965
+        ]
+      ],
+      "clearance_lower_bound_m": 1.9996552854441716
+    }
+  ],
+  "accepted": true,
+  "method": "200 segment-triangle distance checks plus conservative curve-to-chord deviation bound; 1m clearance"
+}
