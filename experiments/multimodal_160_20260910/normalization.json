@@ -1,0 +1,5 @@
+{
+  "zero_history_scale": 0.005005671642720699,
+  "positive_train_frames": 319429,
+  "policy": "Use mean history energy normally. If the entire history has zero energy, use the square root of median nonzero training-frame matrix energy. No validation/test statistics or future-window information."
+}

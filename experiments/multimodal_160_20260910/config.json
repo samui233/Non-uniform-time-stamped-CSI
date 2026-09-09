@@ -1,0 +1,86 @@
+{
+  "source": "/root/autodl-tmp/csi-visual-occlusion-v1/trajectory_160_preview_v3",
+  "seed": 20260910,
+  "bs_position_m": [
+    -50.81220499305256,
+    -25.940726695940334,
+    32.0
+  ],
+  "csi_hz": 500,
+  "motion_hz": 100,
+  "rgb_hz": 20,
+  "frequencies_hz": [
+    -1920000,
+    -1680000,
+    -1410000,
+    -1170000,
+    -900000,
+    -660000,
+    -390000,
+    -150000,
+    120000,
+    360000,
+    630000,
+    870000,
+    1140000,
+    1380000,
+    1650000,
+    1890000
+  ],
+  "csi_shape": [
+    64,
+    16
+  ],
+  "phase_reference": "geometric distance; carrier and subcarrier phases; no smoothing",
+  "receiver_orientation_rad": [
+    0,
+    0,
+    0
+  ],
+  "rgb_size": 400,
+  "rgb_fov_deg": 100,
+  "rgb_down_tilt_deg": 10,
+  "views": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "history_s": 0.5,
+  "future_s": 0.5,
+  "cutoff_stride_s": 0.05,
+  "train_cutoff_jitter_ms": 24,
+  "train_resamples_per_window": 1,
+  "csi_counts": [
+    4,
+    32
+  ],
+  "motion_counts": [
+    2,
+    16
+  ],
+  "rgb_counts": [
+    2,
+    10
+  ],
+  "train_query_count": 6,
+  "eval_queries_s": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "split_proportions": [
+    0.8,
+    0.1,
+    0.1
+  ],
+  "latest_csi_at_origin": true,
+  "image_encoder": "frozen ImageNet ResNet50 layer3, native400, adaptive8x8 spatial patches",
+  "normalization": "per-window mean history CSI energy; targets use same history-only scale; position/100m and velocity/20mps",
+  "model_base": "/root/autodl-tmp/csi-irregular-multimodal/experiments/scratch_fusion_20260908/network_v2.py"
+}

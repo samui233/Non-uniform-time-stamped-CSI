@@ -1,0 +1,19 @@
+{
+  "padding_max_abs_error": 1.30385160446167e-08,
+  "zero_horizon_equals_latest": true,
+  "nonzero_branch_gradients": {
+    "csi": 0.0009199653395626228,
+    "motion": 0.0005286521357777962,
+    "rgb": 0.0007038889029322704,
+    "spatial": 0.00011588808592932764,
+    "fusion": 0.002075643412354111,
+    "layers": 0.007931650905220522,
+    "decode": 0.005237570836807759
+  },
+  "independent_stream_sampling": true,
+  "deterministic_test_queries": true,
+  "latest_zero_recovery_supported": true,
+  "all_zero_history_supported": true,
+  "zero_target_has_training_gradient": true,
+  "scope": "completed training recordings only; no test selection"
+}

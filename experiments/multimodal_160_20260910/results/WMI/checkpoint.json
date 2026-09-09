@@ -1,0 +1,13 @@
+{
+  "path": "/root/autodl-tmp/csi-multimodal-160-20260910/runs/WMI/best.pt",
+  "sha256": "0f810d17d045e0cb1bb0a82193503d33826c02c7f5e237894ca3610084c3851b",
+  "epoch": 42,
+  "validation": {
+    "nmse": 0.4308178722858429,
+    "nmse_db": -3.6570630073547363,
+    "median_nmse_db": -6.742990493774414,
+    "targets": 10368,
+    "zero_targets": 0,
+    "zero_target_normalized_error": null
+  }
+}

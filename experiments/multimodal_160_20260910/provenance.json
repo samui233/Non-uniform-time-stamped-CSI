@@ -1,0 +1,45 @@
+{
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-101-generic-x86_64-with-glibc2.35",
+  "versions": {
+    "numpy": "2.4.4",
+    "torch": "2.11.0+cu128",
+    "sionna-rt": "2.0.1",
+    "mitsuba": "3.8.0",
+    "drjit": "1.3.1",
+    "scipy": "1.17.1"
+  },
+  "radio_assets_sha256": {
+    "/root/autodl-tmp/csi-visual-occlusion-v1/debug/site03_bs32_005/geometry_simplification/global_metal_030/scene.xml": "e0538a253fc5638bfd046b74aec3284fb3e863e76c4c3ba9038350ee356dadec",
+    "/root/autodl-tmp/csi-visual-occlusion-v1/render_geometry/meshes/itu_concrete.ply": "ff81b577b05b88eeb4ab61175bcd57a00b7fceda82d961e492f49012f50d9f12",
+    "/root/autodl-tmp/csi-visual-occlusion-v1/render_geometry/meshes/itu_glass.ply": "95b76fcf8ac7f897744b366ff5cde831eb3ba30ea46066e6b919469b1539f50a",
+    "/root/autodl-tmp/csi-visual-occlusion-v1/render_geometry/meshes/itu_brick.ply": "e56d249f9aa2222b5b39fb82e3a93fbccf6b86d606ce88e5e5d7edd930967b96",
+    "/root/autodl-tmp/csi-visual-occlusion-v1/debug/site03_bs32_005/geometry_simplification/global_metal_030/itu_metal.ply": "0b8b7ed721113ad6c7e0d10b7770c2a0b820faf31caaca8a15ac0978a3343ad3",
+    "/root/autodl-tmp/csi-visual-occlusion-v1/render_geometry/meshes/itu_wood.ply": "42f2bf7bede93fe15faa134edacf441c6db060cdb5d42b74d5961f0182aa1172",
+    "/root/autodl-tmp/csi-visual-occlusion-v1/render_geometry/meshes/itu_very_dry_ground.ply": "e2884e1d5524e05fa36d749c2db49bbff8a1d8248a4cc967b0f18ceae091a95e"
+  },
+  "external_code_sha256": {
+    "/root/autodl-tmp/csi-visual-occlusion-v1/union_complete_candidates.py": "14c3d52e7eed95608a0088e9ebc8a3b14b5c2ff9661b320af74974f6c27379bf",
+    "/root/autodl-tmp/csi-irregular-benchmark/rt_runtime/snapshots_geometry.py": "be054b5761aee11965adb17bb930061fc8b88002f966259f0ccb0db081794236"
+  },
+  "trajectory_source_config_sha256": "e1af472c06c8a0e6870975ebc1d048e55eeaa99cedaab3fe4f626cbcfe4da78b",
+  "selected_indices_original_grid": [
+    0,
+    8,
+    17,
+    25,
+    34,
+    42,
+    51,
+    59,
+    68,
+    76,
+    85,
+    93,
+    102,
+    110,
+    119,
+    127
+  ],
+  "note": "Predictor source hashes and frozen CNN weight hashes saved separately in run/feature metadata."
+}

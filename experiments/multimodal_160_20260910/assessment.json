@@ -1,0 +1,6 @@
+{
+  "best_auxiliary_model": "WMI",
+  "relative_overall_improvement_pct": 86.94597837153675,
+  "ideal_for_extended_tests": true,
+  "rule": "At least 5% lower overall mean target NMSE than W. No checkpoint or retraining decisions use test outcomes."
+}

@@ -1,0 +1,32 @@
+{
+  "far_maneuver": [
+    16,
+    2,
+    2
+  ],
+  "far_normal": [
+    16,
+    2,
+    2
+  ],
+  "far_occlusion": [
+    32,
+    4,
+    4
+  ],
+  "near_maneuver": [
+    16,
+    2,
+    2
+  ],
+  "near_normal": [
+    16,
+    2,
+    2
+  ],
+  "near_occlusion": [
+    32,
+    4,
+    4
+  ]
+}
