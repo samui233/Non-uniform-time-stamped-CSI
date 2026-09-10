@@ -1,0 +1,112 @@
+{
+  "protocol": {
+    "original_jump_detection_db": 20,
+    "boundary_old_new_balanced_error_max": 0.02,
+    "seed_balanced_complex_error_p95_max": 0.01,
+    "seed_gain_difference_db_p95_max": 0.25,
+    "new_interval_max_gain_step_db": 6,
+    "minimum_step_reduction_db": 20,
+    "seam_gain_step_db_max": 2,
+    "seam_complex_change_max": 0.1,
+    "proposal": "Fixed seed42 at 16x ray count, verified seed43; original propagation flags, geometry and synthetic array unchanged. No diffraction dedup or anchor variant was adopted.",
+    "not_claimed": "Two-seed agreement is numerical evidence, not a global RT convergence proof. Unrepaired routes are retained."
+  },
+  "accepted": [
+    "near_occlusion_034",
+    "near_occlusion_035"
+  ],
+  "routes": [
+    {
+      "route": "near_occlusion_011",
+      "original_sha256": "ddefb9129e789dc696d335c22675c5dacc20fb5acd6d2dee53ade4d82549c0d4",
+      "accepted": false,
+      "intervals": [],
+      "original_jumps_ge6": 3,
+      "reason": "Higher-ray and anchor candidate probes did not stably remove the major transition; original retained.",
+      "final_sha256": "ddefb9129e789dc696d335c22675c5dacc20fb5acd6d2dee53ade4d82549c0d4",
+      "final_jumps_ge6": 3
+    },
+    {
+      "route": "near_occlusion_027",
+      "original_sha256": "0718040ec5587d576c2ba778b373a3c1ebc7051b03d32a0e2d4d3d5f4455ebd5",
+      "accepted": false,
+      "intervals": [],
+      "original_jumps_ge6": 5,
+      "reason": "Dense-ray rechecks retained or worsened the transitions; no reliable replacement established.",
+      "final_sha256": "0718040ec5587d576c2ba778b373a3c1ebc7051b03d32a0e2d4d3d5f4455ebd5",
+      "final_jumps_ge6": 5
+    },
+    {
+      "route": "near_occlusion_034",
+      "original_sha256": "7f747981c9d00282691f24cb6754006ec4b3b224ab12468bf2d4e225649c196b",
+      "accepted": true,
+      "intervals": [
+        [
+          713,
+          906
+        ]
+      ],
+      "original_jumps_ge6": 5,
+      "seed_disagreement_p95": 0.00022036913803555745,
+      "seed_gain_difference_db_p95": 0.05594576961373505,
+      "original_interval_max_step_db": 52.12737471246241,
+      "new_interval_max_step_db": 4.92722234576695,
+      "seam_gain_step_db": 0.7749180875517538,
+      "seam_complex_balanced_change": 0.021772399381648117,
+      "interval_seconds": [
+        [
+          1.426,
+          1.812
+        ]
+      ],
+      "candidate": "/root/autodl-tmp/csi-three-regimes-20260910/repair/rays16_seed42/near_occlusion_034.npz",
+      "verification": "/root/autodl-tmp/csi-three-regimes-20260910/repair/rays16_seed43/near_occlusion_034.npz",
+      "candidate_sha256": "d08e5cabb24be02e083e0d306a951461e22164d7f0c07b58dd76f2d8843349ee",
+      "verification_sha256": "9017f642f45160d7dfffbb43887201dd53a7a2ad6613b83d304c564de4ea4e85",
+      "reason": "Dense-ray reruns agree in complex CSI and remove >20 dB of the large step; compatible complex/gain boundaries; no interpolation or averaging.",
+      "final_sha256": "8b9b4c95bcce06765942c46e9d9ae788f0e247816ce6afa4a5d6ef036135d6d9",
+      "final_jumps_ge6": 2
+    },
+    {
+      "route": "near_occlusion_035",
+      "original_sha256": "65e0a6439d5aaef3661b62eabd3d573fbd9b801402e8593487bfde4a87fa1071",
+      "accepted": true,
+      "intervals": [
+        [
+          497,
+          927
+        ]
+      ],
+      "original_jumps_ge6": 3,
+      "seed_disagreement_p95": 0.002840026458452544,
+      "seed_gain_difference_db_p95": 0.19822329638124359,
+      "original_interval_max_step_db": 47.75238206235237,
+      "new_interval_max_step_db": 5.0044109904137315,
+      "seam_gain_step_db": 0.8910508844120812,
+      "seam_complex_balanced_change": 0.023144753804605803,
+      "interval_seconds": [
+        [
+          0.994,
+          1.854
+        ]
+      ],
+      "candidate": "/root/autodl-tmp/csi-three-regimes-20260910/repair/rays16_seed42/near_occlusion_035.npz",
+      "verification": "/root/autodl-tmp/csi-three-regimes-20260910/repair/rays16_seed43/near_occlusion_035.npz",
+      "candidate_sha256": "9f55fcff28fc76abe63b3bdf8338b004ce5c9cdc1326d89655095479f70e5ab8",
+      "verification_sha256": "4cc51a798b0b7590805e15aa76c2d97289101fe9868a45e14362353521e91256",
+      "reason": "Dense-ray reruns agree in complex CSI and remove >20 dB of the large step; compatible complex/gain boundaries; no interpolation or averaging.",
+      "final_sha256": "d28031d449485af3ca1853af9248ce3fcba3d4c675a246c14da81581a784de78",
+      "final_jumps_ge6": 1
+    },
+    {
+      "route": "near_occlusion_015",
+      "original_sha256": "f52699ee3ba8630ff682aec5397d3da652e18544ef98e1cf1d419edc3fcdc209",
+      "accepted": false,
+      "intervals": [],
+      "original_jumps_ge6": 1,
+      "reason": "A roughly 8-10 dB transition persists under independently seeded dense ray probes; original retained rather than smoothing a potentially physical transition.",
+      "final_sha256": "f52699ee3ba8630ff682aec5397d3da652e18544ef98e1cf1d419edc3fcdc209",
+      "final_jumps_ge6": 1
+    }
+  ]
+}

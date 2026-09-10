@@ -1,0 +1,31 @@
+{
+  "groups": {
+    "near_los": [
+      "near_normal",
+      "near_maneuver"
+    ],
+    "far_los": [
+      "far_normal",
+      "far_maneuver"
+    ],
+    "near_occlusion": [
+      "near_occlusion"
+    ]
+  },
+  "split": "Original route-disjoint stratification: 32/4/4 per group",
+  "modalities": [
+    "W",
+    "WM",
+    "WI",
+    "WMI"
+  ],
+  "seed": 17,
+  "epochs": 50,
+  "minimum_epochs": 15,
+  "patience": 10,
+  "batch": 32,
+  "accumulation": 2,
+  "selection": "Validation mean per-target linear NMSE only",
+  "repair": "Independent ray recomputation; never smooth H or select using model errors",
+  "source": "/root/autodl-tmp/csi-multimodal-160-20260910"
+}
